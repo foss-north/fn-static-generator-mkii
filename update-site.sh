@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 images="yes"
 if [ "$#" -eq "1" ]; then
@@ -18,6 +18,12 @@ if [ "$images" = "yes" ]; then
 fi
 
 for s in source/*; do
+    if [ -f $s/update.sh ]; then
+        pushd "$s"
+        ./update.sh
+        popd
+    fi
+
     d=$(echo $s|sed 's/^source/build/')
     ./fn-generator.py "$s" "$d"
 done
