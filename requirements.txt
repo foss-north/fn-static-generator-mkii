@@ -1,0 +1,6 @@
+Jinja2==2.10.3
+jinja2-markdown==0.0.3
+Markdown==3.1.1
+MarkupSafe==1.1.1
+pkg-resources==0.0.0
+PyYAML==5.1.2
