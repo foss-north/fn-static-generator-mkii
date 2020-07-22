@@ -1,0 +1,226 @@
+{% extends "page.html" %}
+{% block bodycontents %}
+<p>
+<img src="images/logo-black.png" width="40%">
+</p>
+
+<h1>Announcing foss-north {{ data.general.confname }}</h1>
+
+<p>foss-north is a free / open source conference covering both software and hardware from the technical perspective. Hosted in Gothenburg between Copenhagen, Oslo, and Stockholm, with an international airport, we provide a meeting place for the Nordic foss communities and will bring together great speakers with a great audience.</p>
+
+<p>The conference runs <strong>{{ data.general.confdate }}</strong> and will take place at Chalmers Conference Centre in <strong>Gothenburg, Sweden</strong>.</p>
+
+
+<div class="bodybreak">&nbsp;</div>
+
+<h1>Sponsors</h1>
+
+<p>We would like to thank our sponsors for helping us making this possible.</p>
+
+<p>If you want to help out by sponsoring us, please visit our <a href="contribute.html#sponsors">Call for Sponsors</a> for more information.</p>
+
+
+
+{% set gold_sponsor_count = data.sponsors|selectattr('level','equalto','gold')|list|length %}
+{% if gold_sponsor_count > 0 %}
+    <h2>Gold Sponsors</h2>
+
+    <div>
+    {% for sponsor in data.sponsors|selectattr('level','equalto','gold') %}
+        {% set loopindex = loop.index-1 %}
+        {% set rowcount = loopindex % 2 %}
+        {% if rowcount == 0 %}
+            <div class="row sponsorrow">
+            
+            {% set rowindex = loopindex // 2 %}
+            {% set rowsize = gold_sponsor_count // 2 %}
+            {% if rowindex == rowsize %}
+                {% set rowoffset = gold_sponsor_count % 2 %}
+                {% if rowoffset == 1 %}
+                    <div class="col-md-3">&nbsp;</div>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+        
+            <div class="col-md-6">
+                <a href="{{ sponsor.url }}"><img class="sponsor" src="images/sponsor-{{ sponsor.short }}.png" alt="{{ sponsor.name | escape }}"></a>
+            </div>
+        
+        {% if rowcount == 2 %}
+            </div>
+        {% endif %}
+        
+        {% set loopindex = loopindex + 1 %}
+    {% endfor %}
+    {% if (gold_sponsor_count % 2) != 0 %}
+        </div>
+    {% endif %}
+    </div>
+{% endif %}
+
+
+
+
+{% set silver_sponsor_count = data.sponsors|selectattr('level','equalto','silver')|list|length %}
+{% if silver_sponsor_count > 0 %}
+    <h2>Silver Sponsors</h2>
+
+    <div>
+    {% for sponsor in data.sponsors|selectattr('level','equalto','silver') %}
+        {% set loopindex = loop.index-1 %}
+        {% set rowcount = loopindex % 3 %}
+        {% if rowcount == 0 %}
+            <div class="row sponsorrow">
+            
+            {% set rowindex = loopindex // 3 %}
+            {% set rowsize = silver_sponsor_count // 3 %}
+            {% if rowindex == rowsize %}
+                {% set rowoffset = silver_sponsor_count % 3 %}
+                {% if rowoffset == 1 %}
+                    <div class="col-md-4">&nbsp;</div>
+                {% endif %}
+                {% if rowoffset == 2 %}
+                    <div class="col-md-2">&nbsp;</div>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+        
+            <div class="col-md-4">
+                <a href="{{ sponsor.url }}"><img class="sponsor" src="images/sponsor-{{ sponsor.short }}.png" alt="{{ sponsor.name | escape }}"></a>
+            </div>
+        
+        {% if rowcount == 2 %}
+            </div>
+        {% endif %}
+        
+        {% set loopindex = loopindex + 1 %}
+    {% endfor %}
+    {% if (silver_sponsor_count % 3) != 0 %}
+        </div>
+    {% endif %}
+    </div>
+{% endif %}
+
+
+
+{% set base_sponsor_count = data.sponsors|selectattr('level','equalto','base')|list|length %}
+{% if base_sponsor_count > 0 %}
+    <h2>Base Sponsors</h2>
+
+    <div>
+    {% for sponsor in data.sponsors|selectattr('level','equalto','base') %}
+        {% set loopindex = loop.index-1 %}
+        {% set rowcount = loopindex % 3 %}
+        {% if rowcount == 0 %}
+            <div class="row sponsorrow">
+            {% set rowindex = loopindex // 3 %}
+            {% set rowsize = base_sponsor_count // 3 %}
+            {% if rowindex == rowsize %}
+                {% set rowoffset = base_sponsor_count % 3 %}
+                {% if rowoffset == 1 %}
+                    <div class="col-md-4">&nbsp;</div>
+                {% endif %}
+                {% if rowoffset == 2 %}
+                    <div class="col-md-2">&nbsp;</div>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+        
+            <div class="col-md-4">
+                <a href="{{ sponsor.url }}"><img class="sponsor" src="images/sponsor-{{ sponsor.short }}.png" alt="{{ sponsor.name | escape }}"></a>
+            </div>
+        
+        {% if rowcount == 2 %}
+            </div>
+        {% endif %}
+    {% endfor %}
+    {% if (base_sponsor_count % 3) != 0 %}
+        </div>
+    {% endif %}
+    </div>
+{% endif %}
+
+
+
+{% set partner_count = data.sponsors|selectattr('level','equalto','partner')|list|length %}
+{% if partner_count > 0 %}
+    <h2>Partners</h2>
+    <p>We would like to thank our partners for helping us making this possible.</p>
+
+    <div>
+    {% for sponsor in data.sponsors|selectattr('level','equalto','partner') %}
+        {% set loopindex = loop.index-1 %}
+        {% set rowcount = loopindex % 4 %}
+        {% if rowcount == 0 %}
+            <div class="row sponsorrow">
+            
+            {% set rowindex = loopindex // 4 %}
+            {% set rowsize = partner_count // 4 %}
+            {% if rowindex == rowsize %}
+                {% set rowoffset = partner_count % 4 %}
+                {% if rowoffset == 1 %}
+                    <div class="col-md-4">&nbsp;</div>
+                {% endif %}
+                {% if rowoffset == 2 %}
+                    <div class="col-md-2">&nbsp;</div>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+        
+            <div class="col-md-4">
+                <a href="{{ sponsor.url }}"><img class="sponsor" src="images/sponsor-{{ sponsor.short }}.png" alt="{{ sponsor.name | escape }}"></a>
+            </div>
+        
+        {% if rowcount == 3 %}
+            </div>
+        {% endif %}
+        
+        {% set loopindex = loopindex + 1 %}
+    {% endfor %}
+    {% if (partner_count % 3) != 0 %}
+        </div>
+    {% endif %}
+    </div>
+{% endif %}
+
+{% set project_count = data.projects|selectattr('front','equalto',true)|list|length %}
+{% if project_count > 0 %}
+    <div>
+    {% for project in data.projects|selectattr('front','equalto',true) %}
+        {% set loopindex = loop.index-1 %}
+        {% set rowcount = loopindex % 3 %}
+        {% if rowcount == 0 %}
+            <div class="row sponsorrow">
+            
+            {% set rowindex = loopindex // 3 %}
+            {% set rowsize = project_count // 3 %}
+            {% if rowindex == rowsize %}
+                {% set rowoffset = project_count % 3 %}
+                {% if rowoffset == 1 %}
+                    <div class="col-md-4">&nbsp;</div>
+                {% endif %}
+                {% if rowoffset == 2 %}
+                    <div class="col-md-2">&nbsp;</div>
+                {% endif %}
+            {% endif %}
+        {% endif %}
+        
+            <div class="col-md-4">
+                <a href="{{ project.url }}"><img class="sponsor" src="images/project-{{ project.short }}.png" alt="{{ project.name | escape }}"></a>
+            </div>
+        
+        {% if rowcount == 2 %}
+            </div>
+        {% endif %}
+        
+        {% set loopindex = loopindex + 1 %}
+    {% endfor %}
+    {% if (project_count % 3) != 0 %}
+        </div>
+    {% endif %}
+    </div>
+{% endif %}
+
+</div>
+
+{% endblock %}

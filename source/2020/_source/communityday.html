@@ -1,0 +1,103 @@
+{% extends "covid-19-page.html" %}
+
+{% block bodycontents %}
+{% markdown %}
+
+# Community Day
+
+The foss-north community day is a day of community activities taking place on <strong>March 29</strong>.
+
+We have invited a number of projects to Gothenburg and provided them with venues. Now it is up to you to visit them and explore!
+
+<b>This day is free of charge</b>, but we would be happy if you could <a href="https://www.meetup.com/foss-gbg/events/268297362">RSVP this meetup</a> for us to know how many your are. Some of the projects also require you <b>register your participation</b>. See the descriptions below for more information.
+
+Notice that you do need to get one for the rest of the conference. Get your's <a href="tickets.html">here</a>!
+
+<i>Please notice that the list below is tentative!</i>
+
+{% endmarkdown %}
+
+<style>
+    img.olTileImage {
+        max-width: none;
+    }
+</style>
+
+{% markdown %}
+## Map
+{% endmarkdown %}
+
+<div id="mapdiv" style="height: 600px;"></div>
+
+<div class="bodybreak">&nbsp;</div>
+
+{% markdown %}
+## Projects
+{% endmarkdown %}
+
+{% for project in data.projects %}
+    <a name="{{ project.short }}" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href="{{ project.url }}"><img class="sp-image" src="images/project-{{ project.short }}.png" alt="{{ project.name }}"></a></div>
+            {% if project.venue %}
+            &nbsp;
+            <div class="speaker-photo"><a href="{{ project.venueurl }}"><img class="sp-image" src="images/venue-{{ project.venue }}.png" alt="{{ project.venuename }}"></a></div>
+            {% endif %}
+        </div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="{{ project.url }}">{{ project.name | escape }}</a></div>
+
+            {% if project.links %}
+                <div class="links">
+                    {% for link in project.links %}
+                        <a href="{{ link.url }}">{{ link.title }}</a>
+                        {% if not loop.last %}
+                            &nbsp;-&nbsp;
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            {% endif %}
+            
+            {% for descr in project.description %}
+            <div class="abstract">
+                {{ descr }}
+            </div>
+            {% endfor %}
+            <p class="left tight"><b>Venue address:</b></p>
+            <div class="bio" style="color: red">
+            <strong>Cancelled</strong>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+<script src="js/OpenLayers.js"></script>
+<script>
+    map = new OpenLayers.Map("mapdiv", { controls: [] });
+    map.addLayer(new OpenLayers.Layer.OSM("OSM", ["https://a.tile.openstreetmap.org/${z}/${x}/${y}.png", "https://b.tile.openstreetmap.org/${z}/${x}/${y}.png", "https://c.tile.openstreetmap.org/${z}/${x}/${y}.png"] ));
+
+    map.addControl(new OpenLayers.Control.PanZoomBar());
+    map.addControl(new OpenLayers.Control.Permalink());
+    map.addControl(new OpenLayers.Control.Permalink('permalink'));
+    
+    var markers = new OpenLayers.Layer.Markers( "Markers" );
+    map.addLayer(markers);
+    
+    var projection = new OpenLayers.Projection("EPSG:4326");
+    var icon = new OpenLayers.Icon("images/brand-logo.png");
+    var marker;
+    
+    {% for project in data.projects %}
+        /* Start of loop */
+        marker = new OpenLayers.Marker(new OpenLayers.LonLat( {{ project.lon }}, {{ project.lat }} ).transform(projection, map.getProjectionObject()), icon.clone());
+        marker.events.register("click", marker, function() { location.hash = "#{{ project.short }}"; });
+        markers.addMarker(marker);
+        /* End of loop */
+    {% endfor %}
+
+    map.setCenter(new OpenLayers.LonLat(11.9766646, 57.689343).transform(projection, map.getProjectionObject()), 13);
+</script>
+
+
+{% endblock %}

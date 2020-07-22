@@ -1,0 +1,68 @@
+{% extends "page.html" %}
+{% block bodycontents %}
+
+<h1>Speakers and Talks</h1>
+
+{% set sorted_speakers = data.speakers | rejectattr('day','equalto','none') | sort(attribute='lastname') %}
+{% for speaker in sorted_speakers %}
+    <a name="{{ speaker.short }}" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><img class="sp-image" src="images/speaker-{{ speaker.short }}.png" alt="{{ speaker.name }}"></div>
+        </div>
+        <div class="col-md-9">
+            <div class="name">{{ speaker.name }}</div>
+            <div class="title">{{ speaker.title }}</div>
+            <div class="links">
+                {% if speaker.links is defined %}
+                    {% for link in speaker.links %}
+                        <a href="{{ link.url }}">{{ link.title }}</a>
+                        &nbsp;-&nbsp;
+                    {% endfor %}
+                {% endif %}
+                {% if speaker.slot %}
+                <a href="schedule.html#{{ speaker.slot }}">Talk Slot</a>
+                {% endif %}
+                {% if speaker.coslot %}
+                <a href="schedule.html#{{ speaker.coslot }}">Talk Slot</a>
+                {% endif %}
+            </div>
+
+            {% for abstracttext in speaker.abstract %}
+            <div class="abstract">
+                {{ abstracttext }}
+            </div>
+            {% endfor %}
+
+	    {% for biotext in speaker.bio %}
+            <div class="bio">
+                {{ biotext }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+
+<h1>Lightning Talks</h1>
+
+{% for talk in data.virtual %}
+    <a name="lt-{{ talk.short }}" class="offsetanchor"></a>
+    <div class="row speakerrow">
+	<div class="col-md-12">
+	    <div class="name">{{ talk.name }}</div>
+	    <div class="title">{{ talk.title }} </div>
+	    <div class="link">
+		{% if talk.links is defined %}
+		    {% for link in talk.links %}
+		        <a href="{{ link.url }}">{{ link.title }}</a>
+			{% if not loop.last %}
+			    &nbsp;-&nbsp;
+			{% endif %}
+		    {% endfor %}
+		{% endif %}
+	    </div>
+	</div>
+    </div>
+{% endfor %}
+    
+{% endblock %}

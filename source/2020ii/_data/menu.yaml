@@ -1,0 +1,11 @@
+- name: index
+  menu: Home
+  index: 10
+
+- name: contribute
+  menu: Contribute
+  index: 50
+
+- name: coc
+  menu: Code of Conduct
+  index: 100

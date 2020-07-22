@@ -1,0 +1,171 @@
+- name: Ansible Contributor Summit Europe
+  short: ansible
+  front: true
+  url: https://www.ansible.com/community
+  links:
+    - { title: "Announcement", url: "https://groups.google.com/forum/#!topic/ansible-devel/o6xnI9g8QqM" }
+    - { title: "Registration", url: "https://www.eventbrite.com/e/ansible-contributor-summit-eu-registration-92039844653" }
+    - { title: "Partial Cancellation", url: "https://groups.google.com/forum/#!topic/ansible-outreach/iXUod11ahjM" }
+  description:
+    - "The Ansible Contributor Summit has been partially cancelled due to COVID-19. There will be hacking sessions. Please refer to the links above for more information."
+  address:
+    - Chalmers Conference Centre
+    - Chalmersplatsen 1
+    - 412 58 Göteborg
+  lon: 11.97372
+  lat: 57.68926
+
+- name: Create your foss-north badge (Workshop)
+  short: badge
+  url: https://en.wikipedia.org/wiki/ESP8266
+  links: 
+    - { title: "Registration", url: "https://forms.gle/7m1kAnePnb8mxRoD8" }
+  description:
+    - "Welcome to the badge hacking workshop!"
+    - "We've created an unofficial conference badge for foss-north with a ESP32 micro controller that have WiFi and Bluetooth connectivity, some battery and blinkenlights."
+    - "The workshop will consist of three parts:<br />
+* The Badge - Walk through of the hardware<br />
+* FreeRTOS - A jump start in how to use a RTOS<br />
+* Freestyle - Solder on random fun stuff on your badge and make it interact"
+    - "Requirements:<br />
+* Light programming skills<br />
+* A laptop with any OS installed"
+    - "There are 15 spots available on the workshop, and it's free - but registration is required."
+    - "The workshop runs from 12:00 to 16:00"
+  address:
+    - Plejd
+    - Göteborgsvägen 52
+    - 431 37 Mölndal
+  lon: 12.01129
+  lat: 57.67082
+
+- name: Debian
+  short: debian
+  front: true
+  url: https://www.debian.org/
+  links:
+    - { title: "Announcement", url: "https://wiki.debian.org/BSP/2020/03/se/Gothenburg" }
+  description:
+    - "We'll have a Bug Squashing Party in Gothenburg (Sweden) on Sunday March 29, organized as part of Foss-North's Community Day.  The event will be held at Viktoriahuset, courtesy of the Inbyggd Frihet project, close to the old town."
+    - "Even if you're not a Debian Developer or Maintainer yet (but are otherwise interested in fixing bugs and helping Debian) please don't hesitate to attend; there will be enough people around to sponsor uploads and/or offer advice."
+    - "Please use the wiki for registration and further information about the venue."
+  address:
+    - Viktoriahuset
+    - Linnégatan 21
+    - Gothenburg
+  lon: 11.95177
+  lat: 57.69915
+
+- name: FreeBSD
+  short: freebsd
+  front: true
+  url: https://www.freebsd.org/
+  links: 
+    - { title: "Announcement", url: "https://wiki.freebsd.org/DevSummit/202004" }
+    - { title: "About", url: "https://www.freebsdfoundation.org/about/project/" }
+  venue: b3
+  venuename: B3 Consulting
+  venueurl: https://b3.se/
+  description: 
+    - "Welcome to the FreeBSD Community day!"
+    - "This day is for anyone who is intereseted in the FreeBSD operating system or any offshoots, such as pfSense or FreeNAS."
+    - "During the day, you will get to learn more about FreeBSD and the FreeBSD project, and how to get involved. There will also be an opportunity to try it out yourself."
+    - "This event is open for anyone, no prior knowledge or skills are required."
+  address:
+    - B3 Consulting Göteborg
+    - Kämpegatan 6
+    - 411 04 Göteborg
+  lon: 11.97361
+  lat: 57.71509
+
+- name: Functional Programming
+  short: fp
+  front: true
+  url: https://www.meetup.com/got-lambda/
+  description:
+    - TBD
+  address:
+    - "At Chalmers"
+    - "1. You should locate the main entrace on Rännvägen (<a href='https://maps.chalmers.se/#0766f31b-7165-42e9-8365-007240716e3f'>map</a>)"
+    - "2. Do not enter the main entrance but rather walk over Rännvägen till half way the building and you will find a small stair (5/6 steps), take them."
+    - "3. You will find a door on your left."
+    - "4. You need to call a phone number that you will find in the door, please, call us and we will go down and pick you up."
+  lon: 11.97947
+  lat: 57.68969
+  
+- name: Gnome
+  short: gnome
+  front: true
+  url: https://www.gnome.org/
+  description:
+    -  (CANCELLED) An introduction to GNOME community, the projects we are developing now and the areas that people with no technical background can contribute to. After the introduction we will have the newcomers workshop, which is for developers who want to participate in coding GNOME’s apps.This workshop requires a bit of object oriented programming and git skills.
+  address:
+    - "T.B.D."
+  lon: 11.966646
+  lat: 57.689343
+
+- name: Make a (your first?) pull request to open source!
+  short: ingrid
+  front: true
+  url: https://itingrid.se
+  description:
+    - "Welcome to the Ingrid workshop!"
+    - "Project Ingrid is an IT-calendar for all of Sweden. Find out about hackathons, upcoming conferences, meetups, call for papers and much more."
+    - "Any programming language! You can contribute in any programming language, design, frontend, backend, spelling mistakes - there's something for everyone to contribute to!"
+    - "If you want to do this now then get in touch with Victoria at victoria@46elks.com <mailto:victoria@46elks.com> and she can help you learn how to work with GIT and how to make a pull request. If you ask, Victoria will create a tutorial that you can follow along remotely."
+    - "You can ask Victoria about:<ul><li>
+GIT basics</li><li>
+git init</li><li>
+git add</li><li>
+git commit</li><li>
+git pull</li><li>
+git push</li></ul>"
+    - "And also some next level git knowledge that is very useful for making pull requests to open source:<ul><li>
+git branch</li><li>
+git merge</li><li>
+squashing commits</li><li>
+amending commit message</li><li>
+setting author</li><li>
+rebasing</li><li>
+creating a pull request</li><li>
+how to add an item to the IT-calendar</li></ul>"
+    - "Requirements: Open minded mindset and a friendly attitude towards others."
+
+  address:
+    - "Virtual / on-line"
+  lon: 11.966956
+  lat: 57.67082
+
+- name: KDE
+  short: kde
+  front: true
+  url: https://www.kde.org/
+  links: 
+    - { title: "KDE Community Day event", url: "https://community.kde.org/Promo/Events/FossNorth#2020" }
+    - { title: "About KDE", url: "https://community.kde.org/Get_Involved" }
+  venue: b3
+  venuename: B3 Consulting
+  venueurl: https://b3.se/
+  description:
+    - The KDE community and technologies it uses, from translation to coding to design. We have a handful of topics, and we'll see what gets the most interest. Afterwards we'll sit down with a drink and talk KDE things in general. To participate, you'll need a laptop or mobile device.
+  address:
+    - B3 Consulting Göteborg
+    - Kämpegatan 6
+    - 411 04 Göteborg
+  lon: 11.97561
+  lat: 57.71509
+
+- name: RISC-V
+  short: riscv
+  front: true
+  links:
+    - { title: "Announcement", url: "https://www.meetup.com/Goteborg-RISC-V-Group/events/269185417/" }
+  description:
+    - "The event will start at 16.00. We are still working on the program, and hopefully there will be a number of interesting speakers! We'll start the first meeting with a RISC-V overview! The venue and agenda is still to be settled. Please watch this space for updates!"
+    - "If you have a RISC-V topic you want to present, don't hesitate to reach out! Got a board you'd like demo? Bring it!"
+  address:
+    - "Intiro Development AB"
+    - "Västra Hamngatan 18"
+    - "Göteborg"
+  lon: 11.96443
+  lat: 57.70341

@@ -1,0 +1,362 @@
+- name: "Frank Karlitschek"
+  short: "fkarlitschek"
+  slot: slot7
+  day: mar30
+  lastname: "Karlitschek"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/27544846-10ad-4afd-9c6c-bc3b05129e06" }
+    - { title: "YouTube", url: "https://youtu.be/k2IDDcT3tdg" }
+  title: "Why the GPL is great for business"
+  abstract:
+    - "In the last few years we saw a lot of discussion in the open source and free software startup space around licenses. Several companies stepped forward and claimed that it’s not possible to build a working company on top of a free software product. Some changed the license of their product to proprietary license like the Commons Clause or the Business Source License. They claim that this is needed to ‘save’ free software. This talk describes why this is fundamentally wrong. It’s possible to build a working startup and company on top of a free software product. This talk discusses how companies like Red Hat, SUSE and Nextcloud manages to have a 100% free software product including a big contributor community but is still able to pay developers and grow."
+  bio:
+    - "Frank Karlitschek studied computer science at the University of Tübingen. He is a long time open source developer and former board member of the KDE e.V. In 2016 he founded Nextcloud to create a fully open source and decentralized alternative to big centralized US cloud companies. In 2012 he initiated the User Data Manifesto to define basic human rights regarding personal data. Frank was an invited expert at the W3C to help to create the ActivityPub internet standard. Frank has spoken at MIT, CERN, Harvard and ETH and keynoted several conferences. Frank is the founder and CEO of Nextcloud GmbH. He is also a fellow of Open Forum Europe and an advisor to the United Nations regarding Intellectual Property and Open Source."
+    
+- name: "Gabriel Ku Wei Bin"
+  short: "gkuweibin"
+  slot: slot13
+  day: mar31
+  lastname: "Ku"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/7a99246b-7bad-4aa7-9387-30df2f337786" }
+    - { title: "Slides", url: "slides/FSFE%20-%20FOSS%20North%20-%20REUSE%20and%20NGI.pdf" }
+  title: "REUSE: Making Free Software Licensing Easier For All"
+  abstract:
+    - "Developing Free Software is fun, but dealing with the licensing and copyright information is not. The REUSE project changes that: with three simple steps, it makes adding and reading licensing and copyright information easy for both humans and machines."
+    - "If you want to grant users the freedom to use, study, share, and improve your software, you have to grant those freedoms in the license of the software. To encourage people to develop Free Software, the FSFE helps developers to understand and apply Free Software licensing. REUSE contributes to this goal. Any project following the initiative's recommendations makes copyright and licensing information readable to both: humans and machines. This way, we want to ensure that individuals, organisations and companies who are re-using code are aware of the license terms chosen by the original author."
+    - "REUSE is also a big part of the FSFE's involvement with the Next Generation Internet Zero (NGI0) Initiative, a European Commission project aimed to assist developers in contributing to the establishment   of an internet that enhances society, not exploit it."
+    - "The following links may be of interest for listeners to this talk: Next Generation Internet <a href='https://nlnet.nl/propose/'>proposals</a>, <a href='https://nlnet.nl/PET/'>Privacy and Trust Enhancing Technologies</a>, and <a href='https://nlnet.nl/discovery/'>Next Generation Search and Discovery</a>."
+  bio:
+    - "Gabriel is the Legal Coordinator at the Free Software Foundation Europe. A former commercial and human rights lawyer, he now advocates for digital rights, and works to help individuals and organizations understand how Free Software contributes to freedom, transparency, and self-determination. Gabriel currently administers the FSFE's Legal Network, and coordinates the FSFE's involvement in the European Commission's Next Generation Internet Initiative."
+    
+- name: "Chris Simmonds"
+  short: "csimmonds"
+  slot: slot19
+  day: apr1
+  lastname: "Simmonds"
+  title: "Debian or Yocto Project? Which is the best for your Embedded Linux project?"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/d12841ff-60f8-4423-8c50-82428e495358" }
+    - { title: "Slides", url: "https://tinyurl.com/u7glahp" }
+  abstract:
+    - "As you contemplate how to put together the system software for your next Embedded Linux project you will probably be wondering which is the best path to take? Use a Linux distro such as Debian, (or another of your choosing), or create a custom operating system using Yocto Project (or Open Embedded or Buildroot). At first sight, Debian looks easy, especially if you are using a Raspberry Pi, a BeagleBone or another board with a pre-installed Debian-derived system. So, why go to all the trouble of replacing it with Yocto?"
+    - "In this talk I will show you the strengths and weaknesses of each approach, using real-world use cases as examples. Spoiler alert: my conclusion is that … it all depends what you want to do. Debian is great for fast implementation and proof-of-concept, but for long term maintainability and control of the platform, you need Yocto. Now you need to come along to see why I believe this to be so."
+  bio:
+    - "Chris Simmonds is a software consultant and trainer living in southern England. He has spent almost two decades designing and building open-source embedded systems of all shapes and sizes, and he has encapsulated much of that experience in his book, “Mastering Embedded Linux Programming”."
+    - "He is a frequent presenter at open source and embedded conferences, including the Embedded Linux Conference and Embedded World. You can see some of his work on the “Inner Penguin” blog at www.2net.co.uk"
+    
+- name: "Ron Munitz"
+  short: "rmunitz"
+  slot: slot6
+  day: mar29
+  lastname: "Munitz"
+  title: "Understanding, Building and Researching Minimal (and not so minimal) Linux Systems"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/94636bf4-0119-4223-811c-1a77f91443f3" }
+    - { title: "YouTube", url: "https://youtu.be/JtQu3sLMsWk" }
+  abstract:
+    - 'In this tutorial, we will give you the tools to build your Linux Distro, and give you the rational of the different components that make Linux. We will start with what happens when a device is powered on , tell a bit about some x86 and ARM bootloaders, and simplify (and unify) the procedures so that we concentrate on how the Linux Kernel is loaded, and what it needs in order to do something that is "useful" for most users/developers - such as loading the first userspace program, which may or may not load the next one, which may or may not...'
+    - 'Once we have shown how to build and boot our minimal Linux distro (which we will build with an upstream kernel and busybox and run with KVM/QEMU), we will show some super simple yet extremely powerful debugging (and memory forensics...) tricks. We will show how to build and load a simple kernel module, as well as a simple executable. Once we saw how "complicated" it is, we will see how to do it with Yocto Project, and why it is needed :)'
+  bio:
+    - "Ron Munitz, CEO of The PSCG Premium Consulting group, is a parallel entrepreneur, specialising in Operating System internals and Embedded Security. His experience ranges from esoteric real-time operating systems and all kind of Industrial devices to anything Unix/Linux flavoured, with renowned expertise on the Linux kernel, XNU Kernel and Android and MacOS ecosystems. Ron is an experienced lecturer, who has trained thousands of engineers for The PSCG, ARM and the Linux Foundation, and has initiated and led cybersecurity tracks in several universities.​ When not teaching or consulting, Ron is leading PSCG Holdings LTD, a house of excellence for entrepreneurs-researchers, active in the Aerospace, Maritime, Automotive and Mobile cybersecurity domains. In his previous lifetimes, Ron founded Nubo Software, the first Android display protocol, brought up Linux and some RTOS's on more boards than he can remember, did all kinds of security related work ( ;-) ), and led the development of a couple of satellite launchers ( ;-) ;-) )."
+    
+- name: "Viktor Petersson"
+  short: "vpetersson"
+  slot: slot20
+  day: apr1
+  lastname: "Petersson"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/027635e7-9a6e-441a-884e-412d0dd5683d" }
+    - { title: "Slides", url: "https://speakerdeck.com/vpetersson/the-history-of-how-screenly-ose-became-the-most-popular-digital-signage-project-on-github" }
+  title: "The history of how Screenly OSE became the most popular digital signage project on GitHub"
+  abstract:
+    - "Many moons ago, Viktor had a problem. Due to a strange series of events, he was put in charge of building a digital signage software in just two weeks. As an Open Source enthusiast, he naturally built this by gluing together various Open Source components and running on small Asus Linux boxes. It wasn’t pretty, but it did in fact work. This turned out to be the precursor to Screenly OSE, which is now the most popular digital signage project on GitHub and is powering 10k+ of Raspberry Pis around the globe."
+    - "In this talk, Viktor will share his experience from this journey, and the lessons learned along the way, as well as how he turned this hobby project into a thriving remote-only software business."
+  bio:
+    - "While still in college Viktor co-founded the software company WireLoad, Inc which grew into a thriving business with multiple products. WireLoad's latest product, Screenly, has grewn to become the most popular open source solution on Github, powering thousands of screens around the world, all powered by Raspberry Pis."
+    - "Most recently, Viktor co-founded WoTT to help tackle the mess that is IoT security by making it easy for developers to adopt industry best-practices for their fleet of devices."
+    
+- name: "Adriaan de Groot"
+  short: "adegroot"
+  slot: slot14
+  day: mar31
+  lastname: "Groot"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/5220fe13-7fdb-439b-a94b-813329a48cae" }
+  title: "KDE Free Qt Foundation"
+  abstract:
+    - "The KDE Free Qt Foundation is a tool like a reverse Fiduciary License Agreement: it ensures that a Free Software project that is owned, controlled and enabled by a commercial entity cannot be turned into proprietary software. It was created in the early days of the KDE project to ensure that the Qt toolkit always remains Free Software."
+    - 'This talk discusses the reasoning behind the tool and the ways in which it safeguards software Freedom while enabling commerical and even proprietary development. We believe that the structure of a "last resort" foundation combined with a strong contract is a good alternative to weird "Open Source" licenses with field-of-use restrictions. The KDE Free Qt foundation has survived four changes of ownership of the toolkit that it safeguards.'
+  bio:
+    - "T.B.D."
+
+- name: "Gustav Grusell"
+  short: "ggrusell"
+  slot: slot16
+  day: mar31
+  lastname: "Grusell"
+  copresenters:
+    - { name: "Olof Lindman", short: "olindman" }
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/751d41f4-72fd-4bfe-aa26-8d8b0e8054c2" }
+    - { title: "Slides", url: "slides/Foss_made_us_do_it.pdf" }
+  title: "FOSS made us do it - How switching to open source tools enabled video innovation"
+  abstract:
+    - "Allthough the current encoding pipeline for online video at SVT was built on open source technology like spring boot, mariadb, redis, etc from the start, until quite recently the core functionality of encoding and packaging of video was implemented with proprietary tools. This talk will describe how we came to replace the proprietary tools with open source tools, and how this have had a very positive impact on our work with improving the quality of our streaming services."
+  bio:
+    - "Working in the videocore team at SVT as Developer/Scrum master/Open source lead."
+    - "Got introduced to linux and the open source world by my father in the mid-ninetees and has been a loyal user ever since. Been working as a software developer for the last fifteen years, with focus on java/spring. Since starting at SVT four years ago I have developed an interest in videoencoding/streaming."
+
+- name: "Olof Lindman"
+  short: "olindman"
+  coslot: slot16
+  day: mar31
+  lastname: "Lindman"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/751d41f4-72fd-4bfe-aa26-8d8b0e8054c2" }
+    - { title: "Slides", url: "slides/Foss_made_us_do_it.pdf" }
+  title: "FOSS made us do it - How switching to open source tools enabled video innovation"
+  abstract:
+    - "Allthough the current encoding pipeline for online video at SVT was built on open source technology like spring boot, mariadb, redis, etc from the start, until quite recently the core functionality of encoding and packaging of video was implemented with proprietary tools. This talk will describe how we came to replace the proprietary tools with open source tools, and how this have had a very positive impact on our work with improving the quality of our streaming services."
+  bio:
+    - "Online Video Workflow Engineer at Sveriges Television. MSc.E."
+    - "I have been working with subjective video quality at SVT Play for about 2 years. I enjoy challenging and innovative work where I am constantly trying to balance improvements of visual quality with constraints from device compatibility and distribution cost."
+    
+- name: "Valentin David"
+  short: "vdavid"
+  slot: slot9
+  day: mar30
+  lastname: "David"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/db84bd15-ce5a-48cc-b715-81e26589799d" }
+    - { title: "YouTube", url: "https://youtu.be/xiY5qQqVqXk" }
+    - { title: "Slides", url: "slides/freedesktop-sdk-oci-images.pdf" }
+  title: "Building Open Container Initiative images based on Freedesktop SDK"
+  abstract:
+    - "The conventional approach to building container images starts by importing a base image of a Linux distribution. Then a Dockerfile is used to install the software stack. Part of it might be installed into the image through the distribution's package, while the other part might be built from source. The integration of such an image requires multiple steps. The complexity of distribution packages is not that well suited for the simplicity of container images. Maintaining software builds from source through Dockerfile is also unpractical. This complexity makes it hard to maintain a container image. Freedesktop SDK is a base runtime for Linux desktop applications using Flatpak. We have used BuildStream as an integration tool to build the image without requiring depending on a distribution. The approach used also translates easily to layered Open Container Initiative (OCI) images through a BuildStream plugin. This talk will show how (multiple) OCI images can be fully built in one pass from a BuildStream specification."
+  bio:
+    - "I am a French national lost in Norway working for British company Codethink. I maintain Freedesktop SDK."
+
+- name: "Dimitrios Platis"
+  short: "dplatis"
+  slot: slot18
+  day: mar31
+  lastname: "Platis"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/777ea64b-8466-48d7-a951-d7c9740b104e" }
+    - { title: "Slides", url: "slides/Using%20open%20source%20paradigms%20to%20teach%20system%20development.pdf" }
+  title: "Using open source paradigms to teach system development"
+  abstract:
+    - "Developing a system comprised of both software and hardware components comes with its extra set of challenges. Hardware gets delayed, the team that works closer to the electronics has to sync with the ones hacking on the cloud or the app, arguments erupt over unilateral assumptions about how things should be, etc. On the other hand, it is particularly rewarding seeing your efforts materialized in a physical form and the customers naturally interacting with your precious device."
+    - "Software Engineering students at the University of Gothenburg, as part of their compulsory curriculum, are offered a course on systems development. They work in teams and are given a small robot development platform with the task to create a multitier product around it. They are inexperienced, with different availability, priorities and expectations, but full of creativity."
+    - "How do we teach them to avoid the common pitfalls we witness in the industry? How do we facilitate collaboration between individuals engaged in separate parts of the system? How do we inspire them to establish a repeatable, well-defined development process? How do we convince them to build a robust and valuable system with the discipline of an engineer along with the freedom of an artist?"
+    - "In this talk, we are going to illustrate how we address these issues through the adoption of best practices common in open source projects and organizations. Combined with freely available tools, we enable and inspire the students to follow industrial standards and eventually produce better engineers for the future."
+  bio:
+    - "Dimitrios works at Edument in Gothenburg and calls himself a Software Engineer and a Maker. During the days he develops and delivers Edument's courses on C++ while hacking on embedded systems of all shapes and sizes as a consultant. Additionally, he is the course responsible for the DIT112 course at Gothenburg University, where Software Engineering BSc students learn about System Development."
+    - "The evenings are all about creating open source projects and then blogging about them. Favorite fields revolve around IoT, robotics and handheld gadgets where he loves to build the entire product stack. Hardware-wise, this includes everything from the PCB to the physical case and, software, from the embedded firmware to the cloud."
+
+- name: "Daniel Stenberg"
+  short: "dstenberg"
+  slot: slot10
+  day: mar30
+  lastname: "Stenberg"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/c8d3ea0e-f089-47d2-a08f-faa6c1d2b020" }
+    - { title: "YouTube", url: "https://youtu.be/LzU3_00dSXc" }
+  title: "curl better"
+  abstract:
+    - "Everyone uses curl. There are good uses, some bad uses and some lesser known gems that are good to know. Daniel takes us through how curl came to be this prevalent, the design think behind it and some clever curl tricks for consuming HTTP APIs and more"
+  bio:
+    - 'Daniel Stenberg is the founder and lead developer of the curl project. He has worked on HTTP implementations for over twenty years. He has been involved in the IETF for twelve years and he worked on the HTTP stack in Firefox for several years at Mozilla. He participates in the QUIC working group and is the author of the widely read documents "HTTP2 explained" and "HTTP/3 explained". Employed by wolfSSL.'
+
+- name: "Patrik Fältström"
+  short: "pfaltstrom"
+  slot: slot12
+  day: mar30
+  lastname: "Fältström"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/2af06a98-2701-432b-930d-1aa8e27d3573" }
+    - { title: "YouTube", url: "https://youtu.be/wKtTfVOoNYM" }
+  title: "Keeping Time"
+  abstract:
+    - "In this presentation Patrik will dive into the fun things related to time and frequency, explain how NTP can be secured with the help of TLS (to a mix called NTS), and how one can minimize the phase error between two frequency sources."
+  bio:
+    - "Patrik Fältström have been working with the internet related issues in Sweden since around 1985. He has specialized in security and specifically robustness. Open standards and things he likes and he has contributed to many of them, specifically in the IETF in the form of Internationalized Domain Names (IDN) and ENUM. In the day job he is technical director and head of security at Netnod in Sweden which focuses on infrastructure services like IX, DNS, time and frequency."
+    - "Patrik have been advisors to many, including the Swedish Government, and worked at Tele2, Cisco, KTH and the Royal Swedish Navy."
+
+- name: "Johan Linåker"
+  short: "jlinaker"
+  slot: slot17a
+  day: mar31
+  lastname: "Linåker"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/7a9f3393-b824-45de-93ea-15dbe70eb258" }
+    - { title: "Slides", url: "slides/Fossnorth-linaker.pdf" }
+  title: "Opening up the Swedish Labour Market Through Cross-sector Collaboration"
+  abstract:
+    - "JobTech Dev is an initiative from the Swedish Public Employment Service where the goal is to create a common platform of open source software, data, and standards for private actors and citizens to build on. Envisioned outcomes include a higher variety of services and better matching for employers and job-seekers, as well as a lower barrier to entry for new job-matching service provides."
+    - "We will present an overview of the platform and share a public-sector organization's rationale for sharing software as open source. Attendees will further get insights into the potential value and ways of extending collaboration and co-creation beyond open source software to also include related open data and standards."
+    - "We will also present opportunities as well as challenges that the Employment Service has experienced while adopting a platform approach, as well as the open source way of working required when growing and working with a community. Lessons learned will be contrasted to those commonly experienced among companies that's undergone similar journeys."
+  bio:
+    - "Johan is a postdoctoral researcher focusing on how the public sector can create platforms with open data and software on which ecosystems of actors can innovate through cross-sector collaborations. In his Ph.D., he focused specifically on helping companies make contributions and engage with communities in alignment with business goals. He sits on the advisory board for Hack for Sweden, the Swedish governments gov-tech initiative for enabling open and data-driven innovation. He is also the founder of OpenHack, a non-profit tech-community solving real-world challenges connected to the global goals in Agenda 2030."
+  copresenters:
+    - { name: "Jonas Södergren", short: "jsodergren" }
+- name: "Jonas Södergren"
+  short: "jsodergren"
+  coslot: slot17a
+  day: mar31
+  lastname: "Södergren"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/7a9f3393-b824-45de-93ea-15dbe70eb258" }
+    - { title: "Slides", url: "slides/Fossnorth-linaker.pdf" }
+  title: "Opening up the Swedish Labour Market Through Cross-sector Collaboration"
+  abstract:
+    - "JobTech Dev is an initiative from the Swedish Public Employment Service where the goal is to create a common platform of open source software, data, and standards for private actors and citizens to build on. Envisioned outcomes include a higher variety of services and better matching for employers and job-seekers, as well as a lower barrier to entry for new job-matching service provides."
+    - "We will present an overview of the platform and share a public-sector organization's rationale for sharing software as open source. Attendees will further get insights into the potential value and ways of extending collaboration and co-creation beyond open source software to also include related open data and standards."
+    - "We will also present opportunities as well as challenges that the Employment Service has experienced while adopting a platform approach, as well as the open source way of working required when growing and working with a community. Lessons learned will be contrasted to those commonly experienced among companies that's undergone similar journeys."
+  bio:
+    - "Johan is a postdoctoral researcher focusing on how the public sector can create platforms with open data and software on which ecosystems of actors can innovate through cross-sector collaborations. In his Ph.D., he focused specifically on helping companies make contributions and engage with communities in alignment with business goals. He sits on the advisory board for Hack for Sweden, the Swedish governments gov-tech initiative for enabling open and data-driven innovation. He is also the founder of OpenHack, a non-profit tech-community solving real-world challenges connected to the global goals in Agenda 2030."
+      
+- name: "Elisabet Lobo-Vesga"
+  short: "elobovesga"
+  slot: slot11a
+  day: mar30
+  lastname: "Logo-Vesga"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/488a6a46-bc1e-4334-b075-4cb52b894054" }
+    - { title: "YouTube", url: "https://youtu.be/SM_Z8x4ssOc" }
+  title: "Privacy-preserving statistical analyses"
+  abstract:
+    - "Large amounts of data are being collected about IoT systems---a tendency known as big data. Much of the collected data is private: it contains details about individuals and their behaviour. Privacy concerns about individuals restrict the way that such a huge amount of information can be used and released. In this light, information collected by IoT devices must be handled in a way that users' privacy gets preserve and thus comply with ethical, legal, or business reasons."
+    - "It is often believed that data can be just anatomized somehow in order to preserve the privacy of individuals. Simple removing some identifiers or data fields from a dataset is not enough. There are notorious cases that illustrate that traditional disclosure techniques lack rigorous analysis and guarantees, where re-identification attacks are possible."
+    - "Differential privacy, a concept originated in academia, is currently the only mechanism that rigorously captures the trade-offs of adding noise to a query to protect the privacy of individuals while enabling to extract useful insights from it. However, adding noise might reduce how meaningful queries' results are in favour of privacy---e.g., in the extreme case, a completely random answer preserves privacy but is rather useless."
+    - "In this talk, we will present DPella, a programming language being developed at Chalmers University, which enables developers to write differentially private queries, while enabling to study how meaningful the result of the queries are. We will show how to securely implement traditional statistical analyses with DPella (e.g., histograms, cumulative distributed functions, etc.), thus allowing to mine useful information for sensible datasets gathered by our IoT devices."
+    - "This talk is based on a joint work with Alejandro Russo (Chalmers University), Marco Gaboardi (University at Buffalo) and Gilles Barthe (MPI-SP and IMDEA Software Institute)"
+  bio:
+    - "I am a PhD student in the Information Security division at Chalmers. I'm interested in exploring the usage of embedded domain-specific languages (EDSLs) in Haskell to provide privacy or security guarantees for different applications. For the past year, I've been working on creating a framework for privacy-preserving queries---under differential privacy---that allows programmers to reason about the accuracy of the queries statically."
+
+- name: "Pavel Kopylov"
+  short: "pkopylov"
+  slot: slot15
+  day: mar31
+  lastname: "Kopylov"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/a047d627-3867-46d6-8c15-93e14f765eac" }
+    - { title: "Slides", url: "slides/20200331%20foss-north%20hacking%20the%20legal%20code%20of%20open%20source%20license.pdf" }
+  title: "Hacking the legal code of an open source license"
+  abstract:
+    - "Any piece of an open source software is distributed under the terms of an open source license. A license is a binding contract and you must comply with the terms of any and all relevant licenses used in your product. Some licenses are only 2-3 paragraphs of clear-cut text, others are 2-3 pages of legalese jungle. To understand which terms apply to your project, you have to read and interpret the licenses yourself… or call the lawyer. The good news is that while all the different agreements are unique, there are several key concepts. Regardless of how much experience with foss licenses you have or how savvy you are at reading legal texts, you can easily navigate provisions of any license using these key concepts that would be presented during the talk."
+  bio:
+    - "Pavel is a business professional and educator assisting projects of various sizes aiming at maximising the value created by intangible assets. In most projects that Pavel works with the value is created from software based on numerous open source libraries."
+
+- name: "Ashley Raiteri"
+  short: "araiteri"
+  slot: slot17b
+  day: mar31
+  lastname: "Raiteri"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/0afa9813-7b63-495f-81a0-863f30988aa8" }
+    - { title: "Slides", url: "https://www.slideshare.net/ashr/make-it-right-open-source-and-automation" }
+  title: "Robotic Process Automation based on OpenSource"
+  abstract:
+    - "Robotic Process Automation based on OpenSource - the pros and cons of using OpenSource in RPA. "
+  bio:
+    - "Strategy and Business Development Leader with 25+ years of professional experience as a developer, in addition, he has extensive managerial experience in providing advice for global companies on technology architecture, corporate strategy, branding, product management & revenue management."
+
+- name: "Jakob Bornecrantz"
+  short: "jbornecrantz"
+  slot: slot5
+  day: mar29
+  lastname: "Bornecrantz"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/7fa35ed2-01c4-4453-afa6-707e964bc0b9" }
+    - { title: "YouTube", url: "https://youtu.be/diErduBn1tU" }
+  title: "FOSS Virtual & Augmented Reality"
+  abstract:
+    - "In this talk will cover Monado and Khronos' OpenXR standard, and give an overview about the current state of open source VR and what lies ahead. Also go into some details of how tracking is done inside of Monado and show of the current state."
+    - "VR took off for the consumer with the release of Oculus consumer hardware. But the hardware lacked open source drivers and Linux support in general. The consumer VR space has now grown from a kickstarter campaign into a large industry. But this growth has its down sides, multiple companies have their own APIs competing. Luckily these companies have agreed to work on a single API under the Khronos umbrella. Now that OpenXR has been released and and the Monado project has been getting more stable it is now possible to do good VR on a completely open stack."
+  bio:
+    - "Jakob works for Collabora with graphics and virtual reality, XR Lead at Collabora and a member of the OpenXR working group. He has worked with Linux graphics since 2006, starting with Tungsten Graphics and moving into VMware. In 2013 he along with a friend started the OpenHMD project, then in the spring of 2019 was involved in launching both Monado and OpenXR at GDC."
+    
+- name: "Drew Fustini"
+  short: "dfustini"
+  slot: slot21
+  day: apr1
+  lastname: "Fustini"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/913a5d58-36f6-41f2-b260-55259bee2981" }
+    - { title: "Slides", url: "https://github.com/pdp7/talks/blob/master/fossn20.pdf" }
+  title: "How to run Linux on RISC-V (with open hardware and open source FPGA tools)"
+  abstract:
+    - "Want to run Linux with RISC-V on Open Source Hardware?"
+    - "This talk will explore the current options including how open source FPGA tools can be leveraged to build open Linux-capable systems."
+    - "I will explain how myself and others at Hackaday Supercon teamed up to get Linux running on RISC-V core in the ECP5 FPGA badge using only open source tools thanks to Project Trellis, yosys and nextpnr. I will explain what migen and LiteX are, and how it enabled us to quickly build a System-on-Chip (SoC) capable of running Linux on VexRiscv."
+    - "In conclusion, I will explore the landscape of open source chip designprojects and the Linux-capable RISC-V silicon chips on horizon for 2020, and talk about my desire to collaborate on an affordable (<$100?) OSHW Linux RISC-V board."
+  bio:
+    - "Drew Fustini is a hardware designer and embedded Linux developer, from Chicago (USA), now living in Berlin. He designs open source hardware projects for OSH Park (an PCB manufacturing service), and maintains Adafruit Python libraries for the BeagleBone.  Drew volunteers on the board of directors of Open Source Hardware Association (OSHWA) and BeagleBoard.org Foundation   He organizes the Berlin Embedded Linux meetup and recently became a RISC-V Foundation ambassador."
+
+- name: "Kristoffer Grönlund"
+  short: "kgronlund"
+  slot: slot4
+  day: mar29
+  lastname: "Grönlund"
+  title: "Introducing Rook"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/04fdab44-c898-4d76-aafd-0ed9f338bd40" }
+    - { title: "YouTube", url: "https://youtu.be/1Fh_NB21_ME" }
+  abstract:
+    - "Ceph is a free software cluster storage solution that enables near-infinite scaling on commodity hardware, and Rook is a project that brings Ceph to Kubernetes as a storage provider, as well as other open source storage solutions. In this presentation I will do my best to introduce these technologies, talk a bit about what makes them unique and perhaps provide some motivation for when and why they may be relevant to you."
+  bio:
+    - "Kristoffer lärde sig programmera på en Commodore 64 med drömmar om att en dag bli spelutvecklare. Efter att ha levt drömmen på Massive i Malmö i ett antal år växte intresset för fri mjukvara, och numera jobbar han på SUSE där han länge hackade på diverse High Availability-projekt och nu i huvudsak hackar på Ceph och Rook. Han är även en tredjedel av Kodsnack, en podcast om programmering och livet som utvecklare på svenska."
+
+- name: "Bolaji Ayodeji"
+  short: bayodeji
+  slot: slot22
+  day: apr1
+  lastname: "Ayodeji"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/d3af37bd-9877-48af-931a-6d75bb7133bb" }
+    - { title: "Slides", url: "https://slides.com/bolajiayodeji/effective-oss-docs" }
+  title: "Effective Documentation: The Key to Open Source Growth"
+  abstract:
+    - "When developers use and contribute to open source projects, effective documentation can make all the difference between a positive experience or a negative experience. Providing effective documentation can build healthy and inclusive communities, thereby increasing the usability and retention rate of your product/ project, but most often, open source creators produce ineffective documentation."
+    - "In this talk, Bolaji will introduce you to unique documentation strategies that will enable you to create good, timely, useful, accurate and sustainable documentation alongside explaining the benefits of these strategies, and how you can build a documentation community around your contributors."
+    - "Recommended projects related to this talk: <a href='https://github.com/BolajiAyodeji/awesome-technical-writing'>Technical Writing Resources</a>, <a href='https://allcontributors.org/'>All Contributors Bot</a>, <a href='https://developers.google.com/season-of-docs'>Google Season of Docs</a>, and <a href='https://thegooddocsproject.dev/'>The Good Docs Project</a>."
+  bio:
+    - "Bolaji is a Front-end Developer, GitHub Campus Expert, Open Source Advocate and Technical Writer who currently works in Developer Relations at Hashnode. He's passionate about Web VR experiences and developing JAMstack + PWA applications with a significant focus on accessibility alongside supporting and sustaining FOSS."
+    - "You can find <a href='https://twitter.com/iambolajiayo'>Bolaji on twitter</a>."
+
+- name: "Jason Hammond"
+  short: jhammond
+  slot: slot23
+  day: apr1
+  lastname: "hammond"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/54276077-33df-4734-bc42-77a36beb3c90" }
+    - { title: "Slides", url: "slides/Managing%20the%20risk%20and%20growth%20of%20using%20Open%20Source%20Software.pdf" }
+  title: "Managing the risk and growth of using Open Source Software"
+  abstract:
+    - "Today, every company is a software company. Even companies with a core business that is not about developing software products are building software to help run their businesses. More and more, development organizations are using open source software as part of their applications in order to support their agility and efficiency goals. While the benefits of using open source software are apparent, organizations need to manage the vulnerabilities and risks associated with that use. In this session you will learn about the business impact of security vulnerabilities and license compliance issues presented to organizations that use open source software. You will also learn how Software Composition Analysis tools, such as WhiteSource Software, can help to automate and simplify the process of managing vulnerability and compliance issues throughout the Software Delivery Lifecycle (SDLC). The session will include a hands-on workshop using WhiteSource Software to scan code for open source libraries, build an inventory of these libraries, and highlight identified security vulnerabilities, the licenses associated with these libraries, and the identified risk they present."
+  bio:
+    - "Jason Hammond is responsible for the technical enablement and support of WhiteSource's network of integration and go-to-market partners and their customers. He has more than 20 years of experience working in a variety of technical roles across the fields of information and network security, audit, and compliance. Jason is passionate about enabling businesses to adopt and expand the use of open source software in a secure, compliant, and scalable way."
+
+- name: "Simon Painter"
+  short: "spainter"
+  slot: slot8
+  day: mar30
+  lastname: "Painter"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/a39af8a4-8026-4ceb-baa8-18951caff715" }
+    - { title: "YouTube", url: "https://youtu.be/mLSNxtFPVlg" }
+  title: "Functional Programming with JavaScript"
+  abstract:
+    - "Functional Programming is becoming increasingly popular and relevant with each year that goes by. With so much discussion around languages such as F#, Haskell and Erlang, it can seem as though getting started with Functional programming would mean first learning a whole new syntax...but what if it didn't?"
+    - "Using just a few JavaScript libraries, such as RamdaJS, developers can implement some of the most powerful patterns and techniques from the world of functional programming?"
+    - "This talk will demonstrate how, using ES6 and a few extra libraries, we can write Functional code that is:"
+    - "<ul><li>More robust</li><li>Easier to read</li><li>Easier to maintain</li></ul>"
+    - "This talk might be of interest to anyone looking into moving to a new platform, or in improving the scalability of an existing application, or even just interested in seeing what Functional Programming is all about, but all within the comfort of a familiar language."
+    - "We might even attempt the impossible, and explain what a Monad is!"
+  bio:
+    - "I've been working as a .NET developer for over 13 years now in a variety of industries including government, retail and manufacturing. But as a coder, I've been playing with making computers do whatever my crazed imagination could devise since I was old enough to read my Dad's copy of the ZX Spectrum BASIC coders manual."
+    - "I've been speaking about Functional C# at various user groups and conferences around the UK, USA, and India, and am particularly interested in seeing just how far we can push the capabilities of C#."
+    - "When I'm not coding, or running after my two small children, I have been known to enjoy the classic series of Doctor Who, Fighting Fantasy Gamebooks, Cryptic Crosswords, and rather more coffee than is probably good for me."

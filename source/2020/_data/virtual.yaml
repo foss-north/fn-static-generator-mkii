@@ -1,0 +1,71 @@
+- name: "Andreas Nilsson"
+  short: anilsson
+  slot: slot1
+  day: mar22
+  title: "Develop better software with usability testing"
+  links:
+    - { title: "YouTube", url: "https://youtu.be/LW4hxL7081o" }
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/442d17fa-ef4b-435c-942a-8fde956e52fc" }
+#    - { title: "Slides", url: "slides/" }
+
+- name: "Chris Simmonds"
+  short: csimmonds
+  slot: slot2
+  day: mar22
+  title: "Running Android on the Raspberry Pi"
+  links:
+    - { title: "YouTube", url: "https://youtu.be/cxztlKUCpbU" }
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/debbbcdb-f4d4-49ac-a0ed-13192b5cecfb" }
+    - { title: "Slides", url: "slides/android-rpi-csimmonds-foss-north-2020.pdf" }
+
+- name: "Ron Munitz"
+  short: rmunitz
+  slot: slot3
+  day: mar22
+  title: "The Yocto Project 10 minute quick-start guide"
+  links:
+    - { title: "YouTube", url: "https://youtu.be/jFMK7NCXEiw" }
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/4767436a-2d17-47ee-a78b-3bdb2dba35ad" }
+    - { title: "Slides", url: "https://docs.google.com/presentation/d/e/2PACX-1vTqzOci6Bgf5RBXmtxNEF1AJet_lbIonpYTfwLWgUpqRRRNlldZN7oMtTBf9seZf-Ecdc0nGwsiK4yT/pub?start=false&loop=false&delayms=3000&slide=id.g184b77bf9_077" }
+
+- name: "Dimitris Platis"
+  short: dplatis
+  slot: slot4
+  day: mar22
+  title: "Getting started with your smart, connected, vehicle project"
+  links:
+    - { title: "YouTube", url: "https://youtu.be/f6RSPFDie2o"  }
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/235e33e0-d509-4ebc-a7e6-7148860740be" }
+#    - { title: "Slides", url: "slides/" }
+
+- name: "Kristoffer Grönlund"
+  short: kgronlund
+  slot: slot5
+  day: mar22
+  title: "Seven years in Tibet^W^Wat Home"
+  links:
+    - { title: "YouTube", url: "https://youtu.be/wmQM-JiaQJE" }
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/4117255b-2468-4a08-913f-aca44162903e" }
+    - { title: "Slides", url: "slides/FOSS-North-Seven-Years-at-Home.pdf" }
+
+- name: "Drew Fustini"
+  short: dfustini
+  slot: slot6
+  day: mar22
+  title: "Linux on RISC-V"
+  links:
+    - { title: "YouTube", url: "https://youtu.be/NHnJuO39AQM" }
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/6fbfa298-9336-4a67-abec-062af4df8b5f" }
+    - { title: "Slides", url: "https://github.com/pdp7/talks/blob/master/fossn20light.pdf" }
+
+- name: "Anders Björklund"
+  short: abjorklund
+  slot: slot7
+  day: mar22
+  title: "Singularity container platform"
+  links:
+    - { title: "YouTube", url: "https://youtu.be/prPtItXskyg" }
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/9042b4c4-b3d9-4f17-b58d-9f0ec2bc0d36" }
+    - { title: "Slides", url: "slides/SingularityContainer.pdf" }
+    - { title: "Demo at asciinema.org", url: "https://asciinema.org/a/CEYJNJTGgCBA3W3zE3H9DNst9" }
+      
