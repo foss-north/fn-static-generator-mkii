@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block leftcontents %}
+{% include "left.html" %}
+{% endblock %}
+{% block centercontents %}
+<h1>Episodes</h1>
+{% for episode in data.episodes|sort(attribute='number') %}
+<a name="ep{{ episode.number }}"><h2>#{{ episode.number }}: {{ episode.title }}</h2>
+
+<div class="details">Downloads: <a href="episodes/{{ episode.ogg|urlencode }}">ogg</a> - <a href="episodes/{{ episode.mp3|urlencode }}">mp3</a> - <a href="https://youtu.be/{{ episode.yt }}/">YouTube</a>{% if episode.slides is defined %} - <a href="slides/{{ episode.slides|urlencode }}">slides</a>{% endif %}</div>
+<div class="details italic">Duration: {{ episode.duration }} - Date: {{ episode.pubdate }}</div>
+<p>{{ episode.description }}</p>
+{% endfor %}
+{% endblock %}

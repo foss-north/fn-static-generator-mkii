@@ -1,0 +1,131 @@
+- title: "What is Copyright"
+  yt: "Uijn32sS0Oo"
+  ogg: "01 - What is Copyright.ogg"
+  mp3: "01 - What is Copyright.mp3"
+  oggsize: 8345001
+  mp3size: 10438125
+  duration: "00:10:52"
+  pubdate: "Fri, 1 May 2020 22:12:10 +0200"
+  number: 1
+  description: "We have a look at the history of copyright and what it actually is."
+  
+- title: "Copyright and Software"
+  yt: "ONMychw6Jac"
+  ogg: "02 - Copyright and Software.ogg"
+  mp3: "02 - Copyright and Software.mp3"
+  oggsize: 8225736
+  mp3size: 10342125
+  duration: "00:10:46"
+  pubdate: "Sat, 9 May 2020 22:14:13 +0200"
+  number: 2
+  description: "We look at how copyright affects software and why software licenses are necessary."
+  
+- title: "The History of Free and Open Source Software"
+  yt: "E7u1CpY4c1I"
+  ogg: "03 - The History of Free and Open Source Software.ogg"
+  mp3: "03 - The History of Free and Open Source Software.mp3"
+  oggsize: 11300453
+  mp3size: 14097645
+  duration: "00:14:41"
+  pubdate: "Sat, 16 May 2020 22:15:41 +0200"
+  number: 3
+  description: "We take a look at the history of free and open source software."
+  
+- title: "What is a (FOSS) License"
+  yt: "crpwrarCxNU"
+  ogg: "04 - What is a (FOSS) License.ogg"
+  mp3: "04 - What is a (FOSS) License.mp3"
+  oggsize: 10972644
+  mp3size: 13528557
+  duration: "00:14:05"
+  pubdate: "Sat, 23 May 2020 22:18:12 +0200"
+  number: 4
+  description: "What makes a software license a free and open source license?"
+  
+- title: "Classic Permissive Licenses"
+  yt: "NxLogZyveKQ"
+  ogg: "05 - Classic Permissive Licenses.ogg"
+  mp3: "05 - Classic Permissive Licenses.mp3"
+  oggsize: 12296045
+  mp3size: 15667053
+  duration: "00:16:19"
+  pubdate: "Fri, 29 May 2020 22:19:19 +0200"
+  number: 5
+  description: "We take a tour of the classic permissive licenses. This episode discusses: BSDs, MIT."
+
+- title: "Modern Permissive Licenses"
+  yt: "DlKD33Vics4"
+  ogg: "06 - Modern Permissive Licenses.ogg"
+  mp3: "06 - Modern Permissive Licenses.mp3"
+  oggsize: 9214352
+  mp3size: 11464173
+  duration: "00:11:56"
+  pubdate: "Fri, 5 Jun 2020 22:20:31 +0200"
+  number: 6
+  description: "We continue our tour of permissive licenses. This episode discusses: Apache License 2.0, MPL 2.0, various other permissive licenses such as WTFPL, Beerware, Unlicense, CC-0, zlib license."
+
+- title: "The GNU Licenses"
+  yt: "y60jkLbz3-I"
+  ogg: "07 - The GNU Licenses.ogg"
+  mp3: "07 - The GNU Licenses.mp3"
+  oggsize: 16204466
+  mp3size: 19389379
+  duration: "00:20:11"
+  pubdate: "Fri, 12 Jun 2020 22:21:43 +0200"
+  number: 7
+  description: "We have a look at the GNU licenses. This episode discusses: GPL, LGPL, AGPL and GFDL."
+
+- title: "Tivoization"
+  yt: "8bP2glHDXtY"
+  ogg: "08 - Tivoization.ogg"
+  mp3: "08 - Tivoization.mp3"
+  oggsize: 9532187
+  mp3size: 9366765
+  duration: "00:09:45"
+  pubdate: "Sun, 21 Jun 2020 22:25:55 +0200"
+  number: 8
+  description: "We take a look at tivoization. What is it, and why is it controversial?"
+
+- title: "Patents - part 1"
+  yt: "wtowO-8wpKo"
+  ogg: "09 - Patents.ogg"
+  mp3: "09 - Patents.mp3"
+  oggsize: 12250802
+  mp3size: 14244717
+  duration: "00:14:50"
+  pubdate: "Sun, 28 Jun 2020 22:26:34 +0200"
+  number: 9
+  description: "Mirko Boehm visits foss-north and talks about software patents (part 1)."
+
+- title: "Patents - part 2"
+  yt: "sL4R15a7jxk"
+  ogg: "10 - Patents part 2.ogg"
+  mp3: "10 - Patents part 2.mp3"
+  oggsize: 16638276
+  mp3size: 19330413
+  duration: "00:20:08"
+  pubdate: "Mon, 6 Jul 2020 22:27:24 +0200"
+  number: 10
+  description: "Mirko Boehm visits foss-north and talks about software patents (part 2)."
+
+- title: "Open Projects"
+  yt: "pf2NbCMBhf4"
+  ogg: "11 - Open Projects.ogg"
+  mp3: "11 - Open Projects.mp3"
+  oggsize: 15308967
+  mp3size: 18383351
+  duration: "00:19:08"
+  pubdate: "Sun, 12 Jul 2020 22:28:28 +0200"
+  number: 11
+  description: "What is an open project? There is more beyond open source. We also discuss why open projects sometimes are less open. For instance when it comes to responsible disclosure and trademarks."
+
+- title: "The curl license - part 1"
+  yt: "pJCqqmLuk3s"
+  ogg: "12 - The curl license - part 1.ogg"
+  mp3: "12 - The curl license - part 1.mp3"
+  oggsize: 14881413
+  mp3size: 18404973
+  duration: "00:19:10"
+  pubdate: "Sun, 19 Jul 2020 22:30:18 +0200"
+  number: 12
+  description: "In our summer special Daniel Stenberg visits foss-north and talks about curl, the curl license, and how he picked a license for curl."

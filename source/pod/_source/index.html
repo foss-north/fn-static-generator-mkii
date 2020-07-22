@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block leftcontents %}
+{% include "left.html" %}
+{% endblock %}
+{% block centercontents %}
+<h1 class="superheading">
+    Welcome to the foss-north pod
+</h1>
+
+<p>
+    The foss-north pod is a pod cast about free and open source. We discuss licensing, copyright, and related topics. Once in a while we have a guest.
+</p>
+
+<p>
+    The pod started as a video series where the discussions are supported by illustrations. However, most of the contents also work without video. You can subscribe to the audio only pod cast from our <a href="pod-ogg.rss">ogg RSS</a> or <a href="pod-mp3.rss">mp3 RSS</a>, or the video version at <a href="https://www.youtube.com/playlist?list=PL8Xzb2qPbjDEad5--0M8W5TWEOgj_yo1z">YouTube</a>. Likes and subcribes at YouTube are appreciated as it helps us reach a broader audience!
+</p>
+
+<h1>Last Episode</h1>
+
+{%- set lastepisode=(data.episodes | sort(attribute="number") | last) %}
+<h2>#{{ lastepisode.number }}: {{ lastepisode.title }}</h2>
+
+<div class="details">Downloads: <a href="episodes/{{ lastepisode.ogg|urlencode }}">ogg</a> - <a href="episodes/{{ lastepisode.mp3|urlencode }}">mp3</a> - <a href="https://youtu.be/{{ lastepisode.yt }}/">YouTube</a>{% if lastepisode.slides is defined %} - <a href="slides/{{ lastepisode.slides|urlencode }}">slides</a>{% endif %}</div>
+<div class="details italic">Duration: {{ lastepisode.duration }}</div>
+<p>{{ lastepisode.description }}</p>
+
+
+
+<h2>Previous Episodes</h2>
+
+<p>You can find all our previous episodes in the <a href="episodes.html">episode archive</a>.
+{% endblock %}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Armata|Open+Sans:300');
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {     
+    background-image:linear-gradient(#ffcc33 100px, #fff 450px);
+    background-image:-webkit-linear-gradient(#ffcc33 100px, #fff 450px);
+    background-repeat: no-repeat;
+    background-color: white;
+    
+    padding-top: 4rem;
+}
+
+span.header {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 36pt;
+}
+
+h1 {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 30pt;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 24pt;
+
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 24pt;
+
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 24pt;
+
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+div.bodyspace {
+    display: block;
+    height: 2px;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.bodybreak {
+    background-color: #ffcc33;
+    display: block;
+    height: 2px;
+    
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+div.details {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+div.italic {
+    font-style: italic;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+
+/*a,
+a:hover,
+a:focus {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: underline;
+}*/
+
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+    
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+
+    border-top: solid #cccccc 1px;
+}
+
+.navbar .logo {
+  height: 2rem;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-bottom: solid black 1px;
+}
+
+.nav-item > a {
+    font-family: 'Armata', serif;
+}
+
+.nav-item > a {
+  color: black;
+}

@@ -1,0 +1,39 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>foss-north - the pod</title>
+    <link>https://foss-north.se/pod/</link>
+    <description>The foss-north conference crew discuss free and open source, meet interesting guests, and explores various topics around freedoms and source code.</description>
+    <language>en</language>
+    {%- set lastepisode=(data.episodes | sort(attribute="number") | last) %}
+    <pubDate>{{ lastepisode.pubdate }}</pubDate>
+    <lastBuildDate>{{ lastepisode.pubdate }}</lastBuildDate>
+    <itunes:author>foss-north</itunes:author>
+    <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:image href="https://foss-north.se/media/local/img/logo-black.png"/>
+    <itunes:owner>
+      <itunes:name>foss-north</itunes:name>
+      <itunes:email>info@foss-north.se</itunes:email>
+    </itunes:owner>
+    <itunes:block>no</itunes:block>
+    <itunes:category text="Technology">
+      <itunes:category text="Computers"/>
+      <itunes:category text="Developers"/>
+    </itunes:category>    
+{% for episode in data.episodes|sort(attribute='number', reverse=True) %}
+    <item>
+      <title>{{ episode.title }}</title>
+      <description>{{ episode.description|e }}</description>
+      <pubDate>{{ episode.pubdate }}</pubDate>
+      <enclosure url="https://foss-north.se/pod/episodes/{{ episode.mp3 }}" length="{{ episode.mp3size }}" type="audio/mpeg"/>
+      <link>https://foss-north.se/pod/episodes.html#ep{{ episode.number }}</link>
+      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep{{ episode.number }}</guid>
+      <itunes:author>foss-north</itunes:author>
+      <itunes:subtitle>{{ episode.description|e }}</itunes:subtitle>
+      <itunes:summary>{{ episode.description|e }}</itunes:summary>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>{{ episode.duration }}</itunes:duration>
+    </item>
+{% endfor %}
+  </channel>
+</rss>
