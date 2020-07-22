@@ -8,13 +8,15 @@ The idea is to build the static site from a set of independent data driven sites
 
 # Setup and top-level usage
 
-In `source` all events are included as git submodules. Make sure to update `image-conversions.conf` when adding contents here.
+In `source` all events are included as git submodules (or directly as contents). Make sure to update `image-conversions.conf` when adding contents here.
 
 Create a python3 venv using `requirements.txt`.
 
+Clone the static web repo as `build`.
+
 Run `update-site.sh`.
 
-The results end up in `build`.
+The results end up in `build`. Do git stuff to push to the server.
 
 # Detailed info
 
