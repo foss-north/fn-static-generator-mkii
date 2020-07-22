@@ -51,9 +51,13 @@ environment.add_extension(MarkdownExtension)
 # Process template pages
 print("Generating pages...")
 for file in os.listdir(os.path.join(inputdir, '_source/')):
-    if file.endswith('.html'):
-        page = file[:-5]
-        data['page'] = page
+    if file.endswith('.html') or file.endswith('.rss'):
+        if file.endswith('.html'):
+            page = file[:-5]
+            data['page'] = page
+        else:
+            page = file[:-4]
+            del data['page']
         
         print('    {}: {} => {}'.format(page, os.path.join(os.path.join(inputdir, '_source/'), file), os.path.join(outputdir, file)))
         
