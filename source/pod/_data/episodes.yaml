@@ -70,6 +70,7 @@
   mp3: "07 - The GNU Licenses.mp3"
   oggsize: 16204466
   mp3size: 19389379
+  slides: "07 - The GNU Licenses.pdf"
   duration: "00:20:11"
   pubdate: "Fri, 12 Jun 2020 22:21:43 +0200"
   number: 7
@@ -81,6 +82,7 @@
   mp3: "08 - Tivoization.mp3"
   oggsize: 9532187
   mp3size: 9366765
+  slides: "08 - Tivoization.pdf"
   duration: "00:09:45"
   pubdate: "Sun, 21 Jun 2020 22:25:55 +0200"
   number: 8
