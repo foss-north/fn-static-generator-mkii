@@ -57,7 +57,8 @@ for file in os.listdir(os.path.join(inputdir, '_source/')):
             data['page'] = page
         else:
             page = file[:-4]
-            del data['page']
+            if 'page' in data:
+                del data['page']
         
         print('    {}: {} => {}'.format(page, os.path.join(os.path.join(inputdir, '_source/'), file), os.path.join(outputdir, file)))
         
