@@ -36,17 +36,17 @@ if [ "$BEFORE" -ne "$AFTER" ]; then
     DURATION_M=$(expr $TOTAL_DURATION_M % 60)
     YAML_DURATION=$(printf "%02d:%02d:%02d" $DURATION_H $DURATION_M $DURATION_S)
 	
-    echo "" >> ../_data/episodes.yaml
-	echo "- title: \"$YAML_TITLE\"" >> ../_data/episodes.yaml
-	echo "  yt: \"$YAML_YT\"" >> ../_data/episodes.yaml
-	echo "  ogg: \"$YAML_OGG\"" >> ../_data/episodes.yaml
-	echo "  mp3: \"$YAML_MP3\"" >> ../_data/episodes.yaml
-	echo "  oggsize: $YAML_OGG_SIZE" >> ../_data/episodes.yaml
-	echo "  mp3size: $YAML_MP3_SIZE" >> ../_data/episodes.yaml
-	echo "  duration: \"$YAML_DURATION\"" >> ../_data/episodes.yaml
-	echo "  pubdate: \"$YAML_PUBDATE\"" >> ../_data/episodes.yaml
-	echo "  number: $YAML_NUMBER" >> ../_data/episodes.yaml
-	echo "  description: \"$YAML_DESCRIPTION\"" >> ../_data/episodes.yaml
+    echo "" >> ../../_data/episodes.yaml
+    echo "- title: \"$YAML_TITLE\"" >> ../../_data/episodes.yaml
+    echo "  yt: \"$YAML_YT\"" >> ../../_data/episodes.yaml
+    echo "  ogg: \"$YAML_OGG\"" >> ../../_data/episodes.yaml
+    echo "  mp3: \"$YAML_MP3\"" >> ../../_data/episodes.yaml
+    echo "  oggsize: $YAML_OGG_SIZE" >> ../../_data/episodes.yaml
+    echo "  mp3size: $YAML_MP3_SIZE" >> ../../_data/episodes.yaml
+    echo "  duration: \"$YAML_DURATION\"" >> ../../_data/episodes.yaml
+    echo "  pubdate: \"$YAML_PUBDATE\"" >> ../../_data/episodes.yaml
+    echo "  number: $YAML_NUMBER" >> ../../_data/episodes.yaml
+    echo "  description: \"$YAML_DESCRIPTION\"" >> ../../_data/episodes.yaml
 	
 	rm *.info.json
 	echo "$NNEXT" > nextepisode

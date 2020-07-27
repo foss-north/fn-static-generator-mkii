@@ -131,3 +131,14 @@
   pubdate: "Sun, 19 Jul 2020 22:30:18 +0200"
   number: 12
   description: "In our summer special Daniel Stenberg visits foss-north and talks about curl, the curl license, and how he picked a license for curl."
+
+- title: "The curl license - part 2"
+  yt: "lKCmMFpV8UM"
+  ogg: "13 - The curl license - part 2.ogg"
+  mp3: "13 - The curl license - part 2.mp3"
+  oggsize: 16582225
+  mp3size: 20898285
+  duration: "00:21:46"
+  pubdate: "Mon, 27 Jul 2020 04:31:09 PM +0200"
+  number: 13
+  description: "We countinue our summer special with Daniel Stenberg, Mr Curl. We discuss patents, emacs, vim, rust, wolfssl and more."
