@@ -1,4 +1,8 @@
 {% extends "base.html" %}
+{% block extralinks %}
+<link rel="alternate" type="application/rss+xml" title="Podcast MP3" href="https://foss-north.se/pod/pod-mp3.rss" />
+<link rel="alternate" type="application/rss+xml" title="Podcast OGG" href="https://foss-north.se/pod/pod-ogg.rss" />
+{% endblock %}
 {% block leftcontents %}
 {% include "left.html" %}
 {% endblock %}
