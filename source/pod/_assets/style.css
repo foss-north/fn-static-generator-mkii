@@ -137,3 +137,9 @@ footer {
 .nav-item > a {
   color: black;
 }
+
+@media screen and (max-width: 1200px) {
+    #sidenav h1, #sidenav h2, #sidenav ul {
+        display: none;
+    }
+}
