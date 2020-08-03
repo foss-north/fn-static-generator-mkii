@@ -142,3 +142,15 @@
   pubdate: "Mon, 27 Jul 2020 04:31:09 PM +0200"
   number: 13
   description: "We continue our summer special with Daniel Stenberg, Mr Curl. We discuss patents, emacs, vim, rust, wolfssl and more."
+
+- title: "Choose a License"
+  yt: "undYwqK4WsA"
+  ogg: "14 - Choose a License.ogg"
+  mp3: "14 - Choose a License.mp3"
+  oggsize: 9836340
+  mp3size: 11828079
+  slides: "14 - Choose a License.pdf"
+  duration: "00:12:19"
+  pubdate: "Mon, 03 Aug 2020 22:49:22 +0200"
+  number: 14
+  description: "After having discussed about licenses, patents, communities and more we discuss how to choose a license. What to think about and how to reason."
