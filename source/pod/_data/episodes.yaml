@@ -154,3 +154,21 @@
   pubdate: "Mon, 03 Aug 2020 22:49:22 +0200"
   number: 14
   description: "After having discussed about licenses, patents, communities and more we discuss how to choose a license. What to think about and how to reason."
+
+- title: "We have a pod"
+  yt: "NQsSy-B_IEM"
+  ogg: "15 - We have a pod.ogg"
+  mp3: "15 - We have a pod.mp3"
+  oggsize: 6171463
+  mp3size: 7484648
+  duration: "00:07:47"
+  pubdate: "Mon, 10 Aug 2020 22:16:16 +0200"
+  number: 15
+  description: "Announcing that we have a pod and what we will talk about during the autumn."
+  subdesc:
+    - "Home of the pod cast: <a href='https://foss-north.se/pod'>https://foss-north.se/pod</a>"
+    - "The next foss-north event: <a href='https://foss-north.se/2020ii/'>https://foss-north.se/2020ii/</a>"
+    - "The original events: <a href='https://foss-gbg.se'>https://foss-gbg.se</a> and <a href='https://foss-sthlm.se'>https://foss-sthlm.se</a>"
+    - "Future topics:<ul><li>Business Models</li><li>Compliance</li><li>Creative Commons</li><li>CLAs</li><li>Patents</li><li>More...</li></ul>"
+    - "Reach us at: info@foss-north.se"
+    - "Other pod casts:<ul><li><a href='https://fsfe.org/news/podcast.html'>https://fsfe.org/news/podcast.html</a></li><li><a href='https://kodsnack.se/360/'>https://kodsnack.se/360/</a></li></ul>"
