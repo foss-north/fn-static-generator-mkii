@@ -10,6 +10,11 @@
 <div class="details">Downloads: <a href="episodes/{{ episode.ogg|urlencode }}">ogg</a> - <a href="episodes/{{ episode.mp3|urlencode }}">mp3</a> - <a href="https://youtu.be/{{ episode.yt }}/">YouTube</a>{% if episode.slides is defined %} - <a href="slides/{{ episode.slides|urlencode }}">slides</a>{% endif %}</div>
 <div class="details italic">Duration: {{ episode.duration }} - Date: {{ episode.pubdate }}</div>
 <p>{{ episode.description }}</p>
+{% if episode.subdesc %}
+{% for sd in episode.subdesc %}
+<p>{{ sd }}</p>
+{% endfor %}
+{% endif %}
 {% endfor %}
 
 <h2>License</h2>

@@ -26,8 +26,12 @@
 
 <div class="details">Downloads: <a href="episodes/{{ lastepisode.ogg|urlencode }}">ogg</a> - <a href="episodes/{{ lastepisode.mp3|urlencode }}">mp3</a> - <a href="https://youtu.be/{{ lastepisode.yt }}/">YouTube</a>{% if lastepisode.slides is defined %} - <a href="slides/{{ lastepisode.slides|urlencode }}">slides</a>{% endif %}</div>
 <div class="details italic">Duration: {{ lastepisode.duration }}</div>
-<p>{{ lastepisode.description }}</p>
-
+<p>{{ lastepisode.description}}</p>
+{% if lastepisode.subdesc %}
+{% for sd in lastepisode.subdesc %}
+<p>{{ sd }}</p>
+{% endfor %}
+{% endif %}
 
 
 <h2>Previous Episodes</h2>
