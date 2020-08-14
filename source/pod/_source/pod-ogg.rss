@@ -10,7 +10,7 @@
     <itunes:author>foss-north</itunes:author>
     <itunes:keywords>free software, open source, licensing, freedom</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
-    <itunes:image href="https://foss-north.se/media/local/img/logo-black.png"/>
+    <itunes:image href="https://foss-north.se/pod/images/logo-3k.png"/>
     <itunes:owner>
       <itunes:name>foss-north</itunes:name>
       <itunes:email>info@foss-north.se</itunes:email>
@@ -25,11 +25,11 @@
       <title>{{ episode.title }}</title>
       <description>{{ episode.description|e }}</description>
       <pubDate>{{ episode.pubdate }}</pubDate>
-      <enclosure url="https://foss-north.se/pod/episodes/{{ episode.ogg }}" length="{{ episode.oggsize }}" type="audio/ogg"/>
+      <enclosure url="https://foss-north.se/pod/episodes/{{ episode.ogg|urlencode }}" length="{{ episode.oggsize }}" type="audio/ogg"/>
       <link>https://foss-north.se/pod/episodes.html#ep{{ episode.number }}</link>
-      <guid isPermaLink="false">https://foss-north.se/pod/episodes.html#ep{{ episode.number }}</guid>
+      <guid isPermaLink="true">https://foss-north.se/pod/episodes.html#ep{{ episode.number }}</guid>
       <itunes:author>foss-north</itunes:author>
-      <itunes:subtitle>{{ episode.description|e }}</itunes:subtitle>
+      <itunes:subtitle>A podcast about free and open source</itunes:subtitle>
       <itunes:summary>{{ episode.description|e }}</itunes:summary>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:duration>{{ episode.duration }}</itunes:duration>

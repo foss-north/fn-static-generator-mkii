@@ -9,6 +9,13 @@
 
 <div class="details">Downloads: <a href="episodes/{{ episode.ogg|urlencode }}">ogg</a> - <a href="episodes/{{ episode.mp3|urlencode }}">mp3</a> - <a href="https://youtu.be/{{ episode.yt }}/">YouTube</a>{% if episode.slides is defined %} - <a href="slides/{{ episode.slides|urlencode }}">slides</a>{% endif %}</div>
 <div class="details italic">Duration: {{ episode.duration }} - Date: {{ episode.pubdate }}</div>
+<div class="details">
+<audio controls>
+    <source src="episodes/{{ episode.ogg|urlencode }}" type="audio/ogg">
+    <source src="episodes/{{ episode.mp3|urlencode }}" type="audio/mpeg">
+    <p>Cannot play audio in your browser due to lacking support. Please use the downlaod links below instead.</p>
+</audio>
+</div>
 <p>{{ episode.description }}</p>
 {% if episode.subdesc %}
 {% for sd in episode.subdesc %}
