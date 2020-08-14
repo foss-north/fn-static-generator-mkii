@@ -172,3 +172,17 @@
     - "Future topics:<ul><li>Business Models</li><li>Compliance</li><li>Creative Commons</li><li>CLAs</li><li>Patents</li><li>More...</li></ul>"
     - "Reach us at: info@foss-north.se"
     - "Other pod casts:<ul><li><a href='https://fsfe.org/news/podcast.html'>https://fsfe.org/news/podcast.html</a></li><li><a href='https://kodsnack.se/360/'>https://kodsnack.se/360/</a></li></ul>"
+
+- title: "Compliance - part 1"
+  yt: "-m-Rr9zWtNQ"
+  ogg: "16 - Compliance - part 1.ogg"
+  mp3: "16 - Compliance - part 1.mp3"
+  oggsize: 7474389
+  mp3size: 8706342
+  duration: "00:09:04"
+  pubdate: "Fri, 14 Aug 2020 09:07:43 +0200"
+  number: 16
+  description: "The foss-north crew discuss and explain copyright and licenses. This is the first part of three about license compliance."
+  subdesc: 
+    - "Links:"
+    - "<ul><li>Links:SPDX: <a href='https://spdx.dev/'>https://spdx.dev/</a></li><li>REUSE: <a href='https://reuse.software/'>https://reuse.software/</a></li></ul>"
