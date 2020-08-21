@@ -186,3 +186,17 @@
   subdesc: 
     - "Links:"
     - "<ul><li>Links:SPDX: <a href='https://spdx.dev/'>https://spdx.dev/</a></li><li>REUSE: <a href='https://reuse.software/'>https://reuse.software/</a></li></ul>"
+
+- title: "Compliance - part 2"
+  yt: "91i5kt52xdo"
+  ogg: "17 - Compliance - part 2.ogg"
+  mp3: "17 - Compliance - part 2.mp3"
+  oggsize: 6901462
+  mp3size: 8132066
+  duration: "00:08:28"
+  pubdate: "Fri, 21 Aug 2020 16:33:16 +0200"
+  number: 17
+  description: "The foss-north crew discuss and explain copyright and licenses.\n\nThis is the second part of three about license compliance."
+  subdesc:
+    - "Links"
+    - "<ul><li>ScanCode: <a href='https://github.com/nexB/scancode-toolkit'>https://github.com/nexB/scancode-toolkit</a></li><li>FOSSology: <a href='https://www.fossology.org/'>https://www.fossology.org/</a></li><li>LicenseFinder: <a href='https://github.com/pivotal/LicenseFinder'>https://github.com/pivotal/LicenseFinder</a></li><li>OSRT: <a href='https://github.com/oss-review-toolkit/ort/'>https://github.com/oss-review-toolkit/ort/</a></li><li>QuarterMaster: <a href='https://qmstr.org/'>https://qmstr.org/</a></li></ul>"
