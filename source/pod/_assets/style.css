@@ -10,6 +10,13 @@ body {
     padding-top: 4rem;
 }
 
+.offsetanchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
 span.header {
     font-family: 'Armata', serif;
     color: #333333;
