@@ -7,10 +7,10 @@
 {% for episode in data.episodes|sort(attribute='number') %}
 <a name="ep{{ episode.number }}" class="offsetanchor"><h2><a href="#ep{{ episode.number }}">#{{ episode.number }}</a>: {{ episode.title }}</h2>
 
-<div class="details">Downloads: <a href="episodes/{{ episode.ogg|urlencode }}">ogg</a> - <a href="episodes/{{ episode.mp3|urlencode }}">mp3</a> - <a href="https://youtu.be/{{ episode.yt }}/">YouTube</a>{% if episode.slides is defined %} - <a href="slides/{{ episode.slides|urlencode }}">slides</a>{% endif %}</div>
+<div class="details">Downloads: <a href="episodes/{{ episode.ogg|urlencode }}">ogg</a> - <a href="episodes/{{ episode.mp3|urlencode }}">mp3</a> - <a href="{{ episode.pt }}">ConfTube</a> - <a href="https://youtu.be/{{ episode.yt }}/">YouTube</a>{% if episode.slides is defined %} - <a href="slides/{{ episode.slides|urlencode }}">slides</a>{% endif %}</div>
 <div class="details italic">Duration: {{ episode.duration }} - Date: {{ episode.pubdate }}</div>
 <div class="details">
-<audio controls>
+<audio controls preload="metadata">
     <source src="episodes/{{ episode.ogg|urlencode }}" type="audio/ogg">
     <source src="episodes/{{ episode.mp3|urlencode }}" type="audio/mpeg">
     <p>Cannot play audio in your browser due to lacking support. Please use the downlaod links below instead.</p>

@@ -23,10 +23,10 @@
 
 {%- set lastepisode=(data.episodes | sort(attribute="number") | last) %}
 <h2>#{{ lastepisode.number }}: {{ lastepisode.title }}</h2>
-<div class="details">Downloads: <a href="episodes/{{ lastepisode.ogg|urlencode }}">ogg</a> - <a href="episodes/{{ lastepisode.mp3|urlencode }}">mp3</a> - <a href="https://youtu.be/{{ lastepisode.yt }}/">YouTube</a>{% if lastepisode.slides is defined %} - <a href="slides/{{ lastepisode.slides|urlencode }}">slides</a>{% endif %}</div>
+<div class="details">Downloads: <a href="episodes/{{ lastepisode.ogg|urlencode }}">ogg</a> - <a href="episodes/{{ lastepisode.mp3|urlencode }}">mp3</a> - <a href="{{ lastepisode.pt }}">ConfTube</a> - <a href="https://youtu.be/{{ lastepisode.yt }}/">YouTube</a>{% if lastepisode.slides is defined %} - <a href="slides/{{ lastepisode.slides|urlencode }}">slides</a>{% endif %}</div>
 <div class="details italic">Duration: {{ lastepisode.duration }}</div>
 <div class="details">
-<audio controls>
+<audio controls preload="metadata">
     <source src="episodes/{{ lastepisode.ogg|urlencode }}" type="audio/ogg">
     <source src="episodes/{{ lastepisode.mp3|urlencode }}" type="audio/mpeg">
     <p>Cannot play audio in your browser due to lacking support. Please use the downlaod links below instead.</p>
