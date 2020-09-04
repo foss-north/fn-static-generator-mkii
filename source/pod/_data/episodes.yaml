@@ -232,3 +232,16 @@
   subdesc:
     - "Links (from all compliance episodes):"
     - "<ul><li>fictl: <a href='https://gitlab.com/sandklef/flict'>https://gitlab.com/sandklef/flict</a></li><li><a href='https://www.openchainproject.org/'>https://www.openchainproject.org/</a></li><li><a href='https://github.com/Open-Source-Compliance/Sharing-creates-value'>https://github.com/Open-Source-Compliance/Sharing-creates-value</a></li><li><a href='https://reuse.software/'>https://reuse.software/</a></li><li><a href='https://github.com/nexB/scancode-toolkit'>https://github.com/nexB/scancode-toolkit</a></li><li><a href='https://www.fossology.org/'>https://www.fossology.org/</a></li><li><a href='https://github.com/pivotal/LicenseFinder'>https://github.com/pivotal/LicenseFinder</a></li><li><a href='https://www.gnu.org/licenses/quick-guide-gplv3.html'>https://www.gnu.org/licenses/quick-guide-gplv3.html</a></li><li><a href='https://dwheeler.com/essays/floss-license-slide.html'>https://dwheeler.com/essays/floss-license-slide.html</a></li><li><a href='https://www.openchainproject.org/'>https://www.openchainproject.org/</a></li><li><a href='https://github.com/Open-Source-Compliance/Sharing-creates-value'>https://github.com/Open-Source-Compliance/Sharing-creates-value</a></li><li><a href='https://spdx.dev/'>https://spdx.dev/</a></li><li><a href='https://qmstr.org/'>https://qmstr.org/</a></li><li><a href='https://github.com/oss-review-toolkit/ort/'>https://github.com/oss-review-toolkit/ort/</a></li><li><a href='https://matija.suklje.name/how-and-why-to-properly-write-copyright-statements-in-your-code'>https://matija.suklje.name/how-and-why-to-properly-write-copyright-statements-in-your-code</a></li></ul>"
+
+- title: "Creative Commons"
+  yt: "TTvUXP5y0GM"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?videoId=9ce9b3c2-98a0-4890-9508-35575527523f"
+  slides: "19 - Creative Commons.pdf"
+  ogg: "19 - Creative Commons.ogg"
+  mp3: "19 - Creative Commons.mp3"
+  oggsize: 19572097
+  mp3size: 20589549
+  duration: "00:21:26"
+  pubdate: "Fri, 04 Sep 2020 13:03:18 +0200"
+  number: 19
+  description: "The foss-north crew discuss and explain copyright and licenses. This week we talk about the Creative Commons licenses.\n\n"
