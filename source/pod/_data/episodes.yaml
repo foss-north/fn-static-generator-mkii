@@ -245,3 +245,18 @@
   pubdate: "Fri, 04 Sep 2020 13:03:18 +0200"
   number: 19
   description: "The foss-north crew discuss and explain copyright and licenses. This week we talk about the Creative Commons licenses.\n\n"
+
+- title: "Contributor Agreements"
+  yt: "M7O_IXN9iOU"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?videoId=8c5407f1-f330-4b24-8e29-a69d60da39c2"
+  ogg: "20 - Contributor Agreements.ogg"
+  mp3: "20 - Contributor Agreements.mp3"
+  oggsize: 37398405
+  mp3size: 46435053
+  duration: "00:48:22"
+  pubdate: "Fri, 11 Sep 2020 15:28:22 +0200"
+  number: 20
+  description: "The foss-north crew discuss and explain copyright and licenses. This week we talk about the contributor agreements with Catharina Maracke."
+  subdesc:
+    - "Links:"
+    - "<ul><li><a href='http://contributoragreements.org/'>Contributor Agreements</a></li><li><a href='https://www.scompliance.com/home.html'>Software Compliance Academy</a></li></ul>"
