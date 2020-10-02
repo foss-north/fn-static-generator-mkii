@@ -264,11 +264,23 @@
 - title: "Business Models - part 1"
   yt: "r2my55cPMmE"
   pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?videoId=5a68f4b1-2f69-40ee-8b60-ddb2123bd700"
-  ogg: "21 Business Models - part 1.ogg"
-  mp3: "21 Business Models - part 1.mp3"
+  ogg: "21 - Business Models - part 1.ogg"
+  mp3: "21 - Business Models - part 1.mp3"
   oggsize: 16775970
   mp3size: 15125613
   duration: "00:15:45"
   pubdate: "Tue, 22 Sep 2020 09:45:48 +0200"
   number: 21
   description: "The foss-north crew discuss and explain copyright and licenses. This is the first episode about business models and we discuss the Services and Packaging models."
+
+- title: "Business Models - part 2"
+  yt: "H17V2NuCDbM"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?videoId=1726ebdf-b000-48b3-a335-406d96e9abb7"
+  ogg: "22 - Business Models - part 2.ogg"
+  mp3: "22 - Business Models - part 2.mp3"
+  oggsize: 15255017
+  mp3size: 17666969
+  duration: "00:18:24"
+  pubdate: "Fri, 02 Oct 2020 22:29:33 +0200"
+  number: 22
+  description: "The foss-north crew discuss and explain copyright and licenses. This is the second episode about business models and we discuss the Physical Products and Open Core models."
