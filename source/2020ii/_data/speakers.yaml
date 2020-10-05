@@ -41,7 +41,7 @@
   lastname: "Mathiesen"
   title: "Domain Driven Design (DDD) with Algebraic Data Types (ADT)."
   abstract:
-    - "Recently we saw that widespread open source programming language (C# 9.0) finally added support for record types, one of the two most common kind of Algebraic Data Types (ADT). This had been an ongoing desire from the designers team in order to catch up to other competing programming languages that already have full support for algebraic data types as most functional programming languages but also some multi-paradigm programming languages such as Swift and Rust."
+    - "Recently we saw that a widespread open source programming language (C# 9.0) finally added support for record types, one of the two most common kind of Algebraic Data Types (ADT). This had been an ongoing desire from the designers team in order to catch up to other competing programming languages that already have full support for algebraic data types as most functional programming languages but also some multi-paradigm programming languages such as Swift and Rust."
     - "In this talk we will see how the usage of record types as well as sum types, the other of the two most common kind of algebraic data types, can be used to model and design business logic into applications in a more safe, secure and robust manner as it will allow for Making Illegal States Unrepresentable (MISU)."
   bio:
     - "A passionate computer scientist, with flair for functional programming languages and business, that advocates for: correctness, code-quality and high-standards. Ramón seem to have discovered his particular Holy Grail in SAFE Haskell, which he tries to use to make software that can comply with the EU GDPR, by technical means."
@@ -53,7 +53,8 @@
   lastname: "Brinkhoff"
   title: "Incompatible Timesharing System - History, Development, Restoration"
   abstract:
-    - "T.B.D."
+    - "The Incompatible Timesharing System is a unique operating system created by \"hackers\" (in the original sense) at MIT's Artificial Intelligence Laboratory.  The programmers were allowed to design the system any way they liked, and the result was an open system without any kind of security like passwords or file permissions.  Many important applications were developed on ITS: Lisp, Logo, Scheme, Emacs, and Zork, to only mention a few."
+    - "The presentation will explain the origin and development of ITS, and how the operating system is being restored to its original glory."
   bio:
     - "T.B.D."
 
