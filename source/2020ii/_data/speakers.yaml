@@ -1,0 +1,83 @@
+- name: "Simon Ser"
+  short: "sser"
+  slot: slot2
+  day: nov1
+  lastname: "Ser"
+#  links:
+#    - { title: "ConfTube", url: "https://conf.tube/videos/watch/27544846-10ad-4afd-9c6c-bc3b05129e06" }
+#    - { title: "YouTube", url: "https://youtu.be/k2IDDcT3tdg" }
+  title: "Getting pixels on screen on Linux: introduction to Kernel Mode Setting"
+  abstract:
+    - "T.B.D."
+  bio:
+    - "T.B.D."
+
+- name: "Andrew 'bunnie' Huang"
+  short: "ahuang"
+  slot: slot1
+  day: nov1
+  lastname: "Huang"
+  title: "Precursor"
+  abstract:
+    - "T.B.D."
+  bio:
+    - "bunnie is best known for his work hacking the Microsoft Xbox, as well as for his efforts in designing and manufacturing open source hardware, including the chumby (app-playing alarm clock), chibitronics (peel-and-stick electronics for craft), and Novena (DIY laptop). He received his PhD in EE from MIT in 2002. He currently lives in Singapore where he runs a private product design studio, Kosagi, and he actively mentors several startups and students."
+
+- name: "Carol Chen"
+  short: "cchen"
+  slot: slot4
+  day: nov1
+  lastname: "Chen"
+  title: "A look at Ansible Community in 2020 - from Collections to Contributions to Conferences"
+  abstract:
+    - "T.B.D."
+  bio:
+    - "Carol Chen is a Community Architect at Red Hat, supporting several upstream communities such as Ansible and ManageIQ. She has been actively involved in open source communities while working for Jolla and Nokia previously. In addition, she also has experiences in software development/integration in her 12 years in the mobile industry. On a personal note, Carol plays the Timpani in an orchestra in Tampere, Finland, where she now calls home."
+
+- name: "Ramón Soto Mathiesen"
+  short: "rmathiesen"
+  slot: slot3
+  day: nov1
+  lastname: "Mathiesen"
+  title: "Domain Driven Design (DDD) with Algebraic Data Types (ADT)."
+  abstract:
+    - "Recently we saw that widespread open source programming language (C# 9.0) finally added support for record types, one of the two most common kind of Algebraic Data Types (ADT). This had been an ongoing desire from the designers team in order to catch up to other competing programming languages that already have full support for algebraic data types as most functional programming languages but also some multi-paradigm programming languages such as Swift and Rust."
+    - "In this talk we will see how the usage of record types as well as sum types, the other of the two most common kind of algebraic data types, can be used to model and design business logic into applications in a more safe, secure and robust manner as it will allow for Making Illegal States Unrepresentable (MISU)."
+  bio:
+    - "A passionate computer scientist, with flair for functional programming languages and business, that advocates for: correctness, code-quality and high-standards. Ramón seem to have discovered his particular Holy Grail in SAFE Haskell, which he tries to use to make software that can comply with the EU GDPR, by technical means."
+
+- name: "Lars Brikhoff"
+  short: "lbrinkhoff"
+  slot: slot5
+  day: nov1
+  lastname: "Brinkhoff"
+  title: "Incompatible Timesharing System - History, Development, Restoration"
+  abstract:
+    - "T.B.D."
+  bio:
+    - "T.B.D."
+
+- name: "Alexander"
+  short: "alexander"
+  slot: slot6
+  day: nov1
+  lastname: "Alexander"
+  title: "Anonymity loves Diversity: The Case of Tor"
+  abstract:
+    - "Tor is an anonymity network consisting of relays run by thousands of volunteers around the world aiming at giving back privacy on the Internet. The network carries around 200 Gbit/s of traffic and helps somewhere between 2,000,000 and 8,000,000 users every day."
+    - "In this talk, we will explain why diversity is essential for reaching the desired security and anonymity properties. Both for the Tor Project organization itself, but also for our community, as well as in our daily work with creating privacy-enhancing tools such as the Tor Browser or safeguarding the network itself against attackers."
+  bio:
+    - "Alex is a Free software minded hacker from Copenhagen who enjoys working on privacy-enhancing technologies, cryptography, security, and distributed systems. I'm a Core Developer with The Tor Project, where I work on Core Tor."
+  copresenters:
+    - { name: "Georg", short: "georg" }
+- name: "Georg"
+  short: "georg"
+  coslot: slot6
+  day: nov1
+  lastname: "Georg"
+  title: "Anonymity loves Diversity: The Case of Tor"
+  abstract:
+    - "Tor is an anonymity network consisting of relays run by thousands of volunteers around the world aiming at giving back privacy on the Internet. The network carries around 200 Gbit/s of traffic and helps somewhere between 2,000,000 and 8,000,000 users every day."
+    - "In this talk, we will explain why diversity is essential for reaching the desired security and anonymity properties. Both for the Tor Project organization itself, but also for our community, as well as in our daily work with creating privacy-enhancing tools such as the Tor Browser or safeguarding the network itself against attackers."
+  bio:
+    - "Alex is a Free software minded hacker from Copenhagen who enjoys working on privacy-enhancing technologies, cryptography, security, and distributed systems. I'm a Core Developer with The Tor Project, where I work on Core Tor."

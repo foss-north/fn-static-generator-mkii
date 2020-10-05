@@ -6,6 +6,59 @@
 <p>This is the provisional program for foss-north {{ data.general.confname }}.<br />
 All sessions include time for Q&amp;A and to move between rooms.</p>
 
-<p>Schedule will be made available during October 2020.</p>
+<a name="nov1" class="offsetanchor"></a>
+<h2>Sunday November 1</h2>
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <tr>
+            <th style="width:20%;"></th><th style="width:60%;" class="talkheading">Session</th><th style="width:20%;" class="talkheading">Stream</th>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">9.00&nbsp;-&nbsp;10.00</td>
+            <td >{% with slot="slot1" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td rowspan="3" class="scheduletime">
+                Live Stream
+            </td>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">10.00&nbsp;-&nbsp;11.00</td>
+            <td >{% with slot="slot2" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">11.00&nbsp;-&nbsp;12.00</td>
+            <td >{% with slot="slot3" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <tr>
+            <th style="width:20%;"></th><th style="width:60%;" class="talkheading">Session</th><th style="width:20%;" class="talkheading">Stream</th>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">14.00&nbsp;-&nbsp;15.00</td>
+            <td >{% with slot="slot4" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td rowspan="3" class="scheduletime">
+                Live Stream
+            </td>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">15.00&nbsp;-&nbsp;16.00</td>
+            <td >{% with slot="slot5" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">16.00&nbsp;-&nbsp;17.00</td>
+            <td >{% with slot="slot6" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+    </table>
+</div>
 
 {% endblock %}
