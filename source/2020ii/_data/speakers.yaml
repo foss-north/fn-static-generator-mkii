@@ -19,7 +19,7 @@
   lastname: "Huang"
   title: "Precursor"
   abstract:
-    - "T.B.D."
+    - "Precursor is an open hardware development platform for secure, mobile computation and communication. The platform prioritizes security over features, aiming to give us evidenced-based reasons to trust it. For example, it has no CPU chip; instead, it relies on an FPGA, which contains a soft-core CPU that can be built from source. While most users must take as a matter of faith that a hard-wired silicon CPU contains no backdoors, with an FPGA we are at least empowered to verify that the RTL describing the soft-core CPU is correct. This talk will dive into the assortment of unique features in Precursor's implementation that facilitate users to gather evidence of its correct construction."
   bio:
     - "bunnie is best known for his work hacking the Microsoft Xbox, as well as for his efforts in designing and manufacturing open source hardware, including the chumby (app-playing alarm clock), chibitronics (peel-and-stick electronics for craft), and Novena (DIY laptop). He received his PhD in EE from MIT in 2002. He currently lives in Singapore where he runs a private product design studio, Kosagi, and he actively mentors several startups and students."
 
@@ -46,7 +46,7 @@
   bio:
     - "A passionate computer scientist, with flair for functional programming languages and business, that advocates for: correctness, code-quality and high-standards. Ramón seem to have discovered his particular Holy Grail in SAFE Haskell, which he tries to use to make software that can comply with the EU GDPR, by technical means."
 
-- name: "Lars Brikhoff"
+- name: "Lars Brinkhoff"
   short: "lbrinkhoff"
   slot: slot5
   day: nov1
@@ -56,7 +56,7 @@
     - "The Incompatible Timesharing System is a unique operating system created by \"hackers\" (in the original sense) at MIT's Artificial Intelligence Laboratory.  The programmers were allowed to design the system any way they liked, and the result was an open system without any kind of security like passwords or file permissions.  Many important applications were developed on ITS: Lisp, Logo, Scheme, Emacs, and Zork, to only mention a few."
     - "The presentation will explain the origin and development of ITS, and how the operating system is being restored to its original glory."
   bio:
-    - "T.B.D."
+    - "Lars was born and raised in FOSS-north heartland at the west coast of Sweden.  He learned programming as a kid during a golden age when there wasn't much else to do with a home computer.  Besides having too many side projects, he has contributed code to GNU, Linux, PuTTY, and GitHub."
 
 - name: "Alexander"
   short: "alexander"
