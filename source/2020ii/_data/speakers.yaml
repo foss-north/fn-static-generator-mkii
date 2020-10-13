@@ -8,9 +8,10 @@
 #    - { title: "YouTube", url: "https://youtu.be/k2IDDcT3tdg" }
   title: "Getting pixels on screen on Linux: introduction to Kernel Mode Setting"
   abstract:
-    - "T.B.D."
+    - "Kernel Mode Setting (KMS) is the Linux kernel interface that allows users to configure and control screens connected to the machine. KMS is used by the X.Org server and Wayland compositors but also by other programs that need exclusive access to the screens (such as VR games and media centers). KMS is a very low-level interface (by letting the user configure advanced GPU features) but stays vendor-agnostic (by providing thin generic abstractions for hardware blocks)."
+    - "This talk will explain what KMS is, how it exposes hardware blocks and how to use it to get an image displayed on screen. The KMS API has evolved over time, as such I'll focus on the latest APIs (e.g. atomic mode-setting) and leave the legacy bits out."
   bio:
-    - "T.B.D."
+    - "Simon is a FOSS developer at SourceHut. He has been working on Wayland-related projects for a while, especially on the wlroots library and the Sway compositor. He is a Wayland and Weston maintainer. He's also been contributing to the kernel and improving the KMS documentation. Simon also works on other projects unrelated to graphics, such as a number of Go e-mail libraries and other systems programs."
 
 - name: "Andrew 'bunnie' Huang"
   short: "ahuang"
@@ -56,7 +57,7 @@
     - "The Incompatible Timesharing System is a unique operating system created by \"hackers\" (in the original sense) at MIT's Artificial Intelligence Laboratory.  The programmers were allowed to design the system any way they liked, and the result was an open system without any kind of security like passwords or file permissions.  Many important applications were developed on ITS: Lisp, Logo, Scheme, Emacs, and Zork, to only mention a few."
     - "The presentation will explain the origin and development of ITS, and how the operating system is being restored to its original glory."
   bio:
-    - "Lars was born and raised in FOSS-north heartland at the west coast of Sweden.  He learned programming as a kid during a golden age when there wasn't much else to do with a home computer.  Besides having too many side projects, he has contributed code to GNU, Linux, PuTTY, and GitHub."
+    - "Lars was born and raised in FOSS-north heartland on the west coast of Sweden.  He learned programming as a kid during a golden age when there wasn't much else to do with a home computer.  Besides having too many side projects, he has contributed code to GNU, Linux, PuTTY, and GitHub."
 
 - name: "Alexander"
   short: "alexander"
