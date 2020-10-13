@@ -284,3 +284,28 @@
   pubdate: "Fri, 02 Oct 2020 22:29:33 +0200"
   number: 22
   description: "The foss-north crew discuss and explain copyright and licenses. This is the second episode about business models and we discuss the Physical Products and Open Core models."
+
+- title: "Business Models Special - Dual Licensing with George Hosu"
+  yt: "NX3_ttefPZU"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?videoId=a0f6129f-0142-4431-a27a-2c3878138d9a"
+  ogg: "23 - Business Models Special - Dual Licensing with George Hosu.ogg"
+  mp3: "23 - Business Models Special - Dual Licensing with George Hosu.mp3"
+  oggsize: 32834187
+  mp3size: 37994832
+  duration: "00:39:34"
+  pubdate: "Tue, 13 Oct 2020 09:57:31 +0200"
+  number: 23
+  description: "The foss-north crew discuss and explain copyright and licenses. This is a special episode about business models where we are joined by George Hosu and discuss Dual Licensing."
+  subdesc:
+    - "George's blog: <a href='https://blog.cerebralab.com'>https://blog.cerebralab.com</a><br />
+The article that got us going: <a href='https://blog.cerebralab.com/Dual_licensing_GPL_for_fame_and_profit'>https://blog.cerebralab.com/Dual_licensing_GPL_for_fame_and_profit</a>"
+    - "Mindsdb's github: <a href='https://github.com/mindsdb/mindsdb'>https://github.com/mindsdb/mindsdb</a>"
+    - "Javascript color logging stealing passwords and credit cards:
+<a href='https://medium.com/hackernoon/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5'>https://medium.com/hackernoon/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5</a>"
+    - "Learning random numbers with neural networks: <a href='https://arxiv.org/pdf/1801.01117.pdf'>https://arxiv.org/pdf/1801.01117.pdf</a><br />
+Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural-network-be-used-to-predict-the-next-pseudo-random-number'>https://ai.stackexchange.com/questions/3850/can-a-neural-network-be-used-to-predict-the-next-pseudo-random-number</a>"
+    - "And the reference for my claim of Goldman Sachs stealing GPL code and bribing the FBI to throw their coders in jail:
+<a href='https://cryptome.org/2014/04/goldman-sachs-code-thief.htm'>https://cryptome.org/2014/04/goldman-sachs-code-thief.htm</a> (but it's a sotry from a Michael Lewis book, so whatever, take it with a grain of salt.)"
+    - "Example of huge **** with popular non-opensource encryption library:
+<a href='https://en.wikipedia.org/wiki/ROCA_vulnerability'>https://en.wikipedia.org/wiki/ROCA_vulnerability</a>"
+
