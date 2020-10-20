@@ -31,7 +31,8 @@
   lastname: "Chen"
   title: "A look at Ansible Community in 2020 - from Collections to Contributions to Conferences"
   abstract:
-    - "T.B.D."
+    - "To say that 2020 is a year of change is an understatement. In the Ansible project, one of the major changes we've made is the move to Ansible Collections. This affects how Ansible is developed and delivered from 2.10 onwards. At the same time, community events and meetups have shifted from physical spaces to online “virtually” overnight. I have hosted 3 virtual Ansible Contributor Summits this year, the first of which was supposed to happen alongside foss-north back in March."
+    - "How has community contributions changed with these new ways of participation? What fell short and what thrived in the different circumstances? We will take a look back at 2020 with contribution data and user metrics, and attempt a glance at what to expect moving forward."
   bio:
     - "Carol Chen is a Community Architect at Red Hat, supporting several upstream communities such as Ansible and ManageIQ. She has been actively involved in open source communities while working for Jolla and Nokia previously. In addition, she also has experiences in software development/integration in her 12 years in the mobile industry. On a personal note, Carol plays the Timpani in an orchestra in Tampere, Finland, where she now calls home."
 
