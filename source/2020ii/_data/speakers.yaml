@@ -3,9 +3,11 @@
   slot: slot2
   day: nov1
   lastname: "Ser"
-#  links:
-#    - { title: "ConfTube", url: "https://conf.tube/videos/watch/27544846-10ad-4afd-9c6c-bc3b05129e06" }
-#    - { title: "YouTube", url: "https://youtu.be/k2IDDcT3tdg" }
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/c023f9e8-0bae-4aa1-ac91-bfc5f21c46aa" }
+    - { title: "YouTube", url: "https://youtu.be/haes4_Xnc5Q" }
+    - { title: "Slides", url: "https://fs.emersion.fr/protected/presentations/present.html?src=kms-foss-north/index.md" }
+    - { title: "Source", url: "https://git.sr.ht/~emersion/foss-north-kms" }
   title: "Getting pixels on screen on Linux: introduction to Kernel Mode Setting"
   abstract:
     - "Kernel Mode Setting (KMS) is the Linux kernel interface that allows users to configure and control screens connected to the machine. KMS is used by the X.Org server and Wayland compositors but also by other programs that need exclusive access to the screens (such as VR games and media centers). KMS is a very low-level interface (by letting the user configure advanced GPU features) but stays vendor-agnostic (by providing thin generic abstractions for hardware blocks)."
@@ -18,6 +20,9 @@
   slot: slot1
   day: nov1
   lastname: "Huang"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/33a60789-c678-458b-83b6-d321bf64778e" }
+    - { title: "YouTube", url: "https://youtu.be/w8BA6_9HCzk" }
   title: "Precursor"
   abstract:
     - "Precursor is an open hardware development platform for secure, mobile computation and communication. The platform prioritizes security over features, aiming to give us evidenced-based reasons to trust it. For example, it has no CPU chip; instead, it relies on an FPGA, which contains a soft-core CPU that can be built from source. While most users must take as a matter of faith that a hard-wired silicon CPU contains no backdoors, with an FPGA we are at least empowered to verify that the RTL describing the soft-core CPU is correct. This talk will dive into the assortment of unique features in Precursor's implementation that facilitate users to gather evidence of its correct construction."
@@ -29,6 +34,10 @@
   slot: slot4
   day: nov1
   lastname: "Chen"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/04fc5f6f-5007-4a6a-b8f2-05944754f6bb" }
+    - { title: "YouTube", url: "https://youtu.be/zLLVQAQLUmE" }
+    - { title: "Slides", url: "slides/FOSS-North%202020%20-%20Ansible%20presentation.pdf" }
   title: "A look at Ansible Community in 2020 - from Collections to Contributions to Conferences"
   abstract:
     - "To say that 2020 is a year of change is an understatement. In the Ansible project, one of the major changes we've made is the move to Ansible Collections. This affects how Ansible is developed and delivered from 2.10 onwards. At the same time, community events and meetups have shifted from physical spaces to online “virtually” overnight. I have hosted 3 virtual Ansible Contributor Summits this year, the first of which was supposed to happen alongside foss-north back in March."
@@ -41,6 +50,10 @@
   slot: slot3
   day: nov1
   lastname: "Mathiesen"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/a3a7ca25-d336-4a3d-a05a-71966c7e6f72" }
+    - { title: "YouTube", url: "https://youtu.be/2kOETAB-9xI" }
+    - { title: "Slides", url: "slides/2020-11-01_Domain_Driven_Design_DDD_with_Algebraic_Data_Types_ADT.pdf" }
   title: "Domain Driven Design (DDD) with Algebraic Data Types (ADT)."
   abstract:
     - "Recently we saw that a widespread open source programming language (C# 9.0) finally added support for record types, one of the two most common kind of Algebraic Data Types (ADT). This had been an ongoing desire from the designers team in order to catch up to other competing programming languages that already have full support for algebraic data types as most functional programming languages but also some multi-paradigm programming languages such as Swift and Rust."
@@ -53,6 +66,9 @@
   slot: slot5
   day: nov1
   lastname: "Brinkhoff"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/b4ec189e-a4f1-4e2d-a67e-961a4529e9e9" }
+    - { title: "YouTube", url: "https://youtu.be/sbbwpui9AgE" }
   title: "Incompatible Timesharing System - History, Development, Restoration"
   abstract:
     - "The Incompatible Timesharing System is a unique operating system created by \"hackers\" (in the original sense) at MIT's Artificial Intelligence Laboratory.  The programmers were allowed to design the system any way they liked, and the result was an open system without any kind of security like passwords or file permissions.  Many important applications were developed on ITS: Lisp, Logo, Scheme, Emacs, and Zork, to only mention a few."
@@ -65,6 +81,10 @@
   slot: slot6
   day: nov1
   lastname: "Alexander"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/d519c5aa-50e5-4359-9a7b-456bdfbaba50" }
+    - { title: "YouTube", url: "https://youtu.be/jRoPAmaxbgA" }
+    - { title: "Slides", url: "slides/tor_diversity_foss2020.pdf" }
   title: "Anonymity loves Diversity: The Case of Tor"
   abstract:
     - "Tor is an anonymity network consisting of relays run by thousands of volunteers around the world aiming at giving back privacy on the Internet. The network carries around 200 Gbit/s of traffic and helps somewhere between 2,000,000 and 8,000,000 users every day."
@@ -78,6 +98,10 @@
   coslot: slot6
   day: nov1
   lastname: "Georg"
+  links:
+    - { title: "ConfTube", url: "https://conf.tube/videos/watch/d519c5aa-50e5-4359-9a7b-456bdfbaba50" }
+    - { title: "YouTube", url: "https://youtu.be/jRoPAmaxbgA" }
+    - { title: "Slides", url: "slides/tor_diversity_foss2020.pdf" }
   title: "Anonymity loves Diversity: The Case of Tor"
   abstract:
     - "Tor is an anonymity network consisting of relays run by thousands of volunteers around the world aiming at giving back privacy on the Internet. The network carries around 200 Gbit/s of traffic and helps somewhere between 2,000,000 and 8,000,000 users every day."
