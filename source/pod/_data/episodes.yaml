@@ -321,3 +321,16 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
   pubdate: "Mon, 09 Nov 2020 10:56:48 +0100"
   number: 24
   description: "The foss-north crew discuss and explain copyright and licenses. This is the third and last episode about business models and we discuss the as-a-Service and Dual Licensing models, as well as the option of not having a business model at all."
+
+  
+- title: "25 Open Hardware with Javier Serrano"
+  yt: "twFxc9oqinI"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=25"
+  ogg: "25  - Open Hardware with Javier Serrano.ogg"
+  mp3: "25  - Open Hardware with Javier Serrano.mp3"
+  oggsize: 40869108
+  mp3size: 46405843
+  duration: "00:48:20"
+  pubdate: "Fri, 20 Nov 2020 16:36:28 +0100"
+  number: 25 
+  description: "The foss-north crew discuss and explain copyright and licenses. In this episode, Javier Serrano joins us and discuss open hardware and how open licenses work in that space."
