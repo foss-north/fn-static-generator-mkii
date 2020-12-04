@@ -334,3 +334,14 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
   pubdate: "Fri, 20 Nov 2020 16:36:28 +0100"
   number: 25 
   description: "The foss-north crew discuss and explain copyright and licenses. In this episode, Javier Serrano joins us and discuss open hardware and how open licenses work in that space."
+
+- title: "Scancode with Philippe Ombredanne"
+  yt: "avH5kOixpl8"
+  ogg: "26 - Scancode with Philippe Ombredanne.ogg"
+  mp3: "26 - Scancode with Philippe Ombredanne.mp3"
+  oggsize: 31931729
+  mp3size: 39535848
+  duration: "00:41:10"
+  pubdate: "Fri, 04 Dec 2020 19:06:39 +0100"
+  number: 26
+  description: "The foss-north crew discuss and explain copyright and licenses. In this episode, Philippe Ombredanne joins us and discuss license compliance, <a href='https://github.com/nexB/scancode-toolkit'>scancode</a> and more."
