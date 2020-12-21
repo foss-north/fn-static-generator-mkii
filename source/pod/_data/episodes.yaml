@@ -346,3 +346,18 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
   pubdate: "Fri, 04 Dec 2020 19:06:39 +0100"
   number: 26
   description: "The foss-north crew discuss and explain copyright and licenses. In this episode, Philippe Ombredanne joins us and discuss license compliance, <a href='https://github.com/nexB/scancode-toolkit'>scancode</a> and more."
+
+- title: "Open Data in Gothenburg City"
+  yt: "Qw6W-g6gZnc"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=27"
+  ogg: "27 - Open Data in Gothenburg City.ogg"
+  mp3: "27 - Open Data in Gothenburg City.mp3"
+  oggsize: 24767477
+  mp3size: 25765485
+  duration: "00:26:50"
+  pubdate: "Mon, 21 Dec 2020 09:17:50 +0100"
+  number: 27
+  description: "The foss-north crew discuss and explain copyright and licenses. In this episode, Kim Lantto from Gothenburg joins us and discuss open data, open source and more."
+  subdesc:
+    - "Links:"
+    - "<ul><li><a href='https://goteborg.se/wps/portal/start/kommun-o-politik/kommunfakta/stadens-digitala-service/oppna-data'>https://goteborg.se/wps/portal/start/kommun-o-politik/kommunfakta/stadens-digitala-service/oppna-data</a></li><li><a href='https://github.com/goteborgsstad'>https://github.com/goteborgsstad</a></li><li><a href='http://www.open311.org/'>http://www.open311.org/</a></li></ul>"
