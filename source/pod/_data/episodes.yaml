@@ -364,7 +364,7 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
 
 - title: "Open Source in Gothenburg City"
   yt: "ngrstj9_gro"
-  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=27"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=28"
   ogg: "28 - Open Source in Gothenburg City.ogg"
   mp3: "28 - Open Source in Gothenburg City.mp3"
   oggsize: 16527439
@@ -376,3 +376,15 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
   subdesc:
     - "Links:"
     - "<ul><li><a href='https://goteborg.se/wps/portal/start/kommun-o-politik/kommunfakta/stadens-digitala-service/oppna-data'>https://goteborg.se/wps/portal/start/kommun-o-politik/kommunfakta/stadens-digitala-service/oppna-data</a></li><li><a href='https://github.com/goteborgsstad'>https://github.com/goteborgsstad</a></li><li><a href='http://www.open311.org/'>http://www.open311.org/</a></li></ul>"
+
+- title: "Matija Šuklje about open source, compliance, patents, andsurströmming"
+  yt: "DIv_CfvTjx0"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=29"
+  ogg: "29 - Matija Suklje about open source, compliance, patents, and surstromming.ogg"
+  mp3: "29 - Matija Suklje about open source, compliance, patents, and surstromming.mp3"
+  oggsize: 
+  mp3size: 
+  duration: "00:00:00"
+  pubdate: "Fri, 15 Jan 2021 02:51:46 PM +0100"
+  number: 29
+  description: "The foss-north crew discuss and explain copyright and licenses. In this episode, Matija Šuklje joins us and open source, compliance, patents, surströmming and more."
