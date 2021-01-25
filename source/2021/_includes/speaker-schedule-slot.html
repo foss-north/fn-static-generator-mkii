@@ -1,0 +1,23 @@
+{% set speakers=data.speakers | selectattr('slot','equalto',slot)|list %}
+    <a name="{{ slot }}" class="offsetanchor"></a>
+{% if speakers|length == 0 %}
+    <div class="talkspeaker">T.B.D.</div>
+{% endif %}
+{% if speakers|length > 0 %}
+    {% for speaker in speakers %}
+        <a href="speakers-and-talks.html#{{ speaker.short }}">
+        <div class="talktitle">{{ speaker.title }}</div>
+        <div class="talkspeaker">{{ speaker.name }}</div>
+        </a>
+        {% if speaker.copresenters is defined %}
+            {% for cp in speaker.copresenters %}
+                <a href="speakers-and-talks.html#{{ cp.short }}">
+                <div class="talkspeaker">{{ cp.name }}</div>
+                </a>
+            {% endfor %}
+        {% endif %}
+        {% if not loop.last %}
+            &nbsp;
+        {% endif %}
+    {% endfor %}
+{% endif %}

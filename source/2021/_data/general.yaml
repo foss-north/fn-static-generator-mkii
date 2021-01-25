@@ -1,0 +1,16 @@
+confname: "2021"
+confbaseurl: "2021"
+
+communitydaydate: "May 30"
+conferencedaysdate: "May 31 - June 1"
+confdate: "May 31 2020"
+
+communitydaymeetup: ""
+
+ticketslunchdate: "May 16"
+
+cfpenddate: "April 11"
+
+confdays:
+  - { name: "May 31", tag: "may31" }  
+  - { name: "June 1", tag: "jun1" }
