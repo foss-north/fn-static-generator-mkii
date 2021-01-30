@@ -388,3 +388,19 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
   pubdate: "Fri, 15 Jan 2021 02:51:46 PM +0100"
   number: 29
   description: "The foss-north crew discuss and explain copyright and licenses. In this episode, Matija Šuklje joins us and open source, compliance, patents, surströmming and more."
+
+- title: "LGPL with Burkhard Stubert"
+  yt: "_imdgGt3vrA"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=30"
+  ogg: "30 - LGPL with Burkhard Stubert.ogg"
+  mp3: "30 - LGPL with Burkhard Stubert.mp3"
+  oggsize: 35764200
+  mp3size: 44487405
+  duration: "00:46:20"
+  pubdate: "Sat, 30 Jan 2021 15:57:33 +0100"
+  number: 30
+  description: "The foss-north crew discuss and explain copyright and licenses. In this episode Burkhard Stubert joins us and talks about complying with LGPL."
+  subdesc:
+    - "Links:"
+    - "<ul><li><a href='https://embeddeduse.com/category/newsletter/'>Burkhard's newsletter</a></li><li><a href='https://youtu.be/bwTlCBbB3RY'>Burkhard's talk from QtDay</a></li></ul>"
+ 
