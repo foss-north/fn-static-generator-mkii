@@ -1,0 +1,89 @@
+- name: Endian Technologies
+  short: endian
+  url: https://endian.se/
+  level: base
+
+- name: Business Region Gothenburg
+  short: brg
+  url: https://www.businessregiongoteborg.se/
+  level: partner
+
+- name: ITRS Group
+  short: itrs
+  url: https://www.itrsgroup.com/
+  level: silver
+
+- name: B3
+  short: b3
+  url: https://b3.se
+  level: base
+
+- name: Sylog
+  short: sylog
+  url: https://www.sylog.se/
+  level: base
+  
+- name: Data Respons Solutions
+  short: datarespons
+  url: https://solutions.datarespons.com/
+  level: base
+
+- name: Luxoft
+  short: luxoft
+  url: https://www.luxoft.com/automotive/?utm_source=foss-north-se&utm_medium=sponsored-post&utm_campaign=b2b-global-automotive-foss-north&utm_term=luxoft&utm_content=link
+  level: gold
+
+- name: Semcon
+  short: semcon
+  url: https://semcon.com/sv/
+  level: base
+
+- name: Kafit
+  short: kafit
+  url: https://kafit.se
+  level: base
+
+- name: Embark Studios
+  short: embark
+  url: https://embark.dev/
+  level: base
+
+- name: Whitesource
+  short: whitesource
+  url: https://www.whitesourcesoftware.com/
+  level: base
+
+- name: Synergon
+  short: synergon
+  url: https://www.synergon.se
+  level: base
+
+- name: Makeitright
+  short: makeitright
+  url: https://makeitright.pl/en/main-page/
+  level: silver
+
+- name: Redhat Ansible
+  short: ansible
+  url: https://www.ansible.com/
+  level: gold
+
+- name: Edument
+  short: edument
+  url: https://www.edument.se/
+  level: base
+
+- name: T&M Hansson IT
+  short: tmhansson
+  url: https://www.hanssonit.se/nextcloud-vm/
+  level: base
+
+- name: 46elks
+  short: 46elks
+  url: https://46elks.com/docs/send-sms
+  level: base
+
+- name: goto10
+  short: goto10
+  url: https://www.goto10.se
+  level: partner
