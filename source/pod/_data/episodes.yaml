@@ -404,3 +404,18 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
     - "Links:"
     - "<ul><li><a href='https://embeddeduse.com/category/newsletter/'>Burkhard's newsletter</a></li><li><a href='https://youtu.be/bwTlCBbB3RY'>Burkhard's talk from QtDay</a></li></ul>"
  
+
+- title: "Open Silicon with Olof Kindgren"
+  yt: "5Za1lqZbrH4"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=31"
+  ogg: "31 - Open Silicon with Olof Kindgren.ogg"
+  mp3: "31 - Open Silicon with Olof Kindgren.mp3"
+  oggsize: 20370254
+  mp3size: 24227257
+  duration: "00:25:14"
+  pubdate: "Fri, 12 Feb 2021 09:38:18 PM +0100"
+  number: 31
+  description: "The foss-north crew discuss and explain copyright and licenses. In this episode Olof Kindgren joins us and talks about open silicon, FOSSi foundation, FuseSoc and more."
+  subdesc:
+    - "Links:"
+    - "<ul><li><a href='https://www.fossi-foundation.org/'>FOSSi Foundation</a></li><li><a href='http://fusesoc.net/'>FuseSoC</a></li></ul>"
