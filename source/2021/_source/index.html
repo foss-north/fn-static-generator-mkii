@@ -8,40 +8,20 @@
 
 <p>foss-north is a free / open source conference covering both software and hardware from the technical perspective. Hosted in Gothenburg between Copenhagen, Oslo, and Stockholm, with an international airport, we provide a meeting place for the Nordic foss communities and will bring together great speakers with a great audience.</p>
 
-<p>The conference on <strong>{{ data.general.confdate }}</strong> will be virtual due to COVID-19. The event will be broadcasted live on YouTube - no tickets needed.</p>
+<p>The conference will be held on <strong>{{ data.general.conferencedaysdate }}</strong>, paired with the community day on <strong>{{ data.general.communitydaydate }}</strong>. Due to the ongoing pandemic, the descision to go hybrid or fully virtual will be taken mid April 2021.</p>
 
-<h1>Virtual Talks</h1>
+{% if data.general.cfpopen %}
+<h1>Call for Papers</h1>
 
-<p>We offer virtual talks on November 1. Find the recorded sessions in the links below.</a>.</p>
-
-<a name="nov1" class="offsetanchor"></a>
-<h3 class="center">Sunday November 1</h3>
-
-<p>[ <a href="https://foss-north.se/2020ii/schedule.html#nov1">Schedule and Streams</a> ]</p>
-
-{% set sorted_speakers = data.speakers | selectattr('day', 'equalto', 'nov1') | sort(attribute='lastname') %}
-{% for speaker in sorted_speakers %}
-    {% set rowcount = (loop.index-1) % 3 %}
-    {% if rowcount == 0 %}
-        <div class="row speakerrow">
-    {% endif %}
-    
-    <div class="col-md-4">
-        <a href="speakers-and-talks.html#{{ speaker.short }}" class="speakerfront">
-            <img class="speakergrid" src="images/speaker-{{ speaker.short }}.png" alt="{{ speaker.name }}"><br />
-            <b>{{ speaker.name | escape }}</b><br />
-            {{ speaker.title | escape }}
-        </a>
-    </div>
-    
-    {% if rowcount == 2 %}
-        </div>
-    {% endif %}
-{% endfor %}
-{% if ((sorted_speakers|length) % 3) != 0  %}
-    </div>
+<p>The call for papers is open until <strong>{{ data.general.cfpenddate }}</strong>. For more information, visit the <a href="contribute.html#papers">Contribute page</a>.
 {% endif %}
 
+{% if data.general.cfprojectsopen %}
+
+<h1>Call for Projects</h1>
+
+<p>The call for projects for the community day is open until <strong>{{ data.general.cfprojectsenddate }}</strong>. For more information, visit the <a href="contribute.html#projects">Contribute page</a>.
+{% endif %}
 
 <div class="bodybreak">&nbsp;</div>
 
