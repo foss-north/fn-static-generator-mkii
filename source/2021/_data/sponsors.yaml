@@ -82,8 +82,3 @@
   short: 46elks
   url: https://46elks.com/docs/send-sms
   level: base
-
-- name: goto10
-  short: goto10
-  url: https://www.goto10.se
-  level: partner
