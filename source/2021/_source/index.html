@@ -25,6 +25,43 @@
 
 <div class="bodybreak">&nbsp;</div>
 
+{% if data.speakers %}
+<h1>Speakers</h1>
+
+{% if data.general.cfpopen %}
+<p>While the <a href="contribute.html#papers">Call for Papers</a> is still open, we are very happy to already now have the following speakers lined up for you:</p>
+{% else %}
+<p>We are happy to have the following speakers lined up for you:</p>
+{% endif %}
+
+{% set sorted_speakers = data.speakers | sort(attribute='lastname') %}
+{% for speaker in sorted_speakers %}
+    {% set rowcount = (loop.index-1) % 2 %}
+    {% if rowcount == 0 %}
+        <div class="row speakerrow"><div class="col-md-2"></div>
+    {% endif %}
+    
+    <div class="col-md-4">
+        <a href="speakers-and-talks.html#{{ speaker.short }}" class="speakerfront">
+            <img class="speakergrid" src="images/speaker-{{ speaker.short }}.png" alt="{{ speaker.name }}"><br />
+            <b>{{ speaker.name | escape }}</b><br />
+            {{ speaker.title | escape }}
+        </a>
+    </div>
+    
+    {% if rowcount == 1 %}
+        </div>
+    {% endif %}
+{% endfor %}
+{% if ((sorted_speakers|length) % 2) != 0  %}
+    </div>
+{% endif %}
+
+
+<div class="bodybreak">&nbsp;</div>
+
+{% endif %}
+
 <h1>Sponsors</h1>
 
 <p>We would like to thank our sponsors for helping us making this possible.</p>
