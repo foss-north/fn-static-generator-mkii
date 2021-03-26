@@ -33,13 +33,6 @@ if [ "$images" = "yes" ]; then
     fi
 fi
 
-echo $dirs
-for s in $dirs; do
-    echo "--> $s"
-done
-
-exit 0
-
 for s in $dirs; do
     if [ -f $s/update.sh ]; then
         pushd "$s"
