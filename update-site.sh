@@ -1,23 +1,46 @@
 #!/bin/bash
 
 images="yes"
-if [ "$#" -eq "1" ]; then
-    case "$1" in
+dirs="source/*"
+dirnames="---"
+
+while [[ $# -gt 0 ]]; do
+
+    key="$1"
+    shift
+
+    case "$key" in
         "--no-images")
             images="no"
             ;;
+        "--dir"|"--dirs")
+            dirs="source/$1"
+            dirnames="$1"
+            shift
+            ;;
         *)
-            echo "Unknown argument '$1'"
+            echo "Unknown argument '$key'"
             exit 1
             ;;
     esac
-fi
+done
 
 if [ "$images" = "yes" ]; then
-    ./convert-images.sh
+    if [[ "$dirnames" == "---" ]]; then
+        ./convert-images.sh
+    else
+        ./convert-images.sh --dirs "$dirnames"
+    fi
 fi
 
-for s in source/*; do
+echo $dirs
+for s in $dirs; do
+    echo "--> $s"
+done
+
+exit 0
+
+for s in $dirs; do
     if [ -f $s/update.sh ]; then
         pushd "$s"
         ./update.sh
