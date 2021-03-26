@@ -450,3 +450,18 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
   subdesc:
     - "Links:"
     - "<ul><li><a href='https://ahayzen.com/direct/flathub.html'>Flathub statistics</a></li><li><a href='https://blogs.gnome.org/alexl/'>Alex's blog</a></li><li><a href='https://foss-north.se/2021/'>foss-north 2021</a></li></ul>"
+
+- title: "Lukasz Erecinski from Pine64"
+  yt: "-rlr9_ZoizQ"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=34"
+  ogg: "34 - Lukasz Erecinski from Pine64.ogg"
+  mp3: "34 - Lukasz Erecinski from Pine64.mp3"
+  oggsize: 38515178
+  mp3size: 46924112
+  duration: "00:48:52"
+  pubdate: "Fri, 26 Mar 2021 09:11:58 +0100"
+  number: 34
+  description: "The foss-north crew discuss and explain copyright and licenses. In this episode Lukasz Erecinski joins us and talks about pine64, open source support for hardware, and more."
+  subdesc:
+    - "Links:"
+    - "<ul><li><a href='https://www.pine64.org/'>Pine64</a></li><li><a href='https://www.pine64.org/2021/03/15/march-update/'>One of the montly updates</a></li><li><a href='https://wiki.pine64.org/index.php/Pinebook_Pro#Software_and_OS_Image_Downloads'>Pinebook Pro distro images</a></li></ul>"
