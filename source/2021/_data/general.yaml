@@ -10,8 +10,8 @@ communitydaymeetup: ""
 ticketslunchdate: "May 16"
 
 cfpopen: True
-cfpenddate: "April 11"
-cfpnotifydate: "April 25"
+cfpenddate: "April 25"
+cfpnotifydate: "May 9"
 cfpurl: "https://foss-north.se/events/2021/callforpapers/"
 
 cfprojectsopen: True
