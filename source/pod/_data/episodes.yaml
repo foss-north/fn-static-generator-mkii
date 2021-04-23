@@ -480,3 +480,18 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
   subdesc:
     - "Links:"
     - "<ul><li><a href='https://www.synergon.se/se'>Synergon</a></li><li><a href='https://fosdem.org/2021/schedule/event/qtproprietaryrelicensing/'>Cornelis' talk on KDE Free Qt Foundation</a></li></ul>"
+
+- title: "Cornelius Schumacher on KDE Free Qt Foundation"
+  yt: "a3Oxhj0Njiw"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=35"
+  ogg: "36 - Cornelius Schumacher on KDE Free Qt Foundation.ogg"
+  mp3: "36 - Cornelius Schumacher on KDE Free Qt Foundation.mp3"
+  oggsize: 40578968
+  mp3size: 46519946
+  duration: "00:48:27"
+  pubdate: "Fri, 23 Apr 2021 17:55:53 +0200"
+  number: 36
+  description: "The foss-north crew discuss and explain copyright and licenses. In this episode we discuss Qt licensing, the KDE Free Qt Foundation, KDE and the ancient times with Cornelius Schumacher."
+  subdesc:
+    - "Links:"
+    - "<ul><li><a href='https://foss-north.se/2021/contribute.html#papers'>foss-north 2021 call for papers</a></li><li><a href='https://blog.cornelius-schumacher.de/'>Cornelius' blog</a></li><li><a href='https://fosdem.org/2021/schedule/event/qtproprietaryrelicensing/'>The KDE Free Qt Foundation FOSDEM talk</a></li></ul>"
