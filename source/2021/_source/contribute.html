@@ -10,9 +10,17 @@ A great conference is made by great contents. For great contents we need great s
 <a name="papers" class="offsetanchor"></a>
 ## Call for Papers
 
+{% if data.general.cfpopen %}
+
 The Call for Papers is open until <b>{{ data.general.cfpenddate }}</b> and the final speakers are contacted on <b>{{ data.general.cfpnotifydate }}</b>. We are happy to sponsor travel expenses and accomodation, but cannot pay for your time. Please visit the <a href="{{ data.general.cfpurl }}">Call for Papers registration page</a> to make your contribution. This will take you to a login page. We use OAUTH2 for this and currently support GitHub and Google as ways to authenticate. Please contact us if you want us to add more providers.
 
 The call for paper form consists of a title for the talk, an abstract, name and biography of the speaker, and preferred slot length (25 or 50 minutes, including Q&amp;A). We also reemburse travel costs if needed. Since we have a budget to work with, we ask for the approximate cost that you want us to reemburse.
+
+{% else %}
+
+The call for paper is now closed. Thank you for all contributions. The confirmed speakers are available from the <a href="speakers-and-talks.html">program</a>.
+
+{% endif %}
 
 <strong>Due to the COVID-19 situation, the conference will be virtual with live or pre-recorded talks, combined with live Q&amp;A sessions.</strong>
 
