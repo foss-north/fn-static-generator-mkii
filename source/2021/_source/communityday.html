@@ -3,9 +3,49 @@
 {% block bodycontents %}
 {% markdown %}
 
-# Community Activities
+# Community Events
 
-The foss-north {{ data.general.confname }} will be virtual. Please refer to <a href="index.html">Home</a> for details.
+The foss-north community activities are events is taking around the foss-north {{ data.general.confname }} conference. We have invited a number of projects. Now it is up to you to visit them and explore!
 
+<i>Please notice that the list below is tentative!</i>
+
+## Map
+
+No need for a map - all events are virtual!
+
+## Projects
 {% endmarkdown %}
+
+{% for project in data.projects %}
+    <a name="{{ project.short }}" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><a href="{{ project.url }}"><img class="sp-image" src="images/project-{{ project.short }}.png" alt="{{ project.name }}"></a></div>
+            {% if project.venue %}
+            &nbsp;
+            <div class="speaker-photo"><a href="{{ project.venueurl }}"><img class="sp-image" src="images/venue-{{ project.venue }}.png" alt="{{ project.venuename }}"></a></div>
+            {% endif %}
+        </div>
+        <div class="col-md-9">
+            <div class="name"><a class="projectlink" href="{{ project.url }}">{{ project.name | escape }}</a></div>
+
+            <div class="links">
+            <strong>{{ project.when }}</strong>
+            {% if project.links %}
+                    {% for link in project.links %}
+                        &nbsp;-&nbsp;
+                        <a href="{{ link.url }}">{{ link.title }}</a>
+                    {% endfor %}
+            {% endif %}
+            </div>
+            
+            {% for descr in project.description %}
+            <div class="abstract">
+                {{ descr }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+
 {% endblock %}

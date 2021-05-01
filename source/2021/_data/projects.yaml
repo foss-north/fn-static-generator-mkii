@@ -1,0 +1,22 @@
+- name: Joblinks - Ekosystem för annonser
+  short: jobtech
+  front: true
+  when: "Sunday, May 30"
+  url: https://gitlab.com/joblinks/wiki/-/wikis/home
+  links:
+    - { title: "Announcement", url: "https://gitlab.com/joblinks/wiki/-/wikis/home" }
+  description:
+    - "Arbetsförmedlingen (Jobtech Development) tillsammans med SCB bjuder in till samarbete för att förbättra och effektivisera den digitala matchningen och samtidigt skapa bättre underlag till arbetsmarknadsstatistiken."
+    - "Annonser är ostrukturerad data. Vi behöver hjälp med att via textanalyser ta fram metadata för de sök- och filtreringsparametrar som behövs."
+    - "Detta är en workshop för att bygga öppna lösningar kring arbetsförmedlingens APIer och data."
+    
+- name: NOSAD
+  short: nosad
+  front: true
+  when: "Wednesday, June 2"
+  url: https://nosad.se/
+  links:
+    - { title: "Announcement", url: "https://nosad.se/" }
+  description:
+    - "Discussion and collection of available information around open source and open data in the public sector. The day is split in three sections:"
+    - "<ul><li>Public Money, Public Code - where are we today?</li><li>Panel discussion</li><li>How to enable procurement and development of open source in the public sector.</li></ul>"
