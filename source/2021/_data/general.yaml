@@ -9,7 +9,7 @@ communitydaymeetup: ""
 
 ticketslunchdate: "May 16"
 
-cfpopen: True
+cfpopen: False
 cfpenddate: "April 25"
 cfpnotifydate: "May 9"
 cfpurl: "https://foss-north.se/events/2021/callforpapers/"
