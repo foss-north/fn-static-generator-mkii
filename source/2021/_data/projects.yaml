@@ -10,7 +10,7 @@
     - "Annonser är ostrukturerad data. Vi behöver hjälp med att via textanalyser ta fram metadata för de sök- och filtreringsparametrar som behövs."
     - "Detta är en workshop för att bygga öppna lösningar kring arbetsförmedlingens APIer och data."
     
-- name: NOSAD
+- name: "NOSAD x Foss-north: Öppen källkod som bas i den digitala allemansrätten"
   short: nosad
   front: true
   when: "Wednesday, June 2"
@@ -18,5 +18,8 @@
   links:
     - { title: "Announcement", url: "https://nosad.se/" }
   description:
-    - "Discussion and collection of available information around open source and open data in the public sector. The day is split in three sections:"
-    - "<ul><li>Public Money, Public Code - where are we today?</li><li>Panel discussion</li><li>How to enable procurement and development of open source in the public sector.</li></ul>"
+    - "Should tax financed software be open for everyone? When is it (un)suitable? What is the current state? How can we work to identify and achieve the benefits while managing risks? These are the open questions we pose today and discuss together. The goal is to inspire and to share knowledge to encourage open collaboration and to move the debate from data to the supporting technology."
+    - "Bör skattefinansierad programvara bör vara öppen för alla? När kan det vara (o)lämpligt? Hur gör vi idag? Hur kan vi arbeta för att identifiera och uppnå eventuella nyttor tillika hantera eventuella risker? Dessa är öppna frågor vi ställer kritiskt och diskuterar konstruktivt tillsammans. Målet är att inspirera och kunskapsdela för att främja en öppen samverkan tillika utveckla debatten från att enbart fokusera på data till att även inkludera tekniken runt om."
+    - "<strong>Schedule</strong>"
+    - "10.00 - 12.00: Pass 1 - Öppen källkod som bas i den digitala allemansrätten"
+    - "13.00 - 15.00: Pass 2 - Hur möjliggör vi anskaffning och utveckling av öppen källkod inom offentlig sektor?"
