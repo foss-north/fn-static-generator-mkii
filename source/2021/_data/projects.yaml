@@ -1,3 +1,13 @@
+- name: "Welcome to GNOME Community"
+  short: gnome
+  front: true
+  when: "Sunday, May 30"
+  url: https://gnome.org
+  links:
+    - { title: "Announcement", url: "https://gnome.org/" }
+  description:
+    - "T.B.D."
+
 - name: Joblinks - Ekosystem för annonser
   short: jobtech
   front: true
@@ -23,3 +33,4 @@
     - "<strong>Schedule</strong>"
     - "10.00 - 12.00: Pass 1 - Öppen källkod som bas i den digitala allemansrätten"
     - "13.00 - 15.00: Pass 2 - Hur möjliggör vi anskaffning och utveckling av öppen källkod inom offentlig sektor?"
+
