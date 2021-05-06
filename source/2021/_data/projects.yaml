@@ -34,3 +34,10 @@
     - "10.00 - 12.00: Pass 1 - Öppen källkod som bas i den digitala allemansrätten"
     - "13.00 - 15.00: Pass 2 - Hur möjliggör vi anskaffning och utveckling av öppen källkod inom offentlig sektor?"
 
+- name: "Trevlig Mjukvara - Veckopodden om trevlig och otrevlig mjukvara"
+  short: trevligmjukvara
+  front: true
+  when: "Sunday, May 30"
+  url: "https://trevligmjukvara.se/"
+  description:
+    - "T.B.D."
