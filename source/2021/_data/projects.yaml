@@ -43,5 +43,7 @@
   front: true
   when: "Sunday, May 30"
   url: "https://trevligmjukvara.se/"
+  links:
+    - { title: "Interview: Jan Ainali", url: "https://trevligmjukvara.se/s07e04/" }
   description:
     - "T.B.D."
