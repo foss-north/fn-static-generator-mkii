@@ -1,0 +1,49 @@
+- name: "Welcome to GNOME Community"
+  short: gnome
+  front: true
+  when: "Sunday, May 30"
+  url: https://gnome.org
+  links:
+    - { title: "Announcement", url: "https://gnome.org/" }
+  description:
+    - "T.B.D."
+
+- name: Joblinks - Ekosystem för annonser
+  short: jobtech
+  front: true
+  when: "Sunday, May 30"
+  url: https://gitlab.com/arbetsformedlingen/joblinks/wiki/-/wikis/HOME-ENG
+  links:
+    - { title: "Announcement", url: "https://gitlab.com/arbetsformedlingen/joblinks/wiki/-/wikis/HOME-ENG" }
+    - { title: "Announcement (Svenska)", url: "https://gitlab.com/arbetsformedlingen/joblinks/wiki/-/wikis/home" }
+  description:
+    - "The Swedish Employment Service (Jobtech Development) in collaboration with SCB invite to a collaborative workshop to improve the digital maching and create better data for the employment market statistics."
+    - "Job listings are unstructured data. We need help to analyze tests to extract metadata for search and filter parameters."
+    - "This is a workshop for building open solutions around the APIs and data provided by the Swedish Employment Service."
+    - "<i>Arbetsförmedlingen (Jobtech Development) tillsammans med SCB bjuder in till samarbete för att förbättra och effektivisera den digitala matchningen och samtidigt skapa bättre underlag till arbetsmarknadsstatistiken.</i>"
+    - "<i>Annonser är ostrukturerad data. Vi behöver hjälp med att via textanalyser ta fram metadata för de sök- och filtreringsparametrar som behövs.</i>"
+    - "<i>Detta är en workshop för att bygga öppna lösningar kring arbetsförmedlingens APIer och data.</i>"
+    
+- name: "NOSAD x Foss-north: Öppen källkod som bas i den digitala allemansrätten"
+  short: nosad
+  front: true
+  when: "Wednesday, June 2"
+  url: https://nosad.se/
+  links:
+    - { title: "Announcement and Registration", url: "https://nosad.se/" }
+  description:
+    - "Should tax financed software be open for everyone? When is it (un)suitable? What is the current state? How can we work to identify and achieve the benefits while managing risks? These are the open questions we pose today and discuss together. The goal is to inspire and to share knowledge to encourage open collaboration and to move the debate from data to the supporting technology."
+    - "<i>Bör skattefinansierad programvara bör vara öppen för alla? När kan det vara (o)lämpligt? Hur gör vi idag? Hur kan vi arbeta för att identifiera och uppnå eventuella nyttor tillika hantera eventuella risker? Dessa är öppna frågor vi ställer kritiskt och diskuterar konstruktivt tillsammans. Målet är att inspirera och kunskapsdela för att främja en öppen samverkan tillika utveckla debatten från att enbart fokusera på data till att även inkludera tekniken runt om.</i>"
+    - "<strong>Schedule</strong>"
+    - "10.00 - 12.00: Pass 1 - Öppen källkod som bas i den digitala allemansrätten"
+    - "13.00 - 15.00: Pass 2 - Hur möjliggör vi anskaffning och utveckling av öppen källkod inom offentlig sektor?"
+
+- name: "Trevlig Mjukvara - Veckopodden om trevlig och otrevlig mjukvara"
+  short: trevligmjukvara
+  front: true
+  when: "Sunday, May 30"
+  url: "https://trevligmjukvara.se/"
+  links:
+    - { title: "Interview: Jan Ainali", url: "https://trevligmjukvara.se/s07e04/" }
+  description:
+    - "T.B.D."

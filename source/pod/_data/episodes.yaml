@@ -483,7 +483,7 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
 
 - title: "Cornelius Schumacher on KDE Free Qt Foundation"
   yt: "a3Oxhj0Njiw"
-  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=35"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=36"
   ogg: "36 - Cornelius Schumacher on KDE Free Qt Foundation.ogg"
   mp3: "36 - Cornelius Schumacher on KDE Free Qt Foundation.mp3"
   oggsize: 40578968
@@ -495,3 +495,18 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
   subdesc:
     - "Links:"
     - "<ul><li><a href='https://foss-north.se/2021/contribute.html#papers'>foss-north 2021 call for papers</a></li><li><a href='https://blog.cornelius-schumacher.de/'>Cornelius' blog</a></li><li><a href='https://fosdem.org/2021/schedule/event/qtproprietaryrelicensing/'>The KDE Free Qt Foundation FOSDEM talk</a></li></ul>"
+
+- title: "Cornelius Schumacher about FOSS at Deutsche Bahn"
+  yt: "h-t7Y42q51Q"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=37"
+  ogg: "37  - Cornelius Schumacher about FOSS at Deutsche Bahn.ogg"
+  mp3: "37  - Cornelius Schumacher about FOSS at Deutsche Bahn.mp3"
+  oggsize: 36839568
+  mp3size: 41334744
+  duration: "00:43:03"
+  pubdate: "Fri, 07 May 2021 10:11:11 PM +0200"
+  number: 37 
+  description: "The foss-north crew discuss and explain copyright and licenses. In this episode we discuss heavy metal, open source enabling, and more with Cornelius Schumacher from Deutsche Bahn."
+  subdesc:
+    - "Links:"
+    - "<ul><li><a href='https://github.com/dbsystel/open-source-policies'>Open Source Policies for DB Systel</a></li><li><a href='https://developer.deutschebahn.com/store/apis/list'>Deutsche Bahn API portal</a></li><li><a href='https://todogroup.org/'>Todo Group</a></li><li><a href='https://www.openchainproject.org/'>Open Chain Project</a></li><li><a href='https://openinventionnetwork.com/'>Open Invention Network</a></li><li><a href='https://blog.cornelius-schumacher.de/'>Cornelius blog</a></li></ul>"
