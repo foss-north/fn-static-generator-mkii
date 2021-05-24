@@ -4,12 +4,13 @@
   when: "Sunday, May 30"
   url: https://gnome.org
   links:
-    - { title: "Announcement", url: "https://gnome.org/" }
+    - { title: "Registration (volontary)", url: "https://www.meetup.com/foss-gbg/events/278387150/" }
+    - { title: "Event link", url: "https://meet.gnome.org/b/kri-ku1-hqx-bjv" }
   description:
     - "An introduction to GNOME community, the projects we are developing now and the areas that people with no technical background can contribute to."
     - "After the introduction we will have the Q&A session where you can ask for anything regarding GNOME Community."
     - "<strong>10:00 - 10:30</strong> Introduction to GNOME and how to contribute"
-    - "<strong>10:30: - 10:45</strong> Q&A"
+    - "<strong>10:30 - 10:45</strong> Q&A"
 
 - name: Joblinks - Ekosystem för annonser
   short: jobtech
