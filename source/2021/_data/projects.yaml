@@ -6,7 +6,10 @@
   links:
     - { title: "Announcement", url: "https://gnome.org/" }
   description:
-    - "T.B.D."
+    - "An introduction to GNOME community, the projects we are developing now and the areas that people with no technical background can contribute to."
+    - "After the introduction we will have the Q&A session where you can ask for anything regarding GNOME Community."
+    - "<strong>10:00 - 10:30</strong> Introduction to GNOME and how to contribute"
+    - "<strong>10:30: - 10:45</strong> Q&A"
 
 - name: Joblinks - Ekosystem för annonser
   short: jobtech
@@ -38,6 +41,25 @@
     - "10.00 - 12.00: Pass 1 - Öppen källkod som bas i den digitala allemansrätten"
     - "13.00 - 15.00: Pass 2 - Hur möjliggör vi anskaffning och utveckling av öppen källkod inom offentlig sektor?"
 
+- name: "RPA - build software robots using freeware tools"
+  short: rpa
+  front: false
+  when: "Wednesday, June 2"
+  links:
+    - { title: "Registration", url: "https://www.eventbrite.com/e/rpa-build-software-robots-using-free-tools-tickets-156527821929" }
+  description:
+    - "<i>RPA is getting market by the storm - learn how to build software robots using free tools</i>"
+    - "In the workshop run by Makeitright, you will learn how to build software robots using a freeware tool – AutoIT. The team will also share the best practices to build complex automation that spans different technologies and how to manage scale on the PowerFarm orchestration platform."
+    - "Time: <strong>13:00 – 14:30</strong>"
+
+- name: "Rust workshop"
+  short: rust
+  front: true
+  when: "Sunday, May 31"
+  description:
+    - "T.B.D."
+    - "Time: <strong>14.00 - 16.00</strong>"
+    
 - name: "Trevlig Mjukvara - Veckopodden om trevlig och otrevlig mjukvara"
   short: trevligmjukvara
   front: true
@@ -45,5 +67,6 @@
   url: "https://trevligmjukvara.se/"
   links:
     - { title: "Interview: Jan Ainali", url: "https://trevligmjukvara.se/s07e04/" }
+    - { title: "Interview: Maria Dalhage", url: "https://trevligmjukvara.se/s07e05/" }
   description:
     - "T.B.D."
