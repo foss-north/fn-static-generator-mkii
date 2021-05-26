@@ -1,7 +1,7 @@
 - name: "Isabel Drost-Fromm"
   short: "idrostfromm"
   lastname: "Drost-Fromm"
-  slot: slot1
+  slot: slot3
   day: may31
   title: "Solving (team) dependencies - the Open Source way"
   abstract:
@@ -27,7 +27,7 @@
 - name: "Swapnil M Mane"
   short: "smane"
   lastname: "mane"
-  slot: slot3
+  slot: slot1
   day: may31
   title: "Grow and manage your open source project with a proven way - The Apache Way"
   abstract:
@@ -35,7 +35,7 @@
     - "The following are the core parts of Apache Way, which helps us managing the 350+ project efficiently and effectively."
     - "Community - over code Merit - recognizing your work Communication - how we write Open Development - for everything Decision Making - consensus & Votes"
   bio:
-    - "Swapnil is an open-source leader and advocate. He is serving as Vice President at the Apache Community Development. Apache Software Foundation is the world's largest open-source foundation. He is working on spreading open source awareness with Open Source Wave initiative (www.opensourcewave.io)."
+    - "Swapnil is an open-source leader and Developer Relations Engineer at Webiny. He is serving as Vice President at the Apache Community Development. Apache Software Foundation is the world's largest open-source foundation. He is working on spreading open source awareness with Open Source Wave initiative (www.opensourcewave.io)."
     - "Some of his notable FOSS roles include."
     - "-- Vice President, Apache Community Development -- Apache Software Foundation Member -- Founder, Open Source Wave -- Apache Central Services / Editorial Member -- Founder & Chair, Apache Local Community (ALC) -- PMC Member, Apache Community Development, OFBiz, Roller -- Founder Vue.js Indore community"
     - "He is skilled in E-commerce, Order Management System, Omni-Channel, and PWA strategy. And have Strong information technology professional with intensive experience in building enterprise-grade applications."
