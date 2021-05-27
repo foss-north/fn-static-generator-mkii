@@ -80,12 +80,20 @@
     - "In the workshop run by Makeitright, you will learn how to build software robots using a freeware tool – AutoIT. The team will also share the best practices to build complex automation that spans different technologies and how to manage scale on the PowerFarm orchestration platform."
     - "Time: <strong>13:00 – 14:30</strong>"
 
-- name: "Rust workshop"
+- name: "Let's go parallel with Rust - Anatol Ulrich, Ferrous Systems GmbH"
   short: rust
+  url: https://ferrous-systems.com/
+  venue: ferroussystems
+  venuename: "Ferrous Systems"
+  venueurl: https://ferrous-systems.com/
   front: true
   when: "Sunday, May 31"
+  links:
+    - { title: "Join the event here", url: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTUwYzNiYmEtNWVkYS00OTRhLTlhMTYtOTY5MGE2NWIyNDk4%40thread.v2/0?context=%7b%22Tid%22%3a%22015582f8-ad4f-44bc-9d33-0a8fc5ec0ad2%22%2c%22Oid%22%3a%2283ca1f9a-ba4b-47d8-a1b0-0b7b643a2a34%22%7d" }
   description:
-    - "T.B.D."
+    - "Target audience: zero or little experience with Rust, familiar with at least 1 other programming language."
+    - "In this session, we are going to build a small Rust server together. We’ll start with a server that sends and receives data over TCP using a simple protocol. Then, we will introduce threads to serve multiple clients in parallel. After that, we will rewrite the same project using async/await. This is going to give you a basic feel for Rust and its concurrency features. To follow the session, I recommend that have Rust already installed via <a href='https://rustup.rs'>https://rustup.rs</a> (rustup may also be available in your distributions package manager) and have an IDE like rust-analyzer or intelliJ Rust set up."
+    - "Please fill out the <a href='https://forms.gle/gpfFMMeevbHfCjWEA'>registration form</a> - it's not mandatory but helps me to adapt the content of the session to you, the audience :)"
     - "Time: <strong>14.00 - 16.00</strong>"
     
 - name: "Trevlig Mjukvara - Veckopodden om trevlig och otrevlig mjukvara"
