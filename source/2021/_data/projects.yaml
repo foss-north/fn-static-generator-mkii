@@ -54,6 +54,7 @@
     - "<i>Arbetsförmedlingen (Jobtech Development) tillsammans med SCB bjuder in till samarbete för att förbättra och effektivisera den digitala matchningen och samtidigt skapa bättre underlag till arbetsmarknadsstatistiken.</i>"
     - "<i>Annonser är ostrukturerad data. Vi behöver hjälp med att via textanalyser ta fram metadata för de sök- och filtreringsparametrar som behövs.</i>"
     - "<i>Detta är en workshop för att bygga öppna lösningar kring arbetsförmedlingens APIer och data.</i>"
+    - "Time: <strong>from 9.30</strong>. Details in the annoucement."
     
 - name: "NOSAD x Foss-north: Öppen källkod som bas i den digitala allemansrätten"
   short: nosad
@@ -87,7 +88,7 @@
   venuename: "Ferrous Systems"
   venueurl: https://ferrous-systems.com/
   front: true
-  when: "Sunday, May 31"
+  when: "Sunday, May 30"
   links:
     - { title: "Join the event here", url: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTUwYzNiYmEtNWVkYS00OTRhLTlhMTYtOTY5MGE2NWIyNDk4%40thread.v2/0?context=%7b%22Tid%22%3a%22015582f8-ad4f-44bc-9d33-0a8fc5ec0ad2%22%2c%22Oid%22%3a%2283ca1f9a-ba4b-47d8-a1b0-0b7b643a2a34%22%7d" }
   description:
