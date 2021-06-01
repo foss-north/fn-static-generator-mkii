@@ -73,13 +73,13 @@
 - name: "RPA - build software robots using freeware tools"
   short: rpa
   front: false
-  when: "Wednesday, June 2"
+  when: "T.B.D."
   links:
     - { title: "Registration", url: "https://www.eventbrite.com/e/rpa-build-software-robots-using-free-tools-tickets-156527821929" }
   description:
     - "<i>RPA is getting market by the storm - learn how to build software robots using free tools</i>"
     - "In the workshop run by Makeitright, you will learn how to build software robots using a freeware tool – AutoIT. The team will also share the best practices to build complex automation that spans different technologies and how to manage scale on the PowerFarm orchestration platform."
-    - "Time: <strong>13:00 – 14:30</strong>"
+    - "Please register your interest and we will let you know about the final date."
 
 - name: "Let's go parallel with Rust - Anatol Ulrich, Ferrous Systems GmbH"
   short: rust
