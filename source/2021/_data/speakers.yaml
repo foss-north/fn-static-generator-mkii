@@ -19,6 +19,7 @@
   day: may31
   links:
     - { title: "ConfTube", url: "https://conf.tube/videos/watch/playlist/b9a072ab-1c4d-4912-905c-3f68096582ca?playlistPosition=2" }
+    - { title: "YouTube", url: "https://youtu.be/oXQcCaPhS_E" }
   title: "The Future of Finance is Decentralization"
   abstract:
     - "Decentralized finance (DeFi) offers new opportunities and solutions to key problems, such as centralized control, limited access, inefficiency, lack of interoperability, and transparancy—that arise from the current system of centralized finance."
