@@ -59,6 +59,7 @@
   day: may31
   links:
     - { title: "ConfTube", url: "https://conf.tube/videos/watch/playlist/b9a072ab-1c4d-4912-905c-3f68096582ca?playlistPosition=4" }
+    - { title: "YouTube", url: "https://youtu.be/_ckMG9mAd7s" }
   title: "Signing the Internet root zone"
   abstract:
     - "During her presentation Anne-Marie will tell the story of the recurring ceremonies with DNSSEC key generation for the internet root zone where she attend as a Crypto Officer. What, why, when and how. It's about routines, design and arcitechture, key management and layer and layer of security. Mostly physical."
