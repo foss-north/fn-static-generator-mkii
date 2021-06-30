@@ -75,6 +75,7 @@
   day: may31
   links:
     - { title: "ConfTube", url: "https://conf.tube/videos/watch/playlist/b9a072ab-1c4d-4912-905c-3f68096582ca?playlistPosition=5" }
+    - { title: "YouTube", url: "https://youtu.be/dQNyfvKVE6o" }
   title: "Empowering users by asking them for money"
   abstract:
     - "The conversation around funding projects has often centered on what is good for the developer. But funding is an issue that concerns all users and their freedom to modify software in the ways they need."
@@ -88,6 +89,7 @@
   day: may31
   links:
     - { title: "ConfTube", url: "https://conf.tube/videos/watch/playlist/b9a072ab-1c4d-4912-905c-3f68096582ca?playlistPosition=6" }
+    - { title: "YouTube", url: "https://youtu.be/u2WsT-EtjJc" }
   title: "zbus: Why oh why? also how?"
   abstract:
     - "D-Bus is a popular IPC mechanism used by various services on most desktop and many embedded Linux systems in the wild. It is heavily used by even the most essential services, such as systemd. Unfortunately, for a long time, there was only one Rust D-Bus crate and most users were not happy about it for various reasons, most notably that it depends on a notoriously bad C library, libdbus. zbus, was created out of this demand for a pure Rust API that makes D-Bus easy and simple. With both elegance and efficiency as the top goals, the development of of zbus has been a much greater challenge than original anticipated but slowly they were all overcome."
