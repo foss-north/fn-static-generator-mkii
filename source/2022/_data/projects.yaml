@@ -1,0 +1,9 @@
+#- name: "EntryScape - Diskussion om öppen användardokumentation och användarmanual"
+#  short: entryscape
+#  front: true
+#  when: "Sunday, May 30 and Wednesday, June 2"
+#  links:
+#    - { title: "Entryscape Source (git)", url: "https://bitbucket.org/metasolutions/entryscape/src/develop/" }
+#    - { title: "Entryscape free hosting", url: "https://entryscape.com/sv/free/" }
+#  description:
+#    - "Med EntryScape Catalog kan användare enkelt hantera metadata för t.ex. öppna data. Under detta pass kommer vi att diskutera processer och arbete med öppen användardokumentation för publicister och tagare av öppna data och delade data."

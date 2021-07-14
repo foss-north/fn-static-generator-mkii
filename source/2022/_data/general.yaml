@@ -1,0 +1,23 @@
+confname: "2022"
+confbaseurl: "2022"
+
+communitydaydate: "April 24"
+conferencedaysdate: "April 25 - 26"
+confdate: "April 25 2022"
+
+communitydaymeetup: ""
+
+ticketslunchdate: "Feb 1"
+
+cfpopen: False
+cfpdone: False
+cfpenddate: "April 25"
+cfpnotifydate: "May 9"
+cfpurl: "https://foss-north.se/events/2022/callforpapers/"
+
+cfprojectsopen: False
+cfprojectsenddate: "May 15"
+
+confdays:
+  - { name: "April 25", tag: "apr25" }  
+  - { name: "April 26", tag: "apr26" }
