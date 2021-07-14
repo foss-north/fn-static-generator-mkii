@@ -525,3 +525,18 @@ Alternatively: <a href='https://ai.stackexchange.com/questions/3850/can-a-neural
   subdesc:
     - "Links:"
     - "<ul><li><a href='https://debricked.com/blog/2021/02/15/introducing-open-source-health-by-debricked/'>Debricked Open Source health</a></li><li><a href='https://foss-north.se/2021/schedule.html'>foss-north 2021 program</a></li><li><a href='https://foss-north.se/2021/communityday.html'>foss-north 2021 community day</a></li><li><a href='https://chaoss.community/'>CHAOSS</a></li><li><a href='https://nosad.se/'>NOSAD</a></li><li><a href='https://flask-restx.readthedocs.io/en/latest/index.html'>Flask-RESTX</a></li><li><a href='https://netty.io'>Netty</a></li></ul>"
+
+- title: "Open Source at SVT"
+  yt: "FABp2oVL_io"
+  pt: "https://conf.tube/videos/watch/playlist/0920093e-529a-4aa3-8281-a070d1069e70?playlistPosition=39"
+  ogg: "39 - Open Source at SVT.ogg"
+  mp3: "39 - Open Source at SVT.mp3"
+  oggsize: 35769929
+  mp3size: 44771622
+  duration: "00:46:38"
+  pubdate: "Wed, 14 Jul 2021 17:08:36 +0200"
+  number: 39
+  description: "The foss-north crew discuss and explain copyright and licenses. In this episode we talk to Josef and Gustav from SVT (Swedish Television) who work with open source projects within their organization."
+  subdesc:
+    - "Links:"
+    - "<ul><li><a href='https://github.com/svt'>SVT's Github</a></li><li><a href='https://www.svt.se/opensource/'>SVT's Open Source page</a></li><li><a href='https://omoss.svt.se/jobba-har.html'>SVT's job board</a></li><li><a href='https://www.youtube.com/watch?v=mFLE1-fb4GE'>The Open Source at SVT talk from foss-north 2019</a></li></ul>"
