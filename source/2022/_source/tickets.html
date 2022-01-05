@@ -4,6 +4,12 @@
 
 <h1>Tickets</h1>
 
+{% if data.general.covidcancelled %}
+<div class="alert alert-danger" role="alert">
+<p class="mb-0">foss-north {{ data.general.confname }} has been <strong>cancelled due to the current COVID situation</strong>. We are working on bringing you a virtual conference in conjuction with LLW and will come back with more information about time and dates asap. No tickets will be required to attend such a virtual event.</p>
+</div>
+{% endif %}
+
 <p>Get your ticket via the <a href="https://foss-north.se/events/2022/register/">ticket registration</a> page (requires the setup of an account).</p>
 
 <p>Tickets bought before T.B.D: include lunch and coffee. Tickets are still sold until the day before the event, but does not include catering. We have ordered more food than we’ve sold tickets on T.B.D., so we hope to be able to provide food to all participants, but we cannot guarantee this due to lead times ordering supplies.</p>

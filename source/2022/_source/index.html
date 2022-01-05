@@ -6,6 +6,14 @@
 
 <h1>Announcing foss-north {{ data.general.confname }}</h1>
 
+
+{% if data.general.covidcancelled %}
+<div class="alert alert-danger" role="alert">
+<p class="mb-0">foss-north {{ data.general.confname }} has been <strong>cancelled due to the current COVID situation</strong>. We are working on bringing you a virtual conference in conjuction with LLW and will come back with more information about time and dates asap.</p>
+</div>
+{% endif %}
+
+
 <p>foss-north is a free / open source conference covering both software and hardware from the technical perspective. Hosted in Gothenburg between Copenhagen, Oslo, and Stockholm, with an international airport, we provide a meeting place for the Nordic foss communities and will bring together great speakers with a great audience.</p>
 
 <p>The conference will be held on <strong>{{ data.general.conferencedaysdate }}</strong>, paired with the community day on <strong>{{ data.general.communitydaydate }}</strong>. The event will be run on-site, in-person, in a physical venue.</p>

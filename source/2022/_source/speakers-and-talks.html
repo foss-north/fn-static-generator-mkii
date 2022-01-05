@@ -3,6 +3,13 @@
 
 <h1>Speakers and Talks</h1>
 
+
+{% if data.general.covidcancelled %}
+<div class="alert alert-danger" role="alert">
+<p class="mb-0">foss-north {{ data.general.confname }} has been <strong>cancelled due to the current COVID situation</strong>. We are working on bringing you a virtual conference in conjuction with LLW and will come back with more information about time and dates asap.</p>
+</div>
+{% endif %}
+
 {% if data.speakers is iterable and data.speakers is not string %}
 {% set sorted_speakers = data.speakers | rejectattr('day','equalto','none') | sort(attribute='lastname') %}
 {% for speaker in sorted_speakers %}

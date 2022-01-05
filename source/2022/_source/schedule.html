@@ -4,6 +4,13 @@
 <a name="top" class="offsetanchor"></a>
 <h1>Conference Schedule</h1>
 
+
+{% if data.general.covidcancelled %}
+<div class="alert alert-danger" role="alert">
+<p class="mb-0">foss-north {{ data.general.confname }} has been <strong>cancelled due to the current COVID situation</strong>. We are working on bringing you a virtual conference in conjuction with LLW and will come back with more information about time and dates asap.</p>
+</div>
+{% endif %}
+
 <p>This is the provisional program for foss-north {{ data.general.confname }}.<br />
 All sessions include time for Q&amp;A and to move between rooms.</p>
 

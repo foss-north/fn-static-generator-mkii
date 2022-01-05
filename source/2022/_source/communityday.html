@@ -5,6 +5,13 @@
 
 # Community Day
 
+
+{% if data.general.covidcancelled %}
+<div class="alert alert-danger" role="alert">
+<p class="mb-0">foss-north {{ data.general.confname }} has been <strong>cancelled due to the current COVID situation</strong>. We are working on bringing you a virtual conference in conjuction with LLW. There will be no community day during 2022.</p>
+</div>
+{% endif %}
+
 The foss-north community day is a day of community activities taking place on <strong>{{ data.general.communitydaydate }}</strong>.
 
 We have invited a number of projects to Gothenburg and provided them with venues. Now it is up to you to visit them and explore!
