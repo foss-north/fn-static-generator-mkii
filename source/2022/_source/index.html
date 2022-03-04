@@ -9,7 +9,7 @@
 
 {% if data.general.covidcancelled %}
 <div class="alert alert-danger" role="alert">
-<p class="mb-0">foss-north {{ data.general.confname }} has been <strong>cancelled due to the current COVID situation</strong>. We are working on bringing you a virtual conference in conjuction with LLW and will come back with more information about time and dates asap.</p>
+<p class="mb-0">foss-north {{ data.general.confname }} has been <strong>converted to a virtual conference due to the COVID situation</strong>.</p>
 </div>
 {% endif %}
 
@@ -162,7 +162,11 @@
 
 {% set base_sponsor_count = data.sponsors|selectattr('level','equalto','base')|list|length %}
 {% if base_sponsor_count > 0 %}
+{% if data.general.covidcancelled %}
+    <h2>Sponsors</h2>
+{% else %}
     <h2>Base Sponsors</h2>
+{% endif %}
 
     <div>
     {% for sponsor in data.sponsors|selectattr('level','equalto','base') %}

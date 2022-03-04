@@ -1,9 +1,20 @@
-#- name: "EntryScape - Diskussion om öppen användardokumentation och användarmanual"
-#  short: entryscape
-#  front: true
-#  when: "Sunday, May 30 and Wednesday, June 2"
-#  links:
-#    - { title: "Entryscape Source (git)", url: "https://bitbucket.org/metasolutions/entryscape/src/develop/" }
-#    - { title: "Entryscape free hosting", url: "https://entryscape.com/sv/free/" }
-#  description:
-#    - "Med EntryScape Catalog kan användare enkelt hantera metadata för t.ex. öppna data. Under detta pass kommer vi att diskutera processer och arbete med öppen användardokumentation för publicister och tagare av öppna data och delade data."
+- name: "Standard for Public Code"
+  short: publiccode
+  url: "https://standard.publiccode.net/"
+  front: true
+  when: "T.B.D."
+  links:
+    - { title: "Standard for Public Code", url: "https://standard.publiccode.net/" }
+    - { title: "Community translations", url: "https://github.com/publiccodenet/community-translations-standard" }
+  description:
+    - "In this project booth we'll be hacking on and talking about translations for the <a href='https://standard.publiccode.net/'>Standard for Public Code</a>. Recently, after popular demand, we started collecting <a href='https://github.com/publiccodenet/community-translations-standard'>community supported translations</a> of the Standard. So far, Spanish and Danish are complete. And while that is fantastic, we still don't have a great workflow or a way to display translations of different releases of the standard. We'll spend the day hacking on this and are also happy to talk about the standard itself or help you get started with a translation to your language. Please join us in hacking/translating or just pop in to say hi!"
+
+- name: "NOSAD - how to setup an open source project"
+  short: nosad
+  url: "https://nosad.se/"
+  front: true
+  when: "T.B.D."
+  links:
+    - { title: "NOSAD", url: "https://nosad.se/" }
+  description:
+    - "T.B.D."

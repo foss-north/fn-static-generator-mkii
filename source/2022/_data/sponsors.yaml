@@ -1,4 +1,4 @@
-#- name: Endian Technologies
-#  short: endian
-#  url: https://endian.se/
-#  level: base
+- name: FSFE
+  short: fsfe
+  url: https://fsfe.org/
+  level: partner

@@ -7,8 +7,7 @@
 
 {% if data.general.covidcancelled %}
 <div class="alert alert-danger" role="alert">
-<p>foss-north {{ data.general.confname }} has been <strong>cancelled due to the current COVID situation</strong>. We are working on bringing you a virtual conference in conjuction with LLW and will come back with more information about time and dates asap.</p>
-<p>We will open the call for paper once we know the details.</p>
+<p class="mb-0">foss-north {{ data.general.confname }} has been <strong>converted to a virtual conference due to the COVID situation</strong>.</p>
 <p class="mb-0">We welcome sponsors at the discounted cost of <strong>1000 SEK for a Base Package</strong>. This will help us maintain our infrastructure and prepare for a 2023 event.</p>
 </div>
 {% endif %}
@@ -53,6 +52,16 @@ Do you want to be part of this? Contact johan@foss-north.se for details.
 ## Call for Sponsors
 
 We want to create the meeting space for open source communities in the Nordic region. The foss-north event is one step on that path. Nothing of this would be possible by the support of our sponsors.
+
+{% if data.general.covidcancelled %}
+
+For 2022 we welcome sponsors at the discounted cost of <strong>1000 SEK for a Base Package</strong>. There will only be a single sponsorship tier, as the event is virtual. This package includes:
+
+- Logo and URL on website
+- Logo before presentations
+- Logo on recordings of presentations
+
+{% else %}
 
 We are looking for sponsors of all sizes to be a part of the foss-north event. We offer the following tiers: 
 
@@ -108,6 +117,8 @@ We are looking for sponsors of all sizes to be a part of the foss-north event. W
 </div>
 
 We are also offering a limited number of booths for our sponsors. Please tell us if you are interested in this.
+
+{% endif %}
 
 You find a more detailed information in our <a href="sponsorship-2022.pdf">sponsorship prospectus</a>. Prospective sponsors are welcome to contacting <a href="mailto:info@foss-north.se">info@foss-north.se</a>.
 

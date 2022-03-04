@@ -3,16 +3,16 @@ covidcancelled: True
 confname: "2022"
 confbaseurl: "2022"
 
-communitydaydate: "April 24"
-conferencedaysdate: "April 25 - 26"
-confdate: "April 25 2022"
+communitydaydate: "April 21"
+conferencedaysdate: "April 20 - 21"
+confdate: "April 20 2022"
 
 communitydaymeetup: ""
 
 ticketslunchdate: "Feb 1"
 
-cfpopen: True
-cfpdone: False
+cfpopen: False
+cfpdone: True
 cfpenddate: "Feb 13"
 cfpnotifydate: "March 1"
 cfpurl: "https://foss-north.se/events/2022/callforpapers/"
@@ -21,5 +21,5 @@ cfprojectsopen: False
 cfprojectsenddate: "May 15"
 
 confdays:
-  - { name: "April 25", tag: "apr25" }  
-  - { name: "April 26", tag: "apr26" }
+  - { name: "April 20", tag: "apr20" }  
+  - { name: "April 21", tag: "apr21" }
