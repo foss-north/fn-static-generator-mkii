@@ -7,7 +7,7 @@
     - { title: "Standard for Public Code", url: "https://standard.publiccode.net/" }
     - { title: "Community translations", url: "https://github.com/publiccodenet/community-translations-standard" }
   description:
-    - "In this project booth we'll be hacking on and talking about translations for the <a href='https://standard.publiccode.net/'>Standard for Public Code</a>. Recently, after popular demand, we started collecting <a href='https://github.com/publiccodenet/community-translations-standard'>community supported translations</a> of the Standard. So far, Spanish and Danish are complete. And while that is fantastic, we still don't have a great workflow or a way to display translations of different releases of the standard. We'll spend the day hacking on this and are also happy to talk about the standard itself or help you get started with a translation to your language. Please join us in hacking/translating or just pop in to say hi!"
+    - "In this virtual space we'll be hacking on and talking about translations for the <a href='https://standard.publiccode.net/'>Standard for Public Code</a>. Recently, after popular demand, we started collecting <a href='https://github.com/publiccodenet/community-translations-standard'>community supported translations</a> of the Standard. So far, Spanish and Danish are complete. And while that is fantastic, we still don't have a great workflow or a way to display translations of different releases of the standard. We'll spend the day hacking on this and are also happy to talk about the standard itself or help you get started with a translation to your language. Please join us in hacking/translating or just pop in to say hi!"
 
 - name: "NOSAD - how to setup an open source project"
   short: nosad
