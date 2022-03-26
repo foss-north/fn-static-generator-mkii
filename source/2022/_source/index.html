@@ -72,7 +72,9 @@
 
 <h1>Sponsors</h1>
 
+{% if not data.general.covidcancelled %}
 <p>We would like to thank our sponsors for helping us making this possible.</p>
+{% endif %}
 
 <p>If you want to help out by sponsoring us, please visit our <a href="contribute.html#sponsors">Call for Sponsors</a> for more information.</p>
 
@@ -164,6 +166,8 @@
 {% if base_sponsor_count > 0 %}
 {% if data.general.covidcancelled %}
     <h2>Sponsors</h2>
+
+    <p>We would like to thank our sponsors for helping us making this possible.</p>
 {% else %}
     <h2>Base Sponsors</h2>
 {% endif %}

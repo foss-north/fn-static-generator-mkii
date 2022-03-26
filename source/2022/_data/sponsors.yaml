@@ -2,3 +2,28 @@
   short: fsfe
   url: https://fsfe.org/
   level: partner
+
+- name: Ansible
+  short: ansible
+  url: https://www.ansible.com/
+  level: base
+  
+- name: Oniro
+  short: oniro
+  url: https://oniroproject.org/
+  level: base
+
+#- name: Mbition
+  #short: mbition
+  #url: https://mbition.io/
+  #level: base
+  
+#- name: Motion
+  #short: motion
+  #url:
+  #level: base
+
+- name: Mullvad
+  short: mullvad
+  url: https://mullvad.net/en/
+  level: base
