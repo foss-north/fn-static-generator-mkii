@@ -9,12 +9,16 @@
   description:
     - "In this virtual space we'll be hacking on and talking about translations for the <a href='https://standard.publiccode.net/'>Standard for Public Code</a>. Recently, after popular demand, we started collecting <a href='https://github.com/publiccodenet/community-translations-standard'>community supported translations</a> of the Standard. So far, Spanish and Danish are complete. And while that is fantastic, we still don't have a great workflow or a way to display translations of different releases of the standard. We'll spend the day hacking on this and are also happy to talk about the standard itself or help you get started with a translation to your language. Please join us in hacking/translating or just pop in to say hi!"
 
-- name: "NOSAD - how to setup an open source project"
+- name: "NOSAD - Så jobbar offentlig sektor med open source"
   short: nosad
-  url: "https://nosad.se/"
+  url: "https://www.goto10.se/event/hur-offentlig-sektor-jobbar-med-open-source/"
   front: true
-  when: "T.B.D."
+  when: "April 20, 10.30 - 11.30"
   links:
+    - { title: "The event", url: "https://www.goto10.se/event/hur-offentlig-sektor-jobbar-med-open-source/" }
     - { title: "NOSAD", url: "https://nosad.se/" }
   description:
-    - "T.B.D."
+    - "This event is held in Swedish / detta event hålls på svenska."
+    - "Både för delaktighet och samskapande är open source en viktig digital resurs, inte minst när det kommer till datadriven utveckling och innovation. Myndigheters bakomliggande IT-miljö utgörs idag till största del open source-komponenter, ändå är det först nu som vi myndigheter strategiskt börjar planera och implementera open source i våra verksamheter. Träffa DIGG, eSAM, Arbetsförmedlingen och Rise som berättar om vad de gör inom detta område. Delta också i diskussionen om hur vi kan undvika inlåsningseffekter vid upphandling samt vilka som är de viktigaste stegen att ta för ett effektivt samarbeta mellan organisationer."
+    - "<ul><li>Introduktion till nätverket NOSAD samt varför DIGG har skapat ett Kompetensområde för öppen källkod | Maria Dalhage (DIGG)</li><li>eSAMs Råd för delning och användning av Öppen källkod. | Hakim Sjöström (SCB), Mikael Österlund (eSAM-Kansliet)</li><li>Paneldiskussion och frågor | Jonas Södergren (Arbetsförmedlingen), Johan Linåker (Rise), Hakim Sjöström (SCB)</li></ul>"
+    - "Moderator:  Maria Dalhage"
