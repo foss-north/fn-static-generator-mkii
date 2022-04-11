@@ -18,10 +18,10 @@
   url: https://www.m4.nu/
   level: base
 
-#- name: Mbition
-  #short: mbition
-  #url: https://mbition.io/
-  #level: base
+- name: MBition
+  short: mbition
+  url: https://mbition.io/
+  level: base
   
 - name: Motion
   short: motion
