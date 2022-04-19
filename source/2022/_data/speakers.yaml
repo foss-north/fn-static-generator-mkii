@@ -63,6 +63,9 @@
   lastname: "piana"
   slot: slot6
   day: apr21
+  copresenters:
+    - { name: "Alberto Pianon", short: "apianon" }
+    - { name: "Rahul Mohan G", short: "rmohang" }
   title: "Eclipse Oniro compliance toolchain"
   abstract:
     - "Oniro is a Free and Open Source Software, multi-platform, multi-kernel, low spec and embedded interoperable operating system based on Yocto Bitbake. In this context, from the same code base, many different images can be built, with a build matrix counting more than 40 different target images, all containing different sets of software components: which in concrete means millions of source files and -- licensing wise -- a nightmare. Bitbake is incredilby flexible, but not quite transparent as to what software is summoned in. Taming this complexity has required a new approach and developing new tools and procedures, also incorporating CVE scanning and security elements, a dedicated dashboard and Aliens4friends, our solution to find licensing information to package matching. Our presentation is a show-and-tell of how we produced a SBOM for as many as 2,000,000 files and almost 300 different licenses with a team of 3.5, also discussing the challenges and some odd discovery about popular packages."
@@ -81,3 +84,29 @@
   bio:
     - "Dimitur Jilanov is a senior web engineer at Motion Software with 10+ years of experience and over 20 projects with the most popular frameworks (i.e. React, Vue.js, Angular, NativeScript, React Native, Flutter). His specialities are Web and mobile development, and Blockchain technology. Dimitur has won 1st place in several hackathons as well as participated in numerous international conferences, sharing his thoughts on web and mobile development trends."
     - " Dimitur is currently helping a client to build an innovative product which gives the users a complete overview of the trends in the Real Estate industry. Along with that, Dimitur is an honourable lecturer at Software University (Bulgaria)."
+
+- name: "Alberto Pianon"
+  short:  apianon
+  lastname: "pianon"
+  coslot: slot6
+  day: apr21
+  title: "Eclipse Oniro compliance toolchain"
+  links:
+    - { title: "Main Talk", url: "speakers-and-talks.html#cpiana" }
+  abstract:
+    - "Alberto will support the QA session of the talk."
+  bio:
+    - "A long standing activist and user of Free and Open Source Software, Alberto is a qualified lawyer in private practice in Vicenza, Italy. His practice covers intellectual property, cyberlaw and copyright law, with a particular focus on open source licensing and compliance, especially in the embedded/IoT field. He is one of the founding members of Array Law Firm (https://www.array.eu), member of the Legal Network of the FSFE and partner of OpenChain in Europe (as member of Array). Supporter of FSFE’s Free Your Android initiative and advocate of private cloud and self-hosting solutions. Used to read and write code in Python, PHP, Javascript, shell scripting, Java, C++ as a substantial part of his audit and compliance work on complex projects."
+    
+- name: "Rahul Mohan G"
+  short: rmohang
+  lastname: "mohan"
+  coslot: slot6
+  day: apr21
+  title: "Eclipse Oniro compliance toolchain"
+  links:
+    - { title: "Main Talk", url: "speakers-and-talks.html#cpiana" }
+  abstract:
+    - "Rahul will support the QA session of the talk."
+  bio:
+    - "Rahul has been working in license compliance audit of open source software for more than ten years. He was working for Siemens Technologies and Services Pvt. Ltd. till last year and now, working as open source software license auditor in Huawei Technologies Pvt. Ltd."

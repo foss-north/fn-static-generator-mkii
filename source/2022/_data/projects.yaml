@@ -2,8 +2,9 @@
   short: publiccode
   url: "https://standard.publiccode.net/"
   front: true
-  when: "T.B.D."
+  when: "April 21, 10.00 - 12.00"
   links:
+    - { title: "Virtual Space", url: "https://meet.publiccode.net/FOSS-North-2022" }
     - { title: "Standard for Public Code", url: "https://standard.publiccode.net/" }
     - { title: "Community translations", url: "https://github.com/publiccodenet/community-translations-standard" }
   description:
