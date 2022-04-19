@@ -3,6 +3,11 @@
   url: https://fsfe.org/
   level: partner
 
+- name: Invest in Halland
+  short: halland
+  url: http://www.investinhalland.se/
+  level: partner
+
 - name: Ansible
   short: ansible
   url: https://www.ansible.com/
