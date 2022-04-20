@@ -52,7 +52,7 @@
   lastname: "wagner"
   slot: slot5
   day: apr21
-  title: "Qemu Demistified"
+  title: "Qemu Demystified"
   abstract:
     - "Qemu is a powerful tool and in my view one part of the hardware renaissance around RISCV. But like most it comes with trade-offs. Due to the power of the first freedom we are able to learn these tradeoffs from the source, literally. This talk is an active exercise of this freedom, highlighting the inner working of qemu by leveraging the open source, mailing list and related documentation."
   bio:
