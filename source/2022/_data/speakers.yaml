@@ -3,6 +3,8 @@
   lastname: "coccia"
   slot: slot1
   day: apr20
+  links:
+    - { title: "YouTube", url: "https://youtu.be/8AbgX3_zRAQ" }
   title: "Open Source SCA"
   abstract:
     - "SCANOSS disrupts the SCA market by offering the first fully Open Source SCA Platform. From the mining tools to the database engine, scanning engine, CLIs to a fully featured Multiplatform Auditing UI. It is all pure open source and available to use. SCANOSS aims at commoditising Open Source Risk Management and driving massive SBOM adoption not only for large corporations, but also for independent developers and SMEs who are key parts of the Software Supply Chain."
@@ -14,6 +16,8 @@
   lastname: "rybczynska"
   slot: slot2
   day: apr20
+  links:
+    - { title: "YouTube", url: "https://youtu.be/EMiFE5LAKu0" }
   title: "What should I know about secure boot and TEEs?"
   abstract:
     - "The trusted computing landscape could be hard to understand for newcomers. Just at the beginning, they encounter a number of abbreviations like TEE, OPTEE, SEV, TF-A, TF-M and many more."
@@ -30,6 +34,8 @@
   lastname: "vignoli"
   slot: slot3
   day: apr20
+  links:
+    - { title: "YouTube", url: "https://youtu.be/Qzw0vFx7fc4" }
   title: "LibreOffice Technology, a FOSS platform for personal productivity"
   abstract:
     - "LibreOffice was announced in 2010 as a desktop productivity software for Windows, macOS and Linux. Since 2011, it has evolved from a single desktop product to a technology platform supporting applications for the desktop, the cloud and mobile. All products share the same engine, which provides superior consistency. The goal of the presentation is to present the different stages of this evolution."
@@ -41,6 +47,8 @@
   lastname: "bonewald"
   slot: slot4
   day: apr21
+  links:
+    - { title: "YouTube", url: "https://youtu.be/UoeT-5C4afA" }
   title: "It takes a Village - Role Diversity in Open Source"
   abstract:
     - "IEEE is a NonProfit with over 420K members in 180 Countries. We wanted to create a platform that would be in existence not for the next 3-5 years but instead for the next couple of decades to support our standards making process. We have a very diverse community. One of the first things we decided to focus on is Role Diversity. In this presentation, we will talk about how volunteers are creating groups and processes in a transparent fashion. Being 100% Open Source is a key philosophy that drives this community forward. I will review our entire community architecture and its evolution in the past year. We believe that diversity is key to both sustainability and quality. I will cover all the work done globally by our volunteers to support this."
@@ -52,6 +60,8 @@
   lastname: "wagner"
   slot: slot5
   day: apr21
+  links:
+    - { title: "YouTube", url: "https://youtu.be/5e5HU5JdtO8" }
   title: "Qemu Demystified"
   abstract:
     - "Qemu is a powerful tool and in my view one part of the hardware renaissance around RISCV. But like most it comes with trade-offs. Due to the power of the first freedom we are able to learn these tradeoffs from the source, literally. This talk is an active exercise of this freedom, highlighting the inner working of qemu by leveraging the open source, mailing list and related documentation."
@@ -63,6 +73,8 @@
   lastname: "piana"
   slot: slot6
   day: apr21
+  links:
+    - { title: "YouTube", url: "https://youtu.be/a_jJRe4nN-U" }
   copresenters:
     - { name: "Alberto Pianon", short: "apianon" }
     - { name: "Rahul Mohan G", short: "rmohang" }
@@ -77,6 +89,8 @@
   lastname: "jilanov"
   slot: slot7
   day: apr21
+  links:
+    - { title: "YouTube", url: "https://youtu.be/VjUL2LhKNTA" }
   title: "React Security"
   abstract:
     - "JavaScript has had a long history of general security risks associated with it and React — the most popular open-source JavaScript library for building user interfaces or UI components — is no exception. React's security vulnerabilities, although not visible to the naked eye, can prove to be fatal for a web application and cost millions."
@@ -92,6 +106,7 @@
   day: apr21
   title: "Eclipse Oniro compliance toolchain"
   links:
+    - { title: "YouTube", url: "https://youtu.be/a_jJRe4nN-U" }
     - { title: "Main Talk", url: "speakers-and-talks.html#cpiana" }
   abstract:
     - "Alberto will support the QA session of the talk."
@@ -105,6 +120,7 @@
   day: apr21
   title: "Eclipse Oniro compliance toolchain"
   links:
+    - { title: "YouTube", url: "https://youtu.be/a_jJRe4nN-U" }
     - { title: "Main Talk", url: "speakers-and-talks.html#cpiana" }
   abstract:
     - "Rahul will support the QA session of the talk."
