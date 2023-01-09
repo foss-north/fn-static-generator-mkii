@@ -1,0 +1,25 @@
+covidcancelled: False
+
+confname: "2023"
+confbaseurl: "2023"
+
+communitydaydate: "April 23"
+conferencedaysdate: "April 24 - 25"
+confdate: "April 23 2023"
+
+communitydaymeetup: ""
+
+ticketslunchdate: "Feb 1"
+
+cfpopen: True
+cfpdone: False
+cfpenddate: "Feb 19"
+cfpnotifydate: "March 1"
+cfpurl: "https://foss-north.se/events/2023/callforpapers/"
+
+cfprojectsopen: False
+cfprojectsenddate: "March 14"
+
+confdays:
+  - { name: "April 24", tag: "apr24" }
+  - { name: "April 25", tag: "apr25" }
