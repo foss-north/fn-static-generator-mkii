@@ -1,0 +1,32 @@
+{% extends "page.html" %}
+
+{% block bodycontents %}
+
+<h1>Tickets</h1>
+
+{% if data.general.covidcancelled %}
+<div class="alert alert-danger" role="alert">
+<p class="mb-0">foss-north {{ data.general.confname }} has been <strong>converted to a virtual conference due to the COVID situation</strong>. No tickets will be required to attend such a virtual event.</p>
+</div>
+{% endif %}
+
+<p>Get your ticket via the <a href="https://foss-north.se/events/2022/register/">ticket registration</a> page (requires the setup of an account).</p>
+
+<p>Tickets bought before T.B.D: include lunch and coffee. Tickets are still sold until the day before the event, but does not include catering. We have ordered more food than we’ve sold tickets on T.B.D., so we hope to be able to provide food to all participants, but we cannot guarantee this due to lead times ordering supplies.</p>
+
+<p>Tickets are sold in the following categories:</p>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="toptitle">Student Ticket</div>
+        <div class="topsub">{{ data.general.conferencedaysdate }}</div>
+        <p><b>200 SEK</b><br />Discounted conference tickets for students. A student ID is required when picking up the event badge.</p>
+    </div>
+    <div class="col-md-6">
+        <div class="toptitle">Conference Ticket</div>
+        <div class="topsub">{{ data.general.conferencedaysdate }}</div>
+        <p><b>500 SEK</b><br />Conference tickets for non-student visitors.</p>
+    </div>
+</div>
+
+{% endblock %}

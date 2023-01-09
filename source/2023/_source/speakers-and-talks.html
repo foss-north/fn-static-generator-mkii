@@ -1,0 +1,57 @@
+{% extends "page.html" %}
+{% block bodycontents %}
+
+<h1>Speakers and Talks</h1>
+
+
+{% if data.general.covidcancelled %}
+<div class="alert alert-danger" role="alert">
+<p class="mb-0">foss-north {{ data.general.confname }} has been <strong>converted to a virtual conference due to the COVID situation</strong>.</p>
+</div>
+{% endif %}
+
+{% if data.speakers is iterable and data.speakers is not string %}
+{% set sorted_speakers = data.speakers | rejectattr('day','equalto','none') | sort(attribute='lastname') %}
+{% for speaker in sorted_speakers %}
+    <a name="{{ speaker.short }}" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            <div class="speaker-photo"><img class="sp-image" src="images/speaker-{{ speaker.short }}.png" alt="{{ speaker.name }}"></div>
+        </div>
+        <div class="col-md-9">
+            <div class="name">{{ speaker.name }}</div>
+            <div class="title">{{ speaker.title }}</div>
+            <div class="links">
+                {% if speaker.links is defined %}
+                    {% for link in speaker.links %}
+                        <a href="{{ link.url }}">{{ link.title }}</a>
+                        &nbsp;-&nbsp;
+                    {% endfor %}
+                {% endif %}
+                {% if speaker.slot %}
+                <a href="schedule.html#{{ speaker.slot }}">Talk Slot</a>
+                {% endif %}
+                {% if speaker.coslot %}
+                <a href="schedule.html#{{ speaker.coslot }}">Talk Slot</a>
+                {% endif %}
+            </div>
+
+            {% for abstracttext in speaker.abstract %}
+            <div class="abstract">
+                {{ abstracttext }}
+            </div>
+            {% endfor %}
+
+	    {% for biotext in speaker.bio %}
+            <div class="bio">
+                {{ biotext }}
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+{% else %}
+<p><strong>The speakers have not yet been confimed.</strong></p>
+{% endif %}
+    
+{% endblock %}
