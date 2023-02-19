@@ -13,8 +13,8 @@ ticketslunchdate: "Feb 1"
 
 cfpopen: True
 cfpdone: False
-cfpenddate: "Feb 19"
-cfpnotifydate: "March 1"
+cfpenddate: "March 5"
+cfpnotifydate: "March 15"
 cfpurl: "https://foss-north.se/events/2023/callforpapers/"
 
 cfprojectsopen: False
