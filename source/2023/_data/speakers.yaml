@@ -1,128 +1,278 @@
-# - name: "Julian Coccia"
-#   short: "jcoccia"
-#   lastname: "coccia"
-#   slot: slot1
-#   day: apr20
-#   links:
-#     - { title: "YouTube", url: "https://youtu.be/8AbgX3_zRAQ" }
-#   title: "Open Source SCA"
-#   abstract:
-#     - "SCANOSS disrupts the SCA market by offering the first fully Open Source SCA Platform. From the mining tools to the database engine, scanning engine, CLIs to a fully featured Multiplatform Auditing UI. It is all pure open source and available to use. SCANOSS aims at commoditising Open Source Risk Management and driving massive SBOM adoption not only for large corporations, but also for independent developers and SMEs who are key parts of the Software Supply Chain."
-#   bio:
-#     - "Passionate about Open Source license compliance. Developed global Open Source processes and tools at Ericsson. Co-founded and developed the core technology at FOSSID. Driving the Project Office at the Software Transparency Foundation to drive SBOM adoption. Leading the technology at SCANOSS."
-#
-# - name: "Marta Rybczynska"
-#   short: "mrybczynska"
-#   lastname: "rybczynska"
-#   slot: slot2
-#   day: apr20
-#   links:
-#     - { title: "YouTube", url: "https://youtu.be/EMiFE5LAKu0" }
-#   title: "What should I know about secure boot and TEEs?"
-#   abstract:
-#     - "The trusted computing landscape could be hard to understand for newcomers. Just at the beginning, they encounter a number of abbreviations like TEE, OPTEE, SEV, TF-A, TF-M and many more."
-#     - "In this talk Marta is going to present a map of the trusted computing landscape, explaining different types hardware of support. She is going to put it in a context of implementing secure boot and trusted execution in an embedded distribution, namely Yocto-based Eclipse Oniro project."
-#     - "The talk will include a map of trusted hardware technologies, illustrate how they are (or are expected to) be used, which market needs they address. Marta will show how they could be used in practice in an embedded distribution. The example will be the secure boot work in the Eclipse Oniro project, an embedded multi-OS distribution for Internet of Things (IOT) devices. The multi-OS specificity of Oniro will be used how the trusted computing technologies compare on different types of processors running Linux and Zephyr, with different security hardware support."
-#   bio:
-#     - "Marta Rybczynska has network security background, 20 years of experience in Open Source including 15 years in embedded development."
-#     - "She has been working with embedded operating systems like Linux and various real-time ones, system libraries and frameworks up to user interfaces. Her specialties are architecture-specific parts of the Linux kernel. In the past, Marta served as Vice-President and treasurer for KDE e.V. She has been involved in various Open Source projects, and also contributing kernel-related guest articles for LWN.net."
-#     - "In 2021, she founded Syslinbit, an Open Source consulting company. She has been contributing to the Eclipse Oniro project from April 2021."
-#     - "She has experience with presentations on both scientific and free software conferences, including LinuxCon, Open Source Summit, Embedded Linux Conference, Akademy, FOSDEM and FOSS-north."
-#
-# - name: "Italo Vignoli"
-#   short: "ivignoli"
-#   lastname: "vignoli"
-#   slot: slot3
-#   day: apr20
-#   links:
-#     - { title: "YouTube", url: "https://youtu.be/Qzw0vFx7fc4" }
-#   title: "LibreOffice Technology, a FOSS platform for personal productivity"
-#   abstract:
-#     - "LibreOffice was announced in 2010 as a desktop productivity software for Windows, macOS and Linux. Since 2011, it has evolved from a single desktop product to a technology platform supporting applications for the desktop, the cloud and mobile. All products share the same engine, which provides superior consistency. The goal of the presentation is to present the different stages of this evolution."
-#   bio:
-#     - "Italo Vignoli is a founding member of The Document Foundation, the Chairman Emeritus of Associazione LibreItalia, an Open Source Initiative (OSI) board member, and co-chair of the ODF Advocacy OASIS Open Project. He co-leads LibreOffice marketing, PR and media relations, co-chairs the certification program, and is a spokesman for the project. He has contributed to large migration projects to LibreOffice in Italy, and is a LibreOffice certified migrator and trainer. From 2004 to 2010 he has been involved in the OOo project."
-#
-# - name: "Silona Bonewald"
-#   short: "sbonewald"
-#   lastname: "bonewald"
-#   slot: slot4
-#   day: apr21
-#   links:
-#     - { title: "YouTube", url: "https://youtu.be/UoeT-5C4afA" }
-#   title: "It takes a Village - Role Diversity in Open Source"
-#   abstract:
-#     - "IEEE is a NonProfit with over 420K members in 180 Countries. We wanted to create a platform that would be in existence not for the next 3-5 years but instead for the next couple of decades to support our standards making process. We have a very diverse community. One of the first things we decided to focus on is Role Diversity. In this presentation, we will talk about how volunteers are creating groups and processes in a transparent fashion. Being 100% Open Source is a key philosophy that drives this community forward. I will review our entire community architecture and its evolution in the past year. We believe that diversity is key to both sustainability and quality. I will cover all the work done globally by our volunteers to support this."
-#   bio:
-#     - "Silona Bonewald is the Executive Director for IEEE SA OPEN, a comprehensive platform offering the open source community cost-effective options for developing and validating their projects. Previously she was vice president of community architecture at Hyperledger, a global open source collaborative effort hosted by The Linux Foundation, where she integrated leaders in finance, banking, Internet of Things (IoT), supply chains, and manufacturing. Other notable career accomplishments include, while with PayPal, pioneering the InnerSource process; for Siemens AG, creating a cutting-edge and Six Sigma-compliant e-commerce website; and for Ubisoft, creating an international content management system (CMS) architecture."
-#
-# - name: "Florian Wagner"
-#   short: "fwagner"
-#   lastname: "wagner"
-#   slot: slot5
-#   day: apr21
-#   links:
-#     - { title: "YouTube", url: "https://youtu.be/5e5HU5JdtO8" }
-#   title: "Qemu Demystified"
-#   abstract:
-#     - "Qemu is a powerful tool and in my view one part of the hardware renaissance around RISCV. But like most it comes with trade-offs. Due to the power of the first freedom we are able to learn these tradeoffs from the source, literally. This talk is an active exercise of this freedom, highlighting the inner working of qemu by leveraging the open source, mailing list and related documentation."
-#   bio:
-#     - "Driven by a desire to understand the insides of software Florian has always been drawn to the underlying technologies. Most recently this has led to thinking about how knowledge about these technologies is gained and communicated."
-#
-# - name: "Carlo Piana"
-#   short: "cpiana"
-#   lastname: "piana"
-#   slot: slot6
-#   day: apr21
-#   links:
-#     - { title: "YouTube", url: "https://youtu.be/a_jJRe4nN-U" }
-#   copresenters:
-#     - { name: "Alberto Pianon", short: "apianon" }
-#     - { name: "Rahul Mohan G", short: "rmohang" }
-#   title: "Eclipse Oniro compliance toolchain"
-#   abstract:
-#     - "Oniro is a Free and Open Source Software, multi-platform, multi-kernel, low spec and embedded interoperable operating system based on Yocto Bitbake. In this context, from the same code base, many different images can be built, with a build matrix counting more than 40 different target images, all containing different sets of software components: which in concrete means millions of source files and -- licensing wise -- a nightmare. Bitbake is incredilby flexible, but not quite transparent as to what software is summoned in. Taming this complexity has required a new approach and developing new tools and procedures, also incorporating CVE scanning and security elements, a dedicated dashboard and Aliens4friends, our solution to find licensing information to package matching. Our presentation is a show-and-tell of how we produced a SBOM for as many as 2,000,000 files and almost 300 different licenses with a team of 3.5, also discussing the challenges and some odd discovery about popular packages."
-#   bio:
-#     - "Lawyer with 25+ years experience in IT law, has been active since early 2000's in Free and Open Source Software advocacy. General Counsel of the Free Software Foundation Europe for nearly 10 years Carlo has been one of the most vocal experts in the public discourse around FOSS, Editor since its inception of the International Free and Open Source Software Law Review (now Jolts) and author of many publications, including a book selected in Italy for free distribution in schools by Wikimedia Italia. Founder of Array, he is now representative for his firm as Silver Member of Eclipse Oniro Working Group within the Eclipse Foundation, contributing with his colleague Alberto Pianon in an Open Source compliance toolset and OpenChain conformance for an entire operating system for embedded and IoT devices."
-#
-# - name: "Dimitur Jilanov"
-#   short: "djilanov"
-#   lastname: "jilanov"
-#   slot: slot7
-#   day: apr21
-#   links:
-#     - { title: "YouTube", url: "https://youtu.be/VjUL2LhKNTA" }
-#   title: "React Security"
-#   abstract:
-#     - "JavaScript has had a long history of general security risks associated with it and React — the most popular open-source JavaScript library for building user interfaces or UI components — is no exception. React's security vulnerabilities, although not visible to the naked eye, can prove to be fatal for a web application and cost millions."
-#     - "Raising awareness about some common security mistakes in React and effective solutions to overcome them, is the only way to avoid implications, eventual security leaks, and hacks in every web app."
-#   bio:
-#     - "Dimitur Jilanov is a senior web engineer at Motion Software with 10+ years of experience and over 20 projects with the most popular frameworks (i.e. React, Vue.js, Angular, NativeScript, React Native, Flutter). His specialities are Web and mobile development, and Blockchain technology. Dimitur has won 1st place in several hackathons as well as participated in numerous international conferences, sharing his thoughts on web and mobile development trends."
-#     - " Dimitur is currently helping a client to build an innovative product which gives the users a complete overview of the trends in the Real Estate industry. Along with that, Dimitur is an honourable lecturer at Software University (Bulgaria)."
-#
-# - name: "Alberto Pianon"
-#   short:  apianon
-#   lastname: "pianon"
-#   coslot: slot6
-#   day: apr21
-#   title: "Eclipse Oniro compliance toolchain"
-#   links:
-#     - { title: "YouTube", url: "https://youtu.be/a_jJRe4nN-U" }
-#     - { title: "Main Talk", url: "speakers-and-talks.html#cpiana" }
-#   abstract:
-#     - "Alberto will support the QA session of the talk."
-#   bio:
-#     - "A long standing activist and user of Free and Open Source Software, Alberto is a qualified lawyer in private practice in Vicenza, Italy. His practice covers intellectual property, cyberlaw and copyright law, with a particular focus on open source licensing and compliance, especially in the embedded/IoT field. He is one of the founding members of Array Law Firm (https://www.array.eu), member of the Legal Network of the FSFE and partner of OpenChain in Europe (as member of Array). Supporter of FSFE’s Free Your Android initiative and advocate of private cloud and self-hosting solutions. Used to read and write code in Python, PHP, Javascript, shell scripting, Java, C++ as a substantial part of his audit and compliance work on complex projects."
-#
-# - name: "Rahul Mohan G"
-#   short: rmohang
-#   lastname: "mohan"
-#   coslot: slot6
-#   day: apr21
-#   title: "Eclipse Oniro compliance toolchain"
-#   links:
-#     - { title: "YouTube", url: "https://youtu.be/a_jJRe4nN-U" }
-#     - { title: "Main Talk", url: "speakers-and-talks.html#cpiana" }
-#   abstract:
-#     - "Rahul will support the QA session of the talk."
-#   bio:
-#     - "Rahul has been working in license compliance audit of open source software for more than ten years. He was working for Siemens Technologies and Services Pvt. Ltd. till last year and now, working as open source software license auditor in Huawei Technologies Pvt. Ltd."
+- name: "Philippe Ombredanne"
+  short: "pombredanne"
+  lastname: "Ombredanne"
+  slot: slot16
+  day: apr25
+  links:
+    - { title: "The PURL project proper ", url: "https://github.com/package-url" }
+    - { title: "PURL spec", url: "https://github.com/package-url/purl-spec/" }
+    - { title: "VERS spec", url: "https://github.com/package-url/purl-spec/pull/139" }
+    - { title: "A new database of purls", url: "https://github.com/nexb/purldb" }
+    - { title: "A mapping of purl to CPEs", url: "https://github.com/nexb/purl2cpe" }
+  title: "A mostly universal way to identify SBOM packages with a Package-URL"
+  abstract:
+    - "The Package-URL (aka. PURL has emerged as a useful alternative software package identifier for SBOMs and beyond."
+    - "This session presents PURL, how and where in FOSS PURLs are used and the tools they enable."
+    - "The Package-URL is a simple spec that has emerged as an important way to identify package in SBOMs and in software composition analysis (SCA). It is useful to identify packages as used in SBOM, vulnerability and dependency management."
+    - 'Join me for:<ul><li>a quick introduction to PURL and how they compare with other package identifiers.</li><li>a review of PURL usage in SPDX and CycloneDX and how PURL can contribute to minimal but powerful SBOMs.</li><li>a tour of which FOSS projects use PURL such as Anchore, ORT, Fosslight, ScanCode, VulnerableCode and many other.</li><li>how the new "VERS" version range companion spec can normalize dealing with dependency and vulnerable version ranges.</li><li>how to build PURLdb an open database of all the purls.</li><li>how to automatically map PURLs with legacy identifiers.</li></ul>'
+  bio:
+    - "Philippe Ombredanne is a passionate FOSS hacker, lead maintainer of ScanCode and VulnerableCode, creator of Package URL and on a mission to enable easier and safer to reuse FOSS code with best-in-class open source Software Composition Analysis and SBOM tools for open source discovery, license & security compliance at https://aboutcode.org and the CTO of nexB Inc."
+
+- name: "Florian Wagner"
+  short: "fwagner"
+  lastname: "Wagner"
+  slot: slot2
+  day: apr24
+  title: "Baremetal Software ❤ FOSS"
+  abstract:
+    - "Developing baremetal software can be daunting, all the more when the hardware is hard to come by or evolving in parallel. Thankfully Open Source Projects can be used to build an effective and even comfortable development environment. This talk shows by example how to create such a development environment which includes testing and code coverage."
+  bio:
+    - "Driven by a desire to understand the insides of software Florian has always been drawn to the underlying technologies. Most recently this has led to thinking about how knowledge about these technologies is gained and communicated."
+
+- name: "Francisco"
+  short: "francisco"
+  lastname: "Francisco"
+  slot: slot3
+  day: apr24
+  title: "Clipaha: a free software library to move password hashing to the client"
+  abstract:
+    - "Modern password hashing algorithms like Argon2 have high memory and CPU requirements which make it impossible to deploy them on embedded devices and may open systems using them to DoS attacks."
+    - "The solution to this is making the client perform the computation since it is the one who should bear the burden of proving its identity. Making this happen is not trivial as it may open to new attacks."
+    - "Clipaha also aims to address other concerns like the complexity of choosing the hash security parameters."
+    - "This talk will introduce developers to Clipaha and how to use it to upgrade authentication flows using strong password hashing."
+  bio:
+    - "Klondike has a long history of being an open source developer starting with the Kontinuidad Jabata project on 2006 and moving towards other endeavours like the Gentoo Hardened project. Currently, klondike is researching techniques to solve security problems affecting the real world including authentication issues and vulnerability exploitation."
+
+- name: "Jan Ainali"
+  short: "jainali"
+  lastname: "Ainali"
+  slot: slot7
+  day: apr24
+  title: "Common collaboration conundrums"
+  abstract:
+    - "Open source is rightfully popular, but succeeding may not be as easy as it sounds. In this talk, I'll highlight a number of common pitfalls that I have observed maintainers of a codebase create for themselves. I will go through why it might seem like a good idea, what harm it actually makes and how to repair mistakes and even better, how to avoid making them in the first place."
+  bio:
+    - "Jan is working with developing tools, processes and collecting best practices for community building amongst the codebases in stewardship."
+    - "Jan has been a policy advisor on digital issues in the European Parliament for a green MEP, mainly working on the copyright directive. Before that he ran a consultancy called Open by Default, which helped public organizations use open licenses to publish open data and make open source software. Previously he was the CEO of Wikimedia Sverige after co-founding the chapter and being its chairman."
+    - "Jan has a bachelor of science in innovation and design engineering from University of Karlstad."
+
+- name: "Zeeshan Ali"
+  short: "zali"
+  lastname: "Ali"
+  slot: slot5
+  day: apr24
+  title: "D-Bus Oxidized"
+  abstract:
+    - "D-Bus is an IPC mechanism that is very ubiquitous on Linux desktop and embedded systems. It is the mechanism you'd use to communicate with many of the core Linux userspace subsystems, such as systemd, NetworkManager etc. Traditionally, most of these services have been written in C, a language known for its lack of safety."
+    - "In the past years, Zeeshan has developed a library, called zbus for enabling implementation of D-Bus services and clients in a programming language designed for safety: Rust. While that is major step forward, the communication typically still happens through the D-Bus broker, which is written in C. While not all CVEs against the D-Bus brokers over the years could have been avoided if the broker was written in Rust, the big majority of them could have been. This is why Zeeshan has recently started working on writing a D-Bus broker in Rust, called dbuz."
+    - "In this talk, Zeeshan will walk us through a summary of his journey so far, starting with an introduction to D-Bus. He will conclude with his plans and dreams for the future of D-Bus."
+  bio:
+    - "Free Software developer, Ecomodernist, into flying & Rust, and love cats."
+
+- name: "Björn Lundell"
+  short: "blundell"
+  lastname: "Lundell"
+  slot: slot8
+  day: apr24
+  title: "Enabling or inhibiting FOSS Usage Through Procurement Projects: What can and should be done?"
+  abstract:
+    - "Abstract: Market concentration with a few dominant global providers of cloud-based Software-as-a-Service (SaaS) solutions causes concern amongst competition authorities and public sector organisations which aim to maintain control of its data processing and long-term maintenance of digital assets. This imposes a range of technical and legal challenges, which in turn may inhibit opportunities for usage of FOSS. When a public sector organisation (PSO) acquires and uses a cloud-based SaaS solution, such as Microsoft 365 and Google Workspace, this implies that data processing and maintenance of the organisation’s digital assets will be exposed to a range of different types of lock-in effects. For example, format lock-in causes technical and legal challenges which may prevent establishment of FOSS projects and impose risks for unlawful and inappropriate data processing. Further, two of the most talked about obstacles for use of US SaaS solutions are about to be addressed by the legislators: (1) by proposed revisions to the domestic Secrecy Act (SFS 2009:400) issued by the Swedish Government on 26 January 2023, and (2) by the EU commissions proposed adequacy decision for the EU-U.S. Data Privacy Framework of 13 December 2022. Moreover, there are also several other factors which need to be assessed in order to conclude that data processing and maintenance of digital assets is lawful."
+    - "This presentation addresses widespread practices with illustrative examples concerning how PSOs express mandatory requirements in public procurement projects which inhibit FOSS usage. Specifically, the presentation elaborates issues concerning lawfulness and appropriateness related to a PSO’s procurement and use a cloud-based SaaS solution without having identified and obtained all relevant contract terms, all applicable licences, and all applicable FOSS that would allow for ensuring long-term maintenance of digital assets independently of the SaaS solution initially used. In particular, we highlight the necessity of ensuring availability of appropriate FOSS in order to allow for lawful and appropriate data processing and maintenance of digital assets over a life-cycle beyond the SaaS solution currently used."
+    - "By drawing from extensive research in the area, this presentation provides a brief overview and illustrative examples concerning how current practice amongst public sector organisations discriminate against FOSS usage. In particular, we elaborate how adoption and use of a cloud-based SaaS solution in each PSO cause format lock-in, which in turn may prevent data sovereignty. From this presentation we hope to open up the floor for a broader discussion amongst participants of fundamental challenges concerning how to avoid discrimination of FOSS."
+    - "References:"
+    - "Lundell B., Gamalielsson, J., Butler, S., Brax, C., Persson, T., Mattsson, A., Gustavsson, T., Feist, J. & Öberg, J. (2021) Enabling OSS usage through procurement projects: How can lock-in effects be avoided?, In Taibi, D. et al. (Eds.), The 13th International Conference on Open Source Systems (OSS 2021), IFIP Advances in Information and Communication Technology, Vol. 624, Springer, Cham, pp. 16-27. https://doi.org/10.1007/978-3-030-75251-4_2"
+    - "Lundell, B., Gamalielsson, J. & Katz, A. (2023) Implementing the HEVC standard in software: Challenges and Recommendations for organisations planning development and deployment of software, Journal of Standardisation, Vol. 2. https://doi.org/10.18757/jos.2022.6695"
+    - "Lundell, B., Gamalielsson, J., Katz, A. & Lindroth, M. (2022a) Use of Commercial SaaS Solutions in Swedish Public Sector Organisations under Unknown Contract Terms, In Janssen, M. et al. (Eds.) EGOV 2022: Electronic Government, Lecture Notes in Computer Science, Vol 13391, Springer, Cham, pp. 73-92. https://doi.org/10.1007/978-3-031-15086-9_6"
+    - "Lundell, B., Gamalielsson, J., Katz, A., & Lindroth, M. (2022b) Data Processing and Maintenance in Different Jurisdictions When Using a SaaS Solution in a Public Sector Organisation, JeDEM – EJournal of EDemocracy and Open Government, Vol. 14(2), pp. 214-234. https://doi.org/10.29379/jedem.v14i2.749"
+  bio:
+    - "Professor Björn Lundell (Ph.D. from the University of Exeter in 2001) has been a staff member and researcher at the University of Skövde since 1984. He leads the Software Systems Research Group and his research is reported in over 100 publications in a variety of international journals and conferences. Professor Lundell’s research contributes to theory and practice in the software systems domain and addresses fundamental socio-technical challenges related to procurement, development, and use of software systems under different forms of it-operations. His research focuses on different aspects of lock-in, interoperability, and long life-cycles for systems and related digital assets, and centres on different aspects of openness (in particular open source and open standards)."
+
+- name: "Jose E"
+  short: "je"
+  lastname: "E"
+  slot: slot6
+  day: apr24
+  title: "GNU poke, the extensible editor for structured binary data"
+  abstract:
+    - "GNU poke is an interactive, extensible editor for binary data. Not limited to editing basic entities such as bits and bytes, it provides a full-fledged procedural, interactive programming language designed to describe data structures and to operate on them."
+    - "GNU poke tries to overcome the typical limitations of simpler classical binary editors. Examples are bit orientation, support for defining dynamic structures, and the Poke language which has been specifically designed for both describing binary layouts and to work with the corresponding data."
+    - "In this activity I will do a general introduction to the program and the Poke programming language, using little practical examples. We will see how poke can also be used in order to implement binary utilities, and fast prototypes."
+    - "This talk is oriented to software developers, security and reverse-engineering folk. But it shall be accessible enough for anyone wanting to venture into poking at binary files, memory of processes, protocols, and the like."
+  bio:
+    - "Long term GNU contributor and maintainer. Member of the GNU Advisory Committee. Authorized speaker of the GNU Project."
+    - "Currently employed by Oracle as their Technical Lead of the Compilers and Toolchain team."
+
+- name: "Ramon Soto Mathiesen"
+  short: "rsmathiesen"
+  lastname: "Soto Mathiesen"
+  slot: slot12
+  day: apr25
+  title: ""
+  abstract:
+    - "Currently, when working with Apache Kafka® and Azure Databricks® (Apache Spark®), there is a built-in mechanism to transform Apache Avro® data to Apache Parquet® files. The issue with this approach, if we think in medallion lakehouse architecture, is that AVRO with nested data, will be persisted in a single PARQUET file in the bronze layer (full, raw and unprocessed history of each dataset) relying on ArrayType, MapType and StructType to represent the nested data. This will make it a bit more tedious to post-process data respectively in the following layers: silver (validated and deduplicated data) and gold (data as knowledge)."
+    - "To avoid this issue, we present an open-source library, that will help transform AVRO, with nested data, to multiple PARQUET files where each of the nested data elements will be represented as an extension table (separate file). This will allow to merge both the bronze and silver layers (full, raw and history of each dataset combined with defined structure, enforced schemas as well validated and deduplicated data), to make it easier for data engineers/scientists and business analysts to combine data with already known logic (SQL joins)."
+    - "As two of the medallion layers are being combined to a single, it might lead to the possible saving of a ⅓ in disk usage. Furthermore, since we aren't relying on a naive approach, when flattening and storing data, it could further lead to greater savings and a more sustainable and environmentally friendly approach."
+  bio:
+    - 'I am Mr. Math (Ramón Soto Mathiesen), a passionate "datologist", with flair for functional programming languages and business, that advocates for correctness, code-quality and high-standards but, always with the customer in mind.'
+
+- name: "Joachim Strömbergson"
+  short: "jstrombergson"
+  lastname: "Strömbergson"
+  slot: slot13
+  day: apr25
+  links:
+    - { title: "Tillitis", url: "https://tillitis.se/" }
+    - { title: "Tillitis git", url: "https://github.com/tillitis" }
+    - { title: "SecWorks", url: "https://github.com/secworks" }
+    - { title: "Cryptech", url: "https://cryptech.is/" }
+  title: "Introducing Tillitis TKey - a radically open authentication platform that fits in your pocket"
+  abstract:
+    - "The Tillitis TKey device is a new authentication and application platform that can be carried in your pocket. The TKey is fully open - from circuit board to applications, and yet provides strong security foundations."
+    - "In the talk we will present what the TKey is, how it works and how it can be used to solve common and new application and authentication problems."
+    - "For more information, see: <a href='https://tillitis.se/'>https://tillitis.se/</a> and <a href='https://github.com/tillitis'>https://github.com/tillitis</a>"
+  bio:
+    - "Joachim Strömbergson is an IT security consultant focusing on embedded and digital hardware and cryptography. Joachim has been involved in open and free source projects for many years. Joachim has been part of the Cryptech Open HSM core team. Joachim has also released several open crypto implementations - hardware as well as SW."
+    - "Joachim is head of the digital design at Tillitis and is the main designer of the FPGA in the open TKey project."
+
+- name: "Julian Coccia"
+  short: "jcoccia"
+  lastname: "Coccia"
+  slot: slot9
+  day: apr24
+  title: "License compliance with AI assisted coding"
+  abstract:
+    - "This presentation will focus on the importance of validating license compliance when using AI-assisted coding, and how to identify undeclared open source components with Open Source compliance tools such as SCANOSS, FOSSology, FOSSlight, Scancode, and OSS Review Toolkit."
+    - "With the proliferation of AI in software development, the coding process has become faster and more efficient, but it has also created new risks associated with non-compliance if open source components are used without proper license assessment. Attendees will gain insights into how to enable the detection of undeclared AI-generated, open source components, and how this process helps organizations to mitigate compliance risks."
+  bio:
+    - "Passionate about Open Source license compliance. Developed global Open Source processes and tools at Ericsson. Co-founded and developed the core technology at FOSSID. Driving the Project Office at the Software Transparency Foundation to drive SBOM adoption. Leading the technology at SCANOSS."
+
+- name: "Johan Linåker"
+  short: "jlinaker"
+  lastname: "Linåker"
+  copresenters:
+    - { name: "Per Persson", short: "ppersson" }
+  slot: slot9
+  day: apr24
+  title: "Municipal collaboration on open source software - Why is it so hard?"
+  abstract:
+    - "Open Source Software (OSS) is today widely adopted as a means of collaboration and building commercial offerings and software supply-chains in the industry. Cost-sharing and open innovation, avoiding lock-ins, driving technological change, and establishing shared standards are commonly referred to as incentives, of which many also apply to Public Sector Organizations (PSOs). Yet, uptake and institutional capacity have thus far been limited and disproportionate to the potential upside in economic terms."
+    - "Explanations may be found in PSOs’ dependence on acquiring and outsourcing technical capabilities and, by extension, their limited competency regarding OSS and software development. Additional challenges are implied by public procurement regulations and practices, which impact conditions for how PSOs can procure OSS. Symptomatic organizational barriers for PSOs, such as bureaucratic processes, short-term planning, and risk-aversive culture, further add to the mix."
+    - "For municipalities, these challenges are accentuated due to their limited size and resources. However, so is the potential for collective action due to the type of public services they are required to provide. In Sweden, for example, we have 290 municipalities, all with the responsibility (among many) to provide elderly and daycare, school, and social services. As in industry, there is, hence, the potential for shared and standardized platforms and infrastructure, on which tailoring of specific needs can be applied in a modular structure."
+    - "In this talk, we will look at previous and ongoing municipal collaborations in Sweden and on a European level and walk through both challenges, their consequences, and how they may be addressed and mitigated. The aim is to provide food for thought and practical advice for PSOs and software suppliers regarding how they can find a basis for a fruitful and mutually beneficial collaboration based on openness and transparency."
+  bio:
+    - "Johan is a senior researcher at RISE Research Institutes of Sweden with focus and passion for open source software, data, gov and innovation. Co-founder and community manager for NOSAD.se."
+
+- name: "Per Persson"
+  short: "ppersson"
+  lastname: "Persson"
+  coslot: slot9
+  day: apr24
+  title: "Municipal collaboration on open source software - Why is it so hard?"
+  abstract:
+    - "Open Source Software (OSS) is today widely adopted as a means of collaboration and building commercial offerings and software supply-chains in the industry. Cost-sharing and open innovation, avoiding lock-ins, driving technological change, and establishing shared standards are commonly referred to as incentives, of which many also apply to Public Sector Organizations (PSOs). Yet, uptake and institutional capacity have thus far been limited and disproportionate to the potential upside in economic terms."
+    - "Explanations may be found in PSOs’ dependence on acquiring and outsourcing technical capabilities and, by extension, their limited competency regarding OSS and software development. Additional challenges are implied by public procurement regulations and practices, which impact conditions for how PSOs can procure OSS. Symptomatic organizational barriers for PSOs, such as bureaucratic processes, short-term planning, and risk-aversive culture, further add to the mix."
+    - "For municipalities, these challenges are accentuated due to their limited size and resources. However, so is the potential for collective action due to the type of public services they are required to provide. In Sweden, for example, we have 290 municipalities, all with the responsibility (among many) to provide elderly and daycare, school, and social services. As in industry, there is, hence, the potential for shared and standardized platforms and infrastructure, on which tailoring of specific needs can be applied in a modular structure."
+    - "In this talk, we will look at previous and ongoing municipal collaborations in Sweden and on a European level and walk through both challenges, their consequences, and how they may be addressed and mitigated. The aim is to provide food for thought and practical advice for PSOs and software suppliers regarding how they can find a basis for a fruitful and mutually beneficial collaboration based on openness and transparency."
+  bio:
+    - "Johan is a senior researcher at RISE Research Institutes of Sweden with focus and passion for open source software, data, gov and innovation. Co-founder and community manager for NOSAD.se."
+
+- name: "Alexander Käll"
+  short: "akall"
+  lastname: "Käll"
+  slot: slot15
+  day: apr25
+  title: "Packaging Rust for Debian"
+  abstract:
+    - "Rust have emerged as a good fit for building new tooling, it's both fast and have a strong focus on safety. And the popularity of the language is currently growing."
+    - "One way we can help fuel this trend is by making sure that software built in rust is well packaged and easily available for consumption."
+    - "This talk will be an introduction to the practical work on how rust packaging works in Debian. By exploring the journey from developer to end user I hope to shine some light on the design choices that has been made by Debian, and how that interacts with the Rust ecosystem."
+  bio:
+    - "Part of the Debian Rust team, and currently packaging about 100 rust packages in Debian."
+    - "Contributes to a password manager written in Rust: <a href='https://github.com/cortex/ripasso'>https://github.com/cortex/ripasso</a>"
+    - "Works as a security engineer day time."
+
+- name: "Holger Levsen"
+  short: "hlevsen"
+  lastname: "Levsen"
+  slot: slot10
+  day: apr24
+  title: "Reproducible Builds, the first ten years"
+  abstract:
+    - "In this talk Holger Levsen will give an overview about reproducible builds. How it started with a small BoF at DebConf13 (and before), how it grew from being a Debian effort to something many projects work on together, until in 2021 it was mentioned in an executive order of the president of the United States. And of course the talk will not end there but rather outline where we are today and where we still need to be going, until Debian stable will be 100% reproducible, verified by many."
+    - "And while this talk will have a Debian focus, reproducible builds in other project will be featured and not be left behind. Holger Levsen has been involved in reproducible builds since 2014 and has worked on reproducing Fedora, Arch Linux, NetBSD, coreboot and others."
+  bio:
+    - "Holger Levsen has been a Debian user since more than 25 years and an official Debian member since 2007. Since 2014 his main focus has been Reproducible Builds, though he is still involved in some other Debian areas like general QA and Debian Edu."
+
+- name: "Daphne Muller"
+  short: "dmuller"
+  lastname: "Muller"
+  slot: slot14
+  day: apr25
+  title: "TBC"
+  abstract:
+    - "TBC"
+  bio:
+    - "TBC"
+
+- name: "Edward Betts"
+  short: "ebetts"
+  lastname: "Betts"
+  slot: slot17
+  day: apr25
+  title: "Tools for linking Wikidata and OpenStreetMap"
+  abstract:
+    - "Wikidata and OpenStreetMap are collaborative open data projects that contain structured data for real world places and things. Adding links between the projects makes the data more useful, but doing this by hand is laborious. I've written a software tool that automates much of the process."
+    - "Editors of OpenStreetMap can use my software to search for a place or region, generating a list of candidate matches from Wikidata, which can then be checked and saved to OpenStreetMap."
+    - "Linking the two projects isn't without controversy. They use different licenses which raises questions about what information from one project can be copied to the other."
+    - "In the presentation I will give details of a new version of the editing tool."
+    - "I will talk about the benefits of linking, the process of finding matches, the community response - including the controversy - and how people can get involved."
+  bio:
+    - "Edward became a member of Debian in 1998, he maintains over 70 Debian packages."
+    - "He has written several tools for BusyBox, a software suite that provides several Unix utilities in a single executable file."
+    - "Edward worked at the Internet Archive for five years as the original data librarian of the Open Library."
+    - "He builds tools for editing Wikipedia, Wikidata and OpenStreetMap."
+
+- name: "Jonas Gamalielsson"
+  short: "jgamalielsson"
+  lastname: "Gamalielsson"
+  slot: slot18
+  day: apr25
+  title: "Towards open government through open source software for web analytics: the case of Matomo"
+  abstract:
+    - "Web analytics technologies provide opportunities for organisations to obtain information about users visiting their websites in order to understand and optimise web usage. Use of such technologies often leads to issues related to data privacy and potential lock-in to specific suppliers and proprietary technologies. Use of open source software (OSS) for web analytics can create conditions for avoiding issues related to data privacy and lock-in, and thereby provides opportunities for a long-term sustainable solution for organisations both in the public and private sectors. This talk describes use of and engagement with OSS projects for web analytics. Specifically, the focus is on use of OSS licensed web analytics technologies in Swedish government authorities and on organisational engagement with the Matomo OSS project for web analytics. The talk also includes practitioner experiences and recommendations concerning use and provision of services related to Matomo."
+  bio:
+    - "Jonas Gamalielsson is a researcher and senior lecturer at the University of Skövde, Skövde, Sweden, where he is a member of the Software Systems Research Group. His research interests include open source software and open standards for addressing challenges related to lock-in, interoperability, and longevity of systems. Gamalielsson received his Ph.D. from Heriot-Watt University in 2009."
+
+- name: "Simon Phipps"
+  short: "sphipps"
+  lastname: "Phipps"
+  slot: slot1
+  day: apr24
+  title: "TBC"
+  abstract:
+    - "TBC"
+  bio:
+    - "TBC"
+
+- name: "Shane Coughlan"
+  short: "scoughlan"
+  lastname: "Coughlan"
+  slot: slot11
+  day: apr25
+  title: "How The Linux Foundation Standards For License Compliance And Security Will Fix Your Supply Chain"
+  abstract:
+    - "The OpenChain License Compliance (ISO/IEC 5230) and Security Assurance standards provide simple and effective ways for companies in the supply chain to improve open source software management. Organizations around the world have engaged with these standards over the last five years for cost reduction, time optimization and to allow staff to work on tasks directly related to improving products and services. Data suggests significant traction in adoption, with an example being a recent PwC-sponsored survey showing 20% of German companies with more than 2,000 employees using ISO/IEC 5230. This talk will explain how the OpenChain Project is building the support structures needs to accomplish ever broader market adoption, ranging from community activities to reference material to a commercial ecosystem. It will focus on recent developments, especially around expanding work in security, in editing the next generations of the standards, and in lessons learned to revise our supplier education material. Attendees will leave this talk knowing current options for assessment, deployment and - in the case of customer companies - encouraging suppliers to use these standards too."
+  bio:
+    - "Shane Coughlan is an expert in communication, security and business development. His professional accomplishments include building the largest open source governance community in the world through the OpenChain Project, spearheading the licensing team that elevated Open Invention Network into the largest patent non-aggression community in history and establishing the first global network for open source legal experts. He is a founder of both the first law journal and the first law book dedicated to open source. He currently leads the OpenChain Project, acts as an advisor to both World Mobile and Asylum Labs, and is a General Assembly Member of OpenForum Europe."
+
+- name: "Carol Chen"
+  short: "cchen"
+  lastname: "Chen"
+  slot: slot2
+  day: apr24
+  title: "Scaling new heights in 2023 with the Ansible Community"
+  abstract:
+    - "The Ansible project and community have been going through tremendous amounts of change and growth in the past couple of years to adapt and scale with its adoption and uses. This session will provide an overview of the Ansible community strategy for 2023 in response to some of these changes, highlight new parts of the project such as Event-Driven Ansible and Project Wisdom, plus outreach plans as we welcome back in-person events."
+  bio:
+    - "Whether you are a casual Ansible user wanting to hear about the latest developments in the project, or someone looking to get more involved in the Ansible community in various ways, this talk can provide you with places to start. We will reserve some time for Q&A so we can hear from you, and share ways you can interact with us and the wider Ansible community."
+    - "Carol Chen is a Community Architect at Red Hat, having worked with several upstream communities such as ManageIQ, Koku, and currently Ansible. She has been actively involved in open source communities while working for Jolla and Nokia previously. In addition, she also has experience in software development/integration in her 12 years in the mobile industry. On a personal note, Carol plays the Timpani in an orchestra in Tampere, Finland, where she now calls home."
