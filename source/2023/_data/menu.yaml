@@ -2,6 +2,10 @@
   menu: Home
   index: 10
 
+- name: tickets
+  menu: Tickets
+  index: 20
+
 # - name: schedule
 #   menu: Schedule
 #   index: 26
