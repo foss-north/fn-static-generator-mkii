@@ -1,25 +1,20 @@
-# - name: "Standard for Public Code"
-#   short: publiccode
-#   url: "https://standard.publiccode.net/"
-#   front: true
-#   when: "April 21, 10.00 - 12.00"
-#   links:
-#     - { title: "Virtual Space", url: "https://meet.publiccode.net/FOSS-North-2022" }
-#     - { title: "Standard for Public Code", url: "https://standard.publiccode.net/" }
-#     - { title: "Community translations", url: "https://github.com/publiccodenet/community-translations-standard" }
-#   description:
-#     - "In this virtual space we'll be hacking on and talking about translations for the <a href='https://standard.publiccode.net/'>Standard for Public Code</a>. Recently, after popular demand, we started collecting <a href='https://github.com/publiccodenet/community-translations-standard'>community supported translations</a> of the Standard. So far, Spanish and Danish are complete. And while that is fantastic, we still don't have a great workflow or a way to display translations of different releases of the standard. We'll spend the day hacking on this and are also happy to talk about the standard itself or help you get started with a translation to your language. Please join us in hacking/translating or just pop in to say hi!"
-#
-# - name: "NOSAD - Så jobbar offentlig sektor med open source"
-#   short: nosad
-#   url: "https://www.goto10.se/event/hur-offentlig-sektor-jobbar-med-open-source/"
-#   front: true
-#   when: "April 20, 10.30 - 11.30"
-#   links:
-#     - { title: "The event", url: "https://www.goto10.se/event/hur-offentlig-sektor-jobbar-med-open-source/" }
-#     - { title: "NOSAD", url: "https://nosad.se/" }
-#   description:
-#     - "This event is held in Swedish / detta event hålls på svenska."
-#     - "Både för delaktighet och samskapande är open source en viktig digital resurs, inte minst när det kommer till datadriven utveckling och innovation. Myndigheters bakomliggande IT-miljö utgörs idag till största del open source-komponenter, ändå är det först nu som vi myndigheter strategiskt börjar planera och implementera open source i våra verksamheter. Träffa DIGG, eSAM, Arbetsförmedlingen och Rise som berättar om vad de gör inom detta område. Delta också i diskussionen om hur vi kan undvika inlåsningseffekter vid upphandling samt vilka som är de viktigaste stegen att ta för ett effektivt samarbeta mellan organisationer."
-#     - "<ul><li>Introduktion till nätverket NOSAD samt varför DIGG har skapat ett Kompetensområde för öppen källkod | Maria Dalhage (DIGG)</li><li>eSAMs Råd för delning och användning av Öppen källkod. | Hakim Sjöström (SCB), Mikael Österlund (eSAM-Kansliet)</li><li>Paneldiskussion och frågor | Jonas Södergren (Arbetsförmedlingen), Johan Linåker (Rise), Hakim Sjöström (SCB)</li></ul>"
-#     - "Moderator:  Maria Dalhage"
+- name: "Get creative with FLOSS"
+  short: inkscape
+  when: "April 23, 13.00 - 16.00"
+  links:
+    - { title: "Registration", url: "https://www.meetup.com/foss-gbg/events/292411507/" }
+  description:
+    - "The vector drawing program Inkscape celebrates 20 years. We think it is a good excuse to meet and learn about some of the tools and workflows that lets you be creative with free software."
+    - "Contents:<ol><li>Graphic production with free tools. A complete workflow from text and images to a print-ready PDF.</li><li>2. Stitching with FLOSS. What is Ink/Stitch? You will get an opportunity to create your own patch at a reasonable cost.</li><li>Create(d) with free software. Make music with free tools. We will make a popsong -- maybe even a hit!</li></ol>"
+    - "If you have one, bring a laptop, preferably with GNU/Linux (we use Debian)."
+    - 'Swedish "fika" will be available at cheap prices.'
+    - "Limited number of seats - make sure to register!"
+    - "Arranged by Friprogramvarusyndikatet (https://friprogramvarusyndikatet.se),  Oscillator (https://oscillator.se) and I Love Libre Gbg (https://ilovelibre.se)"
+  address:
+    - "Digidem Lab"
+    - "Hagahuset"
+    - "Linnégatan 21"
+    - "Göteborg"
+  lon: 11.95063
+  lat: 57.69673
+
