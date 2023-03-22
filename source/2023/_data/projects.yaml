@@ -18,3 +18,26 @@
   lon: 11.95063
   lat: 57.69673
 
+- name: "Let's translate Standard for Public Code to Swedish"
+  short: nosad
+  when: "April 23"
+  links:
+    - { title: "NOSAD", url: "https://nosad.se/" }
+    - { title: "Standard Public Code", url: "https://standard.publiccode.net" }
+    - { title: "Community translations", url: "https://github.com/publiccodenet/community-translations-standard" }
+  description:
+    - "The Standard for Public Code is a set of criteria that supports public organizations in developing and maintaining software and policy together. It aims to give public organizations a model for building their own open source solutions to enable successful future collaboration and reuse by similar organizations in the public sector in other places."
+    - "While the Standard for Public Code aims to be written in plain English, inevitably there are some jargon related to public policy and code development in it. Thus, to enable civil servants to adopt it in their context, a translation may be useful."
+    - "The Network Open Source and Data, NOSAD, invites you to join this kick-start of the translation to Swedish in which we try to find consensus for how to translate certain words and frequently used terminology."
+    - "If you have questions about translating the Standard for Public Code to other languages, those can also be answered during this session."
+  address:
+    - "TBD"
+  nolonlat: yes
+
+
+
+
+
+
+
+

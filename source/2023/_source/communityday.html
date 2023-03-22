@@ -104,11 +104,13 @@ Notice that you do need to get one for the rest of the conference. Get your's <a
     var marker;
     
     {% for project in data.projects %}
+        {% if not project.nolonlat %}
         /* Start of loop */
         marker = new OpenLayers.Marker(new OpenLayers.LonLat( {{ project.lon }}, {{ project.lat }} ).transform(projection, map.getProjectionObject()), icon.clone());
         marker.events.register("click", marker, function() { location.hash = "#{{ project.short }}"; });
         markers.addMarker(marker);
         /* End of loop */
+        {% endif %}
     {% endfor %}
     {% endif %}
 
