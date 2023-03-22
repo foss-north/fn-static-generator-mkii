@@ -14,9 +14,9 @@
   menu: Contribute
   index: 50
 
-# - name: communityday
-#   menu: Community Events
-#   index: 30
+- name: communityday
+  menu: Community Events
+  index: 30
 
 - name: speakers-and-talks
   menu: Speakers and Talks
