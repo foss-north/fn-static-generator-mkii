@@ -72,6 +72,8 @@
 - name: "Björn Lundell"
   short: "blundell"
   lastname: "Lundell"
+  copresenters:
+    - { name: "Mathias Lindroth", short: "mlindroth" }
   slot: slot8
   day: apr24
   title: "Enabling or inhibiting FOSS Usage Through Procurement Projects: What can and should be done?"
@@ -86,6 +88,25 @@
     - "Lundell, B., Gamalielsson, J., Katz, A., & Lindroth, M. (2022b) Data Processing and Maintenance in Different Jurisdictions When Using a SaaS Solution in a Public Sector Organisation, JeDEM – EJournal of EDemocracy and Open Government, Vol. 14(2), pp. 214-234. https://doi.org/10.29379/jedem.v14i2.749"
   bio:
     - "Professor Björn Lundell (Ph.D. from the University of Exeter in 2001) has been a staff member and researcher at the University of Skövde since 1984. He leads the Software Systems Research Group and his research is reported in over 100 publications in a variety of international journals and conferences. Professor Lundell’s research contributes to theory and practice in the software systems domain and addresses fundamental socio-technical challenges related to procurement, development, and use of software systems under different forms of it-operations. His research focuses on different aspects of lock-in, interoperability, and long life-cycles for systems and related digital assets, and centres on different aspects of openness (in particular open source and open standards)."
+
+- name: "Mathias Lindroth"
+  short: "mlindroth"
+  lastname: "Lindroth"
+  coslot: slot8
+  day: apr24
+  title: "Enabling or inhibiting FOSS Usage Through Procurement Projects: What can and should be done?"
+  abstract:
+    - "Abstract: Market concentration with a few dominant global providers of cloud-based Software-as-a-Service (SaaS) solutions causes concern amongst competition authorities and public sector organisations which aim to maintain control of its data processing and long-term maintenance of digital assets. This imposes a range of technical and legal challenges, which in turn may inhibit opportunities for usage of FOSS. When a public sector organisation (PSO) acquires and uses a cloud-based SaaS solution, such as Microsoft 365 and Google Workspace, this implies that data processing and maintenance of the organisation’s digital assets will be exposed to a range of different types of lock-in effects. For example, format lock-in causes technical and legal challenges which may prevent establishment of FOSS projects and impose risks for unlawful and inappropriate data processing. Further, two of the most talked about obstacles for use of US SaaS solutions are about to be addressed by the legislators: (1) by proposed revisions to the domestic Secrecy Act (SFS 2009:400) issued by the Swedish Government on 26 January 2023, and (2) by the EU commissions proposed adequacy decision for the EU-U.S. Data Privacy Framework of 13 December 2022. Moreover, there are also several other factors which need to be assessed in order to conclude that data processing and maintenance of digital assets is lawful."
+    - "This presentation addresses widespread practices with illustrative examples concerning how PSOs express mandatory requirements in public procurement projects which inhibit FOSS usage. Specifically, the presentation elaborates issues concerning lawfulness and appropriateness related to a PSO’s procurement and use a cloud-based SaaS solution without having identified and obtained all relevant contract terms, all applicable licences, and all applicable FOSS that would allow for ensuring long-term maintenance of digital assets independently of the SaaS solution initially used. In particular, we highlight the necessity of ensuring availability of appropriate FOSS in order to allow for lawful and appropriate data processing and maintenance of digital assets over a life-cycle beyond the SaaS solution currently used."
+    - "By drawing from extensive research in the area, this presentation provides a brief overview and illustrative examples concerning how current practice amongst public sector organisations discriminate against FOSS usage. In particular, we elaborate how adoption and use of a cloud-based SaaS solution in each PSO cause format lock-in, which in turn may prevent data sovereignty. From this presentation we hope to open up the floor for a broader discussion amongst participants of fundamental challenges concerning how to avoid discrimination of FOSS."
+    - "References:"
+    - "Lundell B., Gamalielsson, J., Butler, S., Brax, C., Persson, T., Mattsson, A., Gustavsson, T., Feist, J. & Öberg, J. (2021) Enabling OSS usage through procurement projects: How can lock-in effects be avoided?, In Taibi, D. et al. (Eds.), The 13th International Conference on Open Source Systems (OSS 2021), IFIP Advances in Information and Communication Technology, Vol. 624, Springer, Cham, pp. 16-27. https://doi.org/10.1007/978-3-030-75251-4_2"
+    - "Lundell, B., Gamalielsson, J. & Katz, A. (2023) Implementing the HEVC standard in software: Challenges and Recommendations for organisations planning development and deployment of software, Journal of Standardisation, Vol. 2. https://doi.org/10.18757/jos.2022.6695"
+    - "Lundell, B., Gamalielsson, J., Katz, A. & Lindroth, M. (2022a) Use of Commercial SaaS Solutions in Swedish Public Sector Organisations under Unknown Contract Terms, In Janssen, M. et al. (Eds.) EGOV 2022: Electronic Government, Lecture Notes in Computer Science, Vol 13391, Springer, Cham, pp. 73-92. https://doi.org/10.1007/978-3-031-15086-9_6"
+    - "Lundell, B., Gamalielsson, J., Katz, A., & Lindroth, M. (2022b) Data Processing and Maintenance in Different Jurisdictions When Using a SaaS Solution in a Public Sector Organisation, JeDEM – EJournal of EDemocracy and Open Government, Vol. 14(2), pp. 214-234. https://doi.org/10.29379/jedem.v14i2.749"
+  bio:
+    - "Mathias Lindroth is a Malmö-based lawyer specializing in IT and intellectual property law.  Formerly a partner at Sigeman & Co, Mathias now runs the boutique firm ACF Legal. Mathias collaborates, mainly on a pro bono basis, with the researchers of the Software Systems Research Group at the University of Skövde in several projects. Mathias is a board member of Open Source Sweden and the convening member of said organizations' task force for cloud issues. Mathias is co-author of several research papers relating to the use of SaaS-solutions in public administration."
+
 
 - name: "Jose E"
   short: "je"
@@ -107,7 +128,7 @@
   lastname: "Soto Mathiesen"
   slot: slot12
   day: apr25
-  title: ""
+  title: "How to transform AVRO (IDL) data to multiple PARQUET files"
   abstract:
     - "Currently, when working with Apache Kafka® and Azure Databricks® (Apache Spark®), there is a built-in mechanism to transform Apache Avro® data to Apache Parquet® files. The issue with this approach, if we think in medallion lakehouse architecture, is that AVRO with nested data, will be persisted in a single PARQUET file in the bronze layer (full, raw and unprocessed history of each dataset) relying on ArrayType, MapType and StructType to represent the nested data. This will make it a bit more tedious to post-process data respectively in the following layers: silver (validated and deduplicated data) and gold (data as knowledge)."
     - "To avoid this issue, we present an open-source library, that will help transform AVRO, with nested data, to multiple PARQUET files where each of the nested data elements will be represented as an extension table (separate file). This will allow to merge both the bronze and silver layers (full, raw and history of each dataset combined with defined structure, enforced schemas as well validated and deduplicated data), to make it easier for data engineers/scientists and business analysts to combine data with already known logic (SQL joins)."

@@ -5,11 +5,12 @@
     - { title: "Registration", url: "https://www.meetup.com/foss-gbg/events/292411507/" }
   description:
     - "The vector drawing program Inkscape celebrates 20 years. We think it is a good excuse to meet and learn about some of the tools and workflows that lets you be creative with free software."
-    - "Contents:<ol><li>Graphic production with free tools. A complete workflow from text and images to a print-ready PDF.</li><li>2. Stitching with FLOSS. What is Ink/Stitch? You will get an opportunity to create your own patch at a reasonable cost.</li><li>Create(d) with free software. Make music with free tools. We will make a popsong -- maybe even a hit!</li></ol>"
+    - "Contents:<ol><li>Graphic production with free tools. A complete workflow from text and images to a print-ready PDF.</li><li>Stitching with FLOSS. What is Ink/Stitch? You will get an opportunity to create your own patch at a reasonable cost.</li><li>Create(d) with free software. Make music with free tools. We will make a popsong -- maybe even a hit!</li></ol>"
     - "If you have one, bring a laptop, preferably with GNU/Linux (we use Debian)."
     - 'Swedish "fika" will be available at cheap prices.'
+    - "Where: Digidem Lab, Hagahuset, Linnégatan 21, Göteborg"
     - "Limited number of seats - make sure to register!"
-    - "Arranged by Friprogramvarusyndikatet (https://friprogramvarusyndikatet.se),  Oscillator (https://oscillator.se) and I Love Libre Gbg (https://ilovelibre.se)"
+    - "Arranged by <a href='https://friprogramvarusyndikatet.se'>Friprogramvarusyndikatet</a>,  <a href='https://oscillator.se'>Oscillator</a> and <a href='https://ilovelibre.se'>I Love Libre Gbg</a>"
   address:
     - "Digidem Lab"
     - "Hagahuset"
