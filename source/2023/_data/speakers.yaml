@@ -1,3 +1,14 @@
+- name: "Lina Ceballos"
+  short: "lceballos"
+  lastname: "Ceballos"
+  slot: slot4
+  day: apr24
+  title: "Interoperable Europe Act: A real game changer?"
+  abstract:
+    - "Interoperability is a core element of the ongoing digitalisation. With the Interoperable Europe Act (IEA), the EU is aiming to create a dedicated legal framework on interoperability that to date has been non-binding. This talk will provide an overview of the state of play of the existing interoperability frameworks and guidelines in the EU, to then delve into the proposed IEA and the role of Free Software, from both an EU but also Member States perspective. We will take a closer look at some of the IEA’s loopholes and flaws that could undermine its goal of becoming the real game changer for an interoperable Europe."
+  bio:
+    - "Lina has background in Law and Political Science. Currently, she is a Policy Project Manager at the FSFE where she advocates for software freedom making sure technology doesn't undermine people's rights. She has experience in monitoring legislative processes in the EU while engaging with different stake-holders and decision-makers."
+
 - name: "Philippe Ombredanne"
   short: "pombredanne"
   lastname: "Ombredanne"
@@ -197,9 +208,9 @@
   bio:
     - "Johan is a senior researcher at RISE Research Institutes of Sweden with focus and passion for open source software, data, gov and innovation. Co-founder and community manager for NOSAD.se."
 
-- name: "Alexander Käll"
-  short: "akall"
-  lastname: "Käll"
+- name: "Alexander Kjäll"
+  short: "akjall"
+  lastname: "Kjäll"
   slot: slot15
   day: apr25
   title: "Packaging Rust for Debian"
