@@ -27,3 +27,8 @@
   short: ansible
   url: https://www.ansible.com/
   level: base
+
+- name: EUB
+  short: eub
+  url: https://eub.se/
+  level: base

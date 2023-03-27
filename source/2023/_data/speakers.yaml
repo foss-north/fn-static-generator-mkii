@@ -240,11 +240,11 @@
   lastname: "Muller"
   slot: slot14
   day: apr25
-  title: "TBC"
+  title: "The Shocking Link Between Privacy and Progress: What You Need to Know About AI"
   abstract:
-    - "TBC"
+    - "Artificial intelligence (AI) promises to bring remarkable advancements to society and solve pressing problems. However, as we have seen in recent years, AI is at the moment actually causing societal problems, like bias, discrimination, significant electricity consumption, and misinformation. At Nextcloud, we are now faced with AI taking over the productivity software space, and recognize both the potential and the challenges of AI, and we are facing a dilemma about how to integrate this technology into our products in a way that aligns with our values. In this keynote speech, we will explore the complex relationship between privacy and progress in the context of AI. We will discuss the risks associated with the collection, storage, and use of personal data in AI applications, and the potential for unintended consequences that can harm individuals and society as a whole. Furthermore, we will examine how privacy and open-source values can coexist with AI, and what measures we can take to ensure that progress is made in a way that upholds our fundamental rights and values. Join us as we delve into the complex relationship between privacy, progress, and AI, and discover how we can navigate this new era of innovation while staying true to our core principles."
   bio:
-    - "TBC"
+    - "Daphne Muller is a privacy advocate, researcher, and Manager of Alliances, Ecosystem & Support at Nextcloud. She has conducted academic research on the future of the technology industry, with a particular focus on data minimization and privacy-preserving technologies. As a sought-after speaker and commentator, Daphne shares her insights on privacy and data protection issues, including in her TEDx talk on data minimization and privacy. Her idea worth spreading? By collecting less personal data, we will get more innovation, more progress, and more humanity."
 
 - name: "Edward Betts"
   short: "ebetts"
