@@ -21,7 +21,7 @@
 
 - name: "Let's translate Standard for Public Code to Swedish"
   short: nosad
-  when: "April 23"
+  when: "April 23, 12.00 - 16.00"
   links:
     - { title: "NOSAD", url: "https://nosad.se/" }
     - { title: "Standard Public Code", url: "https://standard.publiccode.net" }
