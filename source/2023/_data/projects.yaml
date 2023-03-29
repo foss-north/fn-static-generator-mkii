@@ -35,10 +35,13 @@
     - "TBD"
   nolonlat: yes
 
-
-
-
-
-
-
+- name: "Social Event"
+  short: social
+  when: "April 23, 19.00 until late"
+  description:
+    - "We meet at a local restaurant for drinks and food."
+    - "We will update the page with a location asap."
+  address:
+    - "TBD"
+  nolonlat: yes
 
