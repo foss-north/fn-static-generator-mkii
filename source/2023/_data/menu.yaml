@@ -6,9 +6,9 @@
   menu: Tickets
   index: 20
 
-# - name: schedule
-#   menu: Schedule
-#   index: 26
+- name: schedule
+  menu: Schedule
+  index: 26
 
 - name: contribute
   menu: Contribute
