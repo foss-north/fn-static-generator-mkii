@@ -280,11 +280,12 @@
   lastname: "Phipps"
   slot: slot1
   day: apr24
-  title: "T.B.D."
+  title: "Speaking Up For FOSS Now Everyone Uses It"
   abstract:
-    - "T.B.D."
+    - "At 40 years old, FOSS has become a full citizen in modern society. By popularising and catalysing the pre-existing concepts from the free software movement, open source has moved to the heart of the connected technology revolution over the last 25 years. In Europe, it now drives nearly 100 Billion Euros of GDP. Unsurprisingly, it is now the focus of much political attention from all directions - including regulators and detractors. Today everyone wants to be FOSS - including many who really don't but want the cachet."
+    - "In 2022, the mounting wave broke and legislation affecting our movement cascaded into view in the USA and Europe. In Europe, the DSA, Data Act, AI Act, CRA, PLD, and several more major legislative works emerged from the Digital Agenda. Despite its apparent awareness of open source, this legislation appeared ill-suited for the reality of our communities. Why is that? Where do standards come into this? Where is this heading?"
   bio:
-    - "T.B.C."
+    - "Simon Phipps is currently director of standards and EU policy for the Open Source Initiative, where he was previously a member of the board of directors and board President. He has also served as a director at The Document Foundation, the UK's Open Rights Group and other charities and non-profits. Prior to that, he ran one of the first OSPOs at Sun Microsystems, was one of the founders of IBM's Java business, worked on video conference software and standards at IBM and was involved with workstation and networking software at Unisys/Burroughs. A European rendered stateless by British politics, he lives in the UK."
 
 - name: "Shane Coughlan"
   short: "scoughlan"
@@ -317,9 +318,9 @@
   day: apr25
   title: "Free software for citizen participation - using the Decidim platform locally and on EU level"
   abstract:
-    - "T.B.C."
+    - "Free software platforms for citizen participation has spread rapidly the last few years and enabled participatory budgets and citizen involvement for millions of people. Petter Joelson from Swedish Digidem Lab shares their experiences of working with the Decidim platform for the Future of Europe conference, New York City as well as small cities in Sweden. He also shows how the model of free software being developed by larger cities together with local companies has given Decidim an international reach and ability to adapt to local needs. "
   bio:
-    - "T.B.C."
+    - "Petter Joelson is a digital strategist and founder of Digidem Lab, a development lab and consultancy for citizen participation that has provided training and digital platforms for the EU Commission, New York City, Chicago and various Swedish cities."
 
 - name: "Martin Raspaud"
   short: "mraspaud"
@@ -328,9 +329,9 @@
   day: apr25
   title: "Empowering weather-satellite data users with FOSS: the Pytroll case"
   abstract:
-    - "T.B.C."
+    - "This talk will give an example of how a free and open-source software project can become leading it its field. Here, we will focus on Pytroll, a library to read and process earth-observing weather-satellite data. We will share our path to free and open-source software, the experience of comparing against commercial software, how multiple weather institutes internationally decided to adopt it as their main tool for processing satellite imagery, and how it is now thriving around a community of dedicated user, developers and researchers."
   bio:
-    - "T.B.C."
+    - "Martin Raspaud is Software Engineer and Research Leader at the Swedish Meteorological and Hydrological Institute (SMHI) in Norrköping, Sweden. Since he started there in 2009, he has been driving a prominent FOSS project in the field of Earth-Observation from Satellite called Pytroll. Since a few months, he leads researchers at SMHI on the topic of Software Methods for Meteorological Applications, in which he promotes the use and development of FOSS for research."
 
 - name: "Jonas Södergren"
   short: "jsodergren"
@@ -339,9 +340,9 @@
   day: apr25
   title: "Arbetsförmedlingen's experiences with JobTech and open source: Sharing 400 repositories and successful collaborations"
   abstract:
-    - "T.B.C."
+    - "Welcome to my presentation on Arbetsförmedlingen's experiences with JobTech and open source. Over the past few years, we have shared 400 different source code repositories and explored the possibilities of open source to improve our operations and deliverables through open data APIs. Today, I will discuss our successes, challenges, and collaborations with other organizations within the JobTech and open source communities. We will explore how JobTech and open source have helped us to enhance our work and results, as well as the lessons we have learned along the way. I hope you will leave this presentation with a better understanding of how open source can be used in public agencies to be more open and efficient. For more information, all of our code can be found on GitLab at <a src='https://gitlab.com/arbetsformedlingen'>https://gitlab.com/arbetsformedlingen</a>."
   bio:
-    - "T.B.C."
+    - "Jonas has been working at Arbetsförmedlingen for several years, and has extensive experience as a Technical Lead and programmer for JobTech, he has played a pivotal role in the delivery of open source software and open data APIs."
 
 - name: "Mattias Axell"
   short: "maxell"
