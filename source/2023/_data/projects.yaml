@@ -44,9 +44,12 @@
   short: social
   when: "April 23, 19.00 until late"
   description:
-    - "We meet at a local restaurant for drinks and food."
-    - "We will update the page with a location asap."
+    - "We meet at restaurant Vita for drinks and food."
+    - "Please help us plan by <a href='https://www.meetup.com/foss-gbg/events/292810825'>registering your attendance</a>. We will check for registration at the entrance in case the place gets full."
   address:
-    - "TBD"
-  nolonlat: yes
+    - "Vita Restaurant och Vinbar"
+    - "Nordhemsgatan 28"
+    - "413 06 Göteborg"
+  lon: 11.94983
+  lat: 57.69830
 
