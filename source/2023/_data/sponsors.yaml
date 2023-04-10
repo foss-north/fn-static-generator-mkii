@@ -32,3 +32,8 @@
   short: eub
   url: https://eub.se/
   level: base
+
+- name: Volvo
+  short: volvo
+  url: https://volvocars.com/
+  level: silver
