@@ -40,9 +40,9 @@
   bio:
     - "Driven by a desire to understand the insides of software Florian has always been drawn to the underlying technologies. Most recently this has led to thinking about how knowledge about these technologies is gained and communicated."
 
-- name: "Francisco"
-  short: "francisco"
-  lastname: "Francisco"
+- name: "Francisco Blas Izquierdo Riera (klondike)"
+  short: "friera"
+  lastname: "Riera"
   slot: slot2b
   day: apr24
   title: "Clipaha: a free software library to move password hashing to the client"
