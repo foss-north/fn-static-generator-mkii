@@ -349,8 +349,37 @@
   lastname: "Axell"
   slot: slot10
   day: apr24
-  title: "DFRI - T.B.C."
+  title: "State of The Freedoms and Rights Address"
   abstract:
-    - "T.B.C."
+    - "The Digital Freedoms and Rights are constantly evolving, legally,
+technically and socially. However they are not always improving for the
+benefit of the individual nor the general public. One example is the
+current EU Commission’s proposal on Chat Control 2.0 which would
+introduce a complete and total scan and mass surveillance of all EU
+citizen private communications - effectively the ending of end-to-end
+encrypted communications."
+    - "During this presentation I will share some perspectives of the current
+states of digital policy in relation to digital freedoms and digital
+rights. The case study will be Sweden as it currently holds the
+Presidency of the Council of the European Union. I will focus on areas
+of interest to citizens as well as free software and open source
+advocates such as GDPR, Schrems II, open data, Freedom of Information
+and Freedom of Speech, e-identifcation and building political opinion in
+these matters."
   bio:
-    - "T.B.C."
+    - "Mattias Axell is the chairperson of The Digital Freedoms and Rights
+Association (http://DFRI.se) which is a non-profit in Sweden. The association
+gathers members and volunteers to engage for freedom of speech,
+transparency and freedom of information, personal integrity and the
+individuals’ rights to control the use of their personal information and
+digital footprints. DFRI is a Swedish member of the European Digital
+Rights Network http://EDRI.org which gathers"
+    - "Mattias works as an educator and strategic advisor at MetaSolutions
+which develops the Free and Open Source software suite called
+EntryScape. He works on a daily basis educating and advising public
+sector authorities on information management with metadata for open
+data, shared data and linked data. He also runs http://Handlingar.se which is
+an open platform for exercising the right to public information via
+Freedom of Information law."
+    - "Mattias holds a bachelor diploma from the Kaospilot School for Creative
+Leadership & Meaningful Entrepreneurship in Aarhus, Denmark."
