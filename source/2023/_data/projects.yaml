@@ -11,11 +11,8 @@
     - "Where: Digidem Lab, Hagahuset, Linnégatan 21, Göteborg"
     - "Limited number of seats - make sure to register!"
     - "Arranged by <a href='https://friprogramvarusyndikatet.se'>Friprogramvarusyndikatet</a>,  <a href='https://oscillator.se'>Oscillator</a> and <a href='https://ilovelibre.se'>I Love Libre Gbg</a>"
-  address:
-    - "Digidem Lab"
-    - "Hagahuset"
-    - "Linnégatan 21"
-    - "Göteborg"
+    - "<strong>Address:</strong>"
+    - "Digidem Lab<br />Hagahuset<br />Linnégatan 21<br />Göteborg"
   lon: 11.95063
   lat: 57.69673
 
@@ -33,10 +30,8 @@
     - "While the Standard for Public Code aims to be written in plain English, inevitably there are some jargon related to public policy and code development in it. Thus, to enable civil servants to adopt it in their context, a translation may be useful."
     - "The Network Open Source and Data, NOSAD, invites you to join this kick-start of the translation to Swedish in which we try to find consensus for how to translate certain words and frequently used terminology."
     - "If you have questions about translating the Standard for Public Code to other languages, those can also be answered during this session."
-  address:
-    - "B3"
-    - "Kämpegatan 6"
-    - "411 04 Göteborg"
+    - "<strong>Address:</strong>"
+    - "B3<br />Kämpegatan 6<br />411 04 Göteborg"
   lon: 11.97521
   lat: 57.71277
 
@@ -46,10 +41,8 @@
   description:
     - "We meet at restaurant Vita for drinks and food."
     - "Please help us plan by <a href='https://www.meetup.com/foss-gbg/events/292810825'>registering your attendance</a>. We will check for registration at the entrance in case the place gets full."
-  address:
-    - "Vita Restaurant och Vinbar"
-    - "Nordhemsgatan 28"
-    - "413 06 Göteborg"
+    - "<strong>Address:</strong>"
+    - "Vita Restaurant och Vinbar<br />Nordhemsgatan 28<br />413 06 Göteborg"
   lon: 11.94983
   lat: 57.69830
 
