@@ -1,0 +1,22 @@
+confname: "2024"
+confbaseurl: "2024"
+
+conferencedaysdate: "April 15 - 16"
+confdate: "April 14 2024"
+
+communitydaymeetup: True
+
+ticketslunchdate: "March 15"
+
+cfpopen: True
+cfpdone: False
+cfpenddate: "March 5"
+cfpnotifydate: "March 15"
+cfpurl: "https://foss-north.se/events/2024/callforpapers/"
+
+cfprojectsopen: False
+cfprojectsenddate: "April 15"
+
+confdays:
+  - { name: "April 15", tag: "apr15" }
+  - { name: "April 16", tag: "apr16" }
