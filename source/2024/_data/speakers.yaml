@@ -1,0 +1,25 @@
+- name: "Milton Waddams"
+  short: stapler
+  lastname: "Waddams"
+  slot: slot3
+  day: apr15
+  title: "Staplers and why Swingline is better than Boston"
+  abstract:
+    -  "And I said, I don't care if they lay me off either, because I told, I
+      told Bill that if they move my desk one more time, then, then I'm, I'm
+      quitting, I'm going to quit. And, and I told Don too, because they've
+      moved my desk four times already this year, and I used to be over by the
+      window, and I could see the squirrels, and they were merry, but then, they
+      switched from the Swingline to the Boston stapler, but I kept my Swingline
+      stapler because it didn't bind up as much, and I kept the staples for the
+      Swingline stapler and it's not okay because if they take my stapler then
+      I'll set the building on fire..."
+  bio:
+    - "He was laid off five years ago and no one ever told him about it; but
+      through some kind of glitch in the payroll department, he still gets a
+      paycheck."
+  links:
+    - { title: "Office space", url: "https://www.imdb.com/title/tt0151804/" }
+  copresenters:
+    - { name: "Bill Lumbergh", short: "blumbergh" }
+
