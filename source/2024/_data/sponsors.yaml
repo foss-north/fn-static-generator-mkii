@@ -12,6 +12,11 @@
   short: sylog
   url: https://www.sylog.se/
   level: base
+
+- name: AMD
+  short: amd
+  url: https://www.amd.com
+  level: base
     # 
     # - name: Data Respons Solutions
     #   short: datarespons
