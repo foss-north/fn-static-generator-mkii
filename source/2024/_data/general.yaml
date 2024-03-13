@@ -8,14 +8,11 @@ communitydaymeetup: True
 
 ticketslunchdate: "March 15"
 
-cfpopen: True
-cfpdone: False
+cfpopen: False
+cfpdone: True
 cfpenddate: "March 12"
 cfpnotifydate: "March 15"
 cfpurl: "https://foss-north.se/events/2024/callforpapers/"
-
-cfprojectsopen: False
-cfprojectsenddate: "April 15"
 
 confdays:
   - { name: "April 15", tag: "apr15" }
