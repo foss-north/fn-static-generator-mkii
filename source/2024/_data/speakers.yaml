@@ -1,25 +1,176 @@
-# - name: "Milton Waddams"
-#   short: stapler
-#   lastname: "Waddams"
-#   slot: slot3
+# - name: "T.B.D."
+#   short: tbd
+#   lastname: "D." Feuer
+#   slot: slot1
 #   day: apr15
-#   title: "Staplers and why Swingline is better than Boston"
+#   title: "T.B.D."
 #   abstract:
-#     -  "And I said, I don't care if they lay me off either, because I told, I
-#       told Bill that if they move my desk one more time, then, then I'm, I'm
-#       quitting, I'm going to quit. And, and I told Don too, because they've
-#       moved my desk four times already this year, and I used to be over by the
-#       window, and I could see the squirrels, and they were merry, but then, they
-#       switched from the Swingline to the Boston stapler, but I kept my Swingline
-#       stapler because it didn't bind up as much, and I kept the staples for the
-#       Swingline stapler and it's not okay because if they take my stapler then
-#       I'll set the building on fire..."
+#     -  "T.B.D."
 #   bio:
-#     - "He was laid off five years ago and no one ever told him about it; but
-#       through some kind of glitch in the payroll department, he still gets a
-#       paycheck."
-#   links:
-#     - { title: "Office space", url: "https://www.imdb.com/title/tt0151804/" }
-#   copresenters:
-#     - { name: "Bill Lumbergh", short: "blumbergh" }
-# 
+#     - "T.B.D."
+#
+# - name: "T.B.D."
+#   short: tbd
+#   lastname: "D." Javier
+#   slot: slot2
+#   day: apr15
+#   title: "T.B.D."
+#   abstract:
+#     -  "T.B.D."
+#   bio:
+#     - "T.B.D."
+
+- name: "Jimmy Sjölund"
+  short: jsjolund
+  lastname: "Sjölund"
+  slot: slot3a
+  day: apr15
+  title: "Co-creating engagement with the Open Decision Framework"
+  abstract:
+    - "Culture is not built, it emerges. How do we support an environment and community where people are volunteers with limited time and commitment?"
+    - "Using the Open Decision Framework to support the creation of engagement and making decisions that we can all stick to is key in a community."
+    - "In this talk I will introduce the Open Decision Framework and share examples and learnings from how we used the ODF in our company to co-create our vision statement in an organisation of over 5000 people. How we collaborated remotely, the benefits and pitfalls, and how an open decision set us up for success."
+  bio:
+    - "Jimmy Sjölund is an organisational transformation expert with extensive experience sparking change at large, multinational companies. As Principal Agile Practitioner at Red Hat, he’s focused on creating organisational improvements and improving team excellence through agile and lean workflows. He’s published articles and book chapters on topics like work visualization techniques, asynchronous collaboration, and leading through open principles and behaviors. He serves as an Ambassador for the Open Organization project and community."
+
+- name: "Ramarro Marrone"
+  short: rmarrone
+  lastname: "Marrone"
+  slot: slot3b
+  day: apr15
+  title: "Dwindling software freedom in the R ecosystem"
+  abstract:
+    -  "R itself remains part of the GNU project, licensed under the GNU General Public License, and capable of running on many free operating systems, but it is increasingly becoming popular to include non-free software and services-as-software-substitutes in R environments. Moreover, these unethical practices are often obscured from useRs, and some users may not realize that they are running non-free software. I will introduce R and some of the common ways people use it, demonstrate the recent trends towards unethical practices in R, and comment on the dangers of such practices, for the individual and for society. Finally, I will inform of what we can do about these trends, both as individuals to protect ourselves, and as a group to further a free society."
+  bio:
+    - 'Ramarro "rm" Marrone has been using R for 18 years. He chose R because it he assessed it to be best of the freedom-respecting options for fitting statistical models. He has recently been involved in the opposition against the proposed European regulation laying down rules to prevent and combat child sexual abuse (chat control).'
+
+- name: "Philippe Ombredanne"
+  short: pombredanne
+  lastname: "Ombredanne"
+  slot: slot4
+  day: apr15
+  title: "Non-Vulnerable Dependency Resolution: Reconciling development and security concerns, together"
+  abstract:
+    -  "The current approach to resolving dependencies (in package managers used by FOSS users) and handling vulnerable packages (in vulnerability management teams) is complex, tedious, and time-consuming. It's also a disconnected process when the development and security teams are not in sync. We can either determine if a package version is vulnerable, or we can resolve package versions for functional dependency requirements but without consideration for vulnerabilities - we cannot do both, and crossing both tools and organizational boundaries is difficult. We express dependency constraints as acceptable package version ranges, and vulnerabilities affect certain package version ranges. What if we resolve package dependencies by taking into consideration the vulnerable version ranges at the same time? In this talk, Philippe will share how non-vulnerable FOSS dependency resolution can resolve software package vulnerable version ranges and dependency version constraints at the same time. Developers can obtain a resolved package version graph matching the blended functional and vulnerability version constraints and get both non-vulnerable and up-to-date software code in a single resolution pass."
+  bio:
+    - "Philippe Ombredanne is a FOSS hacker passionate about enabling easier and safer reuse of open source code. He is the lead maintainer of the AboutCode stack of open source tools for Software Composition Analysis and license and security compliance, including the industry-leading ScanCode, DejaCode, PurlDB, Package-URL, and VulnerableCode ( https://aboutcode.org ). Philippe contributes to other open source projects, including the Linux kernel SPDX-ification, SPDX, ClearlyDefined, strace, ORT, and several Python tools. He works as the CTO of nexB, a leader in building open source compliance software solutions and services."
+
+- name: "Fabio Alessandro Locati"
+  short: flocati
+  lastname: "Locati"
+  slot: slot5
+  day: apr15
+  title: "Leverage Event Driven Ansible to reduce your automation reaction time"
+  abstract:
+    -  "In today's complex IT environments, it is more important than ever to automate tasks and processes. Event-Driven Ansible is a new feature of Ansible that allows you to automate IT tasks based on events that occur in your IT environment. This session will provide an introduction to Event-Driven Ansible, including what it is, how it works, and the benefits of using it. We will also discuss some examples of how Event-Driven Ansible can be used in real-world scenarios."
+  bio:
+    - "Fabio Alessandro Locati - commonly known as Fale - is an EMEA Associate Principal Specialist Solutions Architect at Red Hat, public speaker, author, and Open Source contributor. His primary areas of expertise are Linux, automation, security, and cloud technologies. Fale started working in IT in 2004, giving him many years of experience, with many of them spent consulting for many companies, including dozens of Fortune 500 companies. He is the author of the books Practical Ansible, Practical Ansible 2, Learning Anisble 2, Learning Ansible 2.7, and OpenStack Cloud Security. In his spare time, he helps in the Kubernetes, Fedora Project, Ansible, Wikimedia, and Open Street Map communities, as well as in many smaller projects on GitHub and similar platforms."
+
+- name: "Louisa Seers"
+  short: lseers
+  lastname: "Seers"
+  slot: slot6a
+  day: apr15
+  title: "How is Integration Testing in Hybrid Cloud Possible?"
+  abstract:
+    -  "This talk explores the challenges and solutions associated with conducting integration testing in hybrid cloud environments, where applications span both on-premises (z/OS) and cloud infrastructures. Focused on the innovative Galasa open-source project, the discussion delves into how Galasa addresses the complexities of hybrid cloud testing, offering a comprehensive framework for validating the interoperability of diverse components. Attendees will gain insights into practical strategies, best practices, and real-world examples, empowering them to effectively navigate the intricacies of integration testing in the evolving landscape of hybrid cloud computing."
+  bio:
+    - "Louisa’s an experienced professional within IBM with 10 years’ spanning diverse roles across consulting, software development and acquisitions. In addition, Louisa has just finished a Degree Apprenticeship to support her role in business leadership. Louisa is the chairperson of the open-source project Galasa within the Linux Foundation which included taking this project to adoption, in addition, she’s also a product management role overseeing a portfolio within IBM Z."
+
+- name: "Marcel Kurzmann"
+  short: mkurzmann
+  lastname: "Kurzmann"
+  slot: slot7
+  day: apr15
+  title: "Eclipse Apoapsis - Open Source based Software Composition Analysis at scale"
+  abstract:
+    -  'Creating and processing SBOMs at scale based on Open Source solutions: Intro to the new Eclipse Foundation Project Apoapsis providing a server concept to run continuous Software Composition Analysis for a large number of heterogeneous repositories. The talk will show the general setup how you can continuously generate your SBOMs and reports and provide the status of the published reference implementation the "ORT-Server" interacting with the OSS Review Toolkit."'
+  bio:
+    - "Marcel Kurzmann joined Bosch in 1997. After establishing the test-automation service team at Bosch Engineering and Acquisition Project Management in the automotive section he took over the Quality Management of Bosch Software Innovations in 2008. From 2015 he was responsible for the Open Source Management System of Bosch.IO GmbH (fka Bosch Software Innovations) and provides Bosch-internal Open Source Services with his team. He is member of the Center of Excellence Inner Source and Open Source at Bosch Digital and represents Bosch in the OpenChain Governing Board. He is active maintainer of the OpenChain Automation Workgroup aka Tooling Group."
+
+
+
+- name: "Thomas Preusser"
+  short: tpreusser
+  lastname: "Preusser"
+  slot: slot10
+  day: apr16
+  title: "Pervasive and Sustainable AI with Adaptive Computing"
+  abstract:
+    -  "In the context of AI, we face a plethora of challenges that extend beyond the widely discussed performance scalability required to meet the growing demands of compute and storage in the latest models. These challenges encompass sustainability, pervasiveness, agility, and diversity, all of which are needed to cater to a constantly evolving range of applications and algorithms from endpoint to edge and cloud. In this talk, we explore how adaptive devices and agile compiler stacks can provide solutions by delivering post-production hardware specialization and co-designed algorithms. This results in highly optimized AI systems which not only provide the necessary performance scalability but also bring a reduction in carbon footprint while addressing the needs of a broad range of diverse applications with the necessary agility."
+  bio:
+    - "Thomas is a principal engineer and the FINN project lead at AMD Research. Thomas earned a PhD from TU Dresden in 2011. He worked as a postdoctoral researcher both there and at ETH Zürich. He also enjoyed an EU-funded Individual Maria-Skłodowska-Curie Fellowship at the Xilinx Research Labs in Dublin. His scientific background is computer arithmetic, application acceleration and systems design using FPGAs. His current focus lies on advancing FINN, a tool for the generation of custom embedded neural-network inference solutions."
+
+- name: "Agustin Benito Bethencourt"
+  short: abethencourt
+  lastname: "Bethencourt"
+  slot: slot11
+  day: apr16
+  title: "Introduction to Software Heritage, the Alexandria library for code"
+  abstract:
+    -  "Software Heritage is an international project, supported by UNESCO, whose ambition is to collect, preserve, and share all software that is publicly available in source code form. On this foundation, a wealth of applications can be built, ranging from cultural heritage to industry and research."
+    - "This reference archive and knowledge base for open source software constitute a worldwide development history, permanently archived in a uniform data model, including over 17 billion unique source files from over 270 million software projects, ~1.5PB (compressed) blobs, ~35 B nodes and ~500 B edges... that can be widely accessed by anyone."
+    - "Storing and providing access to such a large amount of software represents a challenge that has required intensive research and innovation performed by SwH."
+    - "Agustin, is a Software Heritage Ambassador and will introduce the project during this talk. He will also describe the most relevant innovations associated with the archive, how to access and work with the storage information as well as how to contribute to this common cause."
+  bio:
+    - "Agustín Benito Bethencourt met Free Software during his university times. But it was back in 2003 when he decided to shift his career as entrepreneur towards Open Source. Since then, he has guided teams, project and organizations in the design, development, deployment and support of Open Source based products or services. Playing different management, executive and consultant roles, Agustín has worked in verticals like automotive, IoT, Edge, industrial, general embedded, enterprise or desktop."
+    - "He now works as an independent consultant in service offerings like Delivery Performance Analytics or helping companies like SCANOSS."
+    - "As a volunteer, he is a proud KDE e.V. and KDE Spain member, as well as Software Heritage Ambassador. He has been involved in other Open Source projects/communities for over 20 years."
+    - "In addition, Agustín has a solid background as speaker, networker, business developer and trainer. Agustín has lived in several countries and he currently lives between the Málaga metropolitan area and La Palma, Canary Islands, both in Spain. He is a remote work advocate, traveling frequently."
+
+- name: "Johan Linåker"
+  short: jlinaker
+  lastname: "Linåker"
+  slot: slot12
+  day: apr16
+  title: "Software Reuse through Open Source Software in the Public Sector - A birds-eye view on Policy and Practice"
+  abstract:
+    -  "This talk delves into how Public Sector Organizations (PSOs) and the public sector at large facilitate software reuse, specifically through Open Source Software (OSS) as an instrument. The talk draws from a recently published report commissioned by the Danish Agency for Digital Government (Digitaliseringsstyrelsen ) and Local Government Denmark (KL ), which provide input on how Danish PSOs can specifically improve at reaping benefits by reusing existing software and creating value by developing software in a way that can be reused. A qualitative survey was conducted on a sample of 16 countries considered mature in their digital practices, as indicated through a set of digital maturity indicators. These countries were surveyed in terms of government policies, rationales, support mechanisms, means of promotion, and success stories related to software reuse. The surveyed countries exhibit diverse policies, emphasizing interoperability, digital sovereignty, transparency, and cost efficiency. Economic arguments, interoperability, and transparency are prominent goals, while digital sovereignty varies. Security concerns are discussed, acknowledging both risks and benefits of OSS. Several emerging support structures were identified, including Open Source Program Offices (OSPOs), crucial for institutional capacity. Success stories highlight the transformation to sustainable governance enabled through the use of neutral proxy organizations acting as stewards for public sector OSS projects. The talk provides recommendations that focus on fostering software reuse through OSS adoption, aiming to guide policy- and decisionmakers at national, regional, and local government levels. The talk contributes valuable insights for countries, like Denmark and others, seeking to leverage software reuse through OSS in their digital transformations."
+  bio:
+    - "Johan is a senior researcher at RISE Research Institutes of Sweden with focus and passion for open source software, data, gov and innovation. Co-founder and community manager for NOSAD.se."
+
+- name: "Anwesha"
+  short: anwesha
+  lastname: "Anwesha"
+  slot: slot13
+  day: apr16
+  title: "Automate to collaborate"
+  abstract:
+    -  "Transparency, collaboration, inclusivity, and openness lay the foundation of the Open Source community. As the project's maintainers, few of our tasks make the entry bar of contribution low, collaboration easy, and the governance model fair. It is more than a day's job; it is a continuous process. The process needs constant improvement, alteration, and adoption according to the time, stage of the project, and community needs. Ansible Community Team always thrives on these purposes through our different endeavors. Automation reduces errors, and the possibility of mistakes and time increases performance, reliability, and productivity, making mundane jobs quick and easy. Thus, it makes open-source projects dependable and easy to maintain."
+    - "In my talk, I will explain the various automation endeavors the Ansible Community team took to open the process more to the community. The talk will discuss extending trust and ownership of technical content and processes to the community and the problems faced. It will majorly focus on two significant aspects of"
+    - "<ul><li>Automating and opening up Ansible Package Release process</li><li>Automating mundane tasks for maintaining documentation across multiple releases.</li></ul>"
+  bio:
+    - "Anwesha is a fellow at the Python Software Foundation and the Release Manager of Ansible. She works as a Software Engineer with the Ansible Engineering team at Red Hat. She led PyLadies efforts in India and now is an organizer at PyLadies Stockholm. You can follow her blog at https://anweshadas.in."
+
+- name: "Julian Coccia"
+  short: jcoccia
+  lastname: "Coccia"
+  slot: slot14
+  day: apr16
+  title: "A journey to Open Data"
+  abstract:
+    - "SCANOSS operates in the Software Composition Analysis market, having a knowledge base related with all the published open source software as core product. It is a data company."
+    - "Since its foundation, this organization had as key goal becoming an open source software company. Today, every software SCANOSS develops is published under open source licenses, including the software used by the company to build, enrich and maintain its knowledge base."
+    - "Back in 2021, SCANOSS decided to start a journey towards open data. The first relevant action was to provide free (gratis) access to the subset of the knowledge base related with license compliance. They achieved it via the Software Transparency Foundation, helping license compliance engineers and lawyers all over the world to identify, analyse and curate open source software and their licenses, using SCANOSS or third party tools."
+    - "Recognizing the growing demand from users to scrutinize their projects for known vulnerabilities, SCANOSS took a second step, publishing as open data its purl2cpe data-set, which today is becoming increasingly popular among security experts and release managers."
+    - "This talk will describe these contributions as well as the lessons learned throughout this journey, going from open source software towards open data. SCANOSS's journey is far from done though. The company is taking further steps."
+    - "A few weeks ago, a cryptography algorithm definitions data set was released as open data, aiming to improve and reach consensus around how companies perceive and manage the cryptography composition of their products. This new contribution, if collaboration around it flourish, has the potential to impact critical challenges that we have as industry in areas like Export Control (ECCN), product security, and quantum-readiness."
+    - "During this talk, the speaker will also describe the lessons learned from this third step so far, the motivations to release this data set and next steps."
+  bio:
+    - "Passionate about Open Source license compliance. Developed global Open Source processes and tools at Ericsson. Co-founded and developed the core technology at FOSSID. Driving the Project Office at the Software Transparency Foundation to drive SBOM adoption. Leading the technology at SCANOSS."
+
+- name: "Kris Buytaert"
+  short: kbuytaert
+  lastname: "Buytaert"
+  slot: slot15
+  day: apr16
+  title: "Infrastructure as code (anti) Patterns"
+  abstract:
+    - "Everybody is doing infrastructure as code in some form these days. Some of us get more benefits out of it than others. This talk will document 15+ years of patterns in Infrastructure as Code, clearly explaining what patterns come with what results."
+    - "We'll cover basic concepts such as Desired Stated, Idempodency , and Single Source of truth, and how they are important for your strategy."
+    - "We'll use multiple existing open source tools as examples."
+    - "We will guide you trough deciding what functionality you want or need and what benefits you will get."
+  bio:
+    - "Kris Buytaert is a long time Linux and Open Source Consultant. He's one of instigators of the devops movement, working for Inuits.eu / o11y.eu"
+    - "He started more than one conference series and lost count on how many times he spoke at other events. He spends most of his time working on bridging the gap between developers and operations , while warning people not to make the mistakes he made. He builds infrastructures that can survive the 10th floor test, or a datacenter fire, while actively promoting the devops idea !"
+    - "He hasn't blogged for a while but people still point out the title of his blog. Titled \"Everything is a Freaking DNS Problem\" ,it can be found at http://www.krisbuytaert.be/blog/"
