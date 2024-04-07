@@ -9,16 +9,19 @@
 #   bio:
 #     - "T.B.D."
 #
-# - name: "T.B.D."
-#   short: tbd
-#   lastname: "D." Javier
-#   slot: slot2
-#   day: apr15
-#   title: "T.B.D."
-#   abstract:
-#     -  "T.B.D."
-#   bio:
-#     - "T.B.D."
+- name: "Magnus Feuer"
+  short: mfeuer
+  lastname: "Feuer"
+  slot: slot2
+  day: apr15
+  title: "Software-Defined Vehicles and FOSS"
+  abstract:
+    - "The automotive industry is a huge user of open source software, from silicon to pixels, but has very little presence in the FOSS community."
+    - "Join Magnus Feuer, Volvo Cars, as he gives you the current state of affairs in automotive open source, what the the industry can contribute with, and what the industry needs from the community."
+  bio:
+    - "Magnus Feuer has a deep development background in telecom and automotive software, having worked with intelligent networks, telematics, and infotainment in everything from startups to large automotive OEMs."
+    - "During the last decade his focus has been on the intersection between corporate culture, development organisations, and technology strategies, creating engineering cultures that go above and beyond in both developer experience and business value."
+    - "Having spent two decades abroad, Magnus is now returning to his native Sweden where he, starting April, will work at Volvo Cars with software strategy and technical solutions."
 
 - name: "Jimmy Sjölund"
   short: jsjolund
@@ -162,7 +165,7 @@
 - name: "Kris Buytaert"
   short: kbuytaert
   lastname: "Buytaert"
-  slot: slot15
+  slot: slot1
   day: apr16
   title: "Infrastructure as code (anti) Patterns"
   abstract:
