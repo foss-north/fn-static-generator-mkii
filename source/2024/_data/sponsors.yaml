@@ -3,11 +3,6 @@
   url: https://fsfe.org/
   level: partner
 
-    # - name: B3
-    #   short: b3
-    #   url: https://b3.se
-    #   level: silver
-    # 
 - name: Sylog
   short: sylog
   url: https://www.sylog.se/
@@ -17,12 +12,7 @@
   short: amd
   url: https://www.amd.com
   level: base
-    # 
-    # - name: Data Respons Solutions
-    #   short: datarespons
-    #   url: https://solutions.datarespons.com/
-    #   level: silver
-    # 
+
 - name: HaleyTek
   short: haleytek
   url: https://haleytek.com/
@@ -32,18 +22,3 @@
   short: mullvad
   url: https://mullvad.net
   level: silver
-    # 
-    # - name: Redhat Ansible
-    #   short: ansible
-    #   url: https://www.ansible.com/
-    #   level: base
-    # 
-    # - name: EUB
-    #   short: eub
-    #   url: https://eub.se/
-    #   level: base
-    # 
-    # - name: Volvo
-    #   short: volvo
-    #   url: https://www.volvocars.com/
-    #   level: silver
