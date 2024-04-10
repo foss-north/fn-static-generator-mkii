@@ -69,21 +69,10 @@
   bio:
     - "Fabio Alessandro Locati - commonly known as Fale - is an EMEA Associate Principal Specialist Solutions Architect at Red Hat, public speaker, author, and Open Source contributor. His primary areas of expertise are Linux, automation, security, and cloud technologies. Fale started working in IT in 2004, giving him many years of experience, with many of them spent consulting for many companies, including dozens of Fortune 500 companies. He is the author of the books Practical Ansible, Practical Ansible 2, Learning Anisble 2, Learning Ansible 2.7, and OpenStack Cloud Security. In his spare time, he helps in the Kubernetes, Fedora Project, Ansible, Wikimedia, and Open Street Map communities, as well as in many smaller projects on GitHub and similar platforms."
 
-- name: "Louisa Seers"
-  short: lseers
-  lastname: "Seers"
-  slot: slot6a
-  day: apr15
-  title: "How is Integration Testing in Hybrid Cloud Possible?"
-  abstract:
-    -  "This talk explores the challenges and solutions associated with conducting integration testing in hybrid cloud environments, where applications span both on-premises (z/OS) and cloud infrastructures. Focused on the innovative Galasa open-source project, the discussion delves into how Galasa addresses the complexities of hybrid cloud testing, offering a comprehensive framework for validating the interoperability of diverse components. Attendees will gain insights into practical strategies, best practices, and real-world examples, empowering them to effectively navigate the intricacies of integration testing in the evolving landscape of hybrid cloud computing."
-  bio:
-    - "Louisa’s an experienced professional within IBM with 10 years’ spanning diverse roles across consulting, software development and acquisitions. In addition, Louisa has just finished a Degree Apprenticeship to support her role in business leadership. Louisa is the chairperson of the open-source project Galasa within the Linux Foundation which included taking this project to adoption, in addition, she’s also a product management role overseeing a portfolio within IBM Z."
-
 - name: "Marcel Kurzmann"
   short: mkurzmann
   lastname: "Kurzmann"
-  slot: slot7
+  slot: slot6a
   day: apr15
   title: "Eclipse Apoapsis - Open Source based Software Composition Analysis at scale"
   abstract:
