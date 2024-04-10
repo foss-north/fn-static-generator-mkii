@@ -113,6 +113,8 @@
 - name: "Johan Linåker"
   short: jlinaker
   lastname: "Linåker"
+  copresenters:
+    - { name: "Sachiko Muto", short: "smuto" }
   slot: slot12
   day: apr16
   title: "Software Reuse through Open Source Software in the Public Sector - A birds-eye view on Policy and Practice"
@@ -120,6 +122,19 @@
     -  "This talk delves into how Public Sector Organizations (PSOs) and the public sector at large facilitate software reuse, specifically through Open Source Software (OSS) as an instrument. The talk draws from a recently published report commissioned by the Danish Agency for Digital Government (Digitaliseringsstyrelsen ) and Local Government Denmark (KL ), which provide input on how Danish PSOs can specifically improve at reaping benefits by reusing existing software and creating value by developing software in a way that can be reused. A qualitative survey was conducted on a sample of 16 countries considered mature in their digital practices, as indicated through a set of digital maturity indicators. These countries were surveyed in terms of government policies, rationales, support mechanisms, means of promotion, and success stories related to software reuse. The surveyed countries exhibit diverse policies, emphasizing interoperability, digital sovereignty, transparency, and cost efficiency. Economic arguments, interoperability, and transparency are prominent goals, while digital sovereignty varies. Security concerns are discussed, acknowledging both risks and benefits of OSS. Several emerging support structures were identified, including Open Source Program Offices (OSPOs), crucial for institutional capacity. Success stories highlight the transformation to sustainable governance enabled through the use of neutral proxy organizations acting as stewards for public sector OSS projects. The talk provides recommendations that focus on fostering software reuse through OSS adoption, aiming to guide policy- and decisionmakers at national, regional, and local government levels. The talk contributes valuable insights for countries, like Denmark and others, seeking to leverage software reuse through OSS in their digital transformations."
   bio:
     - "Johan is a senior researcher at RISE Research Institutes of Sweden with focus and passion for open source software, data, gov and innovation. Co-founder and community manager for NOSAD.se."
+
+- name: "Sachiko Muto"
+  short: smuto
+  lastname: "Muto"
+  coslot: slot12
+  day: apr16
+  title: "Software Reuse through Open Source Software in the Public Sector - A birds-eye view on Policy and Practice"
+  abstract:
+    -  "This talk delves into how Public Sector Organizations (PSOs) and the public sector at large facilitate software reuse, specifically through Open Source Software (OSS) as an instrument. The talk draws from a recently published report commissioned by the Danish Agency for Digital Government (Digitaliseringsstyrelsen ) and Local Government Denmark (KL ), which provide input on how Danish PSOs can specifically improve at reaping benefits by reusing existing software and creating value by developing software in a way that can be reused. A qualitative survey was conducted on a sample of 16 countries considered mature in their digital practices, as indicated through a set of digital maturity indicators. These countries were surveyed in terms of government policies, rationales, support mechanisms, means of promotion, and success stories related to software reuse. The surveyed countries exhibit diverse policies, emphasizing interoperability, digital sovereignty, transparency, and cost efficiency. Economic arguments, interoperability, and transparency are prominent goals, while digital sovereignty varies. Security concerns are discussed, acknowledging both risks and benefits of OSS. Several emerging support structures were identified, including Open Source Program Offices (OSPOs), crucial for institutional capacity. Success stories highlight the transformation to sustainable governance enabled through the use of neutral proxy organizations acting as stewards for public sector OSS projects. The talk provides recommendations that focus on fostering software reuse through OSS adoption, aiming to guide policy- and decisionmakers at national, regional, and local government levels. The talk contributes valuable insights for countries, like Denmark and others, seeking to leverage software reuse through OSS in their digital transformations."
+  bio:
+    - "Sachiko Muto is the Chairperson of OpenForum Europe and a senior researcher at RISE Research Institutes of Sweden. She originally joined OFE in 2007 and served for several years as Director with responsibility for government relations and then as CEO. Sachiko has degrees in Political Science from the University of Toronto and the London School of Economics; she received her doctorate in standardisation policy from TU Delft."
+
+
 
 - name: "Anwesha"
   short: anwesha
