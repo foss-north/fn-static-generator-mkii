@@ -22,3 +22,8 @@
   short: mullvad
   url: https://mullvad.net
   level: silver
+
+- name: Elektronikutvecklingsbyrån
+  short: eub
+  url: https://eub.se
+  level: base
