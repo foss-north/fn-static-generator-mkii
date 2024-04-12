@@ -82,16 +82,16 @@
 
 
 
-- name: "Thomas Preusser"
-  short: tpreusser
-  lastname: "Preusser"
+- name: "Tryggve Mathiesen"
+  short: tmathiesen
+  lastname: "Mathiesen"
   slot: slot10
   day: apr16
   title: "Pervasive and Sustainable AI with Adaptive Computing"
   abstract:
     -  "In the context of AI, we face a plethora of challenges that extend beyond the widely discussed performance scalability required to meet the growing demands of compute and storage in the latest models. These challenges encompass sustainability, pervasiveness, agility, and diversity, all of which are needed to cater to a constantly evolving range of applications and algorithms from endpoint to edge and cloud. In this talk, we explore how adaptive devices and agile compiler stacks can provide solutions by delivering post-production hardware specialization and co-designed algorithms. This results in highly optimized AI systems which not only provide the necessary performance scalability but also bring a reduction in carbon footprint while addressing the needs of a broad range of diverse applications with the necessary agility."
   bio:
-    - "Thomas is a principal engineer and the FINN project lead at AMD Research. Thomas earned a PhD from TU Dresden in 2011. He worked as a postdoctoral researcher both there and at ETH Zürich. He also enjoyed an EU-funded Individual Maria-Skłodowska-Curie Fellowship at the Xilinx Research Labs in Dublin. His scientific background is computer arithmetic, application acceleration and systems design using FPGAs. His current focus lies on advancing FINN, a tool for the generation of custom embedded neural-network inference solutions."
+    - "Tryggve earned a MSc CSE from CTH Gothenburg in 1987. He has deep system engineering background in computer arithmetic, application acceleration and systems design using FPGAs. As an FPGA and system expert in Industrial, Automotive and Telecommunication fields, he has enabled complex embedded systems and educated customers in FPGA design. The last 7 years at AMD/Xilinx, the current focus lies in advancing AMD customers embedded system design and utilization of neural-network inference solutions."
 
 - name: "Agustin Benito Bethencourt"
   short: abethencourt
