@@ -176,7 +176,7 @@
 - name: "Jessica Marz"
   short: jmarz
   lastname: "Marz"
-  slot: slot13
+  slot: slot15
   day: apr16
   title: "Navigating Open Source: Establishing an OSPO for Organizational Success"
   abstract:
@@ -194,7 +194,7 @@
 - name: "Alexios Zavras"
   short: azavras
   lastname: "Zavras"
-  slot: slot15
+  slot: slot13
   day: apr16
   title: "Advancing Transparency and Security in Software: A Deep Dive into SBOM and SPDX"
   abstract:
