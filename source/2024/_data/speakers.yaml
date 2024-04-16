@@ -14,6 +14,9 @@
   lastname: "Feuer"
   slot: slot2
   day: apr15
+  links:
+    - { title: "YouTube", url: "https://youtu.be/rx1QLOEOKGs" }
+    - { title: "ConfTube", url: "https://conf.tube/w/diJSZtituTCXoRsd8G1E5J" }
   title: "Software-Defined Vehicles and FOSS"
   abstract:
     - "The automotive industry is a huge user of open source software, from silicon to pixels, but has very little presence in the FOSS community."
@@ -28,6 +31,9 @@
   lastname: "Sjölund"
   slot: slot3a
   day: apr15
+  links:
+    - { title: "YouTube", url: "https://youtu.be/4gMzW7LpA7s" }
+    - { title: "ConfTube", url: "https://conf.tube/w/jMAbrJ8RgGfrHiM6Ea5M3X" }
   title: "Co-creating engagement with the Open Decision Framework"
   abstract:
     - "Culture is not built, it emerges. How do we support an environment and community where people are volunteers with limited time and commitment?"
@@ -41,6 +47,9 @@
   lastname: "Marrone"
   slot: slot3b
   day: apr15
+  links:
+    - { title: "YouTube", url: "https://youtu.be/kn9YtiMmMA8" }
+    - { title: "ConfTube", url: "https://conf.tube/w/6hkJCuc6UxjHR2xdjX5knH" }
   title: "Dwindling software freedom in the R ecosystem"
   abstract:
     -  "R itself remains part of the GNU project, licensed under the GNU General Public License, and capable of running on many free operating systems, but it is increasingly becoming popular to include non-free software and services-as-software-substitutes in R environments. Moreover, these unethical practices are often obscured from useRs, and some users may not realize that they are running non-free software. I will introduce R and some of the common ways people use it, demonstrate the recent trends towards unethical practices in R, and comment on the dangers of such practices, for the individual and for society. Finally, I will inform of what we can do about these trends, both as individuals to protect ourselves, and as a group to further a free society."
@@ -52,6 +61,9 @@
   lastname: "Ombredanne"
   slot: slot4
   day: apr15
+  links:
+    - { title: "YouTube", url: "https://youtu.be/WY5TUlL3lWU" }
+    - { title: "ConfTube", url: "https://conf.tube/w/51ZumKo7PUqBHBF2Skhjhk" }
   title: "Non-Vulnerable Dependency Resolution: Reconciling development and security concerns, together"
   abstract:
     -  "The current approach to resolving dependencies (in package managers used by FOSS users) and handling vulnerable packages (in vulnerability management teams) is complex, tedious, and time-consuming. It's also a disconnected process when the development and security teams are not in sync. We can either determine if a package version is vulnerable, or we can resolve package versions for functional dependency requirements but without consideration for vulnerabilities - we cannot do both, and crossing both tools and organizational boundaries is difficult. We express dependency constraints as acceptable package version ranges, and vulnerabilities affect certain package version ranges. What if we resolve package dependencies by taking into consideration the vulnerable version ranges at the same time?"
@@ -64,6 +76,9 @@
   lastname: "Locati"
   slot: slot5
   day: apr15
+  links:
+    - { title: "YouTube", url: "https://youtu.be/TWuORC1LS8I" }
+    - { title: "ConfTube", url: "https://conf.tube/w/hrUY2hnaMKNK5FuQcDFo4y" }
   title: "Leverage Event Driven Ansible to reduce your automation reaction time"
   abstract:
     -  "In today's complex IT environments, it is more important than ever to automate tasks and processes. Event-Driven Ansible is a new feature of Ansible that allows you to automate IT tasks based on events that occur in your IT environment. This session will provide an introduction to Event-Driven Ansible, including what it is, how it works, and the benefits of using it. We will also discuss some examples of how Event-Driven Ansible can be used in real-world scenarios."
@@ -75,6 +90,9 @@
   lastname: "Kurzmann"
   slot: slot6a
   day: apr15
+  links:
+    - { title: "YouTube", url: "https://youtu.be/MeZdt8DpLgQ" }
+    - { title: "ConfTube", url: "https://conf.tube/w/3D5UGDi8YM2KpDNR7xWuBG" }
   title: "Eclipse Apoapsis - Open Source based Software Composition Analysis at scale"
   abstract:
     -  'Creating and processing SBOMs at scale based on Open Source solutions: Intro to the new Eclipse Foundation Project Apoapsis providing a server concept to run continuous Software Composition Analysis for a large number of heterogeneous repositories. The talk will show the general setup how you can continuously generate your SBOMs and reports and provide the status of the published reference implementation the "ORT-Server" interacting with the OSS Review Toolkit."'
@@ -162,6 +180,9 @@
   lastname: "Buytaert"
   slot: slot1
   day: apr16
+  links:
+    - { title: "YouTube", url: "https://youtu.be/ZZWBRsJ_R6o" }
+    - { title: "ConfTube", url: "https://conf.tube/w/rhUgLhZk2iogoreJ9DdbGg" }
   title: "Infrastructure as code (anti) Patterns"
   abstract:
     - "Everybody is doing infrastructure as code in some form these days. Some of us get more benefits out of it than others. This talk will document 15+ years of patterns in Infrastructure as Code, clearly explaining what patterns come with what results."
