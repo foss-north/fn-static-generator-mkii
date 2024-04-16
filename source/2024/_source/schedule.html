@@ -4,8 +4,10 @@
 <a name="top" class="offsetanchor"></a>
 <h1>Conference Schedule</h1>
 
+{% if not data.general.confdone %}
 <p>This is the provisional program for foss-north {{ data.general.confname }}.<br />
 All sessions include time for Q&amp;A and to mingle.</p>
+{% endif %}
 
 <p>[
 {% for day in data.general.confdays %}

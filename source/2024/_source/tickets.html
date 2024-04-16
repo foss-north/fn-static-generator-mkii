@@ -3,6 +3,10 @@
 {% block bodycontents %}
 
 <h1>Tickets</h1>
+{% if data.general.confdone %}
+<p><b>NOTE: Tickets are no longer available for this conference.</b></p>
+<div class="blurred">
+{% endif %}
 
 <p>Get your ticket via the <a href="https://foss-north.se/events/2024/register/">ticket registration</a> page (requires the setup of an account).</p>
 
@@ -23,6 +27,7 @@ catering. We have ordered more food than we’ve sold tickets on April 1st, so w
 hope to be able to provide food to all participants, but we cannot guarantee
 this due to lead times ordering supplies.</p>
 
+
 <p>Tickets are sold in the following categories:</p>
 
 <div class="row">
@@ -37,5 +42,9 @@ this due to lead times ordering supplies.</p>
         <p><b>500 SEK</b><br />Conference tickets for non-student visitors.</p>
     </div>
 </div>
+
+{% if data.general.confdone %}
+</div>
+{% endif %}
 
 {% endblock %}
