@@ -22,7 +22,7 @@ All sessions include time for Q&amp;A and to mingle.</p>
 <div class="table-responsive">
     <table class="table table-bordered">
         <tr>
-          <th style="width:20%;" class="talkheading">Time</th><th style="width:40%;" class="talkheading">Runan</th>
+          <th style="width:20%;" class="talkheading">Time</th><th style="width:40%;" class="talkheading">Runan</th><th style="width:20%;" class="talkheading">Stream</th>
         </tr>
 
         <tr>
@@ -32,22 +32,22 @@ All sessions include time for Q&amp;A and to mingle.</p>
 
         <tr>
             <td class="scheduletime">9.00&nbsp;-&nbsp;10.00</td>
-            <td><div class="talktitle">Opening Words</div><div><i>and</i></div>{% with slot="slot1" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td><div class="talktitle">Opening Words</div><div><i>and</i></div>{% with slot="slot1", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
             <td class="scheduletime">10.00&nbsp;-&nbsp;11.00</td>
-            <td >{% with slot="slot2" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td >{% with slot="slot2", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
         
         <tr>
             <td class="scheduletime">11.00&nbsp;-&nbsp;11.30</td>
-            <td >{% with slot="slot3a" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td >{% with slot="slot3a", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
         
         <tr>
             <td class="scheduletime">11.30&nbsp;-&nbsp;12.00</td>
-            <td >{% with slot="slot3b" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td >{% with slot="slot3b", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
@@ -57,12 +57,12 @@ All sessions include time for Q&amp;A and to mingle.</p>
         
         <tr>
             <td class="scheduletime">13.00&nbsp;-&nbsp;14.00</td>
-            <td>{% with slot="slot4" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td>{% with slot="slot4", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
             <td class="scheduletime">14.00&nbsp;-&nbsp;15.00</td>
-            <td >{% with slot="slot5" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td >{% with slot="slot5", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
         
         <tr>
@@ -72,7 +72,7 @@ All sessions include time for Q&amp;A and to mingle.</p>
         
         <tr>
             <td class="scheduletime">15.30&nbsp;-&nbsp;16.30</td>
-            <td >{% with slot="slot6a" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td >{% with slot="slot6a", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
     </table>
@@ -86,7 +86,7 @@ All sessions include time for Q&amp;A and to mingle.</p>
 <div class="table-responsive">
     <table class="table table-bordered">
         <tr>
-            <th style="width:20%;" class="talkheading">Time</th><th style="width:40%;" class="talkheading">Runan</th>
+            <th style="width:20%;" class="talkheading">Time</th><th style="width:40%;" class="talkheading">Runan</th><th style="width:20%;" class="talkheading">Stream</th>
         </tr>
 
         <tr>
@@ -96,17 +96,17 @@ All sessions include time for Q&amp;A and to mingle.</p>
 
         <tr>
             <td class="scheduletime">9.00&nbsp;-&nbsp;10.00</td>
-            <td>{% with slot="slot10" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td>{% with slot="slot10", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
             <td class="scheduletime">10.00&nbsp;-&nbsp;11.00</td>
-            <td >{% with slot="slot11" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td >{% with slot="slot11", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
         
         <tr>
             <td class="scheduletime">11.00&nbsp;-&nbsp;12.00</td>
-            <td >{% with slot="slot12" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td >{% with slot="slot12", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
@@ -116,12 +116,12 @@ All sessions include time for Q&amp;A and to mingle.</p>
         
         <tr>
             <td class="scheduletime">13.00&nbsp;-&nbsp;14.00</td>
-            <td>{% with slot="slot13" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td>{% with slot="slot13", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
             <td class="scheduletime">14.00&nbsp;-&nbsp;15.00</td>
-            <td >{% with slot="slot14" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td >{% with slot="slot14", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
@@ -131,7 +131,7 @@ All sessions include time for Q&amp;A and to mingle.</p>
         
         <tr>
             <td class="scheduletime">15.30&nbsp;-&nbsp;16.30</td>
-            <td >{% with slot="slot15" %}{% include "speaker-schedule-slot.html" %}{% endwith %}<div><i>and</i></div><div class="talktitle">Closing Words</div></td>
+            <td >{% with slot="slot15", showvideolink=true %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
     </table>
 </div>

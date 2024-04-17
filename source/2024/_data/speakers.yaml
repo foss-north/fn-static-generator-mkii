@@ -1,14 +1,3 @@
-# - name: "T.B.D."
-#   short: tbd
-#   lastname: "D." Feuer
-#   slot: slot1
-#   day: apr15
-#   title: "T.B.D."
-#   abstract:
-#     -  "T.B.D."
-#   bio:
-#     - "T.B.D."
-#
 - name: "Magnus Feuer"
   short: mfeuer
   lastname: "Feuer"
@@ -106,6 +95,9 @@
   lastname: "Mathiesen"
   slot: slot10
   day: apr16
+  links:
+    - { title: "YouTube", url: "https://youtu.be/h_mQttcRzao" }
+    - { title: "ConfTube", url: "https://conf.tube/w/oP7zrrResy75GN489B6D2z" }
   title: "Pervasive and Sustainable AI with Adaptive Computing"
   abstract:
     -  "In the context of AI, we face a plethora of challenges that extend beyond the widely discussed performance scalability required to meet the growing demands of compute and storage in the latest models. These challenges encompass sustainability, pervasiveness, agility, and diversity, all of which are needed to cater to a constantly evolving range of applications and algorithms from endpoint to edge and cloud. In this talk, we explore how adaptive devices and agile compiler stacks can provide solutions by delivering post-production hardware specialization and co-designed algorithms. This results in highly optimized AI systems which not only provide the necessary performance scalability but also bring a reduction in carbon footprint while addressing the needs of a broad range of diverse applications with the necessary agility."
@@ -117,6 +109,9 @@
   lastname: "Bethencourt"
   slot: slot11
   day: apr16
+  links:
+    - { title: "YouTube", url: "https://youtu.be/YEjeCpxtyQY" }
+    - { title: "ConfTube", url: "https://conf.tube/w/hFC2JCF3Smw4AFU5eaArj1" }
   title: "Introduction to Software Heritage, the Alexandria library for code"
   abstract:
     -  "Software Heritage is an international project, supported by UNESCO, whose ambition is to collect, preserve, and share all software that is publicly available in source code form. On this foundation, a wealth of applications can be built, ranging from cultural heritage to industry and research."
@@ -136,6 +131,9 @@
     - { name: "Sachiko Muto", short: "smuto" }
   slot: slot12
   day: apr16
+  links:
+    - { title: "YouTube", url: "https://youtu.be/3fXwcizsK4g" }
+    - { title: "ConfTube", url: "https://conf.tube/w/nLhXZmKoxHN2KVh5RroLUk" }
   title: "Software Reuse through Open Source Software in the Public Sector - A birds-eye view on Policy and Practice"
   abstract:
     -  "This talk delves into how Public Sector Organizations (PSOs) and the public sector at large facilitate software reuse, specifically through Open Source Software (OSS) as an instrument. The talk draws from a recently published report commissioned by the Danish Agency for Digital Government (Digitaliseringsstyrelsen ) and Local Government Denmark (KL ), which provide input on how Danish PSOs can specifically improve at reaping benefits by reusing existing software and creating value by developing software in a way that can be reused."
@@ -149,6 +147,9 @@
   lastname: "Muto"
   coslot: slot12
   day: apr16
+  links:
+    - { title: "YouTube", url: "https://youtu.be/3fXwcizsK4g" }
+    - { title: "ConfTube", url: "https://conf.tube/w/nLhXZmKoxHN2KVh5RroLUk" }
   title: "Software Reuse through Open Source Software in the Public Sector - A birds-eye view on Policy and Practice"
   abstract:
     -  "This talk delves into how Public Sector Organizations (PSOs) and the public sector at large facilitate software reuse, specifically through Open Source Software (OSS) as an instrument. The talk draws from a recently published report commissioned by the Danish Agency for Digital Government (Digitaliseringsstyrelsen ) and Local Government Denmark (KL ), which provide input on how Danish PSOs can specifically improve at reaping benefits by reusing existing software and creating value by developing software in a way that can be reused."
@@ -163,6 +164,9 @@
   lastname: "Coccia"
   slot: slot14
   day: apr16
+  links:
+    - { title: "YouTube", url: "https://youtu.be/Ikobg9UYluM" }
+    - { title: "ConfTube", url: "https://conf.tube/w/qiSGY3wkHjWoLckTG2PVmX" }
   title: "A journey to Open Data"
   abstract:
     - "SCANOSS operates in the Software Composition Analysis market, having a knowledge base related with all the published open source software as core product. It is a data company."
@@ -199,6 +203,9 @@
   lastname: "Marz"
   slot: slot15
   day: apr16
+  links:
+    - { title: "YouTube", url: "https://youtu.be/7UkX8bIb-Bk" }
+    - { title: "ConfTube", url: "https://conf.tube/w/2U2df6iKD8wmqje4WesRhb" }
   title: "Navigating Open Source: Establishing an OSPO for Organizational Success"
   abstract:
     - " As this audience well knows, open source software offers immense potential for innovation. However, managing it effectively within a sizable organization requires a structured approach. This talk explores the practical aspects of setting up an Open Source Program Office (OSPO), focusing on its benefits and key considerations."
@@ -217,6 +224,9 @@
   lastname: "Zavras"
   slot: slot13
   day: apr16
+  links:
+    - { title: "YouTube", url: "https://youtu.be/8r4m1WkKEqI" }
+    - { title: "ConfTube", url: "https://conf.tube/w/rKCvSUwyLZMvnidvRm1Ndj" }
   title: "Advancing Transparency and Security in Software: A Deep Dive into SBOM and SPDX"
   abstract:
     - "The Software Bill of Materials (SBOM) is a comprehensive list of components in a piece of software. It is a crucial tool for understanding the composition of software, which is particularly important in the context of managing security risks and licensing compliance. Recent regulatory efforts like US's EO or EU's CRA explicitly move towards requiring SBOM for each software delivery. The System Package Data Exchange (SPDX) is a freely available ISO standard that provides a set of specifications for communicating SBOM information. It offers a common format for companies and organizations to share important data accurately and efficiently. This presentation will delve into the intricacies of SBOMs and the latest developments of SPDX, providing a comprehensive understanding of their importance in the software industry."
