@@ -6,6 +6,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/rx1QLOEOKGs" }
     - { title: "ConfTube", url: "https://conf.tube/w/diJSZtituTCXoRsd8G1E5J" }
+    - { title: "Slides", url: "slides/slides_mfeuer.pdf" }
   title: "Software-Defined Vehicles and FOSS"
   abstract:
     - "The automotive industry is a huge user of open source software, from silicon to pixels, but has very little presence in the FOSS community."
@@ -53,6 +54,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/WY5TUlL3lWU" }
     - { title: "ConfTube", url: "https://conf.tube/w/51ZumKo7PUqBHBF2Skhjhk" }
+    - { title: "Slides", url: "slides/slides_pombredanne.pdf" }
   title: "Non-Vulnerable Dependency Resolution: Reconciling development and security concerns, together"
   abstract:
     -  "The current approach to resolving dependencies (in package managers used by FOSS users) and handling vulnerable packages (in vulnerability management teams) is complex, tedious, and time-consuming. It's also a disconnected process when the development and security teams are not in sync. We can either determine if a package version is vulnerable, or we can resolve package versions for functional dependency requirements but without consideration for vulnerabilities - we cannot do both, and crossing both tools and organizational boundaries is difficult. We express dependency constraints as acceptable package version ranges, and vulnerabilities affect certain package version ranges. What if we resolve package dependencies by taking into consideration the vulnerable version ranges at the same time?"
@@ -98,6 +100,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/h_mQttcRzao" }
     - { title: "ConfTube", url: "https://conf.tube/w/oP7zrrResy75GN489B6D2z" }
+    - { title: "Slides", url: "slides/slides_tmathiesen.pdf" }
   title: "Pervasive and Sustainable AI with Adaptive Computing"
   abstract:
     -  "In the context of AI, we face a plethora of challenges that extend beyond the widely discussed performance scalability required to meet the growing demands of compute and storage in the latest models. These challenges encompass sustainability, pervasiveness, agility, and diversity, all of which are needed to cater to a constantly evolving range of applications and algorithms from endpoint to edge and cloud. In this talk, we explore how adaptive devices and agile compiler stacks can provide solutions by delivering post-production hardware specialization and co-designed algorithms. This results in highly optimized AI systems which not only provide the necessary performance scalability but also bring a reduction in carbon footprint while addressing the needs of a broad range of diverse applications with the necessary agility."
@@ -187,6 +190,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/ZZWBRsJ_R6o" }
     - { title: "ConfTube", url: "https://conf.tube/w/rhUgLhZk2iogoreJ9DdbGg" }
+    - { title: "Slides", url: "slides/slides_kbuytaert.pdf" }
   title: "Infrastructure as code (anti) Patterns"
   abstract:
     - "Everybody is doing infrastructure as code in some form these days. Some of us get more benefits out of it than others. This talk will document 15+ years of patterns in Infrastructure as Code, clearly explaining what patterns come with what results."

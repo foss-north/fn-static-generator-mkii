@@ -31,6 +31,7 @@
     {% for speaker in speakers %}
         {% set vct=speaker.links | selectattr('title','equalto','ConfTube')|list|first %}
         {% set vyt=speaker.links | selectattr('title','equalto','YouTube')|list|first %}
+        {% set slides=speaker.links | selectattr('title','equalto','Slides')|list|first %}
         {% if vct %}
             <a href="{{ vct.url }}">{{ vct.title }}</a>
         {% endif %}
@@ -39,6 +40,12 @@
                 <br />
             {% endif %}
             <a href="{{ vyt.url }}">{{ vyt.title }}</a>
+        {% endif %}
+        {% if slides %}
+            {% if vct or vyt %}
+                <br />
+            {% endif %}
+            <a href="{{ slides.url }}">{{ slides.title }}</a>
         {% endif %}
         {% if not loop.last %}
             &nbsp;
