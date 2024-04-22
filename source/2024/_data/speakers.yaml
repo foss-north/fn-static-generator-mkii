@@ -70,6 +70,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/TWuORC1LS8I" }
     - { title: "ConfTube", url: "https://conf.tube/w/hrUY2hnaMKNK5FuQcDFo4y" }
+    - { title: "Slides", url: "slides/slides_flocati.pdf" }
   title: "Leverage Event Driven Ansible to reduce your automation reaction time"
   abstract:
     -  "In today's complex IT environments, it is more important than ever to automate tasks and processes. Event-Driven Ansible is a new feature of Ansible that allows you to automate IT tasks based on events that occur in your IT environment. This session will provide an introduction to Event-Driven Ansible, including what it is, how it works, and the benefits of using it. We will also discuss some examples of how Event-Driven Ansible can be used in real-world scenarios."
@@ -84,6 +85,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/MeZdt8DpLgQ" }
     - { title: "ConfTube", url: "https://conf.tube/w/3D5UGDi8YM2KpDNR7xWuBG" }
+    - { title: "Slides", url: "slides/slides_mkurzmann.pdf" }
   title: "Eclipse Apoapsis - Open Source based Software Composition Analysis at scale"
   abstract:
     -  'Creating and processing SBOMs at scale based on Open Source solutions: Intro to the new Eclipse Foundation Project Apoapsis providing a server concept to run continuous Software Composition Analysis for a large number of heterogeneous repositories. The talk will show the general setup how you can continuously generate your SBOMs and reports and provide the status of the published reference implementation the "ORT-Server" interacting with the OSS Review Toolkit."'
