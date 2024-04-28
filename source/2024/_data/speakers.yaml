@@ -117,6 +117,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/YEjeCpxtyQY" }
     - { title: "ConfTube", url: "https://conf.tube/w/hFC2JCF3Smw4AFU5eaArj1" }
+    - { title: "Slides", url: "slides/slides_abethencourt.pdf" }
   title: "Introduction to Software Heritage, the Alexandria library for code"
   abstract:
     -  "Software Heritage is an international project, supported by UNESCO, whose ambition is to collect, preserve, and share all software that is publicly available in source code form. On this foundation, a wealth of applications can be built, ranging from cultural heritage to industry and research."
