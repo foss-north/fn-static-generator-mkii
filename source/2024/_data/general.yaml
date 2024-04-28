@@ -3,8 +3,7 @@ confbaseurl: "2024"
 
 conferencedaysdate: "April 15 - 16"
 confdate: "April 14 2024"
-
-communitydaymeetup: True
+confdone: True
 
 ticketslunchdate: "March 15"
 

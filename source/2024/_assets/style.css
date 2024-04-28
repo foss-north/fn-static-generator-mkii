@@ -291,3 +291,7 @@ div.topsub {
     margin-bottom: 20px;
     font-weight: bold;
 }
+
+.blurred {
+    filter: blur(2px);
+}
