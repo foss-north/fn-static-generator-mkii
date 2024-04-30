@@ -24,6 +24,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/4gMzW7LpA7s" }
     - { title: "ConfTube", url: "https://conf.tube/w/jMAbrJ8RgGfrHiM6Ea5M3X" }
+    - { title: "Slides", url: "slides/slides_jsjolund.pdf" }
   title: "Co-creating engagement with the Open Decision Framework"
   abstract:
     - "Culture is not built, it emerges. How do we support an environment and community where people are volunteers with limited time and commitment?"
@@ -140,6 +141,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/3fXwcizsK4g" }
     - { title: "ConfTube", url: "https://conf.tube/w/nLhXZmKoxHN2KVh5RroLUk" }
+    - { title: "Slides", url: "slides/slides_jlinaker_smuto.pdf" }
   title: "Software Reuse through Open Source Software in the Public Sector - A birds-eye view on Policy and Practice"
   abstract:
     -  "This talk delves into how Public Sector Organizations (PSOs) and the public sector at large facilitate software reuse, specifically through Open Source Software (OSS) as an instrument. The talk draws from a recently published report commissioned by the Danish Agency for Digital Government (Digitaliseringsstyrelsen ) and Local Government Denmark (KL ), which provide input on how Danish PSOs can specifically improve at reaping benefits by reusing existing software and creating value by developing software in a way that can be reused."
@@ -156,6 +158,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/3fXwcizsK4g" }
     - { title: "ConfTube", url: "https://conf.tube/w/nLhXZmKoxHN2KVh5RroLUk" }
+    - { title: "Slides", url: "slides/slides_jlinaker_smuto.pdf" }
   title: "Software Reuse through Open Source Software in the Public Sector - A birds-eye view on Policy and Practice"
   abstract:
     -  "This talk delves into how Public Sector Organizations (PSOs) and the public sector at large facilitate software reuse, specifically through Open Source Software (OSS) as an instrument. The talk draws from a recently published report commissioned by the Danish Agency for Digital Government (Digitaliseringsstyrelsen ) and Local Government Denmark (KL ), which provide input on how Danish PSOs can specifically improve at reaping benefits by reusing existing software and creating value by developing software in a way that can be reused."
@@ -173,6 +176,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/Ikobg9UYluM" }
     - { title: "ConfTube", url: "https://conf.tube/w/qiSGY3wkHjWoLckTG2PVmX" }
+    - { title: "Slides", url: "slides/slides_jcoccia.pdf" }
   title: "A journey to Open Data"
   abstract:
     - "SCANOSS operates in the Software Composition Analysis market, having a knowledge base related with all the published open source software as core product. It is a data company."
