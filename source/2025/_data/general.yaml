@@ -1,0 +1,22 @@
+confname: "2025"
+confbaseurl: "2025"
+
+conferencedaysdate: "April 14 - 15"
+confdate: "April 14 2025"
+
+communitydaymeetup: True
+
+ticketslunchdate: "April 1"
+ticketsurl: "https://foss-north.se/events/2025/register/"
+ticketprice: 500
+ticketpricestudent: 300
+
+cfpopen: False
+cfpdone: False
+cfpenddate: "Feb 14"
+cfpnotifydate: "March 14"
+cfpurl: "https://foss-north.se/events/2025/callforpapers/"
+
+confdays:
+  - { name: "April 14", tag: "apr14" }
+  - { name: "April 15", tag: "apr15" }

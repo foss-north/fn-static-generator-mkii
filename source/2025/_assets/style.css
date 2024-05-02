@@ -1,0 +1,293 @@
+@import url(https://fonts.googleapis.com/css?family=Armata);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+h1 {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 48pt;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 36pt;
+    text-align: center;
+    
+    margin-bottom: 30px;
+}
+
+h2.left {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 36pt;
+    text-align: left;
+    
+    margin-bottom: 30px;
+}
+
+
+h3 {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 24pt;
+    text-align: left;
+    
+    margin-bottom: 30px;
+}
+
+h3.center {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 24pt;
+    text-align: center;
+    
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-family: 'Armata', serif;
+    color: #333333;
+    font-size: 16pt;
+    text-align: left;
+    
+    margin-bottom: 30px;
+}
+
+th {
+    text-align: center;
+}
+
+th.talkheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+}
+
+td.talkmajor {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+    text-align: center;
+}
+
+div.talktitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    font-weight: 800;
+}
+
+div.talkspeaker {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+
+td.scheduletime {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    text-align: center;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-bottom: solid black 1px;
+}
+
+.navbar-brand {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    font-weight: 1200;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 90%;
+}
+
+body { padding-top: 100px; }
+
+.offsetanchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+div.footer {
+    background-color: #ffcc33;
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+    
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+
+    border-top: solid black 1px;
+}
+
+body {     
+    background-image:linear-gradient(#ffcc33 100px, #fff 450px);
+    background-image:-webkit-linear-gradient(#ffcc33 100px, #fff 450px);
+    background-repeat: no-repeat;
+    background-color: white
+}
+
+div.bodytext {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-bottom: 40px;
+}
+
+p.left {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-bottom: 40px;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+
+p.tight {
+    margin-bottom: 10px;
+}
+
+div.bodybreak {
+    background-color: #ffcc33;
+    display: block;
+    height: 2px;
+    
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+th {
+    text-align: center;
+}
+
+img.sp-image {
+    max-width: 100%;
+}
+
+div.speaker > div.picture {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 10px;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333333;
+}
+
+div.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+div.title {
+    font-blackfamily: 'Roboto', sans-serif;
+    font-size: 24pt;
+    margin-bottom: 5px;
+}
+
+div.links {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+div.abstract {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+div.bio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+div.sponsorrow, 
+div.speakerrow {
+    margin-bottom: 60px;
+}
+
+a.speakerfront,
+a.speakerfront:hover,
+a.speakerfront:focus {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+
+a.projectlink,
+a.projectlink:hover,
+a.projectlink:focus {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    text-decoration: underline;
+}
+
+.speakergrid {
+    padding: 20px;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sponsorrow {
+    text-align: center;
+}
+
+.sponsor {
+    padding: 20px;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.toptitle
+{
+    text-align: center;
+    color: #ffcc33;
+    font-family: 'Armata', serif;
+    font-size: 18pt;
+    margin-bottom: 5px;
+    font-weight: bold;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.topsub {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
