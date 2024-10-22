@@ -13,8 +13,8 @@ ticketpricestudent: 300
 
 cfpopen: False
 cfpdone: False
-cfpenddate: "Feb 14"
-cfpnotifydate: "March 14"
+cfpenddate: "Feb 1"
+cfpnotifydate: "March 1"
 cfpurl: "https://foss-north.se/events/2025/callforpapers/"
 
 confdays:
