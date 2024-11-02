@@ -11,7 +11,7 @@ ticketsurl: "https://foss-north.se/events/2025/register/"
 ticketprice: 500
 ticketpricestudent: 300
 
-cfpopen: False
+cfpopen: True
 cfpdone: False
 cfpenddate: "Feb 1"
 cfpnotifydate: "March 1"
