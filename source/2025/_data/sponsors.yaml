@@ -2,3 +2,23 @@
   short: fsfe
   url: https://fsfe.org/
   level: partner
+
+- name: Swedsoft
+  short: swedsoft
+  url: https://swedsoft.se
+  level: partner
+
+- name: Sylog
+  short: sylog
+  url: https://www.sylog.se/
+  level: base
+
+- name: Elektronikutvecklingsbyrån
+  short: eub
+  url: https://eub.se
+  level: base
+
+- name: Diadrom
+  short: diadrom
+  url: https://diadrom.se
+  level: base
