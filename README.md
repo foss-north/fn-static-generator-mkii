@@ -8,7 +8,7 @@ The idea is to build the static site from a set of independent data driven sites
 
 # Setup and top-level usage
 
-In `source` all FOSS-North events have been included as directories with git submodules (or simply with their contents). Make sure to update `image-conversions.conf` when adding contents here.
+In the `source` directory, all FOSS-North events have been included as directories with git submodules (or simply with their contents). Make sure to update `image-conversions.conf` when adding contents here.
 
 Create a python3 venv using `requirements.txt`.
 
