@@ -8,7 +8,7 @@ communitydaymeetup: True
 
 ticketslunchdate: "April 1"
 ticketsurl: "https://foss-north.se/events/2025/register/"
-ticketprice: 500
+ticketprice: 700
 ticketpricestudent: 300
 
 cfpopen: True
