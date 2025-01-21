@@ -22,3 +22,8 @@
   short: diadrom
   url: https://diadrom.se
   level: base
+
+- name: WirelessCar
+  short: wcar
+  url: https://wirelesscar.com
+  level: gold
