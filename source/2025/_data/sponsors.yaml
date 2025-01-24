@@ -27,3 +27,8 @@
   short: wcar
   url: https://wirelesscar.com
   level: gold
+
+- name: ID8 Engineering
+  short: id8
+  url: https://id8-engineering.io/
+  level: base
