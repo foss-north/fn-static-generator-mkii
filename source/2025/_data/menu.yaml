@@ -10,6 +10,10 @@
   menu: Schedule
   index: 26
 
+- name: communityday
+  menu: Community Day
+  index: 30
+
 - name: contribute
   menu: Contribute
   index: 50
