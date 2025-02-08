@@ -1,4 +1,4 @@
-{% set speakers=data.speakers | selectattr('slot','equalto',slot)|list %}
+{% set speakers=data.speakers | selectattr('slot','equalto',slot) | selectattr('day','equalto',day) |list %}
     <a name="{{ slot }}" class="offsetanchor"></a>
 {% if speakers|length == 0 %}
     <div class="talkspeaker">T.B.D.</div>
