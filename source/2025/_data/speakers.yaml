@@ -306,6 +306,8 @@
 - name: Jimmy Sjölund
   lastname: Sjölund
   short: jsjolund
+  day: apr15
+  slot: slot12
   title: "The Generalist Advantage: Your Superpower"
   abstract:
     - "In a world that often celebrates specialisation, the generalist's path is
@@ -344,6 +346,111 @@
       Agila Sverige, foss-north, ScanAgile, All Things Open, and more. He also
       serves as an Ambassador for the Open Organization project and community
       and is a maintainer of the Open Decision Framework."
+
+- name: Jimmy Ahlberg
+  lastname: Ahlberg
+  short: jahlberg
+  day: apr15
+  slot: slot6
+  title: "How to talk your lawyer about FOSS"
+  copresenters:
+    - short: estefanaki
+      name: Eleftheria Stefanaki
+  abstract:
+    - "In this talk our two speakers from Ericsson and Nokia will try to share
+      some best practices in how to talk to your legal department or outside
+      legal counsel about FOSS, FOSS Licensing, Why and how to do FOSS, and
+      finally (hopefully) getting the lawyers on your side in how your
+      organizations consumes and contributes to open source."
+    - "The speakers will use real life examples of their respective companies
+      FOSS journeys over the last few years. Ultimately working with the legal
+      department should be a partnership to manage risk, increase efficiency,
+      and ensure that FOSS can be used and contributed to in a frictionless
+      fashion. Why is then often legal department and legal counsel seen as at
+      best a speedbump and at worst an enemy?"
+    - "The speakers go over commonalities in motivations and goals, how to
+      breach culture and language barriers, how to educate and guide, and go
+      over OpenChain (ISO/IEC 5230:2020) as a useful tool an accomplishing
+      this."
+  bio:
+    - "Currently Mr Ahlberg is the Director of Open Source Policy with the
+      Ericsson OSPO. Prior to the inception of the Ericsson OSPO he worked in
+      different roles with various aspects of Open Source in the Ericsson
+      organization, This included consumption of and contribution to Open
+      Source, Compliance, the intersection of Standards and Open Source, and
+      Open Source in M&A."
+    - "Jimmy Ahlberg is currently he chairperson of the OpenChain projects governing board."
+
+- name: Eleftheiria Stefanaki
+  lastname: Stefanaki
+  short: estefanaki
+  title: "How to talk your lawyer about FOSS"
+  copresenters:
+    - short: jahlberg
+      name: Jimmy Ahlberg
+  abstract:
+    - "In this talk our two speakers from Ericsson and Nokia will try to share
+      some best practices in how to talk to your legal department or outside
+      legal counsel about FOSS, FOSS Licensing, Why and how to do FOSS, and
+      finally (hopefully) getting the lawyers on your side in how your
+      organizations consumes and contributes to open source."
+    - "The speakers will use real life examples of their respective companies
+      FOSS journeys over the last few years. Ultimately working with the legal
+      department should be a partnership to manage risk, increase efficiency,
+      and ensure that FOSS can be used and contributed to in a frictionless
+      fashion. Why is then often legal department and legal counsel seen as at
+      best a speedbump and at worst an enemy?"
+    - "The speakers go over commonalities in motivations and goals, how to
+      breach culture and language barriers, how to educate and guide, and go
+      over OpenChain (ISO/IEC 5230:2020) as a useful tool an accomplishing
+      this."
+  bio:
+    - "Eleftheria Stefanaki works as FOSS legal counsel at Nokia"
+
+- name: Hagen Echzell
+  lastname: Echzell
+  short: hechzell
+  day: apr15
+  slot: slot8
+  copresenters:
+    - name: "Terje Sylvarnes"
+      short: tsylvarnes
+  title: "Interoperable Infrastructure for Universities, Enterprises and the Public Sector"
+  abstract:
+    - "Many organizational processes cross the boundaries of individual
+      organizations. This is especially true for the academic sector where
+      mobility programs like \"Erasmus+\" enable students to be enrolled with
+      different universities throughout their studies. However, the technical
+      means to enable the necessary collaboration between different institutions
+      and their administrations are often not adequate. Many tools for group
+      messaging, file exchange, or domain-specific applications do not work or
+      lack functionality as soon as users or data from outside an organization
+      are involved, such that E-Mail is a widely used fall-back."
+    - "Based on terminology from the recent <i>Interoperable Europe Act -
+      (IEA)</i> we will present technical and semantic <i>interoperability
+      solutions</i> to address these issues. On the technical side, we present
+      two existing protocols: OpenCloudMesh is an open file sharing
+      protocol implemented by open-source solutions like Nextcloud and ownCloud.
+      The Matrix protocol enables secure, decentralized group and instant
+      messaging, but might also support further use cases like video conferences
+      in the future."
+    - "On the semantic side, we present a case study where we, based on existing
+      vocabularies, model a university course catalog in the <i>Resource
+      Description Framework (RDF)</i> serialization format JSON-LD. The RDF
+      representation of the course data introduces a semantic context to the
+      course data, making the exchange of the catalog data independent of
+      specific APIs, thus enabling interoperability across heterogeneous data
+      structures and university-specific systems."
+    - "The introduced technical and semantic interoperability solutions enable
+      public sector bodies like universities and enterprises to improve their
+      cross-organizational collaboration without giving up their digital
+      sovereignty to a centralized, commercial actor."
+  bio:
+    - "Hagen Echzell works in the Linux team at the University of Oslo and
+      studies information security. He is interested in the overlap of
+      technology and digital policy, which is why he helped creating the working
+      group for democratic digitalization at attac Norway."
+
 
 #- name:
 #  lastname:
