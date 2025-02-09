@@ -1,0 +1,29 @@
+
+#
+# TODO: Fill in with addresses and locations
+#
+
+- name: RISC-V
+  short: riscv
+  url: https://www.meetup.com/goteborg-risc-v-group/
+  description:
+    - "The RISC-V community will meet and discuss what's new and cool with the
+      hottest open ISA that's out there."
+  address:
+    - "T.B.D."
+  front: true
+  lon: 11.97372
+  lat: 57.68926
+
+- name: Flutter
+  short: flutter
+  url: https://www.meetup.com/flutter-gothenburg/
+  description:
+    - "Flutter Gothenburg will hold a meetup in conjunction with foss-north. If
+      you enjoy making cross-platform UIs, this might be something for you!"
+  address:
+    - "T.B.D."
+  front: true
+  lon: 11.966646
+  lat: 57.689343
+
