@@ -1,6 +1,10 @@
 #
 # Available days: apr14 and apr15
 #
+# Slots are numbered from 1 and onwards. For dual track confs, slot1 is first
+# track, slot2 second track, slot3 first track and so on. slot1a means 30
+# minutes, slot1b means the next 30 minutes, whereas slot1 is simply 60 minutes.
+#
 
 - name: Daniel Stenberg
   short: dstenberg
@@ -351,7 +355,7 @@
   lastname: Ahlberg
   short: jahlberg
   day: apr15
-  slot: slot6
+  slot: slot4
   title: "How to talk your lawyer about FOSS"
   copresenters:
     - short: estefanaki
@@ -450,6 +454,159 @@
       studies information security. He is interested in the overlap of
       technology and digital policy, which is why he helped creating the working
       group for democratic digitalization at attac Norway."
+
+- name: Shanmugapriya Manoharan
+  lastname: Manoharan
+  short: smanoharan
+  day: apr14
+  slot: slot9a
+  copresenters:
+    - name: Supriya Chitale
+      short: schitale
+  title: "From Private to InnerSource to Public: IKEA's journey to Open Source"
+  abstract:
+    - "Launching an open-source initiative within a company is more than just
+      publishing code—it’s about shifting mindsets, navigating policies, and
+      fostering a culture of openness. In this talk, we’ll share how our Open
+      Source Program Office (OSPO) enabled teams to take their first steps into
+      open source, from internal advocacy to successfully open sourcing our
+      first repositories."
+    - "We’ll dive into key challenges, including establishing governance,
+      securing leadership buy-in, and preparing teams for community engagement.
+      we’ll also discuss the strategies that worked—fostering InnerSource
+      ecosystem, streamlining processes, and providing practical support for
+      developers."
+    - "Whether you're looking to start an open-source journey in your own
+      organization or improve existing processes, this talk will provide
+      insights, lessons learned, and actionable takeaways from our OSPO’s
+      experience."
+  bio:
+    - "Shanmugapriya is an Open Source & InnerSource SME, working as Engineering
+      Advisor & Coach at Open Source Program Office (OSPO), IKEA IT AB. She has
+      several years of experience in driving initiatives and projects including
+      Open Source and InnerSource projects, while working in organizations like
+      HPE and Dell Technologies."
+    - "She specializes in Cloud technologies, Containerization, Virtualization
+      and Enterprise Storage. She holds a Master’s degree in Software System and
+      Bachelor’s degree in Computer Science and Engineering."
+
+- name: Supriya Chitale
+  lastname: Chitale
+  short: schitale
+  title: "From Private to InnerSource to Public: IKEA's journey to Open Source"
+  abstract:
+    - "Launching an open-source initiative within a company is more than just
+      publishing code—it’s about shifting mindsets, navigating policies, and
+      fostering a culture of openness. In this talk, we’ll share how our Open
+      Source Program Office (OSPO) enabled teams to take their first steps into
+      open source, from internal advocacy to successfully open sourcing our
+      first repositories."
+    - "We’ll dive into key challenges, including establishing governance,
+      securing leadership buy-in, and preparing teams for community engagement.
+      we’ll also discuss the strategies that worked—fostering InnerSource
+      ecosystem, streamlining processes, and providing practical support for
+      developers."
+    - "Whether you're looking to start an open-source journey in your own
+      organization or improve existing processes, this talk will provide
+      insights, lessons learned, and actionable takeaways from our OSPO’s
+      experience."
+  bio:
+    - "Supriya Chitale leads the Open Source Program Office at Ingka Group
+      (IKEA). With 20 years of experience in software industry, she has a passion
+      for developing people and teams in a multi-cultural and distributed
+      environment. She loves to travel and learn about different cultures."
+
+- name: Camila Ayres
+  lastname: Ayres
+  short: cayres
+  day: apr15
+  slot: slot6b
+  title: "Hacking Nextcloud to track your Period"
+  abstract:
+    - "Dysmenorrhea, or menstrual pain, occurs in 45 to 95 % of individuals who menstruate."
+    - "How can you deal with it by tracking your cycle while making sure big
+      tech and health insurances do not have access to your data?"
+
+    - "This talk will cover the following topics:<ul>
+      <li>What is Nextcloud?
+      <li>Why the data about your body should be yours
+      <li>What alternatives are out there to track your cycle
+      <li>Why talking about your period is important
+      <li>Which technologies you can use to create your own app
+      <li>How to develop it
+      <li>How to publish it
+      <li>Conclusion</ul>"
+
+  bio:
+    - "Camila is from Brazil currently living in Berlin, Germany. She has worked
+      for years as a front-end developer and got into open source by learning
+      and doing C++/Qt development in the KDE community. She's now a desktop
+      client developer at Nextcloud but just might do other things than C++
+      sometimes."
+
+
+- name: Roman Zhukov
+  lastname: Zhukov
+  short: rzhukov
+  day: apr15
+  slot: slot11
+  title: "Automating dependency selection with open-source tools at scale"
+  abstract:
+    - "Engineering teams in companies at all levels ingest open-source
+      dependencies nearly every day. No matter of if you’re developing
+      commercial SW products or an IT department “just” utilizing it for the
+      internal needs. Not all of them are at the same quality, even if provide
+      similar functionality. For the very small project and If you have 1 or 2
+      open-source dependencies - you can evaluate what’s better manually, simply
+      having a look at the repos, if you know what to look for. But when it
+      comes to dozens and eventually hundreds of packages - it’s impossible to
+      assess them all manually."
+    - "Attacks on software supply chains (like high-profile Log4j vulnerability
+      or Codecov attack or Python/NPM repo poisoning or intentionally malicious
+      commits to XZ) showed us that we can’t rely on just random or “old good”
+      open-source project without the proper verification, at each stage in your
+      development pipeline."
+    - "Let’s talk about health metrics and essential checks (e.g., based on
+      CHAOSS and 8knot) that all developers should consider and how to easily
+      automate them. I’ll show practical examples how industry leaders use tools
+      like OpenSSF Scorecard and beyond to maintain open-source security posture
+      at scale."
+    - "Key points:<ul>
+      <li>Why assessing the health of dependencies is important for everybody</li>
+      <li>Curated list of frameworks and standards that work for engineers</li>
+      <li>Practical use-cases (wins & fails) with tools like OpenSSF Scorecard, CHAOSS/k8not and some new tools</li>
+      <li><b>Bonus:</b>how to collect metrics rolling up benefits for management and business</li></ul>"
+  bio:
+    - "Practicing cybersecurity expert, engineer and manager (15+ years), (ISC)2
+       CC (Certified in Cybersecurity). Currently - Principal Security & Community
+       Architect at Red Hat. Ex. - Head of Product Security & Privacy for Data Center
+       & AI SW at Intel."
+    - "Roman has broad experience from security architecture & threat modelling
+      to secure development & tooling to vulnerability management & incident
+      response to security education programs for engineers & senior managers.
+      Currently Roman leads industry engagement and several Open-Source security
+      initiatives: Security Champion for Linux Foundation projects, contributor to
+      several working groups under OpenSSF, Eclipse, other foundations. Lecturer
+      at Universities and commercial educational centers.  Security Advisor and
+      Evangelist. Mentor and consultant for startups.  Recognized as the best
+      speaker and mentor several times."
+
+- name: Daniel Madalitso Phiri
+  lastname: Phiri
+  short: dphiri
+  day: apr14
+  slot: slot10
+  title: Building Agents in JavaScript
+  abstract:
+    - "From chaotic LLM responses to type-safe AI agents: Learn how TypeScript's
+      discriminated unions transform messy AI responses into predictable
+      systems. Build runtime validators and handle streaming responses. See live
+      demos of production-ready patterns for routing both simple LLMs and
+      complex agents, all with open-source tools and models."
+  bio:
+    - "Daniel is an advisor and developer with a specialisation in web
+      technologies and open-source tooling. He works in Developer Experience at
+      Weaviate, an open-source AI-Native vector database."
 
 
 #- name:

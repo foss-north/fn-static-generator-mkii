@@ -71,9 +71,13 @@ All sessions include time for Q&amp;A and to mingle.</p>
         </tr>
 
         <tr>
-            <td class="scheduletime">13.00&nbsp;-&nbsp;14.00</td>
-            <td>{% with slot="slot9" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td>{% with slot="slot10" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td class="scheduletime">13.00&nbsp;-&nbsp;13.30</td>
+            <td>{% with slot="slot9a" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td rowspan="2">{% with slot="slot10" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+        <tr>
+            <td class="scheduletime">13.30&nbsp;-&nbsp;14.00</td>
+            <td>{% with slot="slot9b" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
@@ -129,13 +133,19 @@ All sessions include time for Q&amp;A and to mingle.</p>
         <tr>
             <td class="scheduletime">10.00&nbsp;-&nbsp;11.00</td>
             <td >{% with slot="slot3" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td >{% with slot="slot4" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td> {% with slot="slot4" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
-            <td class="scheduletime">11.00&nbsp;-&nbsp;12.00</td>
-            <td >{% with slot="slot5" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td >{% with slot="slot6" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td class="scheduletime">11.00&nbsp;-&nbsp;11.30</td>
+            <td >{% with slot="slot5a" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td >{% with slot="slot6a" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">11.30&nbsp;-&nbsp;12.00</td>
+            <td >{% with slot="slot5b" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td >{% with slot="slot6b" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
