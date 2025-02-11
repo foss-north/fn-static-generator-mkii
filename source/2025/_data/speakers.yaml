@@ -609,6 +609,42 @@
       Weaviate, an open-source AI-Native vector database."
 
 
+- name: Matias Daloia
+  lastname: Daloia
+  short: mdaloia
+  day: apr15
+  slot: slot10
+  title: "Towards declaring crypto algorithms in SBOMs: crypto_algorithms_open_dataset"
+  abstract:
+    - "Cryptographic algorithms are foundational to secure software, yet their
+      declaration and tracking remain inconsistent across industries. To address
+      this, SCANOSS published the crypto_algorithms_open_dataset (CC0 license),
+      which was officially presented here at FOSSNorth in 2024 as part of a
+      wider talk about SCANOSS open data journey."
+    - "This open data set is a comprehensive resource cataloging cryptographic
+      algorithms with open-source implementations. This initiative marked the
+      first step toward standardizing cryptographic algorithm declarations in
+      Software Bill of Materials (SBOMs). Such standardization can reduce
+      inefficiencies in compliance and foster collaboration across
+      industries—from export control and security compliance to quantum safety
+      readiness, among other benefits, that will be highlighted during the
+      talk."
+    - "The talk will will explore the dataset’s evolution, its impact in
+      standardization initiatives, SCANOSS's efforts to improve crypto
+      algorithms detection capabilities using crypto_algorithms_open_dataset and
+      the coming donation of the open data set to Software Transparency
+      Foundation, as a way to incentive contributions from other parties."
+    - "Attendees will gain insights into the practical implications of these
+      efforts, including how organizations can incorporate this dataset into
+      their compliance workflows and how open-source contributors can
+      participate in shaping this standardization effort."
+  bio:
+    - "Matias is a Senior Software Engineer working at SCANOSS. He's been
+      involved in all the new client facing OSS tools that SCANOSS have released
+      in the last couple months, and the ones that are about to be released, as
+      well as in the crypto_algorithms_open_dataset that will be adopted by
+      SPDX."
+
 #- name:
 #  lastname:
 #  short:
