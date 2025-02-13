@@ -645,6 +645,54 @@
       well as in the crypto_algorithms_open_dataset that will be adopted by
       SPDX."
 
+- name: Åke Forslund
+  lastname: Forslund
+  short: aforslund
+  title: Tabletop games <3 FOSS
+  day: apr15
+  slot: slot5b
+  abstract:
+    - "Frozen Maze Games has released two tabletop games into the world,
+      Perilous Pond and Bushido Duels. Both were developed and produced much
+      thanks to free / open source software."
+    - "This talk is a look-back on a journey going from a game idea, to creating
+      mock-ups, to working with external artists, to building resources for
+      crowdfunding, and finally to a physical product."
+    - "This is a talk about what makes open and free tools and standards great."
+  bio:
+    - "He's just this guy you know?"
+    - "Embedded software developer during the day, wannabe boardgame designer at night."
+
+- name: Michael Cardell Widerkrantz
+  lastname: Widerkrantz
+  short: mwiderkrantz
+  day: apr15
+  slot: slot3
+  links:
+    - title: Case study
+      url: https://bugbounty.tillitis.se/security-bulletins/tillitis-security-bulletin-240115-1/
+    - title: QEMU fork repo
+      url: https://github.com/tillitis/qemu/tree/tk1
+  title: "Forking QEMU to emulate and secure the Tillitis TKey"
+  abstract:
+    - "The Tillitis TKey is an innovative new USB hardware security device which
+      allows running small applications in a more secure way. The applications
+      can be used for things like authentication, cryptographic signing,
+      generating random numbers, and similar functions."
+    - "To help emulate and secure the Tillitis TKey we added support for the
+      TKey to the QEMU system emulator. This allows a developer of firmware or
+      device apps to inspect, debug, and validate the functions, including
+      observing memory like the stack, registers, et cetera, while running."
+    - "Using an emulator with strong observability is immensely helpful not only
+      when developing and debugging, but also when attempting to find out the
+      impact of a security vulnerability. In this talk I will do a walkthrough
+      of such a case."
+  bio:
+    - "MC is a Member of Technical Staff at Tillitis, working mostly with
+      software on everything from the firmware, the emulator, development tools,
+      and the client and device apps. He's also supporting hardware development
+      from a software perspective."
+
 #- name:
 #  lastname:
 #  short:
