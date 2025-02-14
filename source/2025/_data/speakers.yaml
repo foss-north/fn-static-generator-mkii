@@ -193,7 +193,7 @@
       Rich information and media systems."
 
 - name: "Alexander Hansen Færøy"
-  lastname: "Hansen Færøy" 
+  lastname: "Hansen Færøy"
   short: ahansen
   day: apr14
   slot: slot13
@@ -609,6 +609,117 @@
       Weaviate, an open-source AI-Native vector database."
 
 
+- name: Matias Daloia
+  lastname: Daloia
+  short: mdaloia
+  day: apr15
+  slot: slot10
+  title: "Towards declaring crypto algorithms in SBOMs: crypto_algorithms_open_dataset"
+  abstract:
+    - "Cryptographic algorithms are foundational to secure software, yet their
+      declaration and tracking remain inconsistent across industries. To address
+      this, SCANOSS published the crypto_algorithms_open_dataset (CC0 license),
+      which was officially presented here at FOSSNorth in 2024 as part of a
+      wider talk about SCANOSS open data journey."
+    - "This open data set is a comprehensive resource cataloging cryptographic
+      algorithms with open-source implementations. This initiative marked the
+      first step toward standardizing cryptographic algorithm declarations in
+      Software Bill of Materials (SBOMs). Such standardization can reduce
+      inefficiencies in compliance and foster collaboration across
+      industries—from export control and security compliance to quantum safety
+      readiness, among other benefits, that will be highlighted during the
+      talk."
+    - "The talk will will explore the dataset’s evolution, its impact in
+      standardization initiatives, SCANOSS's efforts to improve crypto
+      algorithms detection capabilities using crypto_algorithms_open_dataset and
+      the coming donation of the open data set to Software Transparency
+      Foundation, as a way to incentive contributions from other parties."
+    - "Attendees will gain insights into the practical implications of these
+      efforts, including how organizations can incorporate this dataset into
+      their compliance workflows and how open-source contributors can
+      participate in shaping this standardization effort."
+  bio:
+    - "Matias is a Senior Software Engineer working at SCANOSS. He's been
+      involved in all the new client facing OSS tools that SCANOSS have released
+      in the last couple months, and the ones that are about to be released, as
+      well as in the crypto_algorithms_open_dataset that will be adopted by
+      SPDX."
+
+- name: Åke Forslund
+  lastname: Forslund
+  short: aforslund
+  title: Tabletop games <3 FOSS
+  day: apr15
+  slot: slot5b
+  abstract:
+    - "Frozen Maze Games has released two tabletop games into the world,
+      Perilous Pond and Bushido Duels. Both were developed and produced much
+      thanks to free / open source software."
+    - "This talk is a look-back on a journey going from a game idea, to creating
+      mock-ups, to working with external artists, to building resources for
+      crowdfunding, and finally to a physical product."
+    - "This is a talk about what makes open and free tools and standards great."
+  bio:
+    - "He's just this guy you know?"
+    - "Embedded software developer during the day, wannabe boardgame designer at night."
+
+- name: Michael Cardell Widerkrantz
+  lastname: Widerkrantz
+  short: mwiderkrantz
+  day: apr15
+  slot: slot3
+  links:
+    - title: Case study
+      url: https://bugbounty.tillitis.se/security-bulletins/tillitis-security-bulletin-240115-1/
+    - title: QEMU fork repo
+      url: https://github.com/tillitis/qemu/tree/tk1
+  title: "Forking QEMU to emulate and secure the Tillitis TKey"
+  abstract:
+    - "The Tillitis TKey is an innovative new USB hardware security device which
+      allows running small applications in a more secure way. The applications
+      can be used for things like authentication, cryptographic signing,
+      generating random numbers, and similar functions."
+    - "To help emulate and secure the Tillitis TKey we added support for the
+      TKey to the QEMU system emulator. This allows a developer of firmware or
+      device apps to inspect, debug, and validate the functions, including
+      observing memory like the stack, registers, et cetera, while running."
+    - "Using an emulator with strong observability is immensely helpful not only
+      when developing and debugging, but also when attempting to find out the
+      impact of a security vulnerability. In this talk I will do a walkthrough
+      of such a case."
+  bio:
+    - "MC is a Member of Technical Staff at Tillitis, working mostly with
+      software on everything from the firmware, the emulator, development tools,
+      and the client and device apps. He's also supporting hardware development
+      from a software perspective."
+
+- name: Sakshi Nasha
+  lastname: Nasha
+  short: snasha
+  day: apr14
+  slot: slot14
+  title: "AI for Everyone: Unleashing the Power of Open Source Tools"
+  abstract:
+    - "Explore the world of open-source AI tools that make building and
+      deploying AI models faster and easier than ever. We'll cover powerful
+      frameworks like Mistral AI, Hugging Face, OpenCV, and Tensorflow and show
+      how these tools can help you rapidly develop AI solutions. Learn
+      strategies to build AI applications in no time, leveraging pre-trained
+      models, low-code platforms, and scalable deployment techniques. Whether
+      you're a beginner or an experienced developer, this session will equip you
+      with the tools and strategies to unlock the full potential of AI."
+  bio:
+    - "I am an enthusiastic learner who believes that technology can create
+      extraordinary impacts on the world. Deeply diving into concepts has
+      strengthened my understanding. I enjoy public speaking and am passionate
+      about communities."
+    - "Beyond technology, I'm also a Zonal Basketball, Badminton, and Football
+      player. I express my thoughts through articles and poems. My passion lies
+      in developing innovative solutions and working with computers, fascinated
+      by their ability to revolutionize the world with a few clicks and
+      keystrokes. When away from the keyboard, you can find me trekking or
+      cycling around the city!"
+#
 #- name:
 #  lastname:
 #  short:
