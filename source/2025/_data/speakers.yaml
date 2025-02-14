@@ -193,7 +193,7 @@
       Rich information and media systems."
 
 - name: "Alexander Hansen Færøy"
-  lastname: "Hansen Færøy" 
+  lastname: "Hansen Færøy"
   short: ahansen
   day: apr14
   slot: slot13
@@ -693,6 +693,33 @@
       and the client and device apps. He's also supporting hardware development
       from a software perspective."
 
+- name: Sakshi Nasha
+  lastname: Nasha
+  short: snasha
+  day: apr14
+  slot: slot14
+  title: "AI for Everyone: Unleashing the Power of Open Source Tools"
+  abstract:
+    - "Explore the world of open-source AI tools that make building and
+      deploying AI models faster and easier than ever. We'll cover powerful
+      frameworks like Mistral AI, Hugging Face, OpenCV, and Tensorflow and show
+      how these tools can help you rapidly develop AI solutions. Learn
+      strategies to build AI applications in no time, leveraging pre-trained
+      models, low-code platforms, and scalable deployment techniques. Whether
+      you're a beginner or an experienced developer, this session will equip you
+      with the tools and strategies to unlock the full potential of AI."
+  bio:
+    - "I am an enthusiastic learner who believes that technology can create
+      extraordinary impacts on the world. Deeply diving into concepts has
+      strengthened my understanding. I enjoy public speaking and am passionate
+      about communities."
+    - "Beyond technology, I'm also a Zonal Basketball, Badminton, and Football
+      player. I express my thoughts through articles and poems. My passion lies
+      in developing innovative solutions and working with computers, fascinated
+      by their ability to revolutionize the world with a few clicks and
+      keystrokes. When away from the keyboard, you can find me trekking or
+      cycling around the city!"
+#
 #- name:
 #  lastname:
 #  short:
