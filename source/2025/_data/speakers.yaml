@@ -200,6 +200,9 @@
   copresenters:
     - short: gkoppen
       name: Georg Koppen
+  links:
+    - title: Tor Project
+      url: https://torproject.org
   title: "Anonymity Loves Resilience: The Case of Tor"
   abstract:
     - "Tor is an anonymity network consisting of relays run by thousands of
@@ -222,6 +225,9 @@
 - name: "Georg Koppen"
   lastname: "Koppen"
   short: gkoppen
+  links:
+    - title: Tor Project
+      url: https://torproject.org
   title: "Anonymity Loves Resilience: The Case of Tor"
   abstract:
     - "Tor is an anonymity network consisting of relays run by thousands of
@@ -290,6 +296,9 @@
   short: ncopa
   day: apr15
   slot: slot14
+  links:
+    - title: Alpine Linux
+      url: https://www.alpinelinux.org/
   title: Maintaining an Open Source project without burning out
   abstract:
     - "Maintaining a popular Open Source project can be both rewarding and
@@ -719,7 +728,31 @@
       by their ability to revolutionize the world with a few clicks and
       keystrokes. When away from the keyboard, you can find me trekking or
       cycling around the city!"
-#
+
+- name: Michal Hrusecky
+  lastname: Hrusecky
+  short: mhruzecky
+  title: Our path to open-source routers
+  day: apr14
+  slot: slot3
+  links:
+    - title: Turris
+      url: https://turris.cz
+  abstract:
+    - "Wouldn't it be great if hardware manufacturers actually cared about
+      open-source? If they upstreamed a support for their hardware? Gave you
+      root accounts and provided updates? Allowed you to modify both your
+      hardware and software? We thought so too. And by chance, we ended up being
+      the hardware manufacturer our-self to make it happen. I would like to
+      share how our project started, how do we compete against closed source
+      vendors and how opensource helped us and what interesting opensource
+      projects we build upon."
+  bio:
+    - "Long time open-source enthusiast. Worked for SUSE developing openSUSE,
+      contributed a little to Gentoo as well. Nowadays working on open-source
+      Wi-Fi routers Turris."
+
+
 #- name:
 #  lastname:
 #  short:
