@@ -464,6 +464,49 @@
       technology and digital policy, which is why he helped creating the working
       group for democratic digitalization at attac Norway."
 
+- name: Terje Sylvarnes
+  lastname: Sylvarnes
+  short: tsylvarnes
+  copresenters:
+    - name: "Hagen Echzell"
+      short: hechzell
+  title: "Interoperable Infrastructure for Universities, Enterprises and the Public Sector"
+  abstract:
+    - "Many organizational processes cross the boundaries of individual
+      organizations. This is especially true for the academic sector where
+      mobility programs like \"Erasmus+\" enable students to be enrolled with
+      different universities throughout their studies. However, the technical
+      means to enable the necessary collaboration between different institutions
+      and their administrations are often not adequate. Many tools for group
+      messaging, file exchange, or domain-specific applications do not work or
+      lack functionality as soon as users or data from outside an organization
+      are involved, such that E-Mail is a widely used fall-back."
+    - "Based on terminology from the recent <i>Interoperable Europe Act -
+      (IEA)</i> we will present technical and semantic <i>interoperability
+      solutions</i> to address these issues. On the technical side, we present
+      two existing protocols: OpenCloudMesh is an open file sharing
+      protocol implemented by open-source solutions like Nextcloud and ownCloud.
+      The Matrix protocol enables secure, decentralized group and instant
+      messaging, but might also support further use cases like video conferences
+      in the future."
+    - "On the semantic side, we present a case study where we, based on existing
+      vocabularies, model a university course catalog in the <i>Resource
+      Description Framework (RDF)</i> serialization format JSON-LD. The RDF
+      representation of the course data introduces a semantic context to the
+      course data, making the exchange of the catalog data independent of
+      specific APIs, thus enabling interoperability across heterogeneous data
+      structures and university-specific systems."
+    - "The introduced technical and semantic interoperability solutions enable
+      public sector bodies like universities and enterprises to improve their
+      cross-organizational collaboration without giving up their digital
+      sovereignty to a centralized, commercial actor."
+  bio:
+    - "Terje Sylvarnes works as an advisor at the Norwegian Digitalisation
+      Agency, focusing on data governance and data sharing in the public sector.
+      With a background as a software developer, he's interested in
+      interoperability and how we can better achieve reuse of data for the
+      benefit of society at large."
+
 - name: Shanmugapriya Manoharan
   lastname: Manoharan
   short: smanoharan
