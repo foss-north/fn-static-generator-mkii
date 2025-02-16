@@ -796,6 +796,97 @@
       Wi-Fi routers Turris."
 
 
+- name: Jon
+  lastname: Jon
+  short: jon
+  links:
+    - title: emlearn-micropython
+      url: https://github.com/emlearn/emlearn-micropython/
+    - title: MicroPython
+      url: https://micropython.org/
+    - title: PyData
+      url: https://pydata.org/
+  title: "Microcontrollers and Machine Learning with MicroPython and emlearn"
+  day: apr14
+  slot: slot12a
+  abstract:
+    - "Learn to build powerful sensors running on low-cost microcontrollers, all in Python!"
+    - "Did you known that (Micro)Python can scale all the way down to
+      microcontrollers that have less than 1 MB of RAM and program memory? Such
+      devices can cost just a few dollars, and are widely used to measure, log,
+      analyze and react to physical phenomena. This enables a wide range of
+      useful and fun applications - be it for a smart home, wearables,
+      scientific measurements, consumer products or industrial solutions."
+    - "In this talk, we will demonstrate how to get started with MicroPython on
+      a ESP32 microcontroller. We will first show how to create a basic
+      Internet-connected sensor node using simple analog/digital sensors. And
+      then we will show how to create advanced sensors that use Digital Signal
+      Processing and Machine Learning to analyze microphone, accelerometer or
+      camera data."
+  bio:
+    - "Jon is a Machine Learning Engineer specialized in IoT systems. He has a
+      Master in Data Science and a Bachelor in Electronics Engineering, and has
+      published several papers on applied Machine Learning, including topics
+      like TinyML, Wireless Sensor Systems and Audio Classification."
+    - "These days Jon is co-founder and Head of Data Science at Soundsensing, a
+      leading provider for condition monitoring solutions for commercial
+      buildings and HVAC systems. He is also the creator and maintainer of
+      emlearn, an open-source inference engine for microcontrollers and embedded
+      systems."
+
+- name: Jos Poortvliet
+  lastname: Poortvliet
+  short: jpoortvliet
+  title: "Open source should have an answer to Teams"
+  day: apr15
+  slot: slot7
+  abstract:
+    - "As we all know, Microsoft has a straightforward strategy that it shares
+       with most other big tech firms from Silicon Valley: get all our data, then
+       charge us for accessing it. MS 365 and Teams in particular are core to that
+       strategy. This is why they gave it away 'for free' to so many organizations
+       using COVID. To then turn around and send a bill after, because of course
+       people USED it, uploading documents and such. So the lock-in was complete."
+    - "What makes Teams special? It's a complete solution. That is, video calls
+      (think Zoom) + chat (think Slack or IRC) + document sharing (Dropbox) and
+      document editing with MS Office, all in one."
+    - "There are a ton of open source alternatives, but none really answer this
+      challenge, as most focus on one aspect - video calls, chat, document
+      sharing... Some people 'frankensteined' solutions to integrate different
+      tools, but user experience suffers and they are a nightmare to maintain.
+      Open Source needs a singular, capable answer. And I argue that it exists -
+      we announced it, December 3, 2024!"
+  bio:
+    - "Jos Poortvliet is co-founder and Communications Director at Nextcloud. He
+      is a long time technology enthusiast and all-things-open evangelist. He
+      has previously been community manager at SUSE and worked as business
+      consultant at government, finance and telecom companies in the
+      Netherlands. He is based in Berlin and loves cooking for friends, family
+      and colleagues."
+
+- name: Jos Poortvliet
+  lastname: Poortvliet
+  short: jpoortvliet2
+  title: "Another approach to AI"
+  day: apr14
+  slot: slot12b
+  abstract:
+    - "AI is quite a challenge for open source projects. Should you integrate it
+      in your technology? But then - how? ChatGPT? Using on-premises models?
+      Which ones then?"
+    - "At Nextcloud, we developed an approach nearly immediately after ChatGPT
+      first launched, and we've evolved it since then. I'll give an overview of
+      the challenges, how we faced them, what others (like the Open Source
+      Initiative) have done - and how it's integrated throughout Nextcloud -
+      while respecting your privacy."
+  bio:
+    - "Jos Poortvliet is co-founder and Communications Director at Nextcloud. He
+      is a long time technology enthusiast and all-things-open evangelist. He
+      has previously been community manager at SUSE and worked as business
+      consultant at government, finance and telecom companies in the
+      Netherlands. He is based in Berlin and loves cooking for friends, family
+      and colleagues."
+
 #- name:
 #  lastname:
 #  short:
