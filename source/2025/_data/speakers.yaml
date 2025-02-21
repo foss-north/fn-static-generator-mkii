@@ -960,6 +960,34 @@
     - "He is a core contributor to the Hubzilla open source project. And you can
       follow him on the fediverse as @harald@hub.volse.no."
 
+- name: Marcus Hufvudsson
+  lastname: Hufvudsson
+  short: mhufvudsson
+  day: apr15
+  slot: slot6a
+  title: "Reviving PortSentry: A Modern Approach to Network Security Monitoring"
+  abstract:
+    - "This talk presents the revival and modernization of PortSentry, a
+      historically significant port scan detection and response tool that had
+      been unmaintained for over two decades. I discuss the systematic approach
+      taken to resurrect this critical security tool, including the cleanup of
+      legacy code, resolution of long-standing bugs, and implementation of
+      modern features across Linux and BSD platforms."
+    - "Key improvements include IPv6 support, enhanced performance, integration
+      with modern tools and libraries such as fail2ban, docker, fuzzing, and
+      libpcap. Comprehensive documentation has been added, including detailed
+      deployment scenarios, and real-world use cases."
+    - "The presentation covers technical challenges encountered during the
+      modernization process and a brief overview of how PortSentry is deployed
+      in real world scenarios in order to interfere with adversary enumeration
+      attempts. I also share some practical insights about maintaining code
+      across different Unix variants, this experience might provide valuable
+      lessons for others doing cross-platform development of network-stack
+      code."
+  bio:
+    - "DevSecOps Engineer that live for Code, Linux/Unix, Cyber Security and
+      Tech in General"
+
 #- name:
 #  lastname:
 #  short:
