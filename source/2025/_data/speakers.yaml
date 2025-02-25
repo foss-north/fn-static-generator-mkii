@@ -988,6 +988,33 @@
     - "DevSecOps Engineer that live for Code, Linux/Unix, Cyber Security and
       Tech in General"
 
+- name: Olle E Johansson
+  lastname: Johansson
+  short: ojohansson
+  title: "Are you ready to be regulated?"
+  day: apr15
+  slot: slot2
+  abstract:
+    - "The EU Cyber Resilience Act will change software development forever and
+      it has a set of rules that affect Open Source projects too. The main focus
+      is the commercial software developers where up to 80% of their software
+      sold is made of open source. Let's look at the new legislation, how it
+      affects you and what the Software Bill Of Materials got to do with it."
+  bio:
+    - "Olle E. Johansson is an experienced and appreciated speaker, teacher as
+      well as an Open Source developer and consultant. He is currently project
+      lead for OWASP Project Koala - developing the Transparency Exchange API
+      (TEA), member of the CycloneDX industry working group, the OWASP SBOM
+      Forum, co-founder of SBOMEurope.eu and a leader for the DNS TAPIR Open
+      Source project. While not trying to save the world with SBOMs, he is
+      helping clients with the journey towards CRA compliance as a consultant in
+      his company Edvina AB."
+    - "Once a year, he organises the Nordic Software Security Summit conference
+      in Stockholm, Sweden. Olle has been a core developer of Asterisk - the
+      Open Source PBX, part of the core team in Kamailio.org and is currently
+      also a member of the team that tries to put some new energy into
+      SoftHSM.org."
+
 #- name:
 #  lastname:
 #  short:
