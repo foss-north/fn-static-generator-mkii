@@ -8,6 +8,11 @@
   url: https://swedsoft.se
   level: partner
 
+- name: GAIA
+  short: gaia
+  url: https://gaia.fish
+  level: partner
+
 - name: Sylog
   short: sylog
   url: https://www.sylog.se/
