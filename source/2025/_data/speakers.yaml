@@ -665,7 +665,7 @@
   lastname: Daloia
   short: mdaloia
   day: apr15
-  slot: slot10
+  slot: slot10a
   title: "Towards declaring crypto algorithms in SBOMs: crypto_algorithms_open_dataset"
   abstract:
     - "Cryptographic algorithms are foundational to secure software, yet their
@@ -1014,6 +1014,35 @@
       Open Source PBX, part of the core team in Kamailio.org and is currently
       also a member of the team that tries to put some new energy into
       SoftHSM.org."
+
+- name: Dan Maher
+  lastname: Maher
+  short: dmaher
+  day: apr15
+  slot: slot10b
+  title: "Authz as a dev workflow"
+  abstract:
+    - "Authorization isn't just a checkbox in the security compliance list—it's
+      a fundamental security control that shapes how software behaves in
+      production. Yet most of us have wrestled with authz systems that either
+      trap us in vendor ecosystems or leave us maintaining a tangled mess of
+      if-statements that make us question our life choices. But there’s hope!
+      From the CNCF to the OpenID Foundation, the open source community is doing
+      some really neat stuff with authz right now."
+    - "In this talk, we'll explore how modern authz patterns are embedding
+      security principles as a core part of the software development
+      lifecycle—so we can catch access control vulnerabilities during dev rather
+      than in prod, and build more secure, maintainable systems. We'll cover
+      practical patterns for implementing robust access control logic,
+      strategies for testing authorization rules as part of your security
+      testing suite, and techniques for making authorization an integral part of
+      your development process from day one."
+  bio:
+    - "Dan has worked in a variety of environments from start-ups to global
+      corporations, including stints as a founder, university lecturer, and a
+      day labourer. Today, Dan is a global core member of the DevOpsDays
+      conference series, Senior DevRel Manager at Cerbos, and full time open
+      source developer."
 
 #- name:
 #  lastname:
