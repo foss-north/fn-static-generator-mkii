@@ -171,26 +171,27 @@
   slot: slot15
   title: "Embedded Development Made Easy: A Guide to Open Source Platforms and Maximizing value for your product."
   abstract:
-    - "Talk outline<ul>
-       <li>Intro of the speaker and history with embedded open source platforms.
-       <li>How open source platforms ecosystem is removing walls for product creation today.
-       <li>The economic incentives to use Open Source platforms in the products.
-       <li>Design choice between Yocto and Zephyr and what are the tradeoffs.
-       <li>Choosing the right silicon vendor to maximize value for the product lifecycle.
-       <li>Cloud connectivity offerings for each platform.
-       <li>What's not included in each open source platform and the effort required to
-       commercialize open source platforms
-       <li>Conclusion and Lessons learned</ul>"
-
+    - "Open-source platforms are transforming the speed in which products are
+      built, removing traditional market entry barriers and accelerating
+      innovation. This talk explores the economic incentives driving companies
+      to adopt open-source solutions and the key trade-offs in selecting
+      platforms like Zephyr and Yocto. We'll dive into how silicon vendor
+      choices impact long-term product value and examine cloud connectivity
+      options across ecosystems. Finally, he'll address the hidden
+      challenges—what free open-source platforms don’t provide and the
+      additional effort required for commercialization. Whether you're a
+      developer, product strategist, or decision-maker, this session will
+      provide valuable insights into leveraging open-source for competitive
+      advantage."
   bio:
-    - "Bassem has 12+ years of experience in embedded HW/SW development and has
-      served as team Lead & Architect for Daimler's next-gen Infotainment
-      platform and been a lead SW architect in several Auto OEM projects. He
-      understands the power of free open source projects to make awesome
-      products and contribute back."
-
-    - "He specializes in: Resource constrained IoT devices and RTOS. Rich UX
-      Rich information and media systems."
+    - "Bassem Nomany is a system architect with over 12 years of experience in
+      embedded systems, IoT, and software-defined products. He has worked across
+      industries, from automotive infotainment to electric mobility and smart
+      connected devices, helping companies design scalable and efficient
+      embedded platforms."
+    - "Bassem helps OEMs and startups leverage open-source ecosystems to
+      accelerate product development while navigating the challenges of
+      commercialization."
 
 - name: "Alexander Hansen Færøy"
   lastname: "Hansen Færøy"
