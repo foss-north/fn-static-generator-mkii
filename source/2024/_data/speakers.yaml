@@ -41,6 +41,7 @@
   links:
     - { title: "YouTube", url: "https://youtu.be/kn9YtiMmMA8" }
     - { title: "ConfTube", url: "https://conf.tube/w/6hkJCuc6UxjHR2xdjX5knH" }
+    - { title: "Slides", url: "slides/slides_rmarrone.pdf" }
   title: "Dwindling software freedom in the R ecosystem"
   abstract:
     -  "R itself remains part of the GNU project, licensed under the GNU General Public License, and capable of running on many free operating systems, but it is increasingly becoming popular to include non-free software and services-as-software-substitutes in R environments. Moreover, these unethical practices are often obscured from useRs, and some users may not realize that they are running non-free software. I will introduce R and some of the common ways people use it, demonstrate the recent trends towards unethical practices in R, and comment on the dangers of such practices, for the individual and for society. Finally, I will inform of what we can do about these trends, both as individuals to protect ourselves, and as a group to further a free society."
