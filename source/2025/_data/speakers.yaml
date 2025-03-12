@@ -569,34 +569,17 @@
       for developing people and teams in a multi-cultural and distributed
       environment. She loves to travel and learn about different cultures."
 
-- name: Camila Ayres
-  lastname: Ayres
-  short: cayres
+- name: Anders Roxell
+  lastname: Roxell
+  short: aroxell
   day: apr15
   slot: slot6b
-  title: "Hacking Nextcloud to track your Period"
+  title: "TBD"
   abstract:
-    - "Dysmenorrhea, or menstrual pain, occurs in 45 to 95 % of individuals who menstruate."
-    - "How can you deal with it by tracking your cycle while making sure big
-      tech and health insurances do not have access to your data?"
-
-    - "This talk will cover the following topics:<ul>
-      <li>What is Nextcloud?
-      <li>Why the data about your body should be yours
-      <li>What alternatives are out there to track your cycle
-      <li>Why talking about your period is important
-      <li>Which technologies you can use to create your own app
-      <li>How to develop it
-      <li>How to publish it
-      <li>Conclusion</ul>"
+    - "TBD"
 
   bio:
-    - "Camila is from Brazil currently living in Berlin, Germany. She has worked
-      for years as a front-end developer and got into open source by learning
-      and doing C++/Qt development in the KDE community. She's now a desktop
-      client developer at Nextcloud but just might do other things than C++
-      sometimes."
-
+    - "TBD"
 
 - name: Roman Zhukov
   lastname: Zhukov
