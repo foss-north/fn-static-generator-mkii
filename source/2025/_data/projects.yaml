@@ -27,3 +27,44 @@
   lon: 11.966646
   lat: 57.689343
 
+- name: Gothenburg C++ Meetup
+  short: gbgcpp
+  url: https://www.meetup.com/gbgcpp/events/306437257/
+  description:
+    - "Welcome to a special GBGCPP meetup. We start the event with a hackathon.
+      Bring your laptop and a project/idea to work on and let's see what you can
+      make with C++ and FOSS libraries!"
+
+    - "After a short break, Björn Andersson will deliver his presentation."
+  address:
+    - WirelessCar, Vädursgatan 6, 412 50 Göteborg
+  when: 13:00 - 17:00
+  front: true
+  lon: 11.993997
+  lat: 57.704120
+
+- name: OWASP Göteborg
+  short: owasp
+  url: https://www.meetup.com/owasp-gothenburg-meetup-group/
+  description:
+    - "WirelessCar will host a meet with the OWASP Gothenburg chapter. More info to come."
+  address:
+    - WirelessCar, Vädursgatan 6, 412 50 Göteborg
+  when: 13:00 - 17:00
+  front: true
+  lon: 11.993997
+  lat: 57.704120
+
+- name: Social Beers
+  short: beers
+  when: 17:00 - Late
+  url: https://www.meetup.com/foss-gbg/events/306687986/
+  description:
+    - "Finish the day with some beers or other beverages in the company of
+      fellow foss nerds."
+    - "We'll meet up at Jerntorgets Brygghus. If it becomes too crowded, Andra
+      Långgatan is full of pubs."
+  address:
+    - Järntorget 4, 413 04 Göteborg
+  lon: 11.9494334
+  lat: 57.6995811
