@@ -576,10 +576,23 @@
   slot: slot6b
   title: "Faster Linux Kernel Testing with Linaro's Open-Source Tools and LKFT Automation"
   abstract:
-    - "TBD"
-
+    - "Kernel developers need fast, automated, and scalable testing solutions to
+      ensure the stability of their patches. TuxSuite and LKFT simplify this
+      process by automating kernel builds, streamlining test execution, and
+      optimizing CI pipelines. This talk will showcase how developers can
+      leverage Linaro’s open-source tools to quickly validate changes, debug
+      failures, and reduce testing bottlenecks."
+    - "Additionally, we will demonstrate how to set up a GitLab pipeline using
+      the GitLab plugin for running TuxSuite, making kernel testing seamless and
+      fully automated.  Whether you're working upstream or managing kernel
+      validation for a product, this session will help you improve efficiency
+      and speed up kernel testing with GitLab integration."
   bio:
-    - "TBD"
+    - "Anders hates running tests and therefore he loves automating them. He has
+      been working with Linux kernels for telecommunication (e.g. base stations,
+      media gateways) as well as various drivers and RTOS’s for automotive
+      systems (e.g. engine-, gearbox-platforms). He has also experience from
+      NFV/Openstack."
 
 - name: Roman Zhukov
   lastname: Zhukov
