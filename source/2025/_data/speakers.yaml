@@ -162,7 +162,11 @@
       field, this session will showcase how open source principles are shaping
       the future of embedded development."
   bio:
-    - "TBD"
+    - "Benjamin is an embedded dev with strong mathematics background and magic
+      x-ray vision for both bugs and bad architectural choices. Zig-zagging
+      between Android, Linux, U-Boot, FreeRTOS and Zephyr.  Disassembling hard
+      faults on some ARM mcu one day, writing expositions on successful IoT
+      product development the next, enjoying everything just about equally :)"
 
 - name: Bassem Nomany
   lastname: Nomany
