@@ -1,8 +1,3 @@
-
-#
-# TODO: Fill in with addresses and locations
-#
-
 - name: RISC-V
   short: riscv
   url: https://www.meetup.com/goteborg-risc-v-group/
@@ -15,17 +10,22 @@
   lon: 11.97372
   lat: 57.68926
 
-- name: Flutter
+- name: Flutter Gothenburg
   short: flutter
-  url: https://www.meetup.com/flutter-gothenburg/
+  url: https://www.meetup.com/flutter-gothenburg/events/306815114/
   description:
-    - "Flutter Gothenburg will hold a meetup in conjunction with foss-north. If
-      you enjoy making cross-platform UIs, this might be something for you!"
+    - "Dive into the world of Flutter with professionals who are building
+      real-world products! Learn how Flutter powers apps across platforms,
+      discover its transformative impact on development processes and hear
+      firsthand experiences from developers and product managers. Network with
+      Flutter enthusiasts, share ideas and enjoy an inspiring evening in
+      Gothenburg."
   address:
-    - "T.B.D."
+    - Devies, Vallgatan 14, 411 16 Göteborg
+  when: 13:30 - 17:30
   front: true
-  lon: 11.966646
-  lat: 57.689343
+  lat: 57.703674
+  lon: 11.964792
 
 - name: Gothenburg C++ Meetup
   short: gbgcpp
