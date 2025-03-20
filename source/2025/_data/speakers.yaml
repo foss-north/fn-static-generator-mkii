@@ -1045,6 +1045,38 @@
       conference series, Senior DevRel Manager at Cerbos, and full time open
       source developer."
 
+- name: Tomas Carfalk
+  lastname: Carfalk
+  short: tcarfalk
+  title: Driving Open Source
+  day: apr14
+  slot: slot9b
+  abstract:
+    - "The automotive industry has long been constrained by proprietary
+      software, fragmented ecosystems, and slow innovation cycles. As
+      software-defined vehicles (SDVs) become the norm, the industry faces a
+      critical decision: continue with closed, siloed approaches or embrace open
+      collaboration to drive real innovation."
+    - "In this talk, we’ll explore how open-source software is poised to break
+      down these barriers, enabling faster development, cross-industry
+      collaboration, and a more dynamic ecosystem. From embedded vehicle
+      platforms to cloud-based mobility solutions, we'll discuss why open source
+      isn’t just a trend—it’s the key to transforming the future of automotive.
+      We'll also examine the challenges and business implications of adopting
+      open source in an industry historically resistant to change."
+    - "Join us to discover how open source will shape the next generation of
+      mobility and what it means for OEMs, suppliers, and developers."
+  bio:
+    - "Tomas Carlfalk is the Vice President of Open SDV Platform at WirelessCar,
+      a pioneer in connected vehicle technology. With over 20 years of
+      experience in the automotive industry, Tomas collaborates with automakers
+      to drive their digital transformation strategies and implement Software
+      Defined Vehicle solutions."
+    - "Born and raised in Gothenburg, Sweden, Tomas began his career as a software
+      developer at WirelessCar. Throughout his tenure, he has played a pivotal role in
+      launching several connected car programs and has led initiatives in cloud
+      adoption and cybersecurity across the company."
+
 #- name:
 #  lastname:
 #  short:
