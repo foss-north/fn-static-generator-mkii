@@ -45,9 +45,16 @@
 
 - name: OWASP Göteborg
   short: owasp
-  url: https://www.meetup.com/owasp-gothenburg-meetup-group/
+  url: https://www.meetup.com/owasp-gothenburg-meetup-group/events/306904159
   description:
-    - "WirelessCar will host a meet with the OWASP Gothenburg chapter. More info to come."
+    - "We’re excited to invite you to an evening of insightful cybersecurity
+      talks with an open source twist! Join us for a community-day where we jump
+      the gun for the upcoming FOSS-North conference. WirelessCar is proud to
+      host this event, where we’ll dive into open-source security, red team
+      operations, psychological safety, and more. Whether you’re a seasoned pro
+      or just starting your journey in cybersecurity and open-source, this is a
+      perfect opportunity to learn, share, and connect with like-minded
+      professionals."
   address:
     - WirelessCar, Vädursgatan 6, 412 50 Göteborg
   when: 13:00 - 17:00
