@@ -1,14 +1,19 @@
 - name: RISC-V
   short: riscv
-  url: https://www.meetup.com/goteborg-risc-v-group/
+  url: https://www.meetup.com/goteborg-risc-v-group/events/307042027/
   description:
-    - "The RISC-V community will meet and discuss what's new and cool with the
-      hottest open ISA that's out there."
+    - "Welcome to a full day of RISC-V!"
+    - "Want to play with the RISC-V Hazard3 cores on the Pico2? Add LLVM support
+      the SDK? Hack a driver for the RV BPi? Play with your favorite soft-core?
+      Bring your favorite boards, laptops, Lauterbachs, scopes, and project
+      ideas!"
+    - "We'll do a mix of tinkering with boards, porting your favorite software,
+      and discuss all things RISC-V."
   address:
-    - "T.B.D."
+    - Kvadrat AB, Stora Nygatan 31, 411 08 Göteborg
   front: true
-  lon: 11.97372
-  lat: 57.68926
+  lon: 11.9653582
+  lat: 57.7046889
 
 - name: Flutter Gothenburg
   short: flutter
