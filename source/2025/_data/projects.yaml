@@ -12,6 +12,7 @@
   address:
     - Kvadrat AB, Stora Nygatan 31, 411 08 Göteborg
   front: true
+  when: 12:30 - 17:00
   lon: 11.9653582
   lat: 57.7046889
 
