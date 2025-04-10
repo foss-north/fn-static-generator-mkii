@@ -37,3 +37,8 @@
   short: id8
   url: https://id8-engineering.io/
   level: base
+
+- name: Red Hat
+  short: redhat
+  url: https://www.redhat.com/en/products/ai
+  level: base
