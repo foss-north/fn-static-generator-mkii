@@ -53,8 +53,8 @@
       and OpenInfra Summit in China. On a personal note, Carol plays the Timpani
       in an orchestra in Tampere, Finland, where she now calls home."
 
-- name: Ignat
-  lastname: Ignat
+- name: Ignat Korchagin
+  lastname: Korchagin
   short: ignat
   title: "An engineer's guide to Linux Kernel upgrades"
   day: apr14
@@ -79,8 +79,8 @@
   bio:
     - "TBD"
 
-- name: Ignat
-  lastname: Ignat
+- name: Ignat Korchagin
+  lastname: Ignat Korchagin
   short: ignat2
   day: apr15
   slot: slot9
@@ -1076,6 +1076,21 @@
       developer at WirelessCar. Throughout his tenure, he has played a pivotal role in
       launching several connected car programs and has led initiatives in cloud
       adoption and cybersecurity across the company."
+
+- name: Tobias Olausson
+  lastname: Olausson
+  short: tolausson
+  title: Closing words
+  links:
+    - url: slides/closing-words-2025.pdf
+      title: Slides
+  abstract:
+    - "Wrapping up foss-north 2025"
+  bio:
+    - "Tobias is head of the organizing committee for foss-north."
+  day: apr15
+  slot: slot15
+
 
 #- name:
 #  lastname:
