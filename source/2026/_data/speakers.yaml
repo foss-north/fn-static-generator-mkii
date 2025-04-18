@@ -1,0 +1,20 @@
+
+- name: Daniel Stenberg
+  lastname: Stenberg
+  short: dstenberg
+  bio:
+    - "Award-winning developer Daniel Stenberg is probably best known for his work
+      on cURL. Besides cURL, he's participating within IETF and gives talks
+      about open source and internet things."
+
+- name: Tobias Olausson
+  lastname: Olausson
+  short: tolausson
+  bio:
+    - "Main organizer of foss-north"
+
+#- name:
+#  lastname:
+#  short:
+#  bio:
+#    - ""

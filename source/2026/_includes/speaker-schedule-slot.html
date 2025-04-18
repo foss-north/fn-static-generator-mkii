@@ -1,0 +1,40 @@
+{% set speakers=data.speakers | selectattr('slot','equalto',slot) | selectattr('day','equalto',day) |list %}
+{% set talks=data.talks | selectattr('slot','equalto',slot) | selectattr('day','equalto',day) | list %}
+
+    <a name="{{ slot }}" class="offsetanchor"></a>
+{% if talks|length == 0 %}
+    <div class="talkspeaker">T.B.D.</div>
+{% else %}
+    {% set talk= talks| first %}
+    <a href="speakers-and-talks.html#{{ talk.short }}">
+        <div class="talktitle">{{ talk.title }}</div>
+        {% set speakers = data.speakers | selectattr('short','in',talk.speakers) %}
+        <div class="talkspeaker">{{ speakers | map(attribute='name') | join(' & ') }}</div>
+    </a>
+{% endif %}
+{% if showvideolink %}
+</td><td>
+{% if speakers|length == 0 %}
+    <div class="talkspeaker text-center">T.B.D.</div>
+{% endif %}
+{% if speakers|length > 0 %}
+    <div class="talkspeaker text-center">
+    {% for speaker in speakers %}
+        {% set vct=speaker.links | selectattr('title','equalto','ConfTube')|list|first %}
+        {% set vyt=speaker.links | selectattr('title','equalto','YouTube')|list|first %}
+        {% if vct %}
+            <a href="{{ vct.url }}">{{ vct.title }}</a>
+        {% endif %}
+        {% if vyt %}
+            {% if vct %}
+                <br />
+            {% endif %}
+            <a href="{{ vyt.url }}">{{ vyt.title }}</a>
+        {% endif %}
+        {% if not loop.last %}
+            &nbsp;
+        {% endif %}
+    {% endfor %}
+    </div>
+{% endif %}
+{% endif %}
