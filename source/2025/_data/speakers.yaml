@@ -959,6 +959,11 @@
   day: apr15
   slot: slot5a
   title: "Hubzilla pioneering a safer, more resilient fediverse"
+  links:
+    - title: "Slides"
+      url: "slides/heilertsen-hubzilla-slides.pdf"
+    - title: "Hubzilla"
+      url: "https://hubzilla.org/page/info/discover"
   abstract:
     - "Hubzilla is a powerful free and open source server for what has become
       known as the fediverse – or sometimes the social web. Throughout it's
