@@ -12,6 +12,8 @@
   links:
     - title: cURL
       url: https://curl.haxx.se
+    - title: Slides
+      url: "slides/dstenberg-world-domination-slides.pdf"
   day: apr14
   slot: slot1
   title: "What comes after world domination?"
@@ -208,6 +210,8 @@
   links:
     - title: Tor Project
       url: https://torproject.org
+    - title: Slides
+      url: "slides/ahansen-gkoppen-resilience-slides.pdf"
   title: "Anonymity Loves Resilience: The Case of Tor"
   abstract:
     - "Tor is an anonymity network consisting of relays run by thousands of
@@ -233,6 +237,8 @@
   links:
     - title: Tor Project
       url: https://torproject.org
+    - title: Slides
+      url: "slides/ahansen-gkoppen-resilience-slides.pdf"
   title: "Anonymity Loves Resilience: The Case of Tor"
   abstract:
     - "Tor is an anonymity network consisting of relays run by thousands of
@@ -327,6 +333,9 @@
   day: apr15
   slot: slot12
   title: "The Generalist Advantage: Your Superpower"
+  links:
+    - title: "Slides"
+      url: "slides/jsjolund-generalist-slides.pdf"
   abstract:
     - "In a world that often celebrates specialisation, the generalist's path is
       frequently misunderstood. What is a generalist, and why is this diverse
@@ -433,6 +442,11 @@
   copresenters:
     - name: "Terje Sylvarnes"
       short: tsylvarnes
+  links:
+    - title: "Slides"
+      url: "slides/hechzell-tsylvarnes-interoperability-slides.pdf"
+    - title: Paper on interoperability
+      url: "slides/hechzell-tsylvarnes-interoperability-paper.pdf"
   title: "Interoperable Infrastructure for Universities, Enterprises and the Public Sector"
   abstract:
     - "Many organizational processes cross the boundaries of individual
@@ -475,6 +489,11 @@
   copresenters:
     - name: "Hagen Echzell"
       short: hechzell
+  links:
+    - title: "Slides"
+      url: "slides/hechzell-tsylvarnes-interoperability-slides.pdf"
+    - title: Paper on interoperability
+      url: "slides/hechzell-tsylvarnes-interoperability-paper.pdf"
   title: "Interoperable Infrastructure for Universities, Enterprises and the Public Sector"
   abstract:
     - "Many organizational processes cross the boundaries of individual
@@ -946,6 +965,11 @@
   day: apr15
   slot: slot5a
   title: "Hubzilla pioneering a safer, more resilient fediverse"
+  links:
+    - title: "Slides"
+      url: "slides/heilertsen-hubzilla-slides.pdf"
+    - title: "Hubzilla"
+      url: "https://hubzilla.org/page/info/discover"
   abstract:
     - "Hubzilla is a powerful free and open source server for what has become
       known as the fediverse – or sometimes the social web. Throughout it's
