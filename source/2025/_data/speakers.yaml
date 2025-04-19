@@ -12,6 +12,8 @@
   links:
     - title: cURL
       url: https://curl.haxx.se
+    - title: Slides
+      url: "slides/dstenberg-world-domination-slides.pdf"
   day: apr14
   slot: slot1
   title: "What comes after world domination?"
