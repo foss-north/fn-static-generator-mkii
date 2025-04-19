@@ -380,9 +380,6 @@
   day: apr15
   slot: slot4
   title: "How to talk your lawyer about FOSS"
-  copresenters:
-    - short: estefanaki
-      name: Eleftheria Stefanaki
   abstract:
     - "In this talk our two speakers from Ericsson and Nokia will try to share
       some best practices in how to talk to your legal department or outside
@@ -399,6 +396,8 @@
       breach culture and language barriers, how to educate and guide, and go
       over OpenChain (ISO/IEC 5230:2020) as a useful tool an accomplishing
       this."
+    - "<b>NOTE</b>: Jimmy gave this talk alone as the copresenter from Nokia had
+      to cancel last minute."
   bio:
     - "Currently Mr Ahlberg is the Director of Open Source Policy with the
       Ericsson OSPO. Prior to the inception of the Ericsson OSPO he worked in
@@ -407,32 +406,6 @@
       Source, Compliance, the intersection of Standards and Open Source, and
       Open Source in M&A."
     - "Jimmy Ahlberg is currently he chairperson of the OpenChain projects governing board."
-
-- name: Eleftheiria Stefanaki
-  lastname: Stefanaki
-  short: estefanaki
-  title: "How to talk your lawyer about FOSS"
-  copresenters:
-    - short: jahlberg
-      name: Jimmy Ahlberg
-  abstract:
-    - "In this talk our two speakers from Ericsson and Nokia will try to share
-      some best practices in how to talk to your legal department or outside
-      legal counsel about FOSS, FOSS Licensing, Why and how to do FOSS, and
-      finally (hopefully) getting the lawyers on your side in how your
-      organizations consumes and contributes to open source."
-    - "The speakers will use real life examples of their respective companies
-      FOSS journeys over the last few years. Ultimately working with the legal
-      department should be a partnership to manage risk, increase efficiency,
-      and ensure that FOSS can be used and contributed to in a frictionless
-      fashion. Why is then often legal department and legal counsel seen as at
-      best a speedbump and at worst an enemy?"
-    - "The speakers go over commonalities in motivations and goals, how to
-      breach culture and language barriers, how to educate and guide, and go
-      over OpenChain (ISO/IEC 5230:2020) as a useful tool an accomplishing
-      this."
-  bio:
-    - "Eleftheria Stefanaki works as FOSS legal counsel at Nokia"
 
 - name: Hagen Echzell
   lastname: Echzell
