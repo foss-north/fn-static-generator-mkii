@@ -1,0 +1,29 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://foss-north.se/"><img src="images/brand-logo.png" /></a>
+        
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+            {% for item in data.menu|sort(attribute='index') %}
+                {% if data.page == item.name %}
+                    <li class="nav-item active">
+                {% else %}
+                    <li class="nav-item">
+                {% endif %}
+                <a class="nav-link" href="{{ item.name }}.html">{{ item.menu }}
+                {% if data.page == item.name %}
+                    <span class="sr-only">(current)</span>
+                {%- endif -%}
+                </a>
+                </li>
+            {% endfor %}
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item"><a class="nav-link" href="http://foss-north.se/">More foss events</a></li>
+        </ul>
+    </div>
+</nav>

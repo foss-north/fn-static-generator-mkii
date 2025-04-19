@@ -1,0 +1,31 @@
+#
+# Available days: apr27 and apr28
+#
+# Slots are numbered from 1 and onwards. For dual track confs, slot1 is first
+# track, slot2 second track, slot3 first track and so on. slot1a means 30
+# minutes, slot1b means the next 30 minutes, whereas slot1 is simply 60 minutes.
+#
+- title: "Talk title"
+  short: ttitle
+  abstract:
+    - "Talk abstract"
+  speakers:
+    - dstenberg
+    - tolausson
+  links:
+    - title: foss-north
+      url: https://foss-north.se
+  day: apr27
+  slot: slot1
+
+#  title:
+#  abstract:
+#    - ""
+#  speakers:
+#    - someone
+#  links:
+#    - title: ""
+#      url: ""
+#  day: apr27
+#  slot: slotN
+#
