@@ -433,6 +433,11 @@
   copresenters:
     - name: "Terje Sylvarnes"
       short: tsylvarnes
+  links:
+    - title: "Slides"
+      url: "slides/hechzell-tsylvarnes-interoperability-slides.pdf"
+    - title: Paper on interoperability
+      url: "slides/hechzell-tsylvarnes-interoperability-paper.pdf"
   title: "Interoperable Infrastructure for Universities, Enterprises and the Public Sector"
   abstract:
     - "Many organizational processes cross the boundaries of individual
@@ -475,6 +480,11 @@
   copresenters:
     - name: "Hagen Echzell"
       short: hechzell
+  links:
+    - title: "Slides"
+      url: "slides/hechzell-tsylvarnes-interoperability-slides.pdf"
+    - title: Paper on interoperability
+      url: "slides/hechzell-tsylvarnes-interoperability-paper.pdf"
   title: "Interoperable Infrastructure for Universities, Enterprises and the Public Sector"
   abstract:
     - "Many organizational processes cross the boundaries of individual
