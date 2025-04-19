@@ -327,6 +327,9 @@
   day: apr15
   slot: slot12
   title: "The Generalist Advantage: Your Superpower"
+  links:
+    - title: "Slides"
+      url: "slides/jsjolund-generalist-slides.pdf"
   abstract:
     - "In a world that often celebrates specialisation, the generalist's path is
       frequently misunderstood. What is a generalist, and why is this diverse
