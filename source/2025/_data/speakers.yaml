@@ -175,6 +175,9 @@
   short: bnomany
   day: apr14
   slot: slot15
+  links:
+    - title: Slides
+      url: "slides/bnomany-embedded-slides.pdf"
   title: "Embedded Development Made Easy: A Guide to Open Source Platforms and Maximizing value for your product."
   abstract:
     - "Open-source platforms are transforming the speed in which products are
