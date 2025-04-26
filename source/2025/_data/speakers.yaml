@@ -573,6 +573,9 @@
   short: aroxell
   day: apr15
   slot: slot6b
+  links:
+    - title: Slides
+      url: "slides/aroxell-kerneltesting-slides.pdf"
   title: "Faster Linux Kernel Testing with Linaro's Open-Source Tools and LKFT Automation"
   abstract:
     - "Kernel developers need fast, automated, and scalable testing solutions to
