@@ -891,6 +891,11 @@
   short: objarnason
   day: apr14
   slot: slot16
+  links:
+    - title: Slides
+      url: "slides/objarnason-mikadomethod-slides.pdf"
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=le02_0hglWI"
   title: "The Limits of Mikado Method"
   abstract:
     - "The Mikado Method is a systematic approach to make safe changes to
