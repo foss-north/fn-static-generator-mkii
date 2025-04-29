@@ -655,6 +655,11 @@
   day: apr14
   slot: slot10
   title: Building Agents in JavaScript
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=PStrUQ5Voyo"
+    - title: Slides
+      url: "slides/dphiri-agents-slides.pdf"
   abstract:
     - "From chaotic LLM responses to type-safe AI agents: Learn how TypeScript's
       discriminated unions transform messy AI responses into predictable
@@ -932,6 +937,9 @@
   short: rsilen
   day: apr14
   slot: slot6
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=6nurznDFbgE"
   title: "Making AI transparent with RAG on your own data"
   abstract:
     - "In an era of misinformation and AI-generated fake content, trust and
