@@ -14,6 +14,8 @@
       url: https://curl.haxx.se
     - title: Slides
       url: "slides/dstenberg-world-domination-slides.pdf"
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=kn36wcBIGlY"
   day: apr14
   slot: slot1
   title: "What comes after world domination?"
@@ -147,6 +149,9 @@
   title: "Embracing Open Source in Embedded Development: From Proprietary to Modular and Collaborative"
   day: apr14
   slot: slot11
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=_MaXsbOwPos"
   abstract:
     - "Embedded development has long been dominated by proprietary, rigid
       architectures, limiting innovation and accessibility. However, the
@@ -175,6 +180,11 @@
   short: bnomany
   day: apr14
   slot: slot15
+  links:
+    - title: Slides
+      url: "slides/bnomany-embedded-slides.pdf"
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=SLpR-oXddIA"
   title: "Embedded Development Made Easy: A Guide to Open Source Platforms and Maximizing value for your product."
   abstract:
     - "Open-source platforms are transforming the speed in which products are
@@ -380,9 +390,6 @@
   day: apr15
   slot: slot4
   title: "How to talk your lawyer about FOSS"
-  copresenters:
-    - short: estefanaki
-      name: Eleftheria Stefanaki
   abstract:
     - "In this talk our two speakers from Ericsson and Nokia will try to share
       some best practices in how to talk to your legal department or outside
@@ -399,6 +406,8 @@
       breach culture and language barriers, how to educate and guide, and go
       over OpenChain (ISO/IEC 5230:2020) as a useful tool an accomplishing
       this."
+    - "<b>NOTE</b>: Jimmy gave this talk alone as the copresenter from Nokia had
+      to cancel last minute."
   bio:
     - "Currently Mr Ahlberg is the Director of Open Source Policy with the
       Ericsson OSPO. Prior to the inception of the Ericsson OSPO he worked in
@@ -407,32 +416,6 @@
       Source, Compliance, the intersection of Standards and Open Source, and
       Open Source in M&A."
     - "Jimmy Ahlberg is currently he chairperson of the OpenChain projects governing board."
-
-- name: Eleftheiria Stefanaki
-  lastname: Stefanaki
-  short: estefanaki
-  title: "How to talk your lawyer about FOSS"
-  copresenters:
-    - short: jahlberg
-      name: Jimmy Ahlberg
-  abstract:
-    - "In this talk our two speakers from Ericsson and Nokia will try to share
-      some best practices in how to talk to your legal department or outside
-      legal counsel about FOSS, FOSS Licensing, Why and how to do FOSS, and
-      finally (hopefully) getting the lawyers on your side in how your
-      organizations consumes and contributes to open source."
-    - "The speakers will use real life examples of their respective companies
-      FOSS journeys over the last few years. Ultimately working with the legal
-      department should be a partnership to manage risk, increase efficiency,
-      and ensure that FOSS can be used and contributed to in a frictionless
-      fashion. Why is then often legal department and legal counsel seen as at
-      best a speedbump and at worst an enemy?"
-    - "The speakers go over commonalities in motivations and goals, how to
-      breach culture and language barriers, how to educate and guide, and go
-      over OpenChain (ISO/IEC 5230:2020) as a useful tool an accomplishing
-      this."
-  bio:
-    - "Eleftheria Stefanaki works as FOSS legal counsel at Nokia"
 
 - name: Hagen Echzell
   lastname: Echzell
@@ -597,6 +580,9 @@
   short: aroxell
   day: apr15
   slot: slot6b
+  links:
+    - title: Slides
+      url: "slides/aroxell-kerneltesting-slides.pdf"
   title: "Faster Linux Kernel Testing with Linaro's Open-Source Tools and LKFT Automation"
   abstract:
     - "Kernel developers need fast, automated, and scalable testing solutions to
@@ -669,6 +655,11 @@
   day: apr14
   slot: slot10
   title: Building Agents in JavaScript
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=PStrUQ5Voyo"
+    - title: Slides
+      url: "slides/dphiri-agents-slides.pdf"
   abstract:
     - "From chaotic LLM responses to type-safe AI agents: Learn how TypeScript's
       discriminated unions transform messy AI responses into predictable
@@ -912,6 +903,11 @@
   short: objarnason
   day: apr14
   slot: slot16
+  links:
+    - title: Slides
+      url: "slides/objarnason-mikadomethod-slides.pdf"
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=le02_0hglWI"
   title: "The Limits of Mikado Method"
   abstract:
     - "The Mikado Method is a systematic approach to make safe changes to
@@ -941,6 +937,9 @@
   short: rsilen
   day: apr14
   slot: slot6
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=6nurznDFbgE"
   title: "Making AI transparent with RAG on your own data"
   abstract:
     - "In an era of misinformation and AI-generated fake content, trust and
