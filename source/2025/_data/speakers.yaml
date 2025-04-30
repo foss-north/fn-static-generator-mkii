@@ -747,6 +747,10 @@
   day: apr15
   slot: slot3
   links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=TCsP5ti4-9o"
+    - title: Slides
+      url: slides/mwiderkrantz-qemu-slides.pdf
     - title: Case study
       url: https://bugbounty.tillitis.se/security-bulletins/tillitis-security-bulletin-240115-1/
     - title: QEMU fork repo
