@@ -117,6 +117,12 @@
   short: mkrak
   day: apr15
   slot: slot1
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=thtLqo2IYS8"
+    - title: Slides
+      url: "slides/mkrak-python-slides.pdf"
+
   title: "Taking Python beyond scripting"
   abstract:
     - "Python is one of the most popular programming languages, predominantly
