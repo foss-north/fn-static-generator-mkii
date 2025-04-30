@@ -726,6 +726,9 @@
   title: Tabletop games <3 FOSS
   day: apr15
   slot: slot5b
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=lfLST70TRdg"
   abstract:
     - "Frozen Maze Games has released two tabletop games into the world,
       Perilous Pond and Bushido Duels. Both were developed and produced much
