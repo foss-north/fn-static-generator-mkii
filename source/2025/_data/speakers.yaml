@@ -396,6 +396,9 @@
   day: apr15
   slot: slot4
   title: "How to talk your lawyer about FOSS"
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=2JWCw3S7yHs"
   abstract:
     - "In this talk our two speakers from Ericsson and Nokia will try to share
       some best practices in how to talk to your legal department or outside
