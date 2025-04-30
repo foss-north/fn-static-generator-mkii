@@ -117,6 +117,12 @@
   short: mkrak
   day: apr15
   slot: slot1
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=thtLqo2IYS8"
+    - title: Slides
+      url: "slides/mkrak-python-slides.pdf"
+
   title: "Taking Python beyond scripting"
   abstract:
     - "Python is one of the most popular programming languages, predominantly
@@ -522,6 +528,9 @@
   copresenters:
     - name: Supriya Chitale
       short: schitale
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=qXaIdt5fOkg"
   title: "From Private to InnerSource to Public: IKEA's journey to Open Source"
   abstract:
     - "Launching an open-source initiative within a company is more than just
@@ -552,6 +561,9 @@
 - name: Supriya Chitale
   lastname: Chitale
   short: schitale
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=qXaIdt5fOkg"
   title: "From Private to InnerSource to Public: IKEA's journey to Open Source"
   abstract:
     - "Launching an open-source initiative within a company is more than just
@@ -714,6 +726,9 @@
   title: Tabletop games <3 FOSS
   day: apr15
   slot: slot5b
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=lfLST70TRdg"
   abstract:
     - "Frozen Maze Games has released two tabletop games into the world,
       Perilous Pond and Bushido Duels. Both were developed and produced much
@@ -732,6 +747,10 @@
   day: apr15
   slot: slot3
   links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=TCsP5ti4-9o"
+    - title: Slides
+      url: slides/mwiderkrantz-qemu-slides.pdf
     - title: Case study
       url: https://bugbounty.tillitis.se/security-bulletins/tillitis-security-bulletin-240115-1/
     - title: QEMU fork repo
