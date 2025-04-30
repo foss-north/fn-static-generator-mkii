@@ -695,6 +695,9 @@
   day: apr15
   slot: slot10a
   title: "Towards declaring crypto algorithms in SBOMs: crypto_algorithms_open_dataset"
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=0K7JeF1exX4"
   abstract:
     - "Cryptographic algorithms are foundational to secure software, yet their
       declaration and tracking remain inconsistent across industries. To address
