@@ -528,6 +528,9 @@
   copresenters:
     - name: Supriya Chitale
       short: schitale
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=qXaIdt5fOkg"
   title: "From Private to InnerSource to Public: IKEA's journey to Open Source"
   abstract:
     - "Launching an open-source initiative within a company is more than just
@@ -558,6 +561,9 @@
 - name: Supriya Chitale
   lastname: Chitale
   short: schitale
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=qXaIdt5fOkg"
   title: "From Private to InnerSource to Public: IKEA's journey to Open Source"
   abstract:
     - "Launching an open-source initiative within a company is more than just
