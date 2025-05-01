@@ -1087,6 +1087,11 @@
   day: apr15
   slot: slot10b
   title: "Authz as a dev workflow"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=ntI_2nzt0Yc"
+    - title: "Slides"
+      url: "slides/dmaher-authz-slides.pdf"
   abstract:
     - "Authorization isn't just a checkbox in the security compliance list—it's
       a fundamental security control that shapes how software behaves in
