@@ -280,6 +280,12 @@
   slot: slot13
   title: "Centrally managed Multi Factor Authentication with privacyIDEA"
   links:
+    - title: Slides
+      url: "slides/ckolbel-privacyidea-slides.pdf"
+    - title: Slides (reveal.js)
+      url: "https://privacyidea.org/talks/2025/04-FOSS-North/Talk-centrally-managed-privacyIDEA.html"
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=Wf-_w8J9jsg"
     - title: privacyIDEA
       url: https://privacyidea.org
   abstract:
