@@ -1027,6 +1027,11 @@
   day: apr15
   slot: slot6a
   title: "Reviving PortSentry: A Modern Approach to Network Security Monitoring"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=UK318ZQhfsk"
+    - title: "Slides"
+      url: "slides/mhufvudsson-portsentry-slides.pdf"
   abstract:
     - "This talk presents the revival and modernization of PortSentry, a
       historically significant port scan detection and response tool that had
