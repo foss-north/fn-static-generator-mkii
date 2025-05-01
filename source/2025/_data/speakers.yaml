@@ -280,6 +280,12 @@
   slot: slot13
   title: "Centrally managed Multi Factor Authentication with privacyIDEA"
   links:
+    - title: Slides
+      url: "slides/ckolbel-privacyidea-slides.pdf"
+    - title: Slides (reveal.js)
+      url: "https://privacyidea.org/talks/2025/04-FOSS-North/Talk-centrally-managed-privacyIDEA.html"
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=Wf-_w8J9jsg"
     - title: privacyIDEA
       url: https://privacyidea.org
   abstract:
@@ -352,6 +358,8 @@
   links:
     - title: "Slides"
       url: "slides/jsjolund-generalist-slides.pdf"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=9Z-gKbgF9h0"
   abstract:
     - "In a world that often celebrates specialisation, the generalist's path is
       frequently misunderstood. What is a generalist, and why is this diverse
@@ -396,6 +404,9 @@
   day: apr15
   slot: slot4
   title: "How to talk your lawyer about FOSS"
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=2JWCw3S7yHs"
   abstract:
     - "In this talk our two speakers from Ericsson and Nokia will try to share
       some best practices in how to talk to your legal department or outside
@@ -432,6 +443,8 @@
     - name: "Terje Sylvarnes"
       short: tsylvarnes
   links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=i4uSCy4BGDc"
     - title: "Slides"
       url: "slides/hechzell-tsylvarnes-interoperability-slides.pdf"
     - title: Paper on interoperability
@@ -479,6 +492,8 @@
     - name: "Hagen Echzell"
       short: hechzell
   links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=i4uSCy4BGDc"
     - title: "Slides"
       url: "slides/hechzell-tsylvarnes-interoperability-slides.pdf"
     - title: Paper on interoperability
@@ -690,6 +705,9 @@
   day: apr15
   slot: slot10a
   title: "Towards declaring crypto algorithms in SBOMs: crypto_algorithms_open_dataset"
+  links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=0K7JeF1exX4"
   abstract:
     - "Cryptographic algorithms are foundational to secure software, yet their
       declaration and tracking remain inconsistent across industries. To address
@@ -1009,6 +1027,11 @@
   day: apr15
   slot: slot6a
   title: "Reviving PortSentry: A Modern Approach to Network Security Monitoring"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=UK318ZQhfsk"
+    - title: "Slides"
+      url: "slides/mhufvudsson-portsentry-slides.pdf"
   abstract:
     - "This talk presents the revival and modernization of PortSentry, a
       historically significant port scan detection and response tool that had
@@ -1064,6 +1087,11 @@
   day: apr15
   slot: slot10b
   title: "Authz as a dev workflow"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=ntI_2nzt0Yc"
+    - title: "Slides"
+      url: "slides/dmaher-authz-slides.pdf"
   abstract:
     - "Authorization isn't just a checkbox in the security compliance list—it's
       a fundamental security control that shapes how software behaves in
