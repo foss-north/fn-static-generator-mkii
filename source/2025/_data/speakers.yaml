@@ -844,10 +844,14 @@
       Wi-Fi routers Turris."
 
 
-- name: Jon
-  lastname: Jon
-  short: jon
+- name: Jon Nordby
+  lastname: Nordby
+  short: jnordby
   links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=hi1lHsLZzqk"
+    - title: Slides
+      url: "slides/jnordby-emlearn-slides.pdf"
     - title: emlearn-micropython
       url: https://github.com/emlearn/emlearn-micropython/
     - title: MicroPython
