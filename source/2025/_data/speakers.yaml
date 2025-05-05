@@ -332,6 +332,10 @@
   links:
     - title: Alpine Linux
       url: https://www.alpinelinux.org/
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=T5G6IdGiKaY"
+    - title: "Slides"
+      url: "slides/ncopa-alpine-slides.pdf"
   title: Maintaining an Open Source project without burning out
   abstract:
     - "Maintaining a popular Open Source project can be both rewarding and
@@ -747,6 +751,8 @@
   links:
     - title: YouTube
       url: "https://www.youtube.com/watch?v=lfLST70TRdg"
+    - title: Slides
+      url: "slides/aforslund-tabletop-slides.pdf"
   abstract:
     - "Frozen Maze Games has released two tabletop games into the world,
       Perilous Pond and Bushido Duels. Both were developed and produced much
@@ -844,10 +850,14 @@
       Wi-Fi routers Turris."
 
 
-- name: Jon
-  lastname: Jon
-  short: jon
+- name: Jon Nordby
+  lastname: Nordby
+  short: jnordby
   links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=hi1lHsLZzqk"
+    - title: Slides
+      url: "slides/jnordby-emlearn-slides.pdf"
     - title: emlearn-micropython
       url: https://github.com/emlearn/emlearn-micropython/
     - title: MicroPython
@@ -888,6 +898,11 @@
   title: "Open source should have an answer to Teams"
   day: apr15
   slot: slot7
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=j_lxvxmeGtg"
+    - title: "Slides"
+      url: "slides/jpoortvliet-teams-slides.pdf"
   abstract:
     - "As we all know, Microsoft has a straightforward strategy that it shares
        with most other big tech firms from Silicon Valley: get all our data, then
@@ -1004,6 +1019,8 @@
   links:
     - title: "Slides"
       url: "slides/heilertsen-hubzilla-slides.pdf"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=o8EXVa0bTM4"
     - title: "Hubzilla"
       url: "https://hubzilla.org/page/info/discover"
   abstract:
