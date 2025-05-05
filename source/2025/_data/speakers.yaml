@@ -332,6 +332,10 @@
   links:
     - title: Alpine Linux
       url: https://www.alpinelinux.org/
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=T5G6IdGiKaY"
+    - title: "Slides"
+      url: "slides/ncopa-alpine-slides.pdf"
   title: Maintaining an Open Source project without burning out
   abstract:
     - "Maintaining a popular Open Source project can be both rewarding and
