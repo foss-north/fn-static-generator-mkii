@@ -894,6 +894,11 @@
   title: "Open source should have an answer to Teams"
   day: apr15
   slot: slot7
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=j_lxvxmeGtg"
+    - title: "Slides"
+      url: "slides/jpoortvliet-teams-slides.pdf"
   abstract:
     - "As we all know, Microsoft has a straightforward strategy that it shares
        with most other big tech firms from Silicon Valley: get all our data, then
