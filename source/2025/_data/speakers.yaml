@@ -614,6 +614,8 @@
   links:
     - title: Slides
       url: "slides/aroxell-kerneltesting-slides.pdf"
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=tZZNpJSc0d0"
   title: "Faster Linux Kernel Testing with Linaro's Open-Source Tools and LKFT Automation"
   abstract:
     - "Kernel developers need fast, automated, and scalable testing solutions to
