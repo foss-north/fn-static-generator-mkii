@@ -651,6 +651,11 @@
   short: rzhukov
   day: apr15
   slot: slot11
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=lmRvYOeeQp0"
+    - title: "Slides"
+      url: "slides/rzhukov-dependencies-slides.pdf"
   title: "Automating dependency selection with open-source tools at scale"
   abstract:
     - "Engineering teams in companies at all levels ingest open-source
