@@ -1140,6 +1140,11 @@
   title: Driving Open Source
   day: apr14
   slot: slot9b
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=N_MsyVcB8CI"
+    - title: "Slides"
+      url: "slides/tcarlfalk-driving-slides.pdf"
   abstract:
     - "The automotive industry has long been constrained by proprietary
       software, fragmented ecosystems, and slow innovation cycles. As
