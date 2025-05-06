@@ -835,6 +835,10 @@
   day: apr14
   slot: slot3
   links:
+    - title: YouTube
+      url: "https://www.youtube.com/watch?v=UGYxdbMw6z0"
+    - title: Slides
+      url: slides/mhrusecky-router-slides.pdf
     - title: Turris
       url: https://turris.cz
   abstract:
@@ -994,6 +998,10 @@
   links:
     - title: YouTube
       url: "https://www.youtube.com/watch?v=6nurznDFbgE"
+    - title: "Slides (MariaDB Vector)"
+      url: "slides/rsilen-mariadb-vector-slides.pdf"
+    - title: "Slides (Wikipedia RAG)"
+      url: "slides/rsilen-wikipedia-rag-slides.pdf"
   title: "Making AI transparent with RAG on your own data"
   abstract:
     - "In an era of misinformation and AI-generated fake content, trust and
