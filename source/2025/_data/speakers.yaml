@@ -63,6 +63,11 @@
   title: "An engineer's guide to Linux Kernel upgrades"
   day: apr14
   slot: slot5
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=niSDERWRrGA"
+    - title: "Slides"
+      url: "slides/ignat-kernelupgrades-slides.pdf"
   abstract:
     - "Because the kernel code executes at the highest privilege level and a
       kernel bug usually crashes the whole system, many SREs, production
@@ -88,6 +93,11 @@
   short: ignat2
   day: apr15
   slot: slot9
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=0ZhTOd4EF0Q"
+    - title: "Slides"
+      url: "slides/ignat2-keystore-slides.pdf"
   title: "What is Linux kernel keystore and why you should use it in your next application"
   abstract:
     - "Did you know that Linux has a full-featured keystore ready to be used by
