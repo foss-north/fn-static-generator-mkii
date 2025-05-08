@@ -821,6 +821,11 @@
   short: snasha
   day: apr14
   slot: slot14
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=KDgyMO8KH2o"
+    - title: "Slides"
+      url: "slides/snasha-ai-slides.pdf"
   title: "AI for Everyone: Unleashing the Power of Open Source Tools"
   abstract:
     - "Explore the world of open-source AI tools that make building and
