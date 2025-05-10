@@ -1,0 +1,25 @@
+confname: "2026"
+confbaseurl: "2026"
+confyear: "2026"
+
+conferencedaysdate: "April 27 - 28"
+confdate: "April 27 2026"
+
+communitydaymeetup: True
+  # communitydaymeetup_url: "https://www.meetup.com/foss-gbg/events/306079403/"
+communitydaydate: "April 26"
+
+ticketslunchdate: "April 20"
+ticketsurl: "https://foss-north.se/events/2026/register/"
+ticketprice: 700
+ticketpricestudent: 300
+
+cfpopen: False
+cfpdone: True
+cfpenddate: "Feb 15"
+cfpnotifydate: "March 15"
+cfpurl: "https://foss-north.se/events/2026/callforpapers/"
+
+confdays:
+  - { name: "April 27", tag: "apr27" }
+  - { name: "April 28", tag: "apr28" }

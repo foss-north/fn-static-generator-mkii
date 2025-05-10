@@ -1,0 +1,62 @@
+{% extends "page.html" %}
+{% block bodycontents %}
+
+<h1>Speakers and Talks</h1>
+
+{% if data.talks is iterable and data.talks is not string %}
+{% set sorted_talks = data.talks | rejectattr('day','equalto','none') | sort(attribute='title') %}
+
+{% for talk in sorted_talks %}
+    {% set speakers = data.speakers | selectattr('short','in',talk.speakers) %}
+
+    <a name="{{ talk.short }}" class="offsetanchor"></a>
+    <div class="row speakerrow">
+        <div class="col-md-3">
+            {% for speaker in speakers %}
+                <img class="sp-image" src="images/speaker-{{ speaker.short }}.png"
+                                      alt="{{ speaker.name }}" />
+            {% endfor %}
+        </div>
+
+        <div class="col-md-9">
+            <div class="title">{{ talk.title }}</div>
+            {% set speakers = data.speakers | selectattr('short','in',talk.speakers) %}
+            <div class="name">{{ speakers | map(attribute='name') | join(' & ') }}</div>
+
+            <div class="links">
+                {% if talk.links is defined %}
+                    {% for link in talk.links %}
+                        <a href="{{ link.url }}">{{ link.title }}</a>
+                        &nbsp;-&nbsp;
+                    {% endfor %}
+                {% endif %}
+                {% if talk.slot %}
+                <a href="schedule.html#{{ talk.slot }}">Talk Slot</a>
+                {% endif %}
+            </div>
+
+            {% for abstracttext in talk.abstract %}
+            <div class="abstract">
+                {{ abstracttext }}
+            </div>
+            {% endfor %}
+        <hr width="75%" />
+        {% set speakers = data.speakers | selectattr('short','in',talk.speakers) %}
+        {% for speaker in speakers %}
+            <h4>{{ speaker.name }}</h4>
+            {% for biotext in speaker.bio %}
+                <div class="bio">
+                    {{ biotext }}
+                </div>
+            {% endfor %}
+        {% endfor %}
+        </div>
+    </div>
+
+{% endfor %}
+
+{% else %}
+<p><strong>The speakers have not yet been confimed.</strong></p>
+{% endif %}
+
+{% endblock %}
