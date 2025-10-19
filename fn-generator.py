@@ -13,11 +13,8 @@ else:
     inputdir = sys.argv[1]
     outputdir = sys.argv[2]
 
-# Attempt to create output directory
-try:
-    os.mkdir(outputdir)
-except FileExistsError:
-    pass
+# Attempt to create output directory if not already exists
+os.makedirs(outputdir, exist_ok=True)
 
 # Copy _assets into _output
 copy_tree(os.path.join(inputdir, '_assets'), outputdir)
@@ -59,9 +56,9 @@ for file in os.listdir(os.path.join(inputdir, '_source/')):
             page = file[:-4]
             if 'page' in data:
                 del data['page']
-        
+
         print('    {}: {} => {}'.format(page, os.path.join(os.path.join(inputdir, '_source/'), file), os.path.join(outputdir, file)))
-        
+
         template = environment.get_template(file)
         file = open(os.path.join(outputdir, file), 'w')
         file.write(template.render(data=data))
