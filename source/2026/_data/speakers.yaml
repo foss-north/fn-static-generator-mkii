@@ -1,0 +1,47 @@
+#
+# Available days: apr27 and apr28
+#
+# Slots are numbered from 1 and onwards. For dual track confs, slot1 is first
+# track, slot2 second track, slot3 first track and so on. slot1a means 30
+# minutes, slot1b means the next 30 minutes, whereas slot1 is simply 60 minutes.
+#
+
+#
+# Reference example from 2025
+#
+# - name: Daniel Stenberg
+#   short: dstenberg
+#   lastname: Stenberg
+#   links:
+#     - title: cURL
+#       url: https://curl.haxx.se
+#     - title: Slides
+#       url: "slides/dstenberg-world-domination-slides.pdf"
+#     - title: YouTube
+#       url: "https://www.youtube.com/watch?v=kn36wcBIGlY"
+#   day: apr14
+#   slot: slot1
+#   title: "What comes after world domination?"
+#   abstract:
+#     - "Open Source has in many ways already won. It is used in every product by
+#       every company, to very a large degree. But we are not done. We can
+#       improve: we can take this further, we can make our projects better, we can
+#       enhance our communities and make sure it is done sustainably. The future is
+#       ours."
+#     - "Starting off with a look on the Open Source explosion that has taken us to
+#       this point, Daniel discusses areas of improvement and dreams and visions for
+#       our future."
+#   bio:
+#     - "Award-winning developer Daniel Stenberg is probably best known for his work
+#       on cURL. Besides cURL, he's participating within IETF and gives talks
+#       about open source and internet things."
+
+#- name:
+#  lastname:
+#  short:
+#  title:
+#  abstract:
+#    - ""
+#  bio:
+#    - ""
+#

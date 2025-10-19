@@ -1,0 +1,137 @@
+{% extends "page.html" %}
+
+{% block bodycontents %}
+{% markdown %}
+
+# Contribute
+
+A great conference is made with great contents. For great contents we need great
+sponsors. Please join us in making foss-north {{ data.general.confname }} the
+best foss-north of them all by helping us bring together the best sponsors,
+contents and audience!
+
+<a name="papers" class="offsetanchor"></a>
+## Call for Papers
+
+{% if data.general.cfpopen %}
+We are currently accepting contributions for foss-north {{ data.general.confname
+}}!
+
+The Call for Papers is open until <b>{{ data.general.cfpenddate }}</b> and the
+final speakers are contacted no later than <b>{{ data.general.cfpnotifydate }}</b>.
+We are happy to sponsor travel expenses and accommodation, but cannot pay for
+your time.  Please visit the <a href="{{ data.general.cfpurl }}">Call for Papers
+registration page</a> to make your contribution. This will take you to a login
+page. We use OAUTH2 for this and currently support GitHub and Google as ways to
+authenticate. Please contact us if you want us to add more providers.
+
+The call for paper form consists of a title for the talk, an abstract, name and
+biography of the speaker, and preferred slot length (20 or 40 minutes, including
+Q&amp;A). We also reimburse travel costs if needed. Since we have a budget to
+work with, we ask for the approximate cost that you want us to reimburse.
+
+{% else %}
+
+{% if data.general.cfpdone %}
+
+The call for papers is now closed. Thank you for all contributions. The confirmed
+speakers are available from the <a href="speakers-and-talks.html">program</a>.
+
+{% else %}
+
+The call for paper has not yet opened. Watch this space to learn when it is open!
+
+{% endif %}
+
+{% endif %}
+
+Thank you for contributing!
+
+<a name="volunteers" class="offsetanchor"></a>
+## Call for Volunteers
+
+foss-north is a small conference, and most of the administration around it is
+done by a very small team. During the actual conference however, we require more
+manpower than that, for registration, speaker introductions, microphone running,
+photography, filming talks, editing filmed talks, handling social media, etc.
+
+If you like free and open source software, and if you want to help out with any
+of the things mentioned above, reach out to <a href="mailto:info@foss-north.se">
+info [at] foss-north.se</a>.  We are not able to pay anything for your help, but
+you'll get a ticket to the conference, and we try to schedule our work so that
+you will be able to attend any talks that are of particular interest to you.
+
+If you are interested in joining the organizing group on a more permanent basis,
+we welcome that, too!
+
+<a name="sponsors" class="offsetanchor"></a>
+## Call for Sponsors
+
+We want to create the meeting space for open source communities in the Nordic
+region. The foss-north event is one step on that path. Nothing of this would be
+possible by the support of our sponsors.
+
+We are looking for sponsors of all sizes to be a part of the foss-north event.
+We offer the following tiers:
+
+<div class="bodytext">
+    <table class="table table-striped">
+    <thead>
+    <tr>
+        <th class="leftalign">Benefit</th>
+        <th>Base</th>
+        <th>Silver</th>
+        <th>Gold</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="leftalign">Cost</td>
+        <td>10kSEK</td>
+        <td>40kSEK</td>
+        <td>75kSEK</td>
+    </tr>
+    <tr>
+        <td class="leftalign">Availability</td>
+        <td>Unlimited</td>
+        <td>Unlimited</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td class="leftalign">Logo and link</td>
+        <td>Yes, small</td>
+        <td>Yes, large</td>
+        <td>Yes, largest</td>
+    </tr>
+    <tr>
+        <td class="leftalign">Mention in keynote</td>
+        <td>&nbsp;</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+    <tr>
+        <td class="leftalign">Appearance in keynote</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>Yes</td>
+    </tr>
+    <tr>
+        <td class="leftalign">Number of free tickets</td>
+        <td>3</td>
+        <td>5</td>
+        <td>10</td>
+    </tr>
+    </tbody>
+    </table>
+</div>
+
+We are also offering a limited number of booths for our sponsors. Please tell us
+if you are interested in this. We also accept niche sponsoring, if you want to,
+for example, sponsor unlimited coffee at the conference.
+
+You find a more detailed information in our
+<a href="sponsorship-2026.pdf">sponsorship prospectus</a>. Prospective sponsors
+are welcome to contacting <a href="mailto:info@foss-north.se">info@foss-north.se</a>.
+
+{% endmarkdown %}
+{% endblock %}

@@ -1,0 +1,15 @@
+#
+# - name: "Project name"
+#   short: pname
+#   url: https://www.some-meetup.com/
+#   description:
+#     - "A map of description"
+#     - "Each element is its own paragraph"
+#   address:
+#     - Several addresses may be added here, please be specific
+#     - Elektronikutvecklingsbyrån EUB AB, Taljegårdsgatan 3B, 431 53 Mölndal
+#   front: true
+#   when: 12:30 - 17:00
+#   lon: 11.9653582
+#   lat: 57.7046889
+#

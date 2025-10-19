@@ -1,0 +1,42 @@
+{% extends "page.html" %}
+
+{% block bodycontents %}
+
+<h1>Tickets</h1>
+
+<p>Get your ticket via the <a href="{{ data.general.ticketsurl }}">ticket registration</a> page (requires the setup of an account).</p>
+
+<p><i>
+The ticket registration process requires you to register using an OpenID source.
+At the moment we support github and Google. If you cannot identify using these
+services we offer a manual process. This means getting the ticket via mail and
+processing the payment via bank transfer. Please notice that this process
+involves a substantial amount of additional work for the organizers so we urge
+you to consider using the standard process which is quicker and easier. To
+request a ticket manually, please email us at info@foss-north.se with the
+subject line "Ticket foss-north {{ confname }}".
+</i></p>
+
+<p>Tickets bought before <strong>{{ data.general.ticketslunchdate }}</strong>
+include morning sandwich, lunch and coffee.  Tickets are still sold until the
+day before the event, but does not include catering. We have ordered more food
+than we’ve sold tickets on {{ data.general.ticketslunchdate }}, so we hope to be
+able to provide food to all participants, but we cannot guarantee this due to
+lead times ordering supplies.</p>
+
+<p>Tickets are sold in the following categories:</p>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="toptitle">Student Ticket</div>
+        <div class="topsub">{{ data.general.conferencedaysdate }}</div>
+        <p><b>{{ data.general.ticketpricestudent }} SEK</b><br />Discounted conference tickets for students. A student ID is required when picking up the event badge.</p>
+    </div>
+    <div class="col-md-6">
+        <div class="toptitle">Conference Ticket</div>
+        <div class="topsub">{{ data.general.conferencedaysdate }}</div>
+        <p><b>{{ data.general.ticketprice }} SEK</b><br />Conference tickets for non-student visitors.</p>
+    </div>
+</div>
+
+{% endblock %}
