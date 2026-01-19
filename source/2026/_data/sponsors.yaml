@@ -5,7 +5,13 @@
 #   url: https://fsfe.org/
 #   level: partner
 # 
-# - name: Swedsoft
-#   short: swedsoft
-#   url: https://swedsoft.se
-#   level: partner
+
+- name: Swedsoft
+  short: swedsoft
+  url: https://swedsoft.se
+  level: partner
+
+- name: Sylog
+  short: sylog
+  url: https://www.sylog.se/
+  level: base
