@@ -15,3 +15,13 @@
   short: sylog
   url: https://www.sylog.se/
   level: base
+
+- name: Elektronikutvecklingsbyrån
+  short: eub
+  url: https://www.eub.se/
+  level: base
+
+- name: HaleyTek
+  short: haleytek
+  url: https://www.haleytek.com/
+  level: silver
