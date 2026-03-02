@@ -589,3 +589,239 @@
   links:
     - title: "Speaker's blog"
       url: "https://blog.alexoglou.com"
+
+- name: "Daniel Stenberg"
+  lastname: "Stenberg"
+  short: dstenberg
+  day: apr28
+  slot: slot1
+  title: "The state of AI, slop and security"
+  abstract:
+    - "TBD, but will follow-up on the keynote Daniel gave at FOSDEM 2026"
+  bio:
+    - "Daniel Stenberg is the founder and lead developer of the curl project. He
+      has worked on HTTP implementations for over twenty years. He has been
+      involved in the IETF for twelve years and he worked on the HTTP stack in
+      Firefox for several years at Mozilla. He participates in the QUIC working
+      group and is the author of the widely read documents \"HTTP2 explained\" and
+      \"HTTP/3 explained\". Employed by wolfSSL."
+  links:
+    - title: "Open Source Security in spite of AI (FOSDEM 2026)"
+      url: "https://fosdem.org/2026/schedule/event/B7YKQ7-oss-in-spite-of-ai/"
+
+- name: "Francisco Picolini" 
+  lastname: "Picolini"
+  short: fpicolini2
+  day: apr28
+  slot: slot2
+  title: "Cloud Sovereignty Is Not a Feature… It’s an Architecture"
+  abstract:
+    - "Cloud sovereignty is often marketed as a checkbox feature. In reality,
+      it’s an architectural discipline. This talk explains why sovereignty cannot
+      be retrofitted onto proprietary platforms—and how open-source cloud stacks
+      allow organizations to design sovereignty by default. We’ll cover data
+      locality, identity control, auditability, and interoperability, showing how
+      architectural choices directly affect legal and operational autonomy."
+    - "Drawing from real deployments, including initiatives aligned with European
+      digital strategy, we’ll demonstrate how OpenNebula enables
+      sovereign-by-design cloud architectures that remain competitive, scalable,
+      and future-proof."
+  bio:
+    - "Madrilenian with an Argentinian accent. Open Source advocate, currently
+      working on promoting sovereign cloud technologies. With extensive experience
+      in developer relations and community building, he has held leadership roles
+      at Mozilla and Codemotion (Italy), driving initiatives that connect
+      technology, innovation, and people."
+
+- name: "Alexandra Betouni"
+  lastname: "Betouni"
+  short: abetouni
+  day: apr28
+  slot: slot3
+  title: "Building Open Source Embedded UIs with Qt & Slint"
+  abstract:
+    - "Qt and Slint both offer powerful open-source paths for creating embedded
+      user interfaces, each with different focuses, strengths, and licensing
+      models. In this talk, we’ll walk through practical examples of building
+      basic UI components in both frameworks and explore the key considerations
+      when adopting them in embedded products. We’ll look at architecture
+      differences, performance implications, development experience, open-source
+      availability, and build-time/runtime footprints. The goal is to help
+      developers understand where each framework fits best in real-world
+      scenarios, so they can make informed decisions aligned with their device
+      constraints and product goals."
+  bio:
+    - "Alexandra is the CEO of Extenly, a UI software consultancy specializing
+      in embedded user interfaces and an official partner for both Qt and Slint.
+      With over a decade of experience in Qt development, she began her career
+      building award-winning UI applications for BlackBerry 10 OS and medical
+      devices. Her journey later took her into the automotive world, where she
+      contributed to Mercedes-Benz’s MBUX system and played a key role in creating
+      Neptune 3 UI, the reference interface for the Qt Automotive Suite."
+    - "A passionate advocate for elegant and maintainable UIs, Alexandra has authored
+      Qt/QML online courses and was recognized as a Qt Champion in 2024 for her
+      contributions to the community. Today, she leads her team in helping
+      companies deliver beautiful, high-performance UIs across automotive,
+      industrial, and IoT sectors."
+
+- name: "Eeshaan Sawant"
+  lastname: "Sawant"
+  short: esawant
+  day: apr28
+  slot: slot4b
+  title: "Europe is breaking up with MS Office: Here's What's Actually Working"
+  abstract:
+    - "EU is moving away from proprietary software at an unprecedented scale,
+      and office suites rank at the top of the list. The shift is real, and it is
+      accelerating. But here is what no one talks about: the open-source document
+      editing experience still has gaps — low fidelity between editors, broken
+      formatting, outdated UI, poor AI integrations, and real-time collaboration
+      that feels bolted on and not built in."
+
+    - "This talk is an honest look at what's still missing in open-source
+      document editors and how ONLYOFFICE is solving it with native OOXML support,
+      provider-agnostic AI support across all editors, real-time co-editing at its
+      core, and a vast integration ecosystem which adds support for various
+      platforms."
+
+    - "Key Takeaways for attendees:<ul>
+      <li>The forces driving Europe's open-source migration
+      <li>The gaps that still hold open-source editors back
+      <li>The importance of AI in document editors
+      <li>How ONLYOFFICE approaches format fidelity and collaboration differently with OOXML based document
+    architecture</ul>"
+
+  bio:
+    - "Eeshaan is a DevRel Engineer at ONLYOFFICE and a CNCF maintainer with
+      four years deep in open source and cloud native. His job? Making technical
+      things a little less technical – or at least, a little less painful"
+
+    - "A seasoned speaker, he's shared stages at APIDays Australia, GNOME Summit
+      Japan, Write the Docs Australia, UbuCon Asia, KubeCon Amsterdam and many
+      more FOSS events across the globe."
+
+    - "Eeshaan loves sharing what he learns, especially around open source. His
+      continuous contributions to the greater open source community have earned
+      him the Dan Kohn Scholarship twice, the LiFT Scholarship, and much more."
+
+    - "Based in India, he spends his off-hours hitting the gym and brewing good
+      coffee. ☕️"
+
+- name: "Gry M. Tveten"
+  lastname: "Tveten"
+  short: gtveten
+  day: apr28
+  slot: slot6a
+  title: "Open source tools for the power sector"
+  abstract:
+    - "The Shyft Open Source project originated in the need for a new framework
+      for doing hydrological forecasts for the power industry in Norway. Later, it
+      was expanded to include tools to help orchestrate power market modeling in
+      an operational context. PyPSA is an open source project that provides
+      everything you need to model power markets and much else related to power
+      markets, except hydrological forecasting and orchestration."
+    - "Combining the two has potential for allowing for fully open source power
+      market modeling with the operational reliability required by industry. This
+      talk will present an example of how you can combine the two frameworks, the
+      challenges related and further development needed"
+  bio:
+    - "TBD"
+
+- name: "Harald Eilertsen"
+  lastname: "Eilertsen"
+  short: heilertsen
+  day: apr28
+  slot: slot7
+  title: "The Duke and the Beastie - Improving OpenJDK support for FreeBSD"
+  abstract:
+    - "The OpenJDK BSD port has been slumbering in an out-of-tree existence for
+      years. About a year and a half ago I was contracted by the FreeBSD
+      Foundation to improve the port on FreeBSD, and ultimately try to get our
+      changes accepted upstream."
+
+    - "In this talk I will present the current state of the project, and a bit
+      about how we got here – but also some lessons learned from taking on such a
+      big project and trying to upstream it."
+  bio:
+    - "Harald Eilertsen is software developer and information security
+      professional. He has been programming computers since the early 1980's, and
+      has worked for companies like Tandberg, Cisco, Modirum and Automattic. He is
+      currently self employed and working as a contractor for the FreeBSD
+      Foundation and others."
+    - "He is a core contributor to the Hubzilla open source project and a
+      FreeBSD ports committer."
+  links:
+    - title: "Fediverse: harald@hub.volse.no"
+      url: "https://hub.volse.no/@harald"
+
+- name: "Evilham"
+  lastname: "Evilham"
+  short: evilham
+  day: apr28
+  slot: slot9
+  title: "Running a FOSS associative ISP"
+  abstract:
+    - "Whether neighbourhood mesh networks, Fiber To The Home or Data Center
+      services: eXO.cat, a Barcelona-based associative ISP, offers these as a
+      volunteer-run entity with a decision-making process marked by general
+      assemblies and consensus amongst smaller workgroups."
+
+    - "We would like to share how we operate with FOSS, community, transparency
+      and openness as core values, leading to a stable entity that helps promote
+      other software and community projects."
+  bio:
+    - "Evilham does computer things professionally and for fun things like
+      pottery, swimming, singing, dancing or learning Euskara. As the current
+      treasurer of eXO.cat, Evilham helps with many things behind the scenes as
+      well as other more “traditionally technical” tasks."
+
+- name: "Eirik Øverby"
+  lastname: "Øverby"
+  short: eoeverby
+  day: apr28
+  slot: slot10
+  title: "Dirty Tricks: Using nginx and Lua to thwart bots and skript kiddies"
+  abstract:
+    - "(Or: Fighting denial-of-service for fun and profit.)"
+    - "<b>For fun</b>"
+    - "I want to run a BBS on an old 386 machine, but exposing it to the Internet via Telnet will turn any drive-by portscan into a potential DoS (not DOS). I'm sure we've all been there. Right?"
+    - "<b>For profit</b>"
+    - "Someone realises that throwing hundreds of thousands of TLS handshakes
+      per second at us is worth it, and I don't have more CPU to throw at the
+      problem. That's what we get for placing ourselves in the line of fire, I guess?"
+    - "<b>Dirty tricks</b>"
+    - "So what can be done about this? Well it turns out that with Lua and
+      Nginx, I can solve both problems. Join me for a brief excursion into the
+      world of retro-BBSes, an introduction to some Internet Scumbags and their
+      shenanigans, and some possible solutions to these problems."
+    - "I'm not an active Lua coder, and I don't know nginx nearly well enough
+      despite having used it for 15 years. So here's fair warning: Anyone who
+      actually knows these things may catch a bout of nausea."
+  bio:
+    - "Model '77, Slackware-gone-BSD in the early 00s, escaped the dying world
+      of OS/2 to be doomed to death by Netcraft for another decade. Now managing
+      jailed (but not dead!) systems for a living and as a hobby."
+    - "Mid-life crisis topic: Retro PCs."
+    - "~ love over gold ~"
+
+- name: "Tobias Olausson"
+  lastname: "Olausson"
+  short: tolausson
+  day: apr28
+  slot: slot14
+  title: "Closing foss-north 2026"
+  abstract:
+    - "A summary of the conference and a quick wrap-up"
+  bio:
+    - "Tobias is head of the organizing committee for foss-north"
+
+# - name: 
+#   lastname:
+#   short: 
+#   day: apr28
+#   slot: slot1
+#   title: 
+#   abstract:
+#     - ""
+#   bio:
+#     - ""
