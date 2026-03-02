@@ -36,12 +36,556 @@
 #       on cURL. Besides cURL, he's participating within IETF and gives talks
 #       about open source and internet things."
 
-#- name:
-#  lastname:
-#  short:
-#  title:
-#  abstract:
-#    - ""
-#  bio:
-#    - ""
-#
+- name: Lars Wirzenius
+  lastname: Wirzenius
+  short: lwirzenius
+  day: apr27
+  slot: slot1
+  title: Distributed CI with Radicle and Ambient
+  abstract:
+    - "Centralized systems are either vulnerable or tools of oppression. GitHub,
+      for example, has closed accounts of people from countries the US doesn't
+      like, or removed specific repositories Microsoft or their business partners
+      don't like. When GitHub is down, software development around the world slows
+      down. This has severe consequences for the impacted people, because GitHub
+      is the expected location of much of the world's open source software. It is
+      time to break this dependency on GitHub."
+
+    - "Radicle is an open-source, peer-to-peer collaboration system for software
+      development built on top of Git. It does not require any centralized system.
+      Radicle CI builds on top of Radicle to offer continuous integration, even
+      distributed CI, again without centralized servers. Distributed CI means that
+      anyone can run CI for any public project they choose and projects can choose
+      to trust specific CI nodes. Nobody has to use a specific single server for
+      CI. At the same time, it's easy to provide CI capacity for specific projects
+      that need it."
+
+    - "This talk explains the concepts of Radicle and its CI support using the
+      Ambient CI engine. Ambient is designed to make it safe and secure to run CI
+      on other people's code, without having to trust the authors of that code or
+      any of the dependencies they use."
+
+    - "This talk will give the audience a high level understanding of Radicle,
+      Radicle CI, and Ambient. There will be a live demonstration. The talk will
+      contain a project status update (\"How do you compete with Microsoft's
+      billions sponsoring 'free-for-open-source' to create vendor lock-in?\") and
+      near future plans."
+
+    - "This talk is aimed at all open source developers who are curious about decentralized Git."
+  bio:
+    - "Lars has been programming for over forty years, mostly open source. He
+      has code running on all continents on Earth and on Mars. He contributed to
+      the Linux kernel before it was called that. He was part of the Debian
+      project for a very long time. He now works on Radicle, the distributed Git
+      forge, and its CI support. In his free time he drinks too much tea and
+      obsesses about minute details about implementing backup software."
+
+- name: Jose E. Marchesi
+  lastname: Marchesi
+  short: jmarchesi
+  day: apr27
+  slot: slot2
+  title: "The GNU Algol 68 Project"
+  abstract:
+    - "Back in 2011, during a FSCONS in Gotheborg, I threatened to bring Algol
+      68 back to life, speculating that the world may be finally ready for it.
+      Fourteen years later, the time has finally come."
+    - "Algol 68 was designed by the Working Group 2.1 of the International
+      Federation for Information Processing (IFIP) during the late 1960s and early
+      1970s, leaded by Adriaan van Wijngaarden. The goal of the working group was to
+      provide a programming language suitable to communicate algorithms, to execute
+      them efficiently on a variety of different computers, and to aid in teaching
+      them to students. The resulting language was in principle expected to be an
+      evolved version of Algol 60, known shortcomings addressed, and generally
+      improved. However, what was initially supposed to be an improved version of
+      Algol 60 turned out to be something very different: an extremely powerful
+      programming language, more modern and more expressive than most programming
+      languages today, whose design exercised almost to the limit the newly invented
+      notion of orthogonality in programming languages. Algol 68 is not like Algol
+      60, an important but old fashioned programming language superseded in almost
+      every aspect by its successors, only relevant nowadays as a historical
+      curiosity. Despite of many people claiming otherwise, Algol 68 has no
+      successors."
+    - "The GNU Algol 68 Working Group is a group of hackers whose purpose is to
+      bring Algol 68 back to the first line of programming where it belongs, to
+      provide modern implementations of the language well integrated in today's
+      operating systems and computers (like the GCC Algol 68 front-end), to
+      produce documentation to help people to learn this fascinating language, and
+      to explore extensions and evolve the language with the rigor, respect and
+      seriousness that it deserves and demands."
+    - "In this talk we will introduce the GNU Algol 68 Working Group, who we are
+      and what we are up to. The talk will mainly focus on the GCC Algol 68
+      Front-End, but we will also briefly look at some of the other projects we
+      do, such as the Algol 68 support in the autotools, the a68 Emacs mode, the
+      Algol 68 Jargon File, etc, as time allows."
+  links:
+
+    - title: "Slides for the FSCONS 2011 Algol 68 talk"
+      url: "https://www.jemarch.net/back-to-the-future-a68.pdf"
+    - title: "Algol 68 and GNU A68 WG homepage"
+      url: "https://algol68-lang.org"
+    - title: "GCC Algol 68 Front-end development homepage"
+      url: "https://gcc.gnu.org/wiki/Algol68FrontEnd"
+    - title: "Recording of the GCC Algol 68 Front-End talk done in Cauldron 2025"
+      url: "https://www.youtube.com/watch?v=3aMwC24EcJk"
+    - title: "Slides of the GCC Algol 68 Front-End talk done in Cauldron 2025"
+      url: "https://conf.gnu-tools-cauldron.org/media/opo25/submissions/VMJQCK/resources/ga68-an-algol68-fron_urUt45Q.pdf"
+  bio:
+    - "GNU hacker and maintainer. Currently employed by Oracle as their Technical
+      Lead of the Compilers and Toolchain team."
+
+- name: Jimmy Ahlberg
+  lastname: Ahlberg
+  short: jahlberg
+  day: apr27
+  slot: slot3a
+  title: "Talking tech to legal: part 2"
+  abstract:
+    - "The speakers have long experience in talking tech to legal and legal to
+      tech. In this talk we will present common mistakes, misconceptions and
+      present an easy strategy to ease the communication between your legal team
+      and your engineers."
+  links:
+    - title: "How to talk to your lawyer about FOSS (foss-north 2025)"
+      url: "https://www.youtube.com/watch?v=2JWCw3S7yHs"
+  bio:
+    - "TBD"
+
+- name: "Gerhard de Clercq"
+  lastname: de Clercq
+  short: declercq
+  day: apr27
+  slot: slot3b
+  title: "Litterbox: Somewhat Isolated Development Environments"
+  abstract:
+    - "This presentation will introduce litterbox.work, a new open source
+      utility for more secure software development inside sandboxes. Litterbox
+      leverages Podman to easily create and manage sandboxes which provide some
+      isolation between a host and a development environment. The goal here is to
+      minimise damage in the event of a supply chain attack or similar."
+
+    - "The presentation will cover the motivation for and inner workings of
+      Litterbox alongside a discussion of how its developer currently uses it for
+      their own development work."
+  bio:
+    - "Gerhard currently works as an Embedded and Digital Systems Engineer at
+      LNF in Gothenburg. He has a broad background in electronics spanning both
+      software and hardware domains. However, he is most passionate about the
+      intersection between these domains."
+
+- name: Olle E. Johansson
+  lastname: Johansson
+  short: ojohansson
+  day: apr27
+  slot: slot4a
+  title: "SBOM today: What is the state of SBOMs?"
+  abstract:
+    - "The EU Cyber Resilience Act is built around supply chain security with an
+      SBOM in the middle of it all. What is an SBOM? What's the problem it is
+      trying to solve and what is the status of the world of SBOMs?"
+
+    - "Olle will take you through what the expectations are and where the
+      reality is today, and give some practical examples on open source tools to
+      use."
+
+  bio:
+    - "Olle is active in OWASP, OpenSSF, ORCWG and in his own garden during
+       summer. He is also co-founder of the SBOM Europe project"
+
+- name: "Bogomil Shopov"
+  lastname: "Shopov"
+  short: bshopov
+  day: apr27
+  slot: slot5
+  title: "Disobey: FOSS tools to fight back and their adoption."
+  abstract:
+    - "Everyone is trying to control your communication. The reasons vary from
+      simple curiosity to pure commercial interest, all the way to using it to
+      control one's thoughts."
+
+    - "Are there any ways to fight back, and why are free software and open-source
+      tools a good alternative to the ones you use?"
+
+    - "As cypherpunks, do we have the obligation to help people be ready for the worst,
+      or should we only take care of ourselves? As a FOSS community do we do enough
+      for the adoption of those protection mechanisms with our friends, family and the
+      rest of the world?"
+
+    - "In this talk, I will cover my experience with fighting back against #chatcontrol
+      - what I have learned and what happened after I decided to give up. (a very
+      short overview). Instead of losing my dignity and time with politicians, I
+      decided to teach people how to fight back!"
+
+    - "<ul>
+        <li>The first part of my talk covers terms like zerotrust and what decentralization is.
+        <li>The second contains smart words and foss tools to protect your communication.
+        <li>The third leads you through a journey to fight the smartphone zombies by using alternative services.
+        <li>The fourth part will share some learning I had for trying people to adopt those protection mechanisms.
+      </ul>"
+
+    - "Take a notebook on paper to write some of it down."
+  bio:
+    - "Human. Artist. Hacker. Metalhead."
+
+    - "I’ve spent 20+ years in technology and 50+ in being human. I care deeply
+      about free and open-source software, cybersecurity, ethical design, privacy,
+      and tech that serves people. Through heavy metal and technology, I inspire
+      others to become better humans, and remind creators to build tech that’s
+      kind to us."
+
+    - "I fosstribute to Firefox, Thunderbird and OpenStreetMap. I do not
+       represent any company!  Bulgarian living in Prague. I run a Creative
+       Commons-licensed theater show that encourages people to change the world."
+  links:
+    - title: "Fediverse @bogo@hapyyr.com"
+      url: "https://hapyyr.com/@bogo"
+
+- name: "Jelina Unger"
+  lastname: unger
+  short: junger
+  day: apr27
+  slot: slot4b
+  title: "Hybrid Multi Factor Authentication: Balancing On‑Premise Control and Cloud Integration with privacyIDEA"
+  abstract:
+    - "Passwords get compromised every day, and reports of hacked accounts are
+      increasingly prevalent. Clearly, multi-factor authentication (MFA) is the
+      answer to enhancing security for both individuals and organizations.
+      However, the challenges of setting up and managing second-factor
+      authentication across multiple applications can be burdensome for IT
+      departments, consuming valuable resources and time."
+
+    - "This talk introduces privacyIDEA, a robust MFA management system that
+      centralizes the management of tokens across various applications, allowing
+      for seamless reuse across different logins. This unified approach not only
+      reduces the management overhead for IT departments but also significantly
+      enhances the user experience."
+
+    - "privacyIDEA is designed for versatility, accommodating a broad spectrum
+      of system requirements, which allows configurations to be tailored to meet
+      specific organizational needs. As a deliberately on-premise solution, it
+      empowers organizations to retain control over their data and systems.
+      Meanwhile, the increasing shift towards cloud-based systems raises critical
+      questions regarding the continued relevance of on-premise solutions."
+
+    - "In contrast to our talk from last year, we will explore in this talk the
+      ongoing importance of on-premise solutions alongside the significance of
+      cloud systems. We will discuss the challenges of integrating these two
+      environments, illustrating our approach with EntraID as an example to
+      demonstrate how privacyIDEA maintains flexibility, allowing for both an
+      on-premise-only authentication system and hybrid environments."
+  bio:
+    - "Jelina is a software engineer who has been working on the open-source
+    multi-factor authentication management system, privacyIDEA, for nearly two
+    years. She holds both a bachelor's and a master's degree in medical
+    engineering with a focus on computer science. Her interest in cybersecurity
+    grew during her studies and led her to contribute to the privacyIDEA
+    project."
+  links:
+    - title: "Centrally managed MFA with privacyIDEA (foss-north 2025)"
+      url: "https://www.youtube.com/watch?v=Wf-_w8J9jsg"
+
+- name: "James Lowden"
+  lastname: "Lowden"
+  short: jlowden
+  day: apr27
+  slot: slot6
+  title: "The Once and Future COBOL"
+  abstract:
+    - "GCC 15 for the first time included COBOL among the languages it compiles."
+    - "The reader may well wonder why a small company would devote years of
+      development to produce a product they don't own and can't sell. The reader
+      might also wonder why GCC decided to include COBOL. In short, what use is
+      COBOL?"
+    - "To those questions and more, we have answers."
+    - "As Mark Twain said of himself, news of COBOL's demise is much
+      exaggerated. Industry studies show billions of lines of COBOL still in
+      production. With a probability of 95%, your last ATM transaction went
+      through a COBOL application. Not for nothing did nearly every large firm
+      pull out all the stops 30 years ago to add two digits to the date, to adapt
+      their critical software to the 21st century. They didn't do that to throw it
+      all away. It still chugs along."
+    - "COBOL remains useful because it was specifically designed for its problem
+      domain. No language is better suited for nuts-and-bolts unglamorous data
+      processing. For example, COBOL defines an I/O model, numerical precision, 8
+      forms of rounding, and over 100 runtime exceptions."
+    - "Programming languages often have shallow, undeserved reputations. Lisp
+      has too many parentheses, COBOL too many words, Perl is write-only. Let's
+      talk about why COBOL remains viable and vital, and why it's now part of
+      GCC."
+  bio:
+    - "James spent most of his career on Wall Street in quantitative research
+      systems and databases. Today he's leads the GCC COBOL project, building a
+      ladder to let companies escape their walled gardens."
+    - "James lives on the seacoast of Maine now, where he works from home and
+      spends his free time in the summer, never enough, sailing the Penobscot
+      Bay."
+
+- name: Bassem Nomany
+  lastname: Nomany
+  short: bnomany
+  day: apr27
+  slot: slot7
+  title: "Using FOSS to Protect Embedded Systems Data in Transit"
+  abstract:
+    - "Modern embedded systems are no longer isolated devices sitting quietly on
+      a PCB. They are connected systems. They talk to the cloud. They talk to each
+      other. They talk to mobile apps, gateways, factory networks, vehicle ECUs,
+      and backend services."
+
+    - "FOSS does not make your system secure automatically. It gives you tools.
+      Security only exists if you configure, integrate, and maintain those tools
+      correctly."
+
+    - "In this talk, we’re going to explore how to use FOSS stacks in both
+      Zephyr and Linux-based embedded platforms to protect data in transit across
+      multiple networking layers with defense in depth."
+
+    - "We’ll look at different protection strategies at each layer of the stack,
+      including application layer encryption with TLS and mTLS, network-layer
+      protection with IPSec, link-layer security with MACSec, and segmentation and
+      policy enforcement through firewall strategies — and how to choose the right
+      combination using threat analysis and risk assessment."
+  bio:
+  - "Bassem has 13+ years of experience in embedded HW/SW development and has
+    served as team Lead & Architect for Daimler's next-gen Infotainment platform
+    and been a lead SW architect in several Auto OEM projects. He understands the
+    power of free open source projects to make awesome products and contribute
+    back."
+
+  - "He specializes in: Resource constrained IoT devices and RTOS. Rich UX
+    Rich information and media systems."
+
+- name: "David Runge"
+  lastname: "Runge"
+  short: drunge
+  day: apr27
+  slot: slot8a
+  title: "Signing distribution artifacts with Signstar"
+  abstract:
+    - "Digital signatures are used in many contexts to guarantee the
+      authenticity of a specific artifact, that is provided by a Linux
+      distribution. Artifacts of distributions may be package files, repository
+      metadata, installation media, or verified boot loader components for UEFI."
+
+    - "When issuing digital signatures, it is pivotal to secure the private key
+      material and ensure, that no unauthorized entities gain access to it.
+      Community-driven distributions, similar to other small-scale social groups
+      in software development, are usually funded by donations and are organized
+      in a decentralized manner. For artifact signing this often leads to using
+      cost effective, centralized approaches (subjective to vendor lock-in), or
+      fully automated, but unsafe approaches (which may expose private key
+      material), and/or relying on single individuals to do the task
+      (semi-)manually."
+
+    - "The Signstar project provides Rust-based tooling for creating a custom,
+      image-based operating system, that is used for the secure signing of
+      artifacts. Based on modern cryptographic standards, cost effective HSM
+      backends and the avoidance of central authority, it allows also small-scale
+      development groups to create safe signing environments for their particular
+      needs."
+
+    - "This talk will provide a high level overview of the Signstar project, its
+      various components and in what contexts it can be used."
+
+    - "This talk is aimed at members of Linux distributions, as well as
+      small-scale software development groups, that have a need for digital
+      signing of their artifacts."
+  bio:
+    - "I am a self-employed software developer, that works on projects related
+      to Arch Linux. Here, my field of interest is package management, as well as
+      cryptographic signing and verification."
+
+- name: "Ishan Jain"
+  lastname: "Jain"
+  short: ijain
+  day: apr27
+  slot: slot9a
+  title: "What did AI just do? Making LLMs Observable with OpenTelemetry"
+  abstract:
+    - "AI systems don’t crash; they misbehave. And when they do, logs and
+      metrics alone won't tell you why. Whether you're building with GPT,
+      open-weight models, or RAG pipelines, one question keeps coming up in
+      production: “What did the AI just do?”, “Why did it respond that way?”, “Why
+      is this prompt slower than before?”, “Why did our bill triple overnight?”"
+
+    - "This talk is about making AI systems observable, not just at the infrastructure
+      layer, but at the model behavior layer. Using OpenTelemetry and open-source
+      tooling like Jaeger and Prometheus, we’ll walk through how to trace prompts,
+      monitor costs, detect drift, and correlate weird model behavior with your
+      application flow. If you're deploying AI into real systems and want visibility
+      that goes beyond “Something went wrong”, this talk will give you the
+      frameworks and tools to stop guessing and start understanding."
+  bio:
+    - "An ex-rocket science student turned SRE and now a Developer Experience
+      Engineer at Grafana Labs, I am a core maintainer for the Grafana Ansible
+      Collection and the Grafana Operator, with over 2 million downloads
+      combined."
+
+- name: "Francisco Picolini"
+  lastname: "Picolini"
+  short: fpicolini
+  day: apr27
+  slot: slot8b
+  title: "Multi-Cloud Without the Myth: What Actually Works in Practice"
+  abstract:
+    - "“Multi-cloud” is often sold as a silver bullet—but in practice, it’s
+      complex, expensive, and frequently misunderstood. This talk cuts through the
+      hype and focuses on what actually works. We’ll break down real multi-cloud
+      and hybrid patterns that succeed, why others fail, and how open-source
+      platforms like OpenNebula enable interoperability without duplicating
+      complexity. If you’ve been promised multi-cloud freedom and delivered
+      operational pain, this session will resonate."
+  bio:
+    - "Madrilenian with an Argentinian accent. Open Source advocate, currently
+      working on promoting sovereign cloud technologies. With extensive experience
+      in developer relations and community building, he has held leadership roles
+      at Mozilla and Codemotion (Italy), driving initiatives that connect
+      technology, innovation, and people."
+
+- name: "Henrik Sandklef"
+  lastname: "Sandklef"
+  short: hsandklef
+  day: apr27
+  slot: slot9b
+  title: "License Compliance 101"
+  abstract:
+    - "In this talk I will go through copyright, license, FOSS licenses
+      compliance, compatibility, common mistakes"
+    - "The talk will serve as an introduction to beginners but also as a
+       heads-up for non-beginners that there be are dragons here"
+  bio:
+    - "Born. Then grew up. Then got older"
+
+- name: "Magnus Hagander"
+  lastname: "Hagander"
+  short: mhagander
+  day: apr27
+  slot: slot10
+  title: "PostgreSQL Don'ts and Dos."
+  abstract:
+    - "PostgreSQL continues to be one of the most popular choices to back
+      applications today. And in this, a lot of people end up running with
+      unadjusted defaults or bringing over both application and database tuning
+      from experiences with other systems. In this presentation we'll go over some
+      of the more common mistakes or suboptimisations I've come across when
+      working with many different clients over the past couple of years, and what
+      to do to adjust them. I twill be covered with a mix of developer and DBA
+      perspectives, as these often go hand in hand."
+  bio:
+    - "TBD"
+
+- name: "Jeremiah Foster"
+  lastname: "Foster"
+  short: jfoster
+  day: apr27
+  slot: slot11
+  title: "Modern Email"
+  abstract:
+    - "IETF's charter says: \"Internet Messaging (“email”) is one of the oldest
+      applications still supported by the IETF. It consists of numerous layers and
+      extensions that support the robust construction, transport, retrieval, and
+      interpretation of messages.\""
+
+    - "Email is foundational to the modern internet but has not changed much
+      until recently. With the growing interest in self-hosting and sovereignty,
+      there is a renewed effort around email both from organizations like ICANN
+      and the IETF, as well as new open source and Free Software for serving,
+      sending, and reading email."
+
+    - "Collaboration tools are also expected by email clients as well so email
+      servers have to support much more than \"just\" email, they have to support
+      logging in to distributed systems, encryption, files, calendars, contacts,
+      and even arbitrary blobs."
+
+    - "The underlying technologies and protocols for email are changing too.
+      SMTP and IMAP are complex, showing their age, and scale poorly. The new JMAP
+      standard shows promise and will hopefully remove some cruft. Even mbox and
+      Maildir are on their way out as email servers scale to billions and adopt
+      object storage, key/value stores, and more modern databases. Even PGP has a
+      new implementation in Rust called Sequoia which improves security of email
+      via memory safety. Spam fighting is key to modern email and there are new
+      techniques and tools like Rspamd."
+
+    - "We'll do a quick survey of what's available in terms of Mail Transfer
+      Agents (MTAs) and Mail User Agents (MUAs) including Webmail. We'll briefly
+      touch on Collaboration servers as well."
+
+    - "Lastly, we'll take a look at some of the things the future might bring
+       and point to some RFCs so that one can create one's own tools."
+
+  bio:
+    - "TBD"
+
+- name: Ludovic Dubost
+  lastname: Dubost
+  short: ldubost
+  day: apr27
+  slot: slot12
+  title: "CryptPad: End to End encrypted collaboration can be easy to use"
+  abstract:
+    - "CryptPad is a collaborative office-suite that is end-to-end encrypted and
+      fully open-source."
+
+    - "The project has been operating for over 10 years and has:<ul>
+      <li>more than 2000 instances installed in the World
+      <li>a flagship instance with free and paying usage at CryptPad.fr with
+          more than 3M pads open per month by more than 300k users
+      <li>many NGO using CryptPad to protect their forms thanks to the e2ee CryptPad Forms</ul>"
+
+    - "In this talk we will introduce the product and its suite of applications.
+       We will highlight some important aspects of CryptPad:<ul>
+       <li>privacy is important and end to end encryption is key to achieve it
+       <li>end-to-end encrypted collaboration can have a familiar UI/UX
+       <li>end-to-end encrypted collaboration can be easy to use</ul>"
+
+    - "We will also present the recent achievements of the project, the
+      financial situation of the project and our plans looking ahead."
+  bio:
+    - "Creator of XWiki and CEO of XWiki SAS, I'm the gentle organizer of the
+      XWiki SAS company for now 20 years, and lead the business side of the
+      CryptPad project."
+
+    - "XWiki SAS, a European company based in France and Romania, only building
+      free & open-source software leads the development of the XWiki Software
+      used by thousands of organizations and helps companies and organizations
+      all over the world organize, share, and collaborate on content. XWiki also
+      leads the development of CryptPad, the E2EE Real-time Collaborative
+      Suite, including Simple pads, Office document Editors, Drive, Online Forms
+      and more."
+
+    - "A graduate of Ecole Polytechnique (X90) and Telecom Paris (95), I started
+      my career as a software architect for Netscape Communications Europe. After
+      being a CTO of an Internet usage analysis startup during the Internet Bubble
+      and understanding how it works, I joined the FOSS movement."
+
+    - "I've been a speaker at various events including Paris Open Source
+      Experience, FOSDEM, OW2 Conference, JDLL, Capitole du Libre, speaking about
+      Collaboration Software, Financing FLOSS software and Privacy Solutions."
+
+    - "I'm also member of the OpenFoodFacts board."
+  links:
+    - title: XWiki Software
+      url: https://xwiki.org
+    - title: Cryptpad
+      url: https://cryptpad.org
+
+- name: "Costa Alexoglou"
+  lastname: "Alexoglou"
+  short: calexoglou
+  day: apr27
+  slot: slot13
+  title: "Building a pair-programming app in public with Rust"
+  abstract:
+    - "This talk explores what it takes to build an open-source remote
+      pair-programming desktop app. While building Hopp, we learned valuable
+      lessons; from measuring video latency to understanding WebRTC internals and
+      encoders."
+
+    - "We'll also discuss the attention economy and how pair-programming can
+      help combat our fragmented attention spans."
+  bio:
+    - "An Engineer at Grafana Labs, he is passionate about crafting the future of observability."
+    - "Also one of the main maintainers of Hopp, the best OSS remote pair-programming app."
+  links:
+    - title: "Speaker's blog"
+      url: "https://blog.alexoglou.com"
