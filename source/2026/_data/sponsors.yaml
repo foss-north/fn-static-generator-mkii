@@ -11,6 +11,11 @@
   url: https://swedsoft.se
   level: partner
 
+- name: Kube.Events
+  short: kube_events
+  url: https://kube.events
+  level: partner
+
 - name: Sylog
   short: sylog
   url: https://www.sylog.se/
