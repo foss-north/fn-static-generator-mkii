@@ -9,7 +9,14 @@
     <a name="{{ speaker.short }}" class="offsetanchor"></a>
     <div class="row speakerrow">
         <div class="col-md-3">
-            <div class="speaker-photo"><img class="sp-image" src="images/speaker-{{ speaker.short }}.png" alt="{{ speaker.name }}"></div>
+            <div class="speaker-photo">
+                {% set speak_img = "images/speaker-" + speaker.short + ".png" %}
+                {% if path_exists(speak_img) %}
+                    <img class="sp-image" src="images/speaker-{{ speaker.short }}.png" alt="{{ speaker.name }}">
+                {% else %}
+                    <img class="sp-image" src="images/speaker-dummy.png" alt="{{ speaker.name }}">
+                {% endif %}
+            </div>
         </div>
         <div class="col-md-9">
             <div class="name">{{ speaker.name }}</div>
