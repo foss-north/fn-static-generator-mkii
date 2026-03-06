@@ -754,6 +754,78 @@
     - title: "Fediverse: harald@hub.volse.no"
       url: "https://hub.volse.no/@harald"
 
+- name: "Alvin"
+  lastname: "alvin"
+  short: alvin
+  day: apr28
+  slot: slot6b
+  title: How computers scribble
+  abstract:
+    - "Ever wondered how your scribbles on Snapchat turn into a smooth line, or
+      how the pen tool works in Figma or Procreate? In this talk we'll dive into
+      the invisible art of line-drawing algorithms, and more."
+
+    - "We'll start from the historical pixel-based methods to the tools that we
+       use today, wrapping up with real-world examples."
+
+    - "We'll answer questions like:<ul>
+      <li>How do apps turn your scribbles into smooth lines?
+      <li>How do Bézier curves work?
+      <li>What's in a font?
+      <li>How do computers do colours?
+      </ul>"
+
+    - "The techniques described are evergreen, timeless and platform-agnostic."
+  bio:
+    - "Alvin is a developer advocate at Yoto working in IoT audio. Before that
+      he did developer relations for Unleash and Contentful, focusing on feature
+      flags and headless CMS."
+
+    - "Previously, he was a lead engineer for Dow Jones at the Wall Street
+      Journal and had various front-end roles over 8 years working on graphics,
+      maps, games, and 3D. He’s happiest working on visual challenges with
+      designers."
+
+- name: "Emiel Brok"
+  lastname: "Brok"
+  short: ebrok
+  day: apr28
+  slot: slot8
+  title: "Open by Choice, Sovereign by Design"
+  abstract:
+    - "Digital sovereignty is no longer just a strategic preference; in 2026, it
+      is a regulatory imperative. While the \"why\" of sovereignty is clear, the
+      \"how\" remains a challenge for many European enterprises."
+
+    - "In this session, we explore how open source is uniquely positioned to
+      deliver true autonomy. We will move beyond theory to discuss the practical
+      implementation of transparency and reusability, focusing on:<ul>
+      <li>Policy as a Catalyst: How Open Source facilitates compliance with the
+      Cyber Resilience Act (CRA) and NIS2.
+      <li>Security through Collaboration: Enhancing resilience by leveraging the
+      \"Power of Many.\"
+      <li>Measuring Mastery: A practical look at how organizations can use the
+      Cloud Sovereignty Framework (CSF) to assess their current posture across
+      8 key objectives—from supply chain to data & AI.
+      </ul>"
+
+    - "Attendees will be introduced to a privacy friendly assessment tool that
+      allows them to benchmark their sovereignty score against EU standards and
+      generate an actionable gap-analysis report. Let’s Dance, not Fight!"
+  bio:
+    - "Emiel Brok is a seasoned Digital Sovereignty & Open Source Ambassador,
+      and a prominent voice in the European FOSS ecosystem. He is actively
+      involved in DOSBA (Dutch Open Source Business Association) and APELL
+      (European Association of Next Generation IT Providers), where he works at
+      the intersection of policy, community, and business strategy to promote
+      European digital autonomy."
+
+    - "Known for his high-energy delivery and ability to translate complex
+      regulatory frameworks (like CRA and NIS2) into actionable human stories,
+      Emiel is a frequent speaker at international events. He is a passionate
+      advocate for the \"Power of Many,\" encouraging the ecosystem to move past
+      compliance hurdles and embrace a philosophy of \"Let’s Dance, not Fight!\""
+
 - name: "Evilham"
   lastname: "Evilham"
   short: evilham
@@ -803,6 +875,89 @@
       jailed (but not dead!) systems for a living and as a hobby."
     - "Mid-life crisis topic: Retro PCs."
     - "~ love over gold ~"
+
+- name: "Glenn Eriksson"
+  lastname: "Eriksson"
+  short: geriksson
+  day: apr28
+  slot: slot11
+  title: "Digital disruption in the public transport sector through open source community engagement"
+  abstract:
+    - "The public transport sector is mostly a traditional sector with an
+      oligopolistic market situation for system solutions for travel planning and
+      ticketing. The lock-in and dependency to few system vendors in Europe
+      stifles innovation and impedes initiatives to make public transport more
+      attractive. But in the Nordic countries, public transport agencies (PTA)
+      choose an alternative path to overcome system vendor dependency through open
+      source and by engaging in community development. By choosing open source and
+      engaging in community development they achieved political objectives to make
+      public transportation an attractive alternative to car travelling. Our
+      qualitative study interviewed 13 persons from 5 different PTAs, freelancers
+      and consultants firms in the Nordics, entailing an alternative pathway which
+      digitally disrupted the regional or national public transport market."
+
+    - "Our study presents a model on how organisations can co-evolve with the
+      open source community through long-term engagement to access
+      state-of-the-art digital technology and foster innovation. The model depicts
+      a cumulative process that yields better opportunities the longer and deeper
+      the engagement becomes. This enables digital transformation outcomes such as
+      access to a global pool of knowledge, agile and adaptive value-creation,
+      open innovations processes, partnership and synergy opportunities. The talk
+      will present the findings from the study and how the model can be used as a
+      tool to better understand and depicts the organisational alignment process,
+      the inner mechanism and the possible transformative outcome of engaging in
+      open source community development. Our findings demonstrate that also large
+      traditional organisation within the transport sector can partially foster
+      digital transformation capabilities through departmental engagement in
+      community development which can radiate to other parts of the organisation.
+      This entails alternative pathways for traditional organisation that are
+      under demand to digitally transform. But this requires sustained resource
+      investment and loyalty to community objectives to gain influence and trust,
+      to access deeper collaboration and innovation opportunities. The session
+      ends with discussion and Q &A about obstacles, possibilities and strategies
+      when engaging in open source community development. Especially concerning
+      the public sector on how they can be more involved and engage in community
+      development."
+  bio:
+    - "Researcher focusing on open source community development and how
+      participation can facilitate building digital transformations capabilities
+      and foster engagement in open innovation processes."
+
+- name: "Johan Linåker"
+  lastname: "Linåker"
+  short: jlinaker
+  day: apr28
+  slot: slot13
+  title: "Digital sovereignty through open source – Europe’s strategic opportunity"
+  abstract:
+    - "Digital sovereignty—the ability to control and influence one’s digital
+      future and infrastructure—is increasingly at the centre of political and
+      technological agendas. Recent signals, such political signals and shifts in
+      attitude toward non-European cloud providers, underscore a broader momentum.
+      While governments pursue different and sometimes overlapping strategies,
+      open source consistently emerges as a key enabler. Through open strategic
+      autonomy, sovereignty can be gained while fostering interoperability, reuse,
+      and collaboration. Open source provides a path to influence without
+      requiring exclusive ownership, balancing self-reliance with global
+      interconnectedness."
+
+    - "However, leveraging open source effectively requires capabilities and
+      know-how across society and industry. This implies actions at multiple levels:
+      cross-cutting training and workforce development, sustainable business
+      ecosystems, supportive policies and OSPO structures in both public and
+      private sectors, long-term procurement strategies, targeted government
+      facilitation and funding, and investments in the maintenance of foundational
+      technologies. Strategic planning is essential to align these capabilities
+      with societal and industrial goals. This talk will delve into how Europe can
+      grow Digital sovereignty through open source, and leverage the strategic
+      opportunity it provides."
+  bio:
+    - "Johan is a senior researcher at RISE Research Institutes of Sweden with
+      focus and passion for open source software, data, gov and innovation.
+      Co-founder and community manager for NOSAD.se."
+  links:
+    - title: "NOSAD.se"
+      url: "https://nosad.se"
 
 - name: "Tobias Olausson"
   lastname: "Olausson"
