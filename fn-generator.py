@@ -39,11 +39,16 @@ for file in os.listdir(os.path.join(inputdir, '_source/')):
         pages.append(page)
 data['pages'] = pages
 
+def path_exists(path):
+    bigpath = os.path.join(outputdir, path)
+    return os.path.exists(bigpath)
+
 # Create jinja2 environment
 environment = Environment(
         loader = FileSystemLoader([os.path.join(inputdir, '_source'), os.path.join(inputdir, '_includes')])
     )
 environment.add_extension(MarkdownExtension)
+environment.globals.update(path_exists=path_exists)
 
 # Process template pages
 print("Generating pages...")
