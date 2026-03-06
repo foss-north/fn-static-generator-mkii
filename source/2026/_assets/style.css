@@ -238,11 +238,16 @@ div.speakerrow {
     margin-bottom: 60px;
 }
 
+p.speakerfront {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+}
+
 a.speakerfront,
 a.speakerfront:hover,
 a.speakerfront:focus {
     font-family: 'Roboto', sans-serif;
-    font-size: 14pt;
+    font-size: 18pt;
 }
 
 a.projectlink,
