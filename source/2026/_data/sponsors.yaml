@@ -4,7 +4,7 @@
 #   short: fsfe
 #   url: https://fsfe.org/
 #   level: partner
-# 
+#
 
 - name: Swedsoft
   short: swedsoft
@@ -14,6 +14,11 @@
 - name: Kube.Events
   short: kube_events
   url: https://kube.events
+  level: partner
+
+- name: JetBrains
+  short: jetbrains
+  url: https://jetbrains.com
   level: partner
 
 - name: GAIA
