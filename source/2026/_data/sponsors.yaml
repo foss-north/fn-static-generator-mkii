@@ -26,6 +26,11 @@
   url: https://www.sylog.se/
   level: base
 
+- name: Tillitis
+  short: tillitis
+  url: https://www.tillitis.se/
+  level: base
+
 - name: Elektronikutvecklingsbyrån
   short: eub
   url: https://www.eub.se/

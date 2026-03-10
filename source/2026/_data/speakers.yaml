@@ -148,6 +148,9 @@
   links:
     - title: "How to talk to your lawyer about FOSS (foss-north 2025)"
       url: "https://www.youtube.com/watch?v=2JWCw3S7yHs"
+  copresenters:
+    - name: "Henrik Sandklef"
+    - short: hsandklef
   bio:
     - "TBD"
 
@@ -284,6 +287,8 @@
   links:
     - title: "Centrally managed MFA with privacyIDEA (foss-north 2025)"
       url: "https://www.youtube.com/watch?v=Wf-_w8J9jsg"
+    - title: "privacyIDEA"
+      url: "https://privacyidea.org"
 
 - name: "James Lowden"
   lastname: "Lowden"
@@ -844,9 +849,9 @@
       other software and community projects."
   bio:
     - "Evilham does computer things professionally and for fun things like
-      pottery, swimming, singing, dancing or learning Euskara. As the current
-      treasurer of eXO.cat, Evilham helps with many things behind the scenes as
-      well as other more “traditionally technical” tasks."
+      pottery, swimming, singing, dancing or woodworking. As the current treasurer
+      of eXO.cat, Evilham helps with many things behind the scenes as well as
+      other more “traditionally technical” tasks"
 
 - name: "Eirik Øverby"
   lastname: "Øverby"
