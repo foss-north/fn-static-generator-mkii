@@ -41,6 +41,11 @@
   url: https://www.eub.se/
   level: base
 
+- name: NetKnights
+  short: netknights
+  url: https://netknights.it/en/
+  level: base
+
 - name: HaleyTek
   short: haleytek
   url: https://www.haleytek.com/
