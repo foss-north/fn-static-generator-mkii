@@ -80,8 +80,43 @@
       forge, and its CI support. In his free time he drinks too much tea and
       obsesses about minute details about implementing backup software."
 
-- name: Jimmy Ahlberg
-  lastname: Ahlberg
+- name: "Lucas Lasota"
+  lastname: "Lasota"
+  short: llasota
+  day: apr27
+  slot: slot6
+  title: "Interoperability goes to court: a case for Software Freedom"
+  abstract:
+    - "As society grows in complexity, interoperability becomes inevitable.
+      However, large corporations resist implementing interoperable solutions when
+      their assets become important enough to be subject of regulation. This
+      happened with Apple, which as soon as the European Union decided to regulate
+      how interoperability should be handled for Apple's mobile operating systems
+      iOS and iPadOS, the company decided to sue the regulator claiming
+      interoperability is disproportional to fundamental rights."
+
+    - "The Free Software Foundation Europe (FSFE) decided to intervene in the
+      case, demonstrating that Apple is being regulated due to the public
+      interest, and the legislation in case (the Digital Markets Act) should be
+      enforced in a Free-Software-developer friendly way."
+
+    - "The audience will learn how interoperability regulation is key for Free
+      Software, as it allows developers to access features and functionalities in
+      proprietary operating systems which were exclusively controlled only by
+      Apple."
+
+    - "The talk will be held in English. No prior knowledge is required."
+  bio:
+    - "Dr. Lucas Lasota, MA, PhD, is a researcher, lecturer, qualified lawyer
+      (Brazil) and project manager in the field of IT, telecommunications and
+      contract law. His research focuses on regulatory measures of digital
+      technologies and their impact on individual and collective rights, as well
+      as on internet governance, telecommunications and international contract
+      law.  He works as a researcher at the University of Halle Wittenberg and as
+      Legal Programme Manager at the FSFE."
+
+- name: "Jimmy Ahlberg"
+  lastname: "Ahlberg"
   short: jahlberg
   day: apr27
   slot: slot3a
@@ -240,7 +275,7 @@
   lastname: "Lowden"
   short: jlowden
   day: apr27
-  slot: slot6
+  slot: slot2
   title: "The Once and Future COBOL"
   abstract:
     - "GCC 15 for the first time included COBOL among the languages it compiles."
