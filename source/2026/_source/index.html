@@ -32,7 +32,7 @@
 {% endif %}
 
 <p class="speakerfront">
-{% set sorted_speakers = data.speakers | sort(attribute='lastname') %}
+{% set sorted_speakers = data.speakers | unique(attribute='name') | sort(attribute='lastname') %}
 {% for speaker in sorted_speakers %}
     {% if loop.index % 2 == 0 %}
     <b>
