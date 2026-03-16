@@ -694,6 +694,25 @@
     - "Based in India, he spends his off-hours hitting the gym and brewing good
       coffee. ☕️"
 
+- name: "Magnus Glantz"
+  lastname: "Glantz"
+  short: mglantz
+  day: apr28
+  slot: slot5
+  title: "Running an open source project like a professional"
+  abstract:
+    - "Join this session which details Red Hat's secrets to success for creating
+      and running successful open source projects."
+
+    - "Red Hat has experiece of running some of the worlds largest and most
+      successful open source projects since the 90s. This session is jam packed
+      with Red Hat's hardened and battle proven practices."
+  bio:
+    - "Magnus works as a Principal Specialist Adoption Architect at Red Hat. He
+      works to increase successful adoption of open source solutions from Red Hat
+      in EMEA. He also sits in the board of Open Source Sweden and APELL, The
+      European Open Source Software Business Association."
+
 - name: "Gry M. Tveten"
   lastname: "Tveten"
   short: gtveten
