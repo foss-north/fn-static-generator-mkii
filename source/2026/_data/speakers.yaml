@@ -459,7 +459,23 @@
       to do to adjust them. I twill be covered with a mix of developer and DBA
       perspectives, as these often go hand in hand."
   bio:
-    - "TBD"
+    - "Magnus Hagander is a member of the PostgreSQL Core Team and a developer
+      and code committer in the PostgreSQL Global Development Group. He currently
+      serves as President of the board for PostgreSQL Europe."
+    - "Magnus is one of the original developers of the Windows port of
+      PostgreSQL. These days, he mostly works on other parts of the PostgreSQL
+      backend, recently with a focus on security features such as authentication
+      and encryption."
+    - "He is also one of the core members of the postgresql.org infrastructure
+      team, maintaining the servers that power the project, and one of the
+      maintainers of the postgresql.org website, and the lead maintainer of the
+      NPO/conference management system used by most PostgreSQL community events."
+    - "He's been a PostgreSQL user since version 6 (with some non-serious use of
+      Postgres 95 before that), and currently serves on the Core Team and as
+      President of the Board for PostgreSQL Europe."
+    - "To pay the bills, he is a PostgreSQL and open source software consultant
+      at Redpill Linpro in Stockholm, Sweden, where he works on consulting,
+      support and training services, as well as custom development work."
 
 - name: "Jeremiah Foster"
   lastname: "Foster"
@@ -975,6 +991,8 @@
     - "A summary of the conference and a quick wrap-up"
   bio:
     - "Tobias is head of the organizing committee for foss-north"
+    - "A Haskell enthusiast, he only ever gets to write C at work, where he does
+      Linux/Zephyr consulting"
 
 # - name: 
 #   lastname:
