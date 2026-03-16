@@ -626,7 +626,7 @@
     - title: "Open Source Security in spite of AI (FOSDEM 2026)"
       url: "https://fosdem.org/2026/schedule/event/B7YKQ7-oss-in-spite-of-ai/"
 
-- name: "Francisco Picolini" 
+- name: "Francisco Picolini"
   lastname: "Picolini"
   short: fpicolini2
   day: apr28
@@ -1008,12 +1008,12 @@
     - "A Haskell enthusiast, he only ever gets to write C at work, where he does
       Linux/Zephyr consulting"
 
-# - name: 
+# - name:
 #   lastname:
-#   short: 
+#   short:
 #   day: apr28
 #   slot: slot1
-#   title: 
+#   title:
 #   abstract:
 #     - ""
 #   bio:
