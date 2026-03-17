@@ -459,7 +459,23 @@
       to do to adjust them. I twill be covered with a mix of developer and DBA
       perspectives, as these often go hand in hand."
   bio:
-    - "TBD"
+    - "Magnus Hagander is a member of the PostgreSQL Core Team and a developer
+      and code committer in the PostgreSQL Global Development Group. He currently
+      serves as President of the board for PostgreSQL Europe."
+    - "Magnus is one of the original developers of the Windows port of
+      PostgreSQL. These days, he mostly works on other parts of the PostgreSQL
+      backend, recently with a focus on security features such as authentication
+      and encryption."
+    - "He is also one of the core members of the postgresql.org infrastructure
+      team, maintaining the servers that power the project, and one of the
+      maintainers of the postgresql.org website, and the lead maintainer of the
+      NPO/conference management system used by most PostgreSQL community events."
+    - "He's been a PostgreSQL user since version 6 (with some non-serious use of
+      Postgres 95 before that), and currently serves on the Core Team and as
+      President of the Board for PostgreSQL Europe."
+    - "To pay the bills, he is a PostgreSQL and open source software consultant
+      at Redpill Linpro in Stockholm, Sweden, where he works on consulting,
+      support and training services, as well as custom development work."
 
 - name: "Jeremiah Foster"
   lastname: "Foster"
@@ -584,7 +600,21 @@
   slot: slot1
   title: "The state of AI, slop and security"
   abstract:
-    - "TBD, but will follow-up on the keynote Daniel gave at FOSDEM 2026"
+    - "In the booming trend of putting AI everywhere and into everything, we are
+      told that AI soon replaces all programmers, makes Open Source obsolete while
+      it also finds all security problems and makes writing secure code
+      impossible."
+    - "This talk is a reality check and status update on AI tooling for security
+      and Open Source maintenance. Ban all AI for incompetence, adopt it
+      whole-heartedly because it does better code than humans or maybe find a
+      middle-ground?"
+    - "The curl project has been bombarded by large volumes of low quality AI
+      slop security reports where sloppy humans cause Denial-of-Service attacks by
+      overloading the maintainers with almost-real-looking rubbish. At the same
+      time, AI powered analyzer tools find flaws and mistakes in existing code in
+      ways no previous code analyzers have been able to."
+    - "This is the timeline we didn't ask for, but this is how it works."
+
   bio:
     - "Daniel Stenberg is the founder and lead developer of the curl project. He
       has worked on HTTP implementations for over twenty years. He has been
@@ -596,7 +626,7 @@
     - title: "Open Source Security in spite of AI (FOSDEM 2026)"
       url: "https://fosdem.org/2026/schedule/event/B7YKQ7-oss-in-spite-of-ai/"
 
-- name: "Francisco Picolini" 
+- name: "Francisco Picolini"
   lastname: "Picolini"
   short: fpicolini2
   day: apr28
@@ -975,13 +1005,15 @@
     - "A summary of the conference and a quick wrap-up"
   bio:
     - "Tobias is head of the organizing committee for foss-north"
+    - "A Haskell enthusiast, he only ever gets to write C at work, where he does
+      Linux/Zephyr consulting"
 
-# - name: 
+# - name:
 #   lastname:
-#   short: 
+#   short:
 #   day: apr28
 #   slot: slot1
-#   title: 
+#   title:
 #   abstract:
 #     - ""
 #   bio:
