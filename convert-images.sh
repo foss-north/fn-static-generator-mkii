@@ -24,14 +24,14 @@ done
 
 
 for conversion in $(cat image-conversions.conf); do
-  if [ $(echo "$conversion" | cut -c1) != "#" ]; then
+  if [ "$(echo "$conversion" | cut -c1)" != "#" ]; then
     scope=$(echo "$conversion" | cut -d: -f1 -)
     original=$(echo "$conversion" | cut -d: -f2 -)
     destination=$(echo "$conversion" | cut -d: -f3 -)
     size=$(echo "$conversion" | cut -d: -f4 -)
     echo "Converting $scope::$original"
 
-    if [[ dirfilter != "---" ]]; then
+    if [[ "$dirfilter" != "---" ]]; then
         found="no"
         for d in $dirfilter; do
             if [[ "$scope" == "$d" ]]; then
@@ -42,13 +42,26 @@ for conversion in $(cat image-conversions.conf); do
             continue
         fi
     fi
-    
+
     for f in source/$scope/$original; do
         filename=$(basename "$f")
         filebase="${filename%.*}"
         destfile="source/$scope/$destination$filebase.png"
+
+        colorspace="sRGB"
+        fileparent="$(basename "$(dirname "$f")")"
+        if [[ $fileparent == "speakers" ]]; then
+            colorspace="Gray"
+        fi
+
         echo "  $f => $destfile"
-        convert $f -resize $size -background transparent -gravity center -extent $size $destfile
+        convert "$f" \
+            -resize "$size" \
+            -colorspace "$colorspace" \
+            -background transparent \
+            -gravity center \
+            -extent "$size" \
+            "$destfile"
     done
   fi
 done
