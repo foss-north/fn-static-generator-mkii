@@ -46,6 +46,11 @@
   url: https://netknights.it/en/
   level: base
 
+- name: B3 Init
+  short: b3
+  url: https://b3.se/
+  level: base
+
 - name: HaleyTek
   short: haleytek
   url: https://www.haleytek.com/

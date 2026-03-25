@@ -3,6 +3,7 @@
 set -e
 
 dirfilter="---"
+onlynew=""
 
 while [[ $# -gt 0 ]]; do
 
@@ -13,6 +14,9 @@ while [[ $# -gt 0 ]]; do
         "--dir"|"--dirs")
             dirfilter="$1"
             shift
+            ;;
+        "--only-new")
+            onlynew=true
             ;;
         *)
             echo "Unknown argument '$key'"
@@ -47,6 +51,10 @@ for conversion in $(cat image-conversions.conf); do
         filename=$(basename "$f")
         filebase="${filename%.*}"
         destfile="source/$scope/$destination$filebase.png"
+
+        if [ -n "$onlynew" ] && [ -f "$destfile" ]; then
+            continue
+        fi
 
         colorspace="sRGB"
         fileparent="$(basename "$(dirname "$f")")"
