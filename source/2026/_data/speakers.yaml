@@ -761,7 +761,12 @@
       talk will present an example of how you can combine the two frameworks, the
       challenges related and further development needed"
   bio:
-    - "TBD"
+    - "Gry Tveten has a background in experimental nuclear physics. During her
+      time in research, she pushed for open sharing of scientific software used in
+      publication and for open data."
+    - "In 2019, she switched fields and started work as a consultant in IT and
+      data science. Her work has mostly focused on the Norwegian power industry
+      and developing tools that support optimal use of resources."
 
 - name: "Harald Eilertsen"
   lastname: "Eilertsen"
