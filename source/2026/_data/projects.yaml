@@ -13,3 +13,32 @@
 #   lon: 11.9653582
 #   lat: 57.7046889
 #
+
+- name: "Social Beers"
+  short: beers
+  url: https://www.meetup.com/foss-gbg/events/313929789/
+  description:
+    - "Social meetup at a local pub"
+  address:
+    - Järntorget, 413 04 Göteborg
+  front: true
+  when: 17:00 - 21:00
+  lat: 57.699654
+  lon: 11.951955
+
+- name: "Swedish OSPO network workshop"
+  short: ospo
+  url: https://swedish-ospo-network.se/
+  description:
+    - "The Swedish OSPO network is for any company that works strategically and
+      systematically with open source issues. Participants include
+      representatives from corporations, municipalities, government agencies and
+      other interested parties"
+    - "The OSPO network organizes a workshop on OpenChain on **wednesday**, the
+      day **after** foss-north. The workshop is hosted by Wireless Car in
+      Gothenburg. Use the link to join the network and sign up for the
+      workshop."
+  when: Wed, April 29, 09:00 - 16:30
+  address:
+    - WirelessCar, Vädursgatan 6, 412 50 Göteborg
+
