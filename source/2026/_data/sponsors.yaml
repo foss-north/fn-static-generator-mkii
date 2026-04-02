@@ -55,3 +55,8 @@
   short: haleytek
   url: https://www.haleytek.com/
   level: silver
+
+- name: Ericsson
+  short: ericsson
+  url: https://www.ericsson.com
+  level: base
