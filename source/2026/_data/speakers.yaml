@@ -408,9 +408,9 @@
       Collection and the Grafana Operator, with over 2 million downloads
       combined."
 
-- name: "Francisco Picolini"
-  lastname: "Picolini"
-  short: fpicolini
+- name: "Pablo del Arco Ortiz"
+  lastname: "Arco Ortiz"
+  short: parcortiz
   day: apr27
   slot: slot8b
   title: "Multi-Cloud Without the Myth: What Actually Works in Practice"
@@ -423,11 +423,17 @@
       complexity. If you’ve been promised multi-cloud freedom and delivered
       operational pain, this session will resonate."
   bio:
-    - "Madrilenian with an Argentinian accent. Open Source advocate, currently
-      working on promoting sovereign cloud technologies. With extensive experience
-      in developer relations and community building, he has held leadership roles
-      at Mozilla and Codemotion (Italy), driving initiatives that connect
-      technology, innovation, and people."
+    - "Pablo del Arco is a Cloud-Edge Innovation Engineer based in Valencia,
+      Spain, with deep expertise in Kubernetes, cloud infrastructure, IoT, and
+      virtualization. He has extensive hands-on experience architecting and
+      managing private and edge clouds, as well as integrating AI applications
+      into cloud environments."
+    - "A passionate open-source advocate, Pablo actively contributes to the
+      broader community of cloud and edge builders. He was a speaker at FOSDEM
+      2026 in the Virtualization & Cloud Infrastructure devroom and regularly
+      publishes practical guides on homelab environments, alongside in-depth
+      technical articles covering cloud federation, edge computing, and AI
+      infrastructure."
 
 - name: "Henrik Sandklef"
   lastname: "Sandklef"
@@ -628,7 +634,7 @@
 
 - name: "Francisco Picolini"
   lastname: "Picolini"
-  short: fpicolini2
+  short: fpicolini
   day: apr28
   slot: slot2
   title: "Cloud Sovereignty Is Not a Feature… It’s an Architecture"
