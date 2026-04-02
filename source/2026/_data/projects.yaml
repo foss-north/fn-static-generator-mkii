@@ -18,7 +18,8 @@
   short: beers
   url: https://www.meetup.com/foss-gbg/events/313929789/
   description:
-    - "Social meetup at a local pub"
+    - "Social meetup at a local pub. The perfect way to end the community day
+      and charge the batteries before the conference days"
   address:
     - Järntorget, 413 04 Göteborg
   front: true
@@ -29,16 +30,58 @@
 - name: "Swedish OSPO network workshop"
   short: ospo
   url: https://swedish-ospo-network.se/
+  front: true
   description:
     - "The Swedish OSPO network is for any company that works strategically and
       systematically with open source issues. Participants include
       representatives from corporations, municipalities, government agencies and
       other interested parties"
-    - "The OSPO network organizes a workshop on OpenChain on **wednesday**, the
-      day **after** foss-north. The workshop is hosted by Wireless Car in
+    - "The OSPO network organizes a workshop on OpenChain on <b>wednesday</b>, the
+      day <b>after</b> foss-north. The workshop is hosted by Wireless Car in
       Gothenburg. Use the link to join the network and sign up for the
       workshop."
   when: Wed, April 29, 09:00 - 16:30
   address:
     - WirelessCar, Vädursgatan 6, 412 50 Göteborg
+  lat: 57.7037949
+  lon: 11.9908872
 
+- name: "Workshop: Test Driven Development for Everyone"
+  url: https://www.meetup.com/foss-gbg/events/314090827/
+  front: true
+  short: tdd
+  description:
+    - "Daniel Raniz Raneland hosts a workshop on test driven development"
+    - "Test Driven Development (TDD) is a powerful approach that yields better,
+       less buggy code. So why isn't everyone doing it?"
+    - "In this hands-on workshop, I'll explain what TDD is and why I think it's
+      so good. We'll also try it out for ourselves, using real-life examples.
+      You'll get to see how TDD makes writing great code simpler and gives you a
+      safety net for when you have to make big changes to your code."
+    - "We'll explore how to plan tests, the role of refactoring in TDD, and the
+      benefits of incremental software design. Working in pairs (or triplets) is
+      actively encouraged. Grab your laptop, a language you're comfortable with,
+      and let's go!"
+    - "<b>NOTE: sign up via the meetup link!</b>"
+  when: TBD
+  address:
+    - Intunio, Korsgatan 24, 411 16 Göteborg
+  lat: 57.7037829
+  lon: 11.9644247
+
+
+# - name: "GPG Keysigning"
+#   short: keysign
+#   url: https://www.some-meetup.com/
+#   description:
+#     - "If you're using GPG for encrypting e-mail, this is an event for you! Meet
+#        up with other e-mail nerds and sign each other's keys."
+#     - "Sign up for this by e-mailing tobsan <at> tobsan <dot> se"
+#   address:
+#     - Intunio?
+#   front: true
+#   when: 14:00 - 16:00
+#   lon: 
+#   lat: 
+# 
+# - name: GBGCPP?
