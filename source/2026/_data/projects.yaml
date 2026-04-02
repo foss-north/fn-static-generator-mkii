@@ -63,12 +63,11 @@
       actively encouraged. Grab your laptop, a language you're comfortable with,
       and let's go!"
     - "<b>NOTE: sign up via the meetup link!</b>"
-  when: TBD
+  when: 13-17 (tentative)
   address:
     - Intunio, Korsgatan 24, 411 16 Göteborg
   lat: 57.7037829
   lon: 11.9644247
-
 
 # - name: "GPG Keysigning"
 #   short: keysign
@@ -78,10 +77,8 @@
 #        up with other e-mail nerds and sign each other's keys."
 #     - "Sign up for this by e-mailing tobsan <at> tobsan <dot> se"
 #   address:
-#     - Intunio?
+#     - TBD
 #   front: true
 #   when: 14:00 - 16:00
 #   lon: 
 #   lat: 
-# 
-# - name: GBGCPP?
