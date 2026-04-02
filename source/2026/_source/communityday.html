@@ -63,7 +63,7 @@ your's <a href="tickets.html">here</a>!
                     {% endfor %}
             {% endif %}
             </div>
-            
+
             {% for descr in project.description %}
             <div class="abstract">
                 {{ descr }}
@@ -92,15 +92,15 @@ your's <a href="tickets.html">here</a>!
     map.addControl(new OpenLayers.Control.PanZoomBar());
     map.addControl(new OpenLayers.Control.Permalink());
     map.addControl(new OpenLayers.Control.Permalink('permalink'));
-    
+
     var markers = new OpenLayers.Layer.Markers( "Markers" );
     map.addLayer(markers);
-    
+
     var projection = new OpenLayers.Projection("EPSG:4326");
     {% if data.projects %}
     var icon = new OpenLayers.Icon("images/brand-logo.png");
     var marker;
-    
+
     {% for project in data.projects %}
         {% if not project.nolonlat %}
         /* Start of loop */
