@@ -22,7 +22,6 @@
       and charge the batteries before the conference days"
   address:
     - Järntorget, 413 04 Göteborg
-  front: true
   when: 17:00 - 21:00
   lat: 57.699654
   lon: 11.951955
@@ -48,7 +47,6 @@
 
 - name: "Workshop: Test Driven Development for Everyone"
   url: https://www.meetup.com/foss-gbg/events/314090827/
-  front: true
   short: tdd
   description:
     - "Daniel Raniz Raneland hosts a workshop on test driven development"

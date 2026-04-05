@@ -210,7 +210,7 @@
 
         {% set loopindex = loopindex + 1 %}
     {% endfor %}
-    {% if (partner_count % 3) != 0 %}
+    {% if (partner_count % 4) != 0 %}
         </div>
     {% endif %}
     </div>
@@ -218,17 +218,21 @@
 
 {% set project_count = data.projects|selectattr('front','equalto',true)|list|length %}
 {% if project_count > 0 %}
+    <h2>Community events</h2>
+    <p>We are happy to have these community projects/events happen at or around
+    foss-north as well. See <a href="communityday.html">Community day</a> for
+    more on these.</p>
     <div>
     {% for project in data.projects|selectattr('front','equalto',true) %}
         {% set loopindex = loop.index-1 %}
-        {% set rowcount = loopindex % 3 %}
+        {% set rowcount = loopindex % 4 %}
         {% if rowcount == 0 %}
             <div class="row sponsorrow">
 
-            {% set rowindex = loopindex // 3 %}
-            {% set rowsize = project_count // 3 %}
+            {% set rowindex = loopindex // 4 %}
+            {% set rowsize = project_count // 4 %}
             {% if rowindex == rowsize %}
-                {% set rowoffset = project_count % 3 %}
+                {% set rowoffset = project_count % 4 %}
                 {% if rowoffset == 1 %}
                     <div class="col-md-4">&nbsp;</div>
                 {% endif %}
@@ -242,7 +246,7 @@
                 <a href="{{ project.url }}"><img class="sponsor" src="images/project-{{ project.short }}.png" alt="{{ project.name | escape }}"></a>
             </div>
 
-        {% if rowcount == 2 %}
+        {% if rowcount == 3 %}
             </div>
         {% endif %}
 
