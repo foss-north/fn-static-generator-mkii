@@ -60,3 +60,8 @@
   short: ericsson
   url: https://www.ericsson.com
   level: base
+
+- name: Eclipse Foundation
+  short: eclipse
+  url: https://www.eclipse.org
+  level: base
