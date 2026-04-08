@@ -68,6 +68,7 @@ for conversion in $(cat image-conversions.conf); do
             -colorspace "$colorspace" \
             -background transparent \
             -gravity center \
+            -auto-orient \
             -extent "$size" \
             "$destfile"
     done

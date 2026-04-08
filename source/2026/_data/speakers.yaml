@@ -133,7 +133,10 @@
     - name: "Henrik Sandklef"
     - short: hsandklef
   bio:
-    - "TBD"
+    - "Jimmy is Expert and Senior Legal Counsel for Software, AI and Standards
+      at Ericsson. He was previously the Director of Open Source Policy with the
+      Ericsson OSPO. Jimmy Ahlberg is also currently he chairperson of the
+      OpenChain projects governing board."
 
 - name: "Gerhard de Clercq"
   lastname: de Clercq
@@ -686,6 +689,41 @@
       contributions to the community. Today, she leads her team in helping
       companies deliver beautiful, high-performance UIs across automotive,
       industrial, and IoT sectors."
+
+- name: "Hans Bak"
+  lastname: "Bak"
+  short: hbak
+  day: apr28
+  slot: slot4a
+  title: "From Inventory to Inspection: What the CRA Means for OSPO Maturity"
+  abstract:
+    - "Most organisations today can generate an SBOM. Far fewer have built the
+       systems needed to continuously verify one."
+    - "For years, SBOMs have been treated as inventory artefacts — documents
+      produced when procurement asks, when risk management escalates, or when due
+      diligence requires evidence.  But the Cyber Resilience Act changes the
+      expectations placed on organisations. It shifts the question from “Do you
+      have an SBOM?” to “How was it produced, what does it miss, and can you
+      defend it?”"
+    - "This shift exposes a deeper maturity challenge for Open Source Program Offices.
+      Modern software is not merely assembled from declared packages. Code is
+      copied, modified and embedded. Security primitives and cryptographic
+      functions appear without formal dependency declarations. AI-assisted
+      development accelerates reuse without improving traceability. Package-
+      level tooling captures declared metadata; it does not verify what is
+      actually present in the codebase."
+    - "Under CRA scrutiny, that distinction matters. An SBOM built purely from
+      declared dependencies may be technically correct yet materially incomplete.
+      Cryptographic transparency requirements (CBOM), supply chain risk management
+      expectations, and emerging audit practices increasingly demand inspection,
+      not just inventory.  This session explores the evolution from static
+      documentation to continuous verification in modern software governance."
+  bio:
+    - "Experienced advisor with a track record of pioneering
+      enterprise-level conversations around open source license compliance,
+      security, FOSS risk management, and software composition analysis —
+      disciplines that predate and directly informed today's SBOM requirements
+      and Cyber Resilience Act mandates."
 
 - name: "Eeshaan Sawant"
   lastname: "Sawant"
