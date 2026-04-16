@@ -635,29 +635,46 @@
     - title: "Open Source Security in spite of AI (FOSDEM 2026)"
       url: "https://fosdem.org/2026/schedule/event/B7YKQ7-oss-in-spite-of-ai/"
 
-- name: "Francisco Picolini"
-  lastname: "Picolini"
-  short: fpicolini
+- name: "Ludovic Dubost"
+  lastname: "Dubost"
+  short: ldubost2
   day: apr28
   slot: slot2
-  title: "Cloud Sovereignty Is Not a Feature… It’s an Architecture"
+  title: "Building Open Source and living from it without selling your soul"
   abstract:
-    - "Cloud sovereignty is often marketed as a checkbox feature. In reality,
-      it’s an architectural discipline. This talk explains why sovereignty cannot
-      be retrofitted onto proprietary platforms—and how open-source cloud stacks
-      allow organizations to design sovereignty by default. We’ll cover data
-      locality, identity control, auditability, and interoperability, showing how
-      architectural choices directly affect legal and operational autonomy."
-    - "Drawing from real deployments, including initiatives aligned with European
-      digital strategy, we’ll demonstrate how OpenNebula enables
-      sovereign-by-design cloud architectures that remain competitive, scalable,
-      and future-proof."
+    - "Subtitle: 20 Years of XWiki and CryptPad:"
+    - "Competing to propose Open Source Collaboration solutions against
+      multi-billion companies is a challenging endeavor. But it's not a
+      technical one. While your users will demoralize you showing you all what
+      you miss compared to your proprietary competitors having deep pockets to
+      fund their R&D, you'll think that Open Source software is just not good
+      enough."
+    - "But the real issue is not technical, it's economical and financial. Over
+      the 20 years of XWiki and CryptPad, we have been able to measure what we
+      miss for Open Source to be able to provide end user applications
+      respecting user's Freedom and Privacy."
+    - "We have also been able to see how the changes of price or conditions of
+      competitors have brought us more customers allowing us to increase the
+      funding of our Open Source software"
   bio:
-    - "Madrilenian with an Argentinian accent. Open Source advocate, currently
-      working on promoting sovereign cloud technologies. With extensive experience
-      in developer relations and community building, he has held leadership roles
-      at Mozilla and Codemotion (Italy), driving initiatives that connect
-      technology, innovation, and people."
+    - "Creator of XWiki and CEO of XWiki SAS, I'm the gentle organizer of the
+      XWiki SAS company for now 20 years, and lead the business side of the
+      CryptPad project."
+    - "XWiki SAS, a European company based in France and Romania, only building
+      free & open-source software leads the development of the XWiki Software
+      used by thousands of organizations and helps companies and organizations
+      all over the world organize, share, and collaborate on content. XWiki also
+      leads the development of CryptPad, the E2EE Real-time Collaborative
+      Suite, including Simple pads, Office document Editors, Drive, Online Forms
+      and more."
+    - "A graduate of Ecole Polytechnique (X90) and Telecom Paris (95), I started
+      my career as a software architect for Netscape Communications Europe. After
+      being a CTO of an Internet usage analysis startup during the Internet Bubble
+      and understanding how it works, I joined the FOSS movement."
+    - "I've been a speaker at various events including Paris Open Source
+      Experience, FOSDEM, OW2 Conference, JDLL, Capitole du Libre, speaking about
+      Collaboration Software, Financing FLOSS software and Privacy Solutions."
+    - "I'm also member of the OpenFoodFacts board."
 
 - name: "Alexandra Betouni"
   lastname: "Betouni"
