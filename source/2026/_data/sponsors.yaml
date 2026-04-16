@@ -65,3 +65,8 @@
   short: eclipse
   url: https://www.eclipse.org
   level: base
+
+- name: Vinland.Technology
+  short: vinland
+  url: https://vinland.technology
+  level: base
