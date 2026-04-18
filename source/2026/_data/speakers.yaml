@@ -711,7 +711,7 @@
   lastname: "Bak"
   short: hbak
   day: apr28
-  slot: slot4a
+  slot: slot5a
   title: "From Inventory to Inspection: What the CRA Means for OSPO Maturity"
   abstract:
     - "Most organisations today can generate an SBOM. Far fewer have built the
@@ -742,54 +742,11 @@
       disciplines that predate and directly informed today's SBOM requirements
       and Cyber Resilience Act mandates."
 
-- name: "Eeshaan Sawant"
-  lastname: "Sawant"
-  short: esawant
-  day: apr28
-  slot: slot4b
-  title: "Europe is breaking up with MS Office: Here's What's Actually Working"
-  abstract:
-    - "EU is moving away from proprietary software at an unprecedented scale,
-      and office suites rank at the top of the list. The shift is real, and it is
-      accelerating. But here is what no one talks about: the open-source document
-      editing experience still has gaps — low fidelity between editors, broken
-      formatting, outdated UI, poor AI integrations, and real-time collaboration
-      that feels bolted on and not built in."
-
-    - "This talk is an honest look at what's still missing in open-source
-      document editors and how ONLYOFFICE is solving it with native OOXML support,
-      provider-agnostic AI support across all editors, real-time co-editing at its
-      core, and a vast integration ecosystem which adds support for various
-      platforms."
-
-    - "Key Takeaways for attendees:<ul>
-      <li>The forces driving Europe's open-source migration
-      <li>The gaps that still hold open-source editors back
-      <li>The importance of AI in document editors
-      <li>How ONLYOFFICE approaches format fidelity and collaboration differently with OOXML based document
-    architecture</ul>"
-
-  bio:
-    - "Eeshaan is a DevRel Engineer at ONLYOFFICE and a CNCF maintainer with
-      four years deep in open source and cloud native. His job? Making technical
-      things a little less technical – or at least, a little less painful"
-
-    - "A seasoned speaker, he's shared stages at APIDays Australia, GNOME Summit
-      Japan, Write the Docs Australia, UbuCon Asia, KubeCon Amsterdam and many
-      more FOSS events across the globe."
-
-    - "Eeshaan loves sharing what he learns, especially around open source. His
-      continuous contributions to the greater open source community have earned
-      him the Dan Kohn Scholarship twice, the LiFT Scholarship, and much more."
-
-    - "Based in India, he spends his off-hours hitting the gym and brewing good
-      coffee. ☕️"
-
 - name: "Magnus Glantz"
   lastname: "Glantz"
   short: mglantz
   day: apr28
-  slot: slot5
+  slot: slot4
   title: "Running an open source project like a professional"
   abstract:
     - "Join this session which details Red Hat's secrets to success for creating
@@ -808,7 +765,7 @@
   lastname: "Tveten"
   short: gtveten
   day: apr28
-  slot: slot6a
+  slot: slot5b
   title: "Open source tools for the power sector"
   abstract:
     - "The Shyft Open Source project originated in the need for a new framework
@@ -860,7 +817,7 @@
   lastname: "alvin"
   short: alvin
   day: apr28
-  slot: slot6b
+  slot: slot10
   title: How computers scribble
   abstract:
     - "Ever wondered how your scribbles on Snapchat turn into a smooth line, or
@@ -928,11 +885,22 @@
       advocate for the \"Power of Many,\" encouraging the ecosystem to move past
       compliance hurdles and embrace a philosophy of \"Let’s Dance, not Fight!\""
 
+- name: "Various participants"
+  lastname: "Various"
+  short: various
+  day: apr28
+  slot: slot9
+  title: Lightning talks
+  abstract:
+    - "foss-north lightning talks. Short talks, max 10 minutes about something
+    fun and FOSSy. Sign up via info [at] foss-north [dot] se or during the first
+    day of the conference."
+
 - name: "Evilham"
   lastname: "Evilham"
   short: evilham
   day: apr28
-  slot: slot9
+  slot: slot13
   title: "Running a FOSS associative ISP"
   abstract:
     - "Whether neighbourhood mesh networks, Fiber To The Home or Data Center
@@ -953,7 +921,7 @@
   lastname: "Øverby"
   short: eoeverby
   day: apr28
-  slot: slot10
+  slot: slot12
   title: "Dirty Tricks: Using nginx and Lua to thwart bots and skript kiddies"
   abstract:
     - "(Or: Fighting denial-of-service for fun and profit.)"
@@ -982,7 +950,7 @@
   lastname: "Eriksson"
   short: geriksson
   day: apr28
-  slot: slot11
+  slot: slot6
   title: "Digital disruption in the public transport sector through open source community engagement"
   abstract:
     - "The public transport sector is mostly a traditional sector with an
@@ -1029,7 +997,7 @@
   lastname: "Linåker"
   short: jlinaker
   day: apr28
-  slot: slot13
+  slot: slot11
   title: "Digital sovereignty through open source – Europe’s strategic opportunity"
   abstract:
     - "Digital sovereignty—the ability to control and influence one’s digital
