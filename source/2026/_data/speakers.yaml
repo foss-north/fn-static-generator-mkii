@@ -813,38 +813,6 @@
     - title: "Fediverse: harald@hub.volse.no"
       url: "https://hub.volse.no/@harald"
 
-- name: "Alvin"
-  lastname: "alvin"
-  short: alvin
-  day: apr28
-  slot: slot10
-  title: How computers scribble
-  abstract:
-    - "Ever wondered how your scribbles on Snapchat turn into a smooth line, or
-      how the pen tool works in Figma or Procreate? In this talk we'll dive into
-      the invisible art of line-drawing algorithms, and more."
-
-    - "We'll start from the historical pixel-based methods to the tools that we
-       use today, wrapping up with real-world examples."
-
-    - "We'll answer questions like:<ul>
-      <li>How do apps turn your scribbles into smooth lines?
-      <li>How do Bézier curves work?
-      <li>What's in a font?
-      <li>How do computers do colours?
-      </ul>"
-
-    - "The techniques described are evergreen, timeless and platform-agnostic."
-  bio:
-    - "Alvin is a developer advocate at Yoto working in IoT audio. Before that
-      he did developer relations for Unleash and Contentful, focusing on feature
-      flags and headless CMS."
-
-    - "Previously, he was a lead engineer for Dow Jones at the Wall Street
-      Journal and had various front-end roles over 8 years working on graphics,
-      maps, games, and 3D. He’s happiest working on visual challenges with
-      designers."
-
 - name: "Emiel Brok"
   lastname: "Brok"
   short: ebrok
@@ -900,7 +868,7 @@
   lastname: "Evilham"
   short: evilham
   day: apr28
-  slot: slot13
+  slot: slot11
   title: "Running a FOSS associative ISP"
   abstract:
     - "Whether neighbourhood mesh networks, Fiber To The Home or Data Center
@@ -997,7 +965,7 @@
   lastname: "Linåker"
   short: jlinaker
   day: apr28
-  slot: slot11
+  slot: slot10
   title: "Digital sovereignty through open source – Europe’s strategic opportunity"
   abstract:
     - "Digital sovereignty—the ability to control and influence one’s digital

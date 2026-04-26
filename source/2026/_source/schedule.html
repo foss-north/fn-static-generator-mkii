@@ -176,12 +176,16 @@ All sessions include time for Q&amp;A and to mingle.</p>
         <tr>
             <td class="scheduletime">15.30&nbsp;-&nbsp;16.00</td>
             <td >{% with slot="slot10" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td >{% with slot="slot11" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td rowspan="2">{% with slot="slot11" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
-            <td class="scheduletime">16.00&nbsp;-&nbsp;17.00</td>
-            <td >{% with slot="slot12" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td class="scheduletime">16.00&nbsp;-&nbsp;16.30</td>
+            <td rowspan="2">{% with slot="slot12" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">16.30&nbsp;-&nbsp;17.00</td>
             <td >{% with slot="slot13" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
