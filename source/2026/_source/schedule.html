@@ -18,6 +18,7 @@ All sessions include time for Q&amp;A and to mingle.</p>
 {% if not loop.first %}|{% endif %}
 <a href='#{{ day.tag }}'>{{ day.name }}</a>
 {% endfor %}
+| <a href='#online'>Online</a>
 ]</p>
 
 <a name="{{ data.general.confdays[0].tag }}" class="offsetanchor"></a>
@@ -175,12 +176,16 @@ All sessions include time for Q&amp;A and to mingle.</p>
         <tr>
             <td class="scheduletime">15.30&nbsp;-&nbsp;16.00</td>
             <td >{% with slot="slot10" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
-            <td >{% with slot="slot11" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td rowspan="2">{% with slot="slot11" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
         <tr>
-            <td class="scheduletime">16.00&nbsp;-&nbsp;17.00</td>
-            <td >{% with slot="slot12" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+            <td class="scheduletime">16.00&nbsp;-&nbsp;16.30</td>
+            <td rowspan="2">{% with slot="slot12" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+
+        <tr>
+            <td class="scheduletime">16.30&nbsp;-&nbsp;17.00</td>
             <td >{% with slot="slot13" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
         </tr>
 
@@ -190,6 +195,20 @@ All sessions include time for Q&amp;A and to mingle.</p>
         </tr>
     </table>
 </div>
+
+<a name="online" class="offsetanchor"></a>
+<h2>Online</h2>
+{% set day="online" %}
+
+<p>[ <a href="#top">Back to top</a> ]</p>
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <tr>
+            <td >{% with slot="slot1" %}{% include "speaker-schedule-slot.html" %}{% endwith %}</td>
+        </tr>
+    </table>
+</div>
+
 {% endif %}
 
 {% endblock %}
