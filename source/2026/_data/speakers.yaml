@@ -1042,6 +1042,36 @@
     - "A Haskell enthusiast, he only ever gets to write C at work, where he does
       Linux/Zephyr consulting"
 
+- name: "Pratik Singh"
+  lastname: "Singh"
+  short: psingh
+  day: online
+  slot: slot1
+  title: "Intelligent Git Companion: An LLM-Powered Storyteller for Your Commits"
+  abstract:
+    - "The problem is simple but painful: Git history is messy, fragmented, and
+      rarely tells the why behind the what. Developers often drown in endless
+      commits, cryptic messages, and sprawling diffs only to repeat the same
+      confusion during code reviews, merge conflicts, or onboarding. Git should be
+      a record of our intent, but instead it's a mess!"
+    - "This talk introduces an “Intelligent Git Companion”—a LLM-powered CLI
+      tool that stitches together commit logs, diffs, and GitLab issues/MRs into a
+      coherent narrative. It can act as a personal aide to understand the
+      development journey, a reviewer’s assistant to summarize another developer’s
+      MR, or even a guide during hairy merge conflicts. It can also help teams
+      decide when to rebase, squash, or cherry-pick commits, and extend into CI/CD
+      pipelines to provide automated storylines for branches and deployments.
+      Whether you’re a junior trying to make sense of history or a senior
+      reviewing mission-critical changes, this tool turns Git into a conversation"
+  bio:
+    - "I am a software developer with expertise in DevOps and Golang. I have
+      worked at several companies, including GitLab, NASDAQ, Mercari Japan,
+      HackerRank, GitHub, and JUSPAY. I am passionate about leveraging DevOps
+      practices and tools to streamline software development processes. 😊"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=NUqKqXps25U"
+
 # - name:
 #   lastname:
 #   short:
