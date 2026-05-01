@@ -875,8 +875,16 @@
   title: Lightning talks
   abstract:
     - "foss-north lightning talks. Short talks, max 10 minutes about something
-    fun and FOSSy. Sign up via info [at] foss-north [dot] se or during the first
-    day of the conference."
+      fun and FOSSy. These were the talks given during the conference:"
+    - "<ul>
+        <li><a href=\"\">Mingduo Lu - Backstage @ Volvo Group</a>
+        <li><a href=\"\">Felicitas Pankalla - The thin line between code and configuration (a YAML/Helm rant)</a>
+        <li><a href=\"\">John Graham - Fully Automated Luxury Standups</a>
+        <li><a href=\"\">Evilham - FOSS Forms: LiberaForms</a>
+        <li><a href=\"\">Jimmy Ahlberg - Are patents here to save FOSS?</a>
+        <li><a href=\"\">Simon Nielsen Knights - Fuzzy Logic Evalution</a>
+        <li><a href=\"\">Louis Tim Larsen - apt install meetup</a>
+      </ul>"
 
 - name: "Evilham"
   lastname: "Evilham"
