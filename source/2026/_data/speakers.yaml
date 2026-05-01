@@ -1027,6 +1027,9 @@
   title: "Closing foss-north 2026"
   abstract:
     - "A summary of the conference and a quick wrap-up"
+  links:
+    - title: "Slides"
+      url: "slides/tolausson-closing.pdf"
   bio:
     - "Tobias is head of the organizing committee for foss-north"
     - "A Haskell enthusiast, he only ever gets to write C at work, where he does
