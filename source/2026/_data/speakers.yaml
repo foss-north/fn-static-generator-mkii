@@ -42,6 +42,11 @@
   day: apr27
   slot: slot1
   title: Distributed CI with Radicle and Ambient
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=YxGT59EKhwM"
+    - title: "Slides"
+      url: "https://liw.fi/foss-north-2026/"
   abstract:
     - "Centralized systems are either vulnerable or tools of oppression. GitHub,
       for example, has closed accounts of people from countries the US doesn't
@@ -71,7 +76,8 @@
       billions sponsoring 'free-for-open-source' to create vendor lock-in?\") and
       near future plans."
 
-    - "This talk is aimed at all open source developers who are curious about decentralized Git."
+    - "This talk is aimed at all open source developers who are curious about
+      decentralized Git."
   bio:
     - "Lars has been programming for over forty years, mostly open source. He
       has code running on all continents on Earth and on Mars. He contributed to
@@ -351,6 +357,11 @@
   day: apr27
   slot: slot8a
   title: "Signing distribution artifacts with Signstar"
+  links:
+    - title: "Slides"
+      url: "https://pkgbuild.com/~dvzrv/presentations/foss-north-2026/"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=mEF-6sftu4E"
   abstract:
     - "Digital signatures are used in many contexts to guarantee the
       authenticity of a specific artifact, that is provided by a Linux
