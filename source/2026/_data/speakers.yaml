@@ -428,6 +428,9 @@
   day: apr27
   slot: slot8b
   title: "Multi-Cloud Without the Myth: What Actually Works in Practice"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=u1OtI2AzqP0"
   abstract:
     - "“Multi-cloud” is often sold as a silver bullet—but in practice, it’s
       complex, expensive, and frequently misunderstood. This talk cuts through the
