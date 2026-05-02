@@ -47,6 +47,8 @@
       url: "https://www.youtube.com/watch?v=YxGT59EKhwM"
     - title: "Slides"
       url: "https://liw.fi/foss-north-2026/"
+    - title: "Speaker interview (.ogg, 10:49 min)"
+      url: "interviews/LarsWirzenius.ogg"
   abstract:
     - "Centralized systems are either vulnerable or tools of oppression. GitHub,
       for example, has closed accounts of people from countries the US doesn't
@@ -135,6 +137,8 @@
   links:
     - title: "How to talk to your lawyer about FOSS (foss-north 2025)"
       url: "https://www.youtube.com/watch?v=2JWCw3S7yHs"
+    - title: "Speaker interview (.ogg, 12:54 min)"
+      url: "interviews/JimmyAhlberg.ogg"
   copresenters:
     - name: "Henrik Sandklef"
     - short: hsandklef
@@ -233,6 +237,8 @@
   links:
     - title: "Fediverse @bogo@hapyyr.com"
       url: "https://hapyyr.com/@bogo"
+    - title: "Speaker interview (.ogg, 11:09 min)"
+      url: "interviews/BogomilShopov.ogg"
 
 - name: "Jelina Unger"
   lastname: unger
@@ -367,6 +373,8 @@
       url: "https://pkgbuild.com/~dvzrv/presentations/foss-north-2026/"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=mEF-6sftu4E"
+    - title: "Speaker interview (.ogg, 13:46 min)"
+      url: "interviews/DavidRunge.ogg"
   abstract:
     - "Digital signatures are used in many contexts to guarantee the
       authenticity of a specific artifact, that is provided by a Linux
@@ -436,6 +444,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=u1OtI2AzqP0"
+    - title: "Speaker interview (.ogg, 12:29 min)"
+      url: "interviews/PabloDelArcoOrtiz.ogg"
   abstract:
     - "“Multi-cloud” is often sold as a silver bullet—but in practice, it’s
       complex, expensive, and frequently misunderstood. This talk cuts through the
@@ -599,6 +609,8 @@
       url: https://xwiki.org
     - title: Cryptpad
       url: https://cryptpad.org
+    - title: "Speaker interview (.ogg, 10:53 min)"
+      url: "interviews/LudovicDubost.ogg"
 
 - name: "Costa Alexoglou"
   lastname: "Alexoglou"
@@ -620,6 +632,8 @@
   links:
     - title: "Speaker's blog"
       url: "https://blog.alexoglou.com"
+    - title: "Speaker interview (.ogg, 9:53 min)"
+      url: "interviews/CostaAlexoglou.ogg"
 
 - name: "Daniel Stenberg"
   lastname: "Stenberg"
@@ -662,6 +676,9 @@
   day: apr28
   slot: slot2
   title: "Building Open Source and living from it without selling your soul"
+  links:
+    - title: "Speaker interview (.ogg, 10:53 min)"
+      url: "interviews/LudovicDubost.ogg"
   abstract:
     - "Subtitle: 20 Years of XWiki and CryptPad:"
     - "Competing to propose Open Source Collaboration solutions against
@@ -703,6 +720,9 @@
   day: apr28
   slot: slot3
   title: "Building Open Source Embedded UIs with Qt & Slint"
+  links:
+    - title: "Speaker interview (.ogg, 5:50 min)"
+      url: "interviews/AlexandraBetouni.ogg"
   abstract:
     - "Qt and Slint both offer powerful open-source paths for creating embedded
       user interfaces, each with different focuses, strengths, and licensing
@@ -833,6 +853,8 @@
   links:
     - title: "Fediverse: harald@hub.volse.no"
       url: "https://hub.volse.no/@harald"
+    - title: "Speaker interview (.ogg, 10:15 min)"
+      url: "interviews/HaraldEilertsen.ogg"
 
 - name: "Emiel Brok"
   lastname: "Brok"
@@ -920,6 +942,9 @@
   day: apr28
   slot: slot12
   title: "Dirty Tricks: Using nginx and Lua to thwart bots and skript kiddies"
+  links:
+    - title: "Speaker interview (.ogg, 11:29 min)"
+      url: "interviews/EirikOeverby.ogg"
   abstract:
     - "(Or: Fighting denial-of-service for fun and profit.)"
     - "<b>For fun</b>"
