@@ -322,6 +322,11 @@
   day: apr27
   slot: slot7
   title: "Using FOSS to Protect Embedded Systems Data in Transit"
+  links:
+    - title: "Slides"
+      url: "slides/bnomany-transit.pdf"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=WRXX1QxHhdE"
   abstract:
     - "Modern embedded systems are no longer isolated devices sitting quietly on
       a PCB. They are connected systems. They talk to the cloud. They talk to each
