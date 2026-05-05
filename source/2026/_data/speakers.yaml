@@ -139,6 +139,8 @@
       url: "https://www.youtube.com/watch?v=2JWCw3S7yHs"
     - title: "Speaker interview (.ogg, 12:54 min)"
       url: "interviews/JimmyAhlberg.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=VadrTDjkOpI"
   copresenters:
     - name: "Henrik Sandklef"
     - short: hsandklef
@@ -169,6 +171,9 @@
       LNF in Gothenburg. He has a broad background in electronics spanning both
       software and hardware domains. However, he is most passionate about the
       intersection between these domains."
+  links:
+    - title: "Slides"
+      url: "slides/gdeclercq-litterbox.pdf"
 
 - name: Olle E. Johansson
   lastname: Johansson
@@ -184,10 +189,12 @@
     - "Olle will take you through what the expectations are and where the
       reality is today, and give some practical examples on open source tools to
       use."
-
   bio:
     - "Olle is active in OWASP, OpenSSF, ORCWG and in his own garden during
        summer. He is also co-founder of the SBOM Europe project"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=pH8HiKfty3I"
 
 - name: "Bogomil Shopov"
   lastname: "Shopov"
@@ -285,6 +292,10 @@
       url: "https://www.youtube.com/watch?v=Wf-_w8J9jsg"
     - title: "privacyIDEA"
       url: "https://privacyidea.org"
+    - title: "Slides"
+      url: "slides/junger-mfa.pdf"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=MOj_I1K_k_4"
 
 - name: "James Lowden"
   lastname: "Lowden"
@@ -292,6 +303,11 @@
   day: apr27
   slot: slot2
   title: "The Once and Future COBOL"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=48xq7CZfugY"
+    - title: "Slides"
+      url: "slides/jlowden-cobol.pdf"
   abstract:
     - "GCC 15 for the first time included COBOL among the languages it compiles."
     - "The reader may well wonder why a small company would devote years of
@@ -611,6 +627,8 @@
       url: https://cryptpad.org
     - title: "Speaker interview (.ogg, 10:53 min)"
       url: "interviews/LudovicDubost.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=YBbtkq2GbgA"
 
 - name: "Costa Alexoglou"
   lastname: "Alexoglou"
@@ -679,6 +697,8 @@
   links:
     - title: "Speaker interview (.ogg, 10:53 min)"
       url: "interviews/LudovicDubost.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=TwN_mcFyGus"
   abstract:
     - "Subtitle: 20 Years of XWiki and CryptPad:"
     - "Competing to propose Open Source Collaboration solutions against
@@ -723,6 +743,8 @@
   links:
     - title: "Speaker interview (.ogg, 5:50 min)"
       url: "interviews/AlexandraBetouni.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=zw0FHX6Lo_s"
   abstract:
     - "Qt and Slint both offer powerful open-source paths for creating embedded
       user interfaces, each with different focuses, strengths, and licensing
@@ -855,6 +877,8 @@
       url: "https://hub.volse.no/@harald"
     - title: "Speaker interview (.ogg, 10:15 min)"
       url: "interviews/HaraldEilertsen.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=wyMrtmoGJ_k"
 
 - name: "Emiel Brok"
   lastname: "Brok"
@@ -862,6 +886,9 @@
   day: apr28
   slot: slot8
   title: "Open by Choice, Sovereign by Design"
+  links:
+    - title: "Slides"
+      url: "slides/ebrok-sovereign.pdf"
   abstract:
     - "Digital sovereignty is no longer just a strategic preference; in 2026, it
       is a regulatory imperative. While the \"why\" of sovereignty is clear, the
@@ -910,9 +937,9 @@
         <li><a href=\"\">Felicitas Pankalla - The thin line between code and configuration (a YAML/Helm rant)</a>
         <li><a href=\"\">John Graham - Fully Automated Luxury Standups</a>
         <li><a href=\"\">Evilham - FOSS Forms: LiberaForms</a>
-        <li><a href=\"\">Jimmy Ahlberg - Are patents here to save FOSS?</a>
+        <li>Jimmy Ahlberg - Are patents here to save FOSS?</a>
         <li><a href=\"\">Simon Nielsen Knights - Fuzzy Logic Evalution</a>
-        <li><a href=\"\">Louis Tim Larsen - apt install meetup</a>
+        <li><a href=\"https://www.youtube.com/watch?v=S1zKVSQ2ta8\">Louis Tim Larsen - A shoutout for physical meetups</a> - <a href=\"slides/llarsen-meetup.pdf\">Slides<a>
       </ul>"
 
 - name: "Evilham"
