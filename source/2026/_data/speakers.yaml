@@ -122,6 +122,9 @@
       as on internet governance, telecommunications and international contract
       law.  He works as a researcher at the University of Halle Wittenberg and as
       Legal Programme Manager at the FSFE."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=Okus7uBUJ5w"
 
 - name: "Jimmy Ahlberg"
   lastname: "Ahlberg"
@@ -452,6 +455,9 @@
       Engineer at Grafana Labs, I am a core maintainer for the Grafana Ansible
       Collection and the Grafana Operator, with over 2 million downloads
       combined."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=7IBUvH5sfkc"
 
 - name: "Pablo del Arco Ortiz"
   lastname: "Arco Ortiz"
@@ -498,6 +504,9 @@
        heads-up for non-beginners that there be are dragons here"
   bio:
     - "Born. Then grew up. Then got older"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=D-c97kyJFuM"
 
 - name: "Magnus Hagander"
   lastname: "Hagander"
@@ -532,6 +541,9 @@
     - "To pay the bills, he is a PostgreSQL and open source software consultant
       at Redpill Linpro in Stockholm, Sweden, where he works on consulting,
       support and training services, as well as custom development work."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=0VEBygAq8wQ"
 
 - name: "Jeremiah Foster"
   lastname: "Foster"
@@ -571,9 +583,11 @@
 
     - "Lastly, we'll take a look at some of the things the future might bring
        and point to some RFCs so that one can create one's own tools."
-
   bio:
     - "TBD"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=kCYdXuRx9ag"
 
 - name: Ludovic Dubost
   lastname: Dubost
@@ -654,6 +668,8 @@
       url: "https://blog.alexoglou.com"
     - title: "Speaker interview (.ogg, 9:53 min)"
       url: "interviews/CostaAlexoglou.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=_JzHlCNeyDM"
 
 - name: "Daniel Stenberg"
   lastname: "Stenberg"
@@ -806,6 +822,9 @@
       security, FOSS risk management, and software composition analysis —
       disciplines that predate and directly informed today's SBOM requirements
       and Cyber Resilience Act mandates."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=IQIHTbbNvgA"
 
 - name: "Magnus Glantz"
   lastname: "Glantz"
@@ -825,6 +844,9 @@
       works to increase successful adoption of open source solutions from Red Hat
       in EMEA. He also sits in the board of Open Source Sweden and APELL, The
       European Open Source Software Business Association."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=0REN5irr0zc"
 
 - name: "Gry M. Tveten"
   lastname: "Tveten"
@@ -850,6 +872,9 @@
     - "In 2019, she switched fields and started work as a consultant in IT and
       data science. Her work has mostly focused on the Norwegian power industry
       and developing tools that support optimal use of resources."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=JOvg5qTHZYQ"
 
 - name: "Harald Eilertsen"
   lastname: "Eilertsen"
@@ -891,6 +916,8 @@
   links:
     - title: "Slides"
       url: "slides/ebrok-sovereign.pdf"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=NuQYH_nuRH8"
   abstract:
     - "Digital sovereignty is no longer just a strategic preference; in 2026, it
       is a regulatory imperative. While the \"why\" of sovereignty is clear, the
@@ -964,6 +991,9 @@
       pottery, swimming, singing, dancing or woodworking. As the current treasurer
       of eXO.cat, Evilham helps with many things behind the scenes as well as
       other more “traditionally technical” tasks"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=Ugnap9CKHqY"
 
 - name: "Eirik Øverby"
   lastname: "Øverby"
@@ -974,6 +1004,8 @@
   links:
     - title: "Speaker interview (.ogg, 11:29 min)"
       url: "interviews/EirikOeverby.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=-TFpeSkfooY"
   abstract:
     - "(Or: Fighting denial-of-service for fun and profit.)"
     - "<b>For fun</b>"
@@ -1043,6 +1075,9 @@
     - "Researcher focusing on open source community development and how
       participation can facilitate building digital transformations capabilities
       and foster engagement in open innovation processes."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=e0uS0zaKmh0"
 
 - name: "Johan Linåker"
   lastname: "Linåker"
@@ -1079,6 +1114,8 @@
   links:
     - title: "NOSAD.se"
       url: "https://nosad.se"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=6XPJOHyBKeY"
 
 - name: "Tobias Olausson"
   lastname: "Olausson"
