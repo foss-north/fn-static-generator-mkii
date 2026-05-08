@@ -962,12 +962,12 @@
     - "foss-north lightning talks. Short talks, max 10 minutes about something
       fun and FOSSy. These were the talks given during the conference:"
     - "<ul>
-        <li><a href=\"\">Mingduo Lu - Backstage @ Volvo Group</a>
-        <li><a href=\"\">Felicitas Pankalla - The thin line between code and configuration (a YAML/Helm rant)</a>
-        <li><a href=\"\">John Graham - Fully Automated Luxury Standups</a>
-        <li><a href=\"\">Evilham - FOSS Forms: LiberaForms</a>
-        <li>Jimmy Ahlberg - Are patents here to save FOSS?</a>
-        <li><a href=\"\">Simon Nielsen Knights - Fuzzy Logic Evalution</a>
+        <li>Mingduo Lu - Backstage @ Volvo Group
+        <li><a href=\"https://www.youtube.com/watch?v=Z-ESahqQmo0\">Felicitas Pankalla - The thin line between code and configuration (a YAML/Helm rant)</a>
+        <li><a href=\"https://www.youtube.com/watch?v=vQR_otKyDjI\">John Graham - Fully Automated Luxury Standups</a>
+        <li><a href=\"https://www.youtube.com/watch?v=NiHyguyzzIs\">Evilham - FOSS Forms: LiberaForms</a>
+        <li>Jimmy Ahlberg - Are patents here to save FOSS?
+        <li><a href=\"https://www.youtube.com/watch?v=tdP_A45MbBE\">Simon Nielsen Knights - Fuzzy Logic Evalution</a>
         <li><a href=\"https://www.youtube.com/watch?v=S1zKVSQ2ta8\">Louis Tim Larsen - A shoutout for physical meetups</a> - <a href=\"slides/llarsen-meetup.pdf\">Slides<a>
       </ul>"
 
