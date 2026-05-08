@@ -42,6 +42,13 @@
   day: apr27
   slot: slot1
   title: Distributed CI with Radicle and Ambient
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=YxGT59EKhwM"
+    - title: "Slides"
+      url: "https://liw.fi/foss-north-2026/"
+    - title: "Speaker interview (.ogg, 10:49 min)"
+      url: "interviews/LarsWirzenius.ogg"
   abstract:
     - "Centralized systems are either vulnerable or tools of oppression. GitHub,
       for example, has closed accounts of people from countries the US doesn't
@@ -71,7 +78,8 @@
       billions sponsoring 'free-for-open-source' to create vendor lock-in?\") and
       near future plans."
 
-    - "This talk is aimed at all open source developers who are curious about decentralized Git."
+    - "This talk is aimed at all open source developers who are curious about
+      decentralized Git."
   bio:
     - "Lars has been programming for over forty years, mostly open source. He
       has code running on all continents on Earth and on Mars. He contributed to
@@ -114,6 +122,9 @@
       as on internet governance, telecommunications and international contract
       law.  He works as a researcher at the University of Halle Wittenberg and as
       Legal Programme Manager at the FSFE."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=Okus7uBUJ5w"
 
 - name: "Jimmy Ahlberg"
   lastname: "Ahlberg"
@@ -129,6 +140,10 @@
   links:
     - title: "How to talk to your lawyer about FOSS (foss-north 2025)"
       url: "https://www.youtube.com/watch?v=2JWCw3S7yHs"
+    - title: "Speaker interview (.ogg, 12:54 min)"
+      url: "interviews/JimmyAhlberg.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=VadrTDjkOpI"
   copresenters:
     - name: "Henrik Sandklef"
     - short: hsandklef
@@ -159,6 +174,11 @@
       LNF in Gothenburg. He has a broad background in electronics spanning both
       software and hardware domains. However, he is most passionate about the
       intersection between these domains."
+  links:
+    - title: "Slides"
+      url: "slides/gdeclercq-litterbox.pdf"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=OMCWs7qmKFc"
 
 - name: Olle E. Johansson
   lastname: Johansson
@@ -174,10 +194,12 @@
     - "Olle will take you through what the expectations are and where the
       reality is today, and give some practical examples on open source tools to
       use."
-
   bio:
     - "Olle is active in OWASP, OpenSSF, ORCWG and in his own garden during
        summer. He is also co-founder of the SBOM Europe project"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=pH8HiKfty3I"
 
 - name: "Bogomil Shopov"
   lastname: "Shopov"
@@ -227,6 +249,8 @@
   links:
     - title: "Fediverse @bogo@hapyyr.com"
       url: "https://hapyyr.com/@bogo"
+    - title: "Speaker interview (.ogg, 11:09 min)"
+      url: "interviews/BogomilShopov.ogg"
 
 - name: "Jelina Unger"
   lastname: unger
@@ -273,6 +297,10 @@
       url: "https://www.youtube.com/watch?v=Wf-_w8J9jsg"
     - title: "privacyIDEA"
       url: "https://privacyidea.org"
+    - title: "Slides"
+      url: "slides/junger-mfa.pdf"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=MOj_I1K_k_4"
 
 - name: "James Lowden"
   lastname: "Lowden"
@@ -280,6 +308,11 @@
   day: apr27
   slot: slot2
   title: "The Once and Future COBOL"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=48xq7CZfugY"
+    - title: "Slides"
+      url: "slides/jlowden-cobol.pdf"
   abstract:
     - "GCC 15 for the first time included COBOL among the languages it compiles."
     - "The reader may well wonder why a small company would devote years of
@@ -316,6 +349,11 @@
   day: apr27
   slot: slot7
   title: "Using FOSS to Protect Embedded Systems Data in Transit"
+  links:
+    - title: "Slides"
+      url: "slides/bnomany-transit.pdf"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=WRXX1QxHhdE"
   abstract:
     - "Modern embedded systems are no longer isolated devices sitting quietly on
       a PCB. They are connected systems. They talk to the cloud. They talk to each
@@ -351,6 +389,13 @@
   day: apr27
   slot: slot8a
   title: "Signing distribution artifacts with Signstar"
+  links:
+    - title: "Slides"
+      url: "https://pkgbuild.com/~dvzrv/presentations/foss-north-2026/"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=mEF-6sftu4E"
+    - title: "Speaker interview (.ogg, 13:46 min)"
+      url: "interviews/DavidRunge.ogg"
   abstract:
     - "Digital signatures are used in many contexts to guarantee the
       authenticity of a specific artifact, that is provided by a Linux
@@ -410,6 +455,9 @@
       Engineer at Grafana Labs, I am a core maintainer for the Grafana Ansible
       Collection and the Grafana Operator, with over 2 million downloads
       combined."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=7IBUvH5sfkc"
 
 - name: "Pablo del Arco Ortiz"
   lastname: "Arco Ortiz"
@@ -417,6 +465,11 @@
   day: apr27
   slot: slot8b
   title: "Multi-Cloud Without the Myth: What Actually Works in Practice"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=u1OtI2AzqP0"
+    - title: "Speaker interview (.ogg, 12:29 min)"
+      url: "interviews/PabloDelArcoOrtiz.ogg"
   abstract:
     - "“Multi-cloud” is often sold as a silver bullet—but in practice, it’s
       complex, expensive, and frequently misunderstood. This talk cuts through the
@@ -451,6 +504,9 @@
        heads-up for non-beginners that there be are dragons here"
   bio:
     - "Born. Then grew up. Then got older"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=D-c97kyJFuM"
 
 - name: "Magnus Hagander"
   lastname: "Hagander"
@@ -485,6 +541,9 @@
     - "To pay the bills, he is a PostgreSQL and open source software consultant
       at Redpill Linpro in Stockholm, Sweden, where he works on consulting,
       support and training services, as well as custom development work."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=0VEBygAq8wQ"
 
 - name: "Jeremiah Foster"
   lastname: "Foster"
@@ -524,9 +583,11 @@
 
     - "Lastly, we'll take a look at some of the things the future might bring
        and point to some RFCs so that one can create one's own tools."
-
   bio:
     - "TBD"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=kCYdXuRx9ag"
 
 - name: Ludovic Dubost
   lastname: Dubost
@@ -580,6 +641,10 @@
       url: https://xwiki.org
     - title: Cryptpad
       url: https://cryptpad.org
+    - title: "Speaker interview (.ogg, 10:53 min)"
+      url: "interviews/LudovicDubost.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=YBbtkq2GbgA"
 
 - name: "Costa Alexoglou"
   lastname: "Alexoglou"
@@ -601,6 +666,10 @@
   links:
     - title: "Speaker's blog"
       url: "https://blog.alexoglou.com"
+    - title: "Speaker interview (.ogg, 9:53 min)"
+      url: "interviews/CostaAlexoglou.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=_JzHlCNeyDM"
 
 - name: "Daniel Stenberg"
   lastname: "Stenberg"
@@ -634,6 +703,8 @@
   links:
     - title: "Open Source Security in spite of AI (FOSDEM 2026)"
       url: "https://fosdem.org/2026/schedule/event/B7YKQ7-oss-in-spite-of-ai/"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=VQ0kLuST800"
 
 - name: "Ludovic Dubost"
   lastname: "Dubost"
@@ -641,6 +712,11 @@
   day: apr28
   slot: slot2
   title: "Building Open Source and living from it without selling your soul"
+  links:
+    - title: "Speaker interview (.ogg, 10:53 min)"
+      url: "interviews/LudovicDubost.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=TwN_mcFyGus"
   abstract:
     - "Subtitle: 20 Years of XWiki and CryptPad:"
     - "Competing to propose Open Source Collaboration solutions against
@@ -682,6 +758,11 @@
   day: apr28
   slot: slot3
   title: "Building Open Source Embedded UIs with Qt & Slint"
+  links:
+    - title: "Speaker interview (.ogg, 5:50 min)"
+      url: "interviews/AlexandraBetouni.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=zw0FHX6Lo_s"
   abstract:
     - "Qt and Slint both offer powerful open-source paths for creating embedded
       user interfaces, each with different focuses, strengths, and licensing
@@ -741,6 +822,9 @@
       security, FOSS risk management, and software composition analysis —
       disciplines that predate and directly informed today's SBOM requirements
       and Cyber Resilience Act mandates."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=IQIHTbbNvgA"
 
 - name: "Magnus Glantz"
   lastname: "Glantz"
@@ -760,6 +844,9 @@
       works to increase successful adoption of open source solutions from Red Hat
       in EMEA. He also sits in the board of Open Source Sweden and APELL, The
       European Open Source Software Business Association."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=0REN5irr0zc"
 
 - name: "Gry M. Tveten"
   lastname: "Tveten"
@@ -785,6 +872,9 @@
     - "In 2019, she switched fields and started work as a consultant in IT and
       data science. Her work has mostly focused on the Norwegian power industry
       and developing tools that support optimal use of resources."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=JOvg5qTHZYQ"
 
 - name: "Harald Eilertsen"
   lastname: "Eilertsen"
@@ -812,6 +902,10 @@
   links:
     - title: "Fediverse: harald@hub.volse.no"
       url: "https://hub.volse.no/@harald"
+    - title: "Speaker interview (.ogg, 10:15 min)"
+      url: "interviews/HaraldEilertsen.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=wyMrtmoGJ_k"
 
 - name: "Emiel Brok"
   lastname: "Brok"
@@ -819,6 +913,11 @@
   day: apr28
   slot: slot8
   title: "Open by Choice, Sovereign by Design"
+  links:
+    - title: "Slides"
+      url: "slides/ebrok-sovereign.pdf"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=NuQYH_nuRH8"
   abstract:
     - "Digital sovereignty is no longer just a strategic preference; in 2026, it
       is a regulatory imperative. While the \"why\" of sovereignty is clear, the
@@ -861,8 +960,16 @@
   title: Lightning talks
   abstract:
     - "foss-north lightning talks. Short talks, max 10 minutes about something
-    fun and FOSSy. Sign up via info [at] foss-north [dot] se or during the first
-    day of the conference."
+      fun and FOSSy. These were the talks given during the conference:"
+    - "<ul>
+        <li>Mingduo Lu - Backstage @ Volvo Group
+        <li><a href=\"https://www.youtube.com/watch?v=Z-ESahqQmo0\">Felicitas Pankalla - The thin line between code and configuration (a YAML/Helm rant)</a>
+        <li><a href=\"https://www.youtube.com/watch?v=vQR_otKyDjI\">John Graham - Fully Automated Luxury Standups</a>
+        <li><a href=\"https://www.youtube.com/watch?v=NiHyguyzzIs\">Evilham - FOSS Forms: LiberaForms</a>
+        <li>Jimmy Ahlberg - Are patents here to save FOSS?
+        <li><a href=\"https://www.youtube.com/watch?v=tdP_A45MbBE\">Simon Nielsen Knights - Fuzzy Logic Evalution</a>
+        <li><a href=\"https://www.youtube.com/watch?v=S1zKVSQ2ta8\">Louis Tim Larsen - A shoutout for physical meetups</a> - <a href=\"slides/llarsen-meetup.pdf\">Slides<a>
+      </ul>"
 
 - name: "Evilham"
   lastname: "Evilham"
@@ -884,6 +991,9 @@
       pottery, swimming, singing, dancing or woodworking. As the current treasurer
       of eXO.cat, Evilham helps with many things behind the scenes as well as
       other more “traditionally technical” tasks"
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=Ugnap9CKHqY"
 
 - name: "Eirik Øverby"
   lastname: "Øverby"
@@ -891,6 +1001,11 @@
   day: apr28
   slot: slot12
   title: "Dirty Tricks: Using nginx and Lua to thwart bots and skript kiddies"
+  links:
+    - title: "Speaker interview (.ogg, 11:29 min)"
+      url: "interviews/EirikOeverby.ogg"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=-TFpeSkfooY"
   abstract:
     - "(Or: Fighting denial-of-service for fun and profit.)"
     - "<b>For fun</b>"
@@ -960,6 +1075,9 @@
     - "Researcher focusing on open source community development and how
       participation can facilitate building digital transformations capabilities
       and foster engagement in open innovation processes."
+  links:
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=e0uS0zaKmh0"
 
 - name: "Johan Linåker"
   lastname: "Linåker"
@@ -996,6 +1114,8 @@
   links:
     - title: "NOSAD.se"
       url: "https://nosad.se"
+    - title: "YouTube"
+      url: "https://www.youtube.com/watch?v=6XPJOHyBKeY"
 
 - name: "Tobias Olausson"
   lastname: "Olausson"
@@ -1005,6 +1125,9 @@
   title: "Closing foss-north 2026"
   abstract:
     - "A summary of the conference and a quick wrap-up"
+  links:
+    - title: "Slides"
+      url: "slides/tolausson-closing.pdf"
   bio:
     - "Tobias is head of the organizing committee for foss-north"
     - "A Haskell enthusiast, he only ever gets to write C at work, where he does
