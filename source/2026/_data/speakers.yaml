@@ -45,6 +45,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=YxGT59EKhwM"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/7hi7FC2usBUbavi6jZukqz"
     - title: "Slides"
       url: "https://liw.fi/foss-north-2026/"
     - title: "Speaker interview (.ogg, 10:49 min)"
@@ -125,6 +127,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=Okus7uBUJ5w"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/e1iJMCaeKAuUjNny3s3Gmb"
 
 - name: "Jimmy Ahlberg"
   lastname: "Ahlberg"
@@ -144,6 +148,8 @@
       url: "interviews/JimmyAhlberg.ogg"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=VadrTDjkOpI"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/wXGNyZi1aHdq5eDMb3grDV"
   copresenters:
     - name: "Henrik Sandklef"
     - short: hsandklef
@@ -179,6 +185,8 @@
       url: "slides/gdeclercq-litterbox.pdf"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=OMCWs7qmKFc"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/6jCPcR9aK7PqcW6f1qXj4b"
 
 - name: Olle E. Johansson
   lastname: Johansson
@@ -200,6 +208,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=pH8HiKfty3I"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/h7VoHQhktkUg6ybmpEXd8q"
 
 - name: "Bogomil Shopov"
   lastname: "Shopov"
@@ -301,6 +311,8 @@
       url: "slides/junger-mfa.pdf"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=MOj_I1K_k_4"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/krjRRWDkPqvPcoZmaGcior"
 
 - name: "James Lowden"
   lastname: "Lowden"
@@ -311,6 +323,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=48xq7CZfugY"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/1KxKkUo65vsvKzm9Syb7LD"
     - title: "Slides"
       url: "slides/jlowden-cobol.pdf"
   abstract:
@@ -354,6 +368,8 @@
       url: "slides/bnomany-transit.pdf"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=WRXX1QxHhdE"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/jgLVaaRQjV8qHtGW9jgsxa"
   abstract:
     - "Modern embedded systems are no longer isolated devices sitting quietly on
       a PCB. They are connected systems. They talk to the cloud. They talk to each
@@ -394,6 +410,8 @@
       url: "https://pkgbuild.com/~dvzrv/presentations/foss-north-2026/"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=mEF-6sftu4E"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/21fVttLXtuRCwsMGcy3PjF"
     - title: "Speaker interview (.ogg, 13:46 min)"
       url: "interviews/DavidRunge.ogg"
   abstract:
@@ -458,6 +476,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=7IBUvH5sfkc"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/mrH1RkLyNErgQPW7kzHdkj"
 
 - name: "Pablo del Arco Ortiz"
   lastname: "Arco Ortiz"
@@ -468,6 +488,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=u1OtI2AzqP0"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/tWFetjXAjZB5GLXrf3bH6A"
     - title: "Speaker interview (.ogg, 12:29 min)"
       url: "interviews/PabloDelArcoOrtiz.ogg"
   abstract:
@@ -507,6 +529,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=D-c97kyJFuM"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/reMAXA4Qo6WKe7U87F6ACr"
 
 - name: "Magnus Hagander"
   lastname: "Hagander"
@@ -544,6 +568,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=0VEBygAq8wQ"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/7bEp5zhyL3fPBGFH6ZQJjD"
 
 - name: "Jeremiah Foster"
   lastname: "Foster"
@@ -588,6 +614,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=kCYdXuRx9ag"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/iAihCBz2NUGUuifHhUskWP"
 
 - name: Ludovic Dubost
   lastname: Dubost
@@ -645,6 +673,8 @@
       url: "interviews/LudovicDubost.ogg"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=YBbtkq2GbgA"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/vnNZQJpgMQZKLqkhz9Upxz"
 
 - name: "Costa Alexoglou"
   lastname: "Alexoglou"
@@ -670,6 +700,8 @@
       url: "interviews/CostaAlexoglou.ogg"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=_JzHlCNeyDM"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/ucEX1egqd2dGus8caNjygC"
 
 - name: "Daniel Stenberg"
   lastname: "Stenberg"
@@ -705,6 +737,8 @@
       url: "https://fosdem.org/2026/schedule/event/B7YKQ7-oss-in-spite-of-ai/"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=VQ0kLuST800"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/vcGUEbRY7WJvwLTgSdPDro"
 
 - name: "Ludovic Dubost"
   lastname: "Dubost"
@@ -717,6 +751,8 @@
       url: "interviews/LudovicDubost.ogg"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=TwN_mcFyGus"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/9bKgi1FSaNcch5P93SSAzv"
   abstract:
     - "Subtitle: 20 Years of XWiki and CryptPad:"
     - "Competing to propose Open Source Collaboration solutions against
@@ -763,6 +799,8 @@
       url: "interviews/AlexandraBetouni.ogg"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=zw0FHX6Lo_s"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/p9ep2AE3sn2PihwfehWrpn"
   abstract:
     - "Qt and Slint both offer powerful open-source paths for creating embedded
       user interfaces, each with different focuses, strengths, and licensing
@@ -825,6 +863,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=IQIHTbbNvgA"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/gYZGL21hcXtPDMck9N26K6"
 
 - name: "Magnus Glantz"
   lastname: "Glantz"
@@ -847,6 +887,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=0REN5irr0zc"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/3oPxuvTjmK8r2J8xZCa8F3"
 
 - name: "Gry M. Tveten"
   lastname: "Tveten"
@@ -875,6 +917,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=JOvg5qTHZYQ"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/jRugDm7m2bQM8Jdr7LMf4u"
 
 - name: "Harald Eilertsen"
   lastname: "Eilertsen"
@@ -906,6 +950,8 @@
       url: "interviews/HaraldEilertsen.ogg"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=wyMrtmoGJ_k"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/sDquU1Tre39T4y9qii8Tux"
 
 - name: "Emiel Brok"
   lastname: "Brok"
@@ -918,6 +964,8 @@
       url: "slides/ebrok-sovereign.pdf"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=NuQYH_nuRH8"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/mgaQ5Cjktq1Qmzgx7orXZn"
   abstract:
     - "Digital sovereignty is no longer just a strategic preference; in 2026, it
       is a regulatory imperative. While the \"why\" of sovereignty is clear, the
@@ -994,6 +1042,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=Ugnap9CKHqY"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/sNWbUUf13Viv6XbiM9etB6"
 
 - name: "Eirik Øverby"
   lastname: "Øverby"
@@ -1006,6 +1056,8 @@
       url: "interviews/EirikOeverby.ogg"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=-TFpeSkfooY"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/xwnXx9g96zSEvL1hBvLG95"
   abstract:
     - "(Or: Fighting denial-of-service for fun and profit.)"
     - "<b>For fun</b>"
@@ -1078,6 +1130,8 @@
   links:
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=e0uS0zaKmh0"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/giChnUMyx39xWD9wx4oP4u"
 
 - name: "Johan Linåker"
   lastname: "Linåker"
@@ -1116,6 +1170,8 @@
       url: "https://nosad.se"
     - title: "YouTube"
       url: "https://www.youtube.com/watch?v=6XPJOHyBKeY"
+    - title: "PeerTube"
+      url: "https://peertube.anduin.net/w/1czWeBjiKAxjEJUo7XMWJ3"
 
 - name: "Tobias Olausson"
   lastname: "Olausson"
