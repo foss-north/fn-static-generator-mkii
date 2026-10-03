@@ -70,4 +70,4 @@ The source code here is licensed under the Zero BSD license. Please
 see the LICENSE file for more information. The source code is copyright 
 FOSS-North ek. för. Other content is copyright the respective owners.
 
-_Copyright(C) 2020 foss-north ek.för_
+_Copyright(C) 2020-2026 foss-north ek.för_

@@ -1,0 +1,27 @@
+# Levels: partner, base, silver, gold
+
+# - name: FSFE
+#   short: fsfe
+#   url: https://fsfe.org/
+#   level: partner
+#
+
+# - name: Swedsoft
+#   short: swedsoft
+#   url: https://swedsoft.se
+#   level: partner
+
+- name: GAIA
+  short: gaia
+  url: https://gaia.fish/2026
+  level: partner
+
+# - name: Sylog
+#   short: sylog
+#   url: https://www.sylog.se/
+#   level: base
+
+# - name: Elektronikutvecklingsbyrån
+#   short: eub
+#   url: https://www.eub.se/
+#   level: base
