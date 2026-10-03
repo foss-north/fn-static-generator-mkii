@@ -1,0 +1,3 @@
+{% for page in data.pages %}
+    {{ page }} {% if page == data.page %}(ACTIVE){% else %}not active{% endif %}
+{% endfor %}

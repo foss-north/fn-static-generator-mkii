@@ -1,0 +1,27 @@
+- name: index
+  menu: Home
+  index: 10
+
+- name: tickets
+  menu: Tickets
+  index: 20
+
+- name: schedule
+  menu: Schedule
+  index: 26
+
+- name: communityday
+  menu: Community Day
+  index: 30
+
+- name: contribute
+  menu: Contribute
+  index: 50
+
+- name: speakers-and-talks
+  menu: Speakers and Talks
+  index: 70
+
+- name: coc
+  menu: Code of Conduct
+  index: 100
